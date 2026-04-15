@@ -712,7 +712,7 @@ async function confirmLogin() {
   state.user      = pendingUserId;
   state.apiKey    = document.getElementById('api-key-input').value.trim();
   const DEFAULT_GH_OWNER = 'MustDmrll';
-  const DEFAULT_GH_TOKEN = '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';
+  const DEFAULT_GH_TOKEN = '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';
   state.githubToken = localStorage.getItem('de_github_token') || DEFAULT_GH_TOKEN;
   state.githubOwner = localStorage.getItem('de_github_owner') || DEFAULT_GH_OWNER;
   localStorage.setItem('de_api_key', state.apiKey);
