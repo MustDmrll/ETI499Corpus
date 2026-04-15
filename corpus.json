@@ -11,6 +11,20 @@
     "votes": {
       "mustafa": "keep"
     },
+    "status": "error"
+  },
+  "8:6": {
+    "id": "8:6",
+    "actorName": "Limbic System",
+    "en": "You lost.",
+    "trOfficial": "Kaybettin.",
+    "articy": "0x010000040000016A",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "mustafa": "skip"
+    },
     "status": "pending"
   }
 }
