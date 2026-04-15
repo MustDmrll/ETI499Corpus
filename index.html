@@ -671,9 +671,8 @@ function initLogin() {
     </button>
   `).join('');
 
-  const DEFAULT_KEY = 'API Key buraya girilecek.';
-  const savedKey = localStorage.getItem('de_api_key') || DEFAULT_KEY;
-  document.getElementById('api-key-input').value = savedKey;
+  const savedToken = localStorage.getItem('de_github_token') || '';
+  document.getElementById('login-gh-token').value = savedToken;
 }
 
 let pendingUserId = null;
@@ -711,8 +710,10 @@ async function confirmLogin() {
 
   state.user      = pendingUserId;
   state.apiKey    = document.getElementById('api-key-input').value.trim();
-  state.githubToken = localStorage.getItem('de_github_token') || '';
+  const loginToken = document.getElementById('login-gh-token').value.trim();
+  state.githubToken = loginToken || localStorage.getItem('de_github_token') || '';
   state.githubOwner = localStorage.getItem('de_github_owner') || 'MustDmrll';
+  if (loginToken) localStorage.setItem('de_github_token', loginToken);
   localStorage.setItem('de_api_key', state.apiKey);
 
   ['nav-user-tinder','nav-user-table','nav-user-settings'].forEach(id => {
