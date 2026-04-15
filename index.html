@@ -588,7 +588,7 @@ async function loadCorpus() {
   }
   const data = await resp.json();
   try {
-    state.corpus = JSON.parse(atob(data.content.replace(/\n/g, '')));
+    state.corpus = JSON.parse(decodeURIComponent(escape(atob(data.content.replace(/\n/g, '')))));
   } catch { state.corpus = {}; }
 }
 
@@ -602,7 +602,7 @@ async function saveCorpus() {
   if (getResp.ok) {
     const d = await getResp.json();
     sha = d.sha;
-    try { remote = JSON.parse(atob(d.content.replace(/\n/g, ''))); } catch {}
+    try { remote = JSON.parse(decodeURIComponent(escape(atob(d.content.replace(/\n/g, ''))))); } catch {}
   }
 
   // 2. Yerel değişiklikleri remote üzerine birleştir
@@ -636,7 +636,7 @@ async function deleteFromGitHub(id) {
   if (getResp.ok) {
     const d = await getResp.json();
     sha = d.sha;
-    try { remote = JSON.parse(atob(d.content.replace(/\n/g, ''))); } catch {}
+    try { remote = JSON.parse(decodeURIComponent(escape(atob(d.content.replace(/\n/g, ''))))); } catch {}
   }
 
   delete remote[id];
