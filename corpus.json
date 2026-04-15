@@ -26,5 +26,19 @@
       "mustafa": "skip"
     },
     "status": "pending"
+  },
+  "8:10": {
+    "id": "8:10",
+    "actorName": "Limbic System",
+    "en": "Yes, you're one disco mother.",
+    "trOfficial": "Evet. Tam bir disko çocuğusun.",
+    "articy": "0x0100000400000203",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "mustafa": "skip"
+    },
+    "status": "pending"
   }
 }
