@@ -1030,7 +1030,8 @@ function renderTable() {
       <td>${voterBadges}</td>
       <td>${escHtml(r.en)}</td>
       <td style="color:#aaa">${escHtml(r.trOfficial) || '<em style="color:var(--muted)">—</em>'}</td>
-      <td>${r.trMachine ? escHtml(r.trMachine) : '<span class="tag-pending">Bekliyor...</span>'}</td>
+      <td><textarea class="editable" rows="2" placeholder="Makine çevirisi..."
+        onchange="updateField('${r.id}','trMachine',this.value)">${escHtml(r.trMachine||'')}</textarea></td>
       <td><textarea class="editable" rows="2" placeholder="Önerilen çeviri..."
         onchange="updateField('${r.id}','proposed',this.value)">${escHtml(r.proposed||'')}</textarea></td>
       <td><textarea class="editable" rows="2" placeholder="Not..."
