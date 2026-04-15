@@ -561,7 +561,7 @@ let state = {
 
 function ghHeaders() {
   return {
-    'Authorization': `token ${state.githubToken}`,
+    'Authorization': `Bearer ${state.githubToken}`,
     'Accept': 'application/vnd.github.v3+json',
     'Content-Type': 'application/json'
   };
