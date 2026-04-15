@@ -559,7 +559,14 @@ let state = {
 // GITHUB STORAGE
 // ════════════════════════════════════════════════════════════
 
-function ghHeaders() {
+function ghGetHeaders() {
+  return {
+    'Authorization': `Bearer ${state.githubToken}`,
+    'Accept': 'application/vnd.github.v3+json'
+  };
+}
+
+function ghPutHeaders() {
   return {
     'Authorization': `Bearer ${state.githubToken}`,
     'Accept': 'application/vnd.github.v3+json',
@@ -573,9 +580,12 @@ function ghUrl() {
 
 async function loadCorpus() {
   if (!state.githubToken || !state.githubOwner) return;
-  const resp = await fetch(ghUrl(), { headers: ghHeaders() });
+  const resp = await fetch(ghUrl(), { headers: ghGetHeaders() });
   if (resp.status === 404) { state.corpus = {}; return; }
-  if (!resp.ok) throw new Error('GitHub okuma hatası: ' + resp.status);
+  if (!resp.ok) {
+    const body = await resp.text();
+    throw new Error(`GitHub okuma hatası: ${resp.status} — ${body}`);
+  }
   const data = await resp.json();
   try {
     state.corpus = JSON.parse(atob(data.content.replace(/\n/g, '')));
@@ -585,11 +595,10 @@ async function loadCorpus() {
 async function saveCorpus() {
   if (!state.githubToken || !state.githubOwner) return;
   const url = ghUrl();
-  const headers = ghHeaders();
 
   // 1. En güncel durumu oku
   let sha = null, remote = {};
-  const getResp = await fetch(url, { headers });
+  const getResp = await fetch(url, { headers: ghGetHeaders() });
   if (getResp.ok) {
     const d = await getResp.json();
     sha = d.sha;
@@ -602,10 +611,10 @@ async function saveCorpus() {
       remote[id] = entry;
     } else {
       remote[id].votes   = { ...remote[id].votes, ...entry.votes };
-      if (entry.trMachine)            remote[id].trMachine = entry.trMachine;
-      if (entry.proposed !== undefined) remote[id].proposed = entry.proposed;
-      if (entry.notes    !== undefined) remote[id].notes    = entry.notes;
-      if (entry.status)               remote[id].status    = entry.status;
+      if (entry.trMachine)              remote[id].trMachine = entry.trMachine;
+      if (entry.proposed !== undefined) remote[id].proposed  = entry.proposed;
+      if (entry.notes    !== undefined) remote[id].notes     = entry.notes;
+      if (entry.status)                remote[id].status     = entry.status;
     }
   }
   state.corpus = remote;
@@ -614,17 +623,16 @@ async function saveCorpus() {
   const content = btoa(unescape(encodeURIComponent(JSON.stringify(remote, null, 2))));
   const body = { message: `corpus: ${state.user}`, content };
   if (sha) body.sha = sha;
-  const putResp = await fetch(url, { method: 'PUT', headers, body: JSON.stringify(body) });
+  const putResp = await fetch(url, { method: 'PUT', headers: ghPutHeaders(), body: JSON.stringify(body) });
   if (!putResp.ok) throw new Error('GitHub yazma hatası: ' + putResp.status);
 }
 
 async function deleteFromGitHub(id) {
   if (!state.githubToken || !state.githubOwner) return;
   const url = ghUrl();
-  const headers = ghHeaders();
 
   let sha = null, remote = {};
-  const getResp = await fetch(url, { headers });
+  const getResp = await fetch(url, { headers: ghGetHeaders() });
   if (getResp.ok) {
     const d = await getResp.json();
     sha = d.sha;
@@ -637,7 +645,7 @@ async function deleteFromGitHub(id) {
   const content = btoa(unescape(encodeURIComponent(JSON.stringify(remote, null, 2))));
   const body = { message: `corpus: sil ${id}`, content };
   if (sha) body.sha = sha;
-  const putResp = await fetch(url, { method: 'PUT', headers, body: JSON.stringify(body) });
+  const putResp = await fetch(url, { method: 'PUT', headers: ghPutHeaders(), body: JSON.stringify(body) });
   if (!putResp.ok) throw new Error('GitHub silme hatası: ' + putResp.status);
 }
 
