@@ -711,10 +711,8 @@ async function confirmLogin() {
 
   state.user      = pendingUserId;
   state.apiKey    = document.getElementById('api-key-input').value.trim();
-  const DEFAULT_GH_OWNER = 'MustDmrll';
-  const DEFAULT_GH_TOKEN = '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';
-  state.githubToken = localStorage.getItem('de_github_token') || DEFAULT_GH_TOKEN;
-  state.githubOwner = localStorage.getItem('de_github_owner') || DEFAULT_GH_OWNER;
+  state.githubToken = localStorage.getItem('de_github_token') || '';
+  state.githubOwner = localStorage.getItem('de_github_owner') || 'MustDmrll';
   localStorage.setItem('de_api_key', state.apiKey);
 
   ['nav-user-tinder','nav-user-table','nav-user-settings'].forEach(id => {
