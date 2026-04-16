@@ -737,6 +737,22 @@ function setLoadStatus(msg, pct) {
   document.getElementById('progress-fill').style.width = pct + '%';
 }
 
+// Timeout'lu fetch - mobilde sonsuz beklemeyi önler
+async function fetchJSON(url) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 15000);
+  try {
+    const resp = await fetch(url, { signal: controller.signal, cache: 'no-store' });
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${url.split('/').pop()}`);
+    return await resp.json();
+  } catch(e) {
+    if (e.name === 'AbortError') throw new Error(`Zaman aşımı: ${url.split('/').pop()}`);
+    throw e;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 async function loadData() {
   try {
     setLoadStatus('Veriler yükleniyor...', 5);
@@ -745,7 +761,7 @@ async function loadData() {
     const v = `?v=${version}`;
 
     setLoadStatus('Karakterler yükleniyor...', 12);
-    const actorsRaw = await fetch(base + 'actors.json' + v).then(r => r.json());
+    const actorsRaw = await fetchJSON(base + 'actors.json' + v);
 
     const targetActors = {};
     for (const [id, actor] of Object.entries(actorsRaw)) {
@@ -757,13 +773,13 @@ async function loadData() {
     if (Object.keys(targetActors).length === 0) throw new Error('Hedef karakterler bulunamadı.');
 
     setLoadStatus('Diyaloglar yükleniyor...', 28);
-    const searchIndex = await fetch(base + 'search_index.json' + v).then(r => r.json());
+    const searchIndex = await fetchJSON(base + 'search_index.json' + v);
 
     setLoadStatus('Articy haritası yükleniyor...', 44);
-    const articyMap = await fetch(base + 'articy_map.json' + v).then(r => r.json());
+    const articyMap = await fetchJSON(base + 'articy_map.json' + v);
 
     setLoadStatus('Türkçe çeviriler yükleniyor...', 60);
-    const trData = await fetch(base + 'translations/tr.json' + v).then(r => r.json());
+    const trData = await fetchJSON(base + 'translations/tr.json' + v);
 
     setLoadStatus('Corpus yükleniyor...', 76);
     await loadCorpus();
