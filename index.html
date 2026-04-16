@@ -763,6 +763,8 @@ async function loadData() {
     if (Object.keys(targetActors).length === 0) throw new Error('Hedef karakterler bulunamadı.');
 
     setLoadStatus('Diyaloglar yükleniyor...', 28);
+    window._lastStep = 'search_index.json';
+    const searchIndex = await fetch(base + 'search_index.json' + v).then(r => r.json());
     const searchIndex = await fetch(base + 'search_index.json' + v).then(r => r.json());
 
     setLoadStatus('Articy haritası yükleniyor...', 44);
@@ -806,7 +808,7 @@ async function loadData() {
     processTranslationQueue();
 
   } catch (e) {
-    setLoadStatus('Hata: ' + e.message, 0);
+    setLoadStatus('Hata: ' + e.message + ' (adım: ' + (window._lastStep||'?') + ')', 0);
   }
 }
 
