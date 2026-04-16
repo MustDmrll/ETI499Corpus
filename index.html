@@ -510,6 +510,8 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
   </div>
 </div>
 
+<!-- Gömülü veri dosyası — build.py çalıştırıldıktan sonra oluşur -->
+<script src="data.js"></script>
 <script>
 // ════════════════════════════════════════════════════════════
 // CONFIG
@@ -737,83 +739,34 @@ function setLoadStatus(msg, pct) {
   document.getElementById('progress-fill').style.width = pct + '%';
 }
 
-// Timeout'lu fetch - mobilde sonsuz beklemeyi önler
-async function fetchJSON(url) {
-  const proxied = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 45000);
-  try {
-    // Önce direkt dene
-    try {
-      const r = await fetch(url, { signal: controller.signal });
-      if (r.ok) return await r.json();
-    } catch(_) {}
-    // CORS proxy ile dene
-    const r2 = await fetch(proxied, { signal: controller.signal });
-    if (!r2.ok) throw new Error(`HTTP ${r2.status}: ${url.split('/').pop()}`);
-    const w = await r2.json();
-    return JSON.parse(w.contents);
-  } catch(e) {
-    if (e.name === 'AbortError') throw new Error(`Zaman aşımı: ${url.split('/').pop()}`);
-    throw e;
-  } finally {
-    clearTimeout(timer);
-  }
-}
-
 async function loadData() {
   try {
-    setLoadStatus('Veriler yükleniyor...', 5);
-    const version = '1776280103565';
-    const base = `https://disco-elysium-scribe.pages.dev/data/`;
-    const v = `?v=${version}`;
-
-    // Actor ID'leri sabit — actors.json fetch gerekmez
-    const targetActors = {
-      '82': 'Ancient Reptilian Brain',
-      '83': 'Limbic System',
-      '404': 'Inland Empire'
-    };
-
-    setLoadStatus('Diyaloglar yükleniyor...', 28);
-    const searchIndex = await fetchJSON(base + 'search_index.json' + v);
-
-    setLoadStatus('Articy haritası yükleniyor...', 44);
-    const articyMap = await fetchJSON(base + 'articy_map.json' + v);
-
-    setLoadStatus('Türkçe çeviriler yükleniyor...', 60);
-    const trData = await fetchJSON(base + 'translations/tr.json' + v);
-
-    setLoadStatus('Corpus yükleniyor...', 76);
-    await loadCorpus();
-
-    setLoadStatus('Satırlar hazırlanıyor...', 90);
-    const entries = [];
-    for (const row of searchIndex) {
-      const [convId, entryId, actorId, enText] = row;
-      const actorIdStr = String(actorId);
-      if (!targetActors[actorIdStr]) continue;
-      if (!enText || enText.length < 8) continue;
-      const key = `${convId}:${entryId}`;
-      const articy = articyMap[key] || null;
-      const trOfficial = articy ? (trData[articy] || '') : '';
-      entries.push({
-        id: key, convId, entryId, actorId: actorIdStr,
-        actorName: targetActors[actorIdStr],
-        en: enText.trim(),
-        trOfficial: trOfficial.replace(/^"|"$/g, '').trim(),
-        articy
-      });
+    // ── data.js yüklü mü kontrol et ──────────────────────────
+    if (typeof DISCO_DATA === 'undefined' || !Array.isArray(DISCO_DATA) || DISCO_DATA.length === 0) {
+      setLoadStatus('', 0);
+      document.getElementById('load-status').innerHTML =
+        '<span style="color:#ef4444;font-weight:600">⚠ data.js bulunamadı</span><br>' +
+        '<span style="color:#888;font-size:13px;margin-top:8px;display:block">' +
+        'Lütfen bilgisayarda <code>python build.py</code> çalıştır ve ' +
+        '<code>data.js</code> ile <code>index.html</code> dosyalarını birlikte yükle.' +
+        '</span>';
+      return;
     }
 
-    state.entries = entries;
-    // Sıra: kullanıcının henüz oy vermediği satırlar
-    state.queueIds = entries
+    setLoadStatus('Gömülü veri okunuyor...', 20);
+    await new Promise(r => setTimeout(r, 50)); // UI güncellemesi için küçük bekleme
+
+    setLoadStatus('Corpus yükleniyor...', 50);
+    await loadCorpus();
+
+    setLoadStatus('Satırlar hazırlanıyor...', 85);
+    state.entries = DISCO_DATA;
+    state.queueIds = DISCO_DATA
       .filter(e => !state.corpus[e.id]?.votes?.[state.user])
       .map(e => e.id);
 
-    setLoadStatus(`${entries.length} satır hazır.`, 100);
-    await new Promise(r => setTimeout(r, 400));
+    setLoadStatus(`${DISCO_DATA.length} satır hazır.`, 100);
+    await new Promise(r => setTimeout(r, 300));
     showScreen('tinder');
     renderCard();
     processTranslationQueue();
