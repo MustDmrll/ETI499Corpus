@@ -739,12 +739,20 @@ function setLoadStatus(msg, pct) {
 
 // Timeout'lu fetch - mobilde sonsuz beklemeyi önler
 async function fetchJSON(url) {
+  const proxied = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 15000);
+  const timer = setTimeout(() => controller.abort(), 45000);
   try {
-    const resp = await fetch(url, { signal: controller.signal });
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${url.split('/').pop()}`);
-    return await resp.json();
+    // Önce direkt dene
+    try {
+      const r = await fetch(url, { signal: controller.signal });
+      if (r.ok) return await r.json();
+    } catch(_) {}
+    // CORS proxy ile dene
+    const r2 = await fetch(proxied, { signal: controller.signal });
+    if (!r2.ok) throw new Error(`HTTP ${r2.status}: ${url.split('/').pop()}`);
+    const w = await r2.json();
+    return JSON.parse(w.contents);
   } catch(e) {
     if (e.name === 'AbortError') throw new Error(`Zaman aşımı: ${url.split('/').pop()}`);
     throw e;
