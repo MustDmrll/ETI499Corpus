@@ -760,17 +760,12 @@ async function loadData() {
     const base = `https://disco-elysium-scribe.pages.dev/data/`;
     const v = `?v=${version}`;
 
-    setLoadStatus('Karakterler yükleniyor...', 12);
-    const actorsRaw = await fetchJSON(base + 'actors.json' + v);
-
-    const targetActors = {};
-    for (const [id, actor] of Object.entries(actorsRaw)) {
-      const lower = actor.name.toLowerCase();
-      for (const t of TARGET_NAMES) {
-        if (lower === t || lower.includes(t)) { targetActors[id] = CANON[t]; break; }
-      }
-    }
-    if (Object.keys(targetActors).length === 0) throw new Error('Hedef karakterler bulunamadı.');
+    // Actor ID'leri sabit — actors.json fetch gerekmez
+    const targetActors = {
+      '82': 'Ancient Reptilian Brain',
+      '83': 'Limbic System',
+      '404': 'Inland Empire'
+    };
 
     setLoadStatus('Diyaloglar yükleniyor...', 28);
     const searchIndex = await fetchJSON(base + 'search_index.json' + v);
