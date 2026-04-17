@@ -14136,5 +14136,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1199:23": {
+    "id": "1199:23",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Don't tell him, sister. It's too bad.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1199:24": {
+    "id": "1199:24",
+    "actorName": "Limbic System",
+    "en": "Like a deftly cast fishing net, sleep pulls you out of the world and into its dark shore. The rough mesh chafes, then, tightening around you, it digs into your brain.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
