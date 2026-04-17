@@ -2579,5 +2579,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "362:57": {
+    "id": "362:57",
+    "actorName": "Inland Empire",
+    "en": "Oh, no. Tell us you didn't *really* kill him.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
