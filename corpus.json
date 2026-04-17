@@ -4581,5 +4581,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "495:183": {
+    "id": "495:183",
+    "actorName": "Inland Empire",
+    "en": "Holy fuck! It's coming to get us!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "513:54": {
+    "id": "513:54",
+    "actorName": "Inland Empire",
+    "en": "Because it's your last lifeline to being a police officer instead of a hobo.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
