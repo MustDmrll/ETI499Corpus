@@ -7337,5 +7337,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "692:50": {
+    "id": "692:50",
+    "actorName": "Inland Empire",
+    "en": "Of course you do, Harry. Everyone does.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
