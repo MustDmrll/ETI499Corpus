@@ -8039,5 +8039,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "776:148": {
+    "id": "776:148",
+    "actorName": "Inland Empire",
+    "en": "Because it's lonely. Just like you. Seaweed and strange fish around it, limpets clinging to the carcass... The sounds of the streets above...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
