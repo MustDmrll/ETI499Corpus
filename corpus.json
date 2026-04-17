@@ -3645,5 +3645,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "429:48": {
+    "id": "429:48",
+    "actorName": "Inland Empire",
+    "en": "Wait... What?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "429:63": {
+    "id": "429:63",
+    "actorName": "Inland Empire",
+    "en": "She's right -- those curtains give off some *eerie vibes*. Better not mess with it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "429:97": {
+    "id": "429:97",
+    "actorName": "Inland Empire",
+    "en": "Do you realize what's out there? Upon the mist-shrouded islands of Ile du Fantôme, in Semenine? Eerie pygmies and wild shamans practising unnatural mysticism?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
