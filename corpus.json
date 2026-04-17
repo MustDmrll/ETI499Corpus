@@ -11289,5 +11289,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1053:10": {
+    "id": "1053:10",
+    "actorName": "Inland Empire",
+    "en": "Under your thrumming eyelids, you see a dizzying array of colours. You won't get off this carousel quite so easily.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
