@@ -5036,5 +5036,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "544:83": {
+    "id": "544:83",
+    "actorName": "Inland Empire",
+    "en": "There is also a *fourth* thing you've lost.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "544:132": {
+    "id": "544:132",
+    "actorName": "Inland Empire",
+    "en": "Just like how the crazy daredevil piloting that vehicle must have accelerated into the sea!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
