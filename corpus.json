@@ -9625,5 +9625,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "967:11": {
+    "id": "967:11",
+    "actorName": "Inland Empire",
+    "en": "She watches by, motionless.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
