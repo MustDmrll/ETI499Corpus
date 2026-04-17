@@ -421,5 +421,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "10:28": {
+    "id": "10:28",
+    "actorName": "Inland Empire",
+    "en": "Abort! You clearly have not thought this through. You won't like what you will see there -- and you will never *un-become* it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
