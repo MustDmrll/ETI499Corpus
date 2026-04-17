@@ -4269,5 +4269,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "461:25": {
+    "id": "461:25",
+    "actorName": "Inland Empire",
+    "en": "Looks like this furnace has a face and it's a face of agony.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
