@@ -7402,5 +7402,44 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "704:441": {
+    "id": "704:441",
+    "actorName": "Inland Empire",
+    "en": "But they seemed so mysterious.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "718:19": {
+    "id": "718:19",
+    "actorName": "Inland Empire",
+    "en": "The return to her side.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "718:30": {
+    "id": "718:30",
+    "actorName": "Inland Empire",
+    "en": "Fresh blood. The return to her side.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
