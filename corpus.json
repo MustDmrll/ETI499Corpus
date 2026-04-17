@@ -12277,5 +12277,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1148:7": {
+    "id": "1148:7",
+    "actorName": "Inland Empire",
+    "en": "Don't listen to the lieutenant! He doesn't know *anything*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1148:9": {
+    "id": "1148:9",
+    "actorName": "Inland Empire",
+    "en": "The Headless FALN Rider -- he could appear at any minute!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1148:28": {
+    "id": "1148:28",
+    "actorName": "Inland Empire",
+    "en": "Yes, stay! What's a few more minutes going to hurt?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
