@@ -4243,5 +4243,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "460:980": {
+    "id": "460:980",
+    "actorName": "Inland Empire",
+    "en": "Who cares about the dead body? Ask her about the curse already!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "461:3": {
+    "id": "461:3",
+    "actorName": "Inland Empire",
+    "en": "Three dangerous stripes appear onto your cheeks, telling stories of your wild soul.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
