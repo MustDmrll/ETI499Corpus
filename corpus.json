@@ -7974,5 +7974,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "768:16": {
+    "id": "768:16",
+    "actorName": "Limbic System",
+    "en": "And the shape of the insect, its cyclical praying motion just... going on and on. That thing. Looking at you. You -- two things standing in front of each other...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
