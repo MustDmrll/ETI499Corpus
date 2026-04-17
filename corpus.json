@@ -6401,5 +6401,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "632:109": {
+    "id": "632:109",
+    "actorName": "Inland Empire",
+    "en": "An empire without an emperor.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "632:277": {
+    "id": "632:277",
+    "actorName": "Inland Empire",
+    "en": "You'll meet her soon enough, you feel.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "632:438": {
+    "id": "632:438",
+    "actorName": "Inland Empire",
+    "en": "Five days. Not more. Maybe sooner.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
