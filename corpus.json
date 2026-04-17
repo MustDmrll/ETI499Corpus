@@ -11003,5 +11003,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1038:11": {
+    "id": "1038:11",
+    "actorName": "Inland Empire",
+    "en": "Don't be too hard on yourself. You couldn't have known that for sure. And, besides, finding this phasmid is your special destiny -- you can feel it!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
