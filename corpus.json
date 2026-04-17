@@ -9742,5 +9742,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "968:474": {
+    "id": "968:474",
+    "actorName": "Inland Empire",
+    "en": "No, no, it can't be that. You're not Harry Du Bois. Forget you heard any of this. There's no time to deal with this now.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
