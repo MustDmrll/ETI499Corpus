@@ -8013,5 +8013,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "769:53": {
+    "id": "769:53",
+    "actorName": "Inland Empire",
+    "en": "Your surroundings are undisturbed. While you slept, you were alone. Now that you're awake -- you're still alone.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
