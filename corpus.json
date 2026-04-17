@@ -11910,6 +11910,19 @@
     "proposed": "",
     "notes": "",
     "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1114:22": {
+    "id": "1114:22",
+    "actorName": "Inland Empire",
+    "en": "Look closer!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
       "basak": "skip"
     },
     "status": "pending"
