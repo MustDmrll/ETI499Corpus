@@ -1214,5 +1214,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "29:385": {
+    "id": "29:385",
+    "actorName": "Inland Empire",
+    "en": "There's something the lieutenant isn't seeing. The universe is too irrational, too morally complex. You should convince him.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
