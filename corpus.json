@@ -10821,5 +10821,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1030:48": {
+    "id": "1030:48",
+    "actorName": "Inland Empire",
+    "en": "For some reason this *does* strike you as the most plausible theory of them all.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
