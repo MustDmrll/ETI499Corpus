@@ -1357,5 +1357,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "33:31": {
+    "id": "33:31",
+    "actorName": "Inland Empire",
+    "en": "You should sing the sad, small church song, duh. Thought it was obvious...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "33:36": {
+    "id": "33:36",
+    "actorName": "Inland Empire",
+    "en": "Serves them right! Wipe that smirk off their face with your sad, tragic song. Who's laughing now? No one.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
