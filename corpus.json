@@ -11848,5 +11848,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1105:144": {
+    "id": "1105:144",
+    "actorName": "Inland Empire",
+    "en": "Precisely, Satellite-Officer Vicquemare. It's Martinaise.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1114:4": {
+    "id": "1114:4",
+    "actorName": "Inland Empire",
+    "en": "A clue about the person behind all the murders.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
