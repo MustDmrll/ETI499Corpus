@@ -9001,5 +9001,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "849:50": {
+    "id": "849:50",
+    "actorName": "Inland Empire",
+    "en": "Actually, it's called *extraphysics* and you don't need to be a magus to access it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
