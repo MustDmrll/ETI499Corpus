@@ -14708,5 +14708,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1459:71": {
+    "id": "1459:71",
+    "actorName": "Inland Empire",
+    "en": "The mirage looks both sad and glorious in the mist, like an insect trapped in glass.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
