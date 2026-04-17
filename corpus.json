@@ -10964,5 +10964,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1030:1322": {
+    "id": "1030:1322",
+    "actorName": "Inland Empire",
+    "en": "Exactly. So you know what to say.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1030:1344": {
+    "id": "1030:1344",
+    "actorName": "Inland Empire",
+    "en": "In a pyramid? Now that *would* be something...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1038:7": {
+    "id": "1038:7",
+    "actorName": "Inland Empire",
+    "en": "Fine. It's not a phasmid. It's not even organic. Just a fire iron resting by the fire place. But... where's your sense of wonder, man?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
