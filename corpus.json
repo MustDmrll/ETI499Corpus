@@ -3827,5 +3827,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "433:40": {
+    "id": "433:40",
+    "actorName": "Inland Empire",
+    "en": "You're wrong there. Incompleteness is the essence of mystery.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "433:47": {
+    "id": "433:47",
+    "actorName": "Inland Empire",
+    "en": "I wonder how long has it been since you last hugged someone?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
