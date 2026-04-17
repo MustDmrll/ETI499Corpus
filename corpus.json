@@ -10119,5 +10119,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "997:228": {
+    "id": "997:228",
+    "actorName": "Inland Empire",
+    "en": "The *blaasma gun* that shoots periwinkle blue high energy plasma! This is your chance...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "997:347": {
+    "id": "997:347",
+    "actorName": "Inland Empire",
+    "en": "Something's rattling within you. It feels like the first penny dropped into a piggy bank.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
