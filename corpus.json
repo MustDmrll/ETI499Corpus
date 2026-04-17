@@ -8884,5 +8884,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "829:43": {
+    "id": "829:43",
+    "actorName": "Inland Empire",
+    "en": "Yes! Buy something nice! A figurine.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "829:66": {
+    "id": "829:66",
+    "actorName": "Inland Empire",
+    "en": "He seems to have his own take on the conflict played out in perpetuity by these toys. Might be interesting to find out what it is...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
