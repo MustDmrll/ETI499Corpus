@@ -13785,5 +13785,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1198:10": {
+    "id": "1198:10",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Thoughts, baby. A million little lights in the dark. You're one fine instrument, brother -- all those faces and all those names, all that laughter and screaming and scheming around... Every corner and every street...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
