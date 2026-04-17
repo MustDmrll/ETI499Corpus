@@ -3333,5 +3333,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "382:183": {
+    "id": "382:183",
+    "actorName": "Inland Empire",
+    "en": "Perhaps he's on his way to where you just came from -- into the primordial darkness?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
