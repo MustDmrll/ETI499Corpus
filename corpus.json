@@ -4178,5 +4178,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "460:360": {
+    "id": "460:360",
+    "actorName": "Inland Empire",
+    "en": "Plaisance was right... There's an entity living in the chimney! You should ask her about the curse.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "460:370": {
+    "id": "460:370",
+    "actorName": "Inland Empire",
+    "en": "No, it's the troubled colour of her energetic vibrations!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
