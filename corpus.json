@@ -14188,5 +14188,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1199:30": {
+    "id": "1199:30",
+    "actorName": "Limbic System",
+    "en": "...is much, *much* worse than that.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1199:32": {
+    "id": "1199:32",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Oh, but you *will*. You're already *going* there. Slipping. How long can we keep you from the precipice? *One* more dream? Two max, baby. Then it's...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
