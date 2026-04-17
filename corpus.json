@@ -13759,5 +13759,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1198:6": {
+    "id": "1198:6",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "You'll go insane if you keep going like this. One more day and you'll be in the loonie bin. I just know you will. And for what, brother-man?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
