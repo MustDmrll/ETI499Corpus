@@ -13538,5 +13538,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1195:43": {
+    "id": "1195:43",
+    "actorName": "Limbic System",
+    "en": "You're not *cooperating* brother-man.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
