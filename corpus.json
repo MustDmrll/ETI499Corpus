@@ -9209,5 +9209,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "868:597": {
+    "id": "868:597",
+    "actorName": "Inland Empire",
+    "en": "Where did you go? Don't go...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "868:599": {
+    "id": "868:599",
+    "actorName": "Inland Empire",
+    "en": "Do it. Find him. This will *surely* lead to a mystery with that *extremely rare insect*...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
