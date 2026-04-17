@@ -2267,5 +2267,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "302:25": {
+    "id": "302:25",
+    "actorName": "Inland Empire",
+    "en": "Home? To work? To get something from somewhere? Who knows what people are doing when we're not looking.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
