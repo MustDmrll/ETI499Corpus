@@ -863,5 +863,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "17:104": {
+    "id": "17:104",
+    "actorName": "Inland Empire",
+    "en": "Relax, you're not a 'new face'. She doesn't mean you. You are an outsider. And a cop, remember?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
