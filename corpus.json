@@ -11926,5 +11926,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1114:26": {
+    "id": "1114:26",
+    "actorName": "Inland Empire",
+    "en": "If you can't trust your own eyes, who can you trust? Certainly not Kim. He's so... suspicious.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
