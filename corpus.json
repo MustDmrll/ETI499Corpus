@@ -12446,5 +12446,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1149:45": {
+    "id": "1149:45",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Nothing, sad brother. No treachery. Just blackout.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
