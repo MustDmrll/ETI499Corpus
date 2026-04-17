@@ -10145,5 +10145,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "997:348": {
+    "id": "997:348",
+    "actorName": "Inland Empire",
+    "en": "He's so close to envisioning what's beyond. Just needs a little push over the edge...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "997:439": {
+    "id": "997:439",
+    "actorName": "Inland Empire",
+    "en": "It looks almost ethereal -- is it even real?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
