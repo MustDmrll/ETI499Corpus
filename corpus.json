@@ -10496,5 +10496,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1016:71": {
+    "id": "1016:71",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "TOTAL DARKNESS! You sink down the darkest fathoms of your own personal deep, vertebrae by vertebrae -- THROUGH THE UNFORMED SKULLS OF YOUR SPINE.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
