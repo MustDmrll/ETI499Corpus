@@ -889,5 +889,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "17:190": {
+    "id": "17:190",
+    "actorName": "Inland Empire",
+    "en": "Olden days were golden days. Life's lustre is lost on those who speed.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
