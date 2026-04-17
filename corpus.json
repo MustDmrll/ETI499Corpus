@@ -3541,5 +3541,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "428:565": {
+    "id": "428:565",
+    "actorName": "Inland Empire",
+    "en": "*This economy* is a mysterious force, like cosmic weather. Mysterious and harsh.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
