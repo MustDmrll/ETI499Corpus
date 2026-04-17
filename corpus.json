@@ -733,5 +733,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "14:822": {
+    "id": "14:822",
+    "actorName": "Inland Empire",
+    "en": "Like in a circus! When the circus leaves town and they tie a black spotted giraffe to the wall of a carry-pen!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
