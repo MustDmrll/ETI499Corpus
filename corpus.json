@@ -13421,5 +13421,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1195:14": {
+    "id": "1195:14",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Now, you've gone off the rails, baby, now you're stuck sitting here by the tracks, admiring the wreck around you. You just can't help it: looking at yourself, the sum total of your *accomplishments*...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
