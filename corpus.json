@@ -10067,5 +10067,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "995:484": {
+    "id": "995:484",
+    "actorName": "Inland Empire",
+    "en": "That much is true.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "996:111": {
+    "id": "996:111",
+    "actorName": "Inland Empire",
+    "en": "Why does this situation feel so familiar? Do you have a history of propositioning inanimate objects?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
