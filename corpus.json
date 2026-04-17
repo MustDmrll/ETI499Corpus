@@ -10730,5 +10730,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1016:833": {
+    "id": "1016:833",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Oh, don't worry, *the music* is still there. It's *you* who's gone.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1016:835": {
+    "id": "1016:835",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Good. Because from what I can see, it's about to BUST A MOVE.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
