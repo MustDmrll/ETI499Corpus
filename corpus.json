@@ -9664,5 +9664,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "968:197": {
+    "id": "968:197",
+    "actorName": "Inland Empire",
+    "en": "Nothing. Just slow disappearance. You look at a tree or a coal shed, then look away, and, turning back...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
