@@ -11432,5 +11432,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1057:12": {
+    "id": "1057:12",
+    "actorName": "Limbic System",
+    "en": "For now -- a little while -- you can...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1057:13": {
+    "id": "1057:13",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "There are no days here. There are no weeks. Just black tape spinning. On repeat. Until the end.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
