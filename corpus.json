@@ -14656,5 +14656,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1459:9": {
+    "id": "1459:9",
+    "actorName": "Inland Empire",
+    "en": "What do you think happened to him? Do you think he was just trying to have fun -- or did he want out?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
