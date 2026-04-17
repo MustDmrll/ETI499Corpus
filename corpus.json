@@ -11237,5 +11237,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1049:52": {
+    "id": "1049:52",
+    "actorName": "Inland Empire",
+    "en": "Look at it. Of course it was you. You *partied* here.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
