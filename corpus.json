@@ -2072,5 +2072,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "207:499": {
+    "id": "207:499",
+    "actorName": "Inland Empire",
+    "en": "B-b-but what if you don't *like* what you find there? There'll be no going back from it...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
