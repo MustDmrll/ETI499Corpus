@@ -13343,5 +13343,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1190:40": {
+    "id": "1190:40",
+    "actorName": "Inland Empire",
+    "en": "This jacket reeks of loss and failure. It could be the one that the idiot in the colourful tracksuit was looking for...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
