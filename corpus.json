@@ -8975,5 +8975,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "848:150": {
+    "id": "848:150",
+    "actorName": "Inland Empire",
+    "en": "Hopelessly alone behind the unbreakable walls he spent a lifetime erecting. No one will ever know him.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
