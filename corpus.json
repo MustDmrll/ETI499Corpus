@@ -8156,5 +8156,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "785:57": {
+    "id": "785:57",
+    "actorName": "Inland Empire",
+    "en": "A pity. The mystery of *you* will have to remain a mystery for the time being.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
