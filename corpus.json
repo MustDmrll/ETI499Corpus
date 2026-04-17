@@ -10249,5 +10249,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "998:273": {
+    "id": "998:273",
+    "actorName": "Inland Empire",
+    "en": "Draped in ancient sadness. Are you sure you want to remember this bit of historic trivia? Standing under her long slender form like this, dwarfed...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
