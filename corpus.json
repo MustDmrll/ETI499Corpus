@@ -5920,5 +5920,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "605:237": {
+    "id": "605:237",
+    "actorName": "Inland Empire",
+    "en": "You get a sinking feeling...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "605:414": {
+    "id": "605:414",
+    "actorName": "Inland Empire",
+    "en": "It's gone. Your gun is gone. There's nothing in your pockets.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
