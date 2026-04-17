@@ -7727,5 +7727,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "762:10": {
+    "id": "762:10",
+    "actorName": "Inland Empire",
+    "en": "You smell...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "762:85": {
+    "id": "762:85",
+    "actorName": "Inland Empire",
+    "en": "For all time.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
