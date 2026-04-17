@@ -9456,5 +9456,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "943:143": {
+    "id": "943:143",
+    "actorName": "Inland Empire",
+    "en": "They are going to hate you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "943:166": {
+    "id": "943:166",
+    "actorName": "Limbic System",
+    "en": "\"I would often go there. To the tiny church there. The smallest church in Saint-Saëns -- though it once was larger.\n\nHow the rill may rest there. Down through the mist there. Toward the seven sisters -- toward those pale cliffs there\n\nI would often stay there. In the tiny yard there. I have been so glad here -- looking forward to the past here\n\nBut now you are alone. None of this matters at all.\"",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
