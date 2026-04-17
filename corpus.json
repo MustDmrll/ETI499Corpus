@@ -5686,5 +5686,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "576:38": {
+    "id": "576:38",
+    "actorName": "Inland Empire",
+    "en": "Who are you going to play board games with? Do you have friends or family?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
