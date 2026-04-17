@@ -4347,5 +4347,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "463:62": {
+    "id": "463:62",
+    "actorName": "Inland Empire",
+    "en": "Sooner or later you will stumble upon a tool mighty enough. Then we will know what's in this mysterious ice cream maker.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
