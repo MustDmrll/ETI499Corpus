@@ -8741,5 +8741,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "817:148": {
+    "id": "817:148",
+    "actorName": "Inland Empire",
+    "en": "Yours included.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "817:153": {
+    "id": "817:153",
+    "actorName": "Inland Empire",
+    "en": "Time for grim, serious, deadly, dangerous. It's not going to be fun.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
