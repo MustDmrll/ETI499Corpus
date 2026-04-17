@@ -14409,5 +14409,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1231:143": {
+    "id": "1231:143",
+    "actorName": "Inland Empire",
+    "en": "That much is true. His heart *truly* is in it. Though you wouldn't think so by looking at him.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1234:13": {
+    "id": "1234:13",
+    "actorName": "Inland Empire",
+    "en": "It is but one of the many strange *optic-atmospheric* phenomenon on this wondrous archipelago. You're sure you once saw sundogs -- in your youth. And blue flares....",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
