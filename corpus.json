@@ -10405,5 +10405,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1015:35": {
+    "id": "1015:35",
+    "actorName": "Inland Empire",
+    "en": "Just felt right. Why, do you want to be a Tequila *Sunrise?* It's a little too late for that...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
