@@ -6882,5 +6882,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "647:77": {
+    "id": "647:77",
+    "actorName": "Inland Empire",
+    "en": "The men are talking, but you swear you hear those black limbs tap on the window as the wind blows outside.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
