@@ -6089,5 +6089,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "625:427": {
+    "id": "625:427",
+    "actorName": "Inland Empire",
+    "en": "Probably for the best. Because HDB feels like *bad news* from yesteryear. Like shit, honcho.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
