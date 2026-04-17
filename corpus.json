@@ -14474,5 +14474,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1272:16": {
+    "id": "1272:16",
+    "actorName": "Inland Empire",
+    "en": "This crane was built with a purpose which has now been fulfilled -- to move *this* container.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
