@@ -12160,5 +12160,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1137:37": {
+    "id": "1137:37",
+    "actorName": "Inland Empire",
+    "en": "As your hand reaches for the small rectangle of glossy paper, it snaps free from the branch...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
