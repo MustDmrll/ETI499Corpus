@@ -1305,5 +1305,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "33:17": {
+    "id": "33:17",
+    "actorName": "Inland Empire",
+    "en": "You have to find out how the song goes first, though... maybe a tape of something appropriate would help.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
