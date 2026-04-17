@@ -13369,5 +13369,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1195:5": {
+    "id": "1195:5",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Sure, you do. They're all so friendly, aren't they?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1195:6": {
+    "id": "1195:6",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Oh yeah, baby. Frame your suffering as a masterpiece. Only one problem -- no one's watching. It's boring, buddy, boring as death.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
