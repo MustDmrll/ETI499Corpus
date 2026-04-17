@@ -14734,5 +14734,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1467:60": {
+    "id": "1467:60",
+    "actorName": "Inland Empire",
+    "en": "It killed himself to *spite* you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
