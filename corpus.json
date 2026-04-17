@@ -1630,5 +1630,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "42:44": {
+    "id": "42:44",
+    "actorName": "Inland Empire",
+    "en": "Or maybe you were trying to smash your own reflection in the windowpane?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
