@@ -9638,5 +9638,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "967:64": {
+    "id": "967:64",
+    "actorName": "Inland Empire",
+    "en": "A trusted friend left behind...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "968:55": {
+    "id": "968:55",
+    "actorName": "Inland Empire",
+    "en": "The white noise turns into a wall of mist and grey mould, bubbling, sweeping over the city... it tears up buildings and raises sidewalks into the sky. It's Revachol -- at the end of the world.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
