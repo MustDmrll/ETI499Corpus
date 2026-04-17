@@ -12524,5 +12524,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1149:83": {
+    "id": "1149:83",
+    "actorName": "Limbic System",
+    "en": "It didn't smell *nice*. It smelled like BETRAYAL.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1149:94": {
+    "id": "1149:94",
+    "actorName": "Limbic System",
+    "en": "Your name is *Passed Out on the Ground*. Dragged around by one of the other evil apes. They're taking you somewhere...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
