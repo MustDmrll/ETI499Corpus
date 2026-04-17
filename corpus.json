@@ -3580,5 +3580,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "429:5": {
+    "id": "429:5",
+    "actorName": "Inland Empire",
+    "en": "They lurk in the tropical pale of Semenine, casting strange magicks on everyone! Ignore the curtains -- or suffer the consequences...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
