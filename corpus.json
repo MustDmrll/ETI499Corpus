@@ -356,5 +356,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "8:80": {
+    "id": "8:80",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Never ever ever ever, baby!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "8:81": {
+    "id": "8:81",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Yes. It. Is.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
