@@ -486,5 +486,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "13:270": {
+    "id": "13:270",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Back so soon?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "13:357": {
+    "id": "13:357",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "If it comes off like that, it's because it *is*. And you *are*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
