@@ -3554,5 +3554,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "428:567": {
+    "id": "428:567",
+    "actorName": "Inland Empire",
+    "en": "You've come this far -- you know how to end it. There is an entity *behind* the entity.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "428:881": {
+    "id": "428:881",
+    "actorName": "Inland Empire",
+    "en": "Psychic arts? Sounds right down our alley.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
