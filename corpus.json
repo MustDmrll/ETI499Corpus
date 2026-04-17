@@ -1331,5 +1331,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "33:26": {
+    "id": "33:26",
+    "actorName": "Inland Empire",
+    "en": "Exactly. It's measured, level-headed, and it needs to be heard.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
