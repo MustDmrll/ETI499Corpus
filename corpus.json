@@ -1695,5 +1695,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "71:191": {
+    "id": "71:191",
+    "actorName": "Inland Empire",
+    "en": "Good call! Never mind that *old trash container*lurching there, full of bad old news...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
