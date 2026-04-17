@@ -11120,5 +11120,57 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1043:135": {
+    "id": "1043:135",
+    "actorName": "Inland Empire",
+    "en": "True. It feels... disrespectful.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1043:164": {
+    "id": "1043:164",
+    "actorName": "Inland Empire",
+    "en": "This is an omen, a sign from above -- don't start drinking again.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1043:182": {
+    "id": "1043:182",
+    "actorName": "Inland Empire",
+    "en": "Or what if you are...?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1043:216": {
+    "id": "1043:216",
+    "actorName": "Inland Empire",
+    "en": "He was *just* about to head home. The first step back home proved to be his last.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
