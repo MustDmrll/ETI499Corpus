@@ -3970,5 +3970,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "433:480": {
+    "id": "433:480",
+    "actorName": "Inland Empire",
+    "en": "Okay! Maybe it's something else then.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "433:487": {
+    "id": "433:487",
+    "actorName": "Inland Empire",
+    "en": "Less talk, more feeling. Keep your eyes closed, soak in the closeness. See what the feeling entails.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
