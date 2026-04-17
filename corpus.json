@@ -8000,5 +8000,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "768:24": {
+    "id": "768:24",
+    "actorName": "Inland Empire",
+    "en": "Somehow you managed to dodge it all... The church, the window *and* the bad book in the store. On the shelf. You made it. Across the black sea unharmed...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
