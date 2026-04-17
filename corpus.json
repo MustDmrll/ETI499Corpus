@@ -13915,5 +13915,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1198:45": {
+    "id": "1198:45",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "I knew you couldn't resist. So now you're gonna change the world, but how?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
