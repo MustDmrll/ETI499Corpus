@@ -14721,5 +14721,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1459:80": {
+    "id": "1459:80",
+    "actorName": "Inland Empire",
+    "en": "Do you think that's what happened to the man you found? Do you think he was trying to *just have fun*?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
