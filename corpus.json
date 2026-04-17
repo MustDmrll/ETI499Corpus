@@ -6752,5 +6752,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "637:336": {
+    "id": "637:336",
+    "actorName": "Inland Empire",
+    "en": "Something tells you her life and yours are not that similar.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "640:24": {
+    "id": "640:24",
+    "actorName": "Inland Empire",
+    "en": "No. How about you keep sticking around? Look around -- find the company representative, see what they have to say? Maybe the company will help? Then get back to this.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
