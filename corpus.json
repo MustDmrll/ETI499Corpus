@@ -11575,5 +11575,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1065:25": {
+    "id": "1065:25",
+    "actorName": "Inland Empire",
+    "en": "Are you s-s-sure about that? Something about her gives you a *bad* feeling. What kind of *secret* is she hiding?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
