@@ -2982,5 +2982,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "368:1698": {
+    "id": "368:1698",
+    "actorName": "Inland Empire",
+    "en": "You really don't have the faintest guess what her name could be. You were never very good at this sort of thing...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
