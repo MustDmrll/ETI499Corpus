@@ -7961,5 +7961,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "768:15": {
+    "id": "768:15",
+    "actorName": "Inland Empire",
+    "en": "Nothing. Just threats that passed by -- outside in the world. Ill omens from another life. Not this one. You ignored them. Good. The sleep is nourishing. Take more of it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
