@@ -3606,5 +3606,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "429:17": {
+    "id": "429:17",
+    "actorName": "Inland Empire",
+    "en": "We must be dealing with seriously malign forces here if there are *dozens* of wards.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
