@@ -3203,5 +3203,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "380:390": {
+    "id": "380:390",
+    "actorName": "Inland Empire",
+    "en": "This is a good, dangerous line of questioning. You should prod him on!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "380:514": {
+    "id": "380:514",
+    "actorName": "Inland Empire",
+    "en": "The sickest. That is perhaps *why* it should be researched.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
