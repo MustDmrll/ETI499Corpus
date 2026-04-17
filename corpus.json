@@ -10509,5 +10509,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1016:119": {
+    "id": "1016:119",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "This is a pivotal moment. Try not to piss yourself.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
