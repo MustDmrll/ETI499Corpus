@@ -12615,5 +12615,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1149:118": {
+    "id": "1149:118",
+    "actorName": "Limbic System",
+    "en": "...a bitter, caustic sense of loss remains. Even in the darkness, great sorrows slip in the water -- slimy.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
