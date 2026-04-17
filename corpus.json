@@ -8130,5 +8130,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "781:203": {
+    "id": "781:203",
+    "actorName": "Inland Empire",
+    "en": "This is *your* cloak. You can feel it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "783:89": {
+    "id": "783:89",
+    "actorName": "Inland Empire",
+    "en": "Doesn't look too incriminating -- but still feels like a *find*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
