@@ -7025,5 +7025,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "654:112": {
+    "id": "654:112",
+    "actorName": "Inland Empire",
+    "en": "Below... in the Union box... was there something behind the window? In the hawthorn branches, brushing against the glass.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "665:2": {
+    "id": "665:2",
+    "actorName": "Inland Empire",
+    "en": "It's not a ghost story. It's a curse -- and Garte ought be made knowledgeable so he can perform counter-spells.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
