@@ -3385,5 +3385,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "427:269": {
+    "id": "427:269",
+    "actorName": "Inland Empire",
+    "en": "A feeling of tenderness washes over you -- a longing even, perhaps. And gentle tragedy.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
