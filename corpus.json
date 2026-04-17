@@ -11315,5 +11315,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1054:22": {
+    "id": "1054:22",
+    "actorName": "Limbic System",
+    "en": "Stinky boy.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1054:23": {
+    "id": "1054:23",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "You'll be back in those cold snake skins in no time, sweating up the bed...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
