@@ -8637,5 +8637,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "817:101": {
+    "id": "817:101",
+    "actorName": "Inland Empire",
+    "en": "Stop. Just up ahead: danger.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "817:106": {
+    "id": "817:106",
+    "actorName": "Inland Empire",
+    "en": "Arm yourself with anything you can. Unless you have... nothing? Because you didn't find your lost gun? Then just walk to your death.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
