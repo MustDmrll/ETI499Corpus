@@ -3047,5 +3047,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "379:45": {
+    "id": "379:45",
+    "actorName": "Inland Empire",
+    "en": "Be honest with him.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "379:200": {
+    "id": "379:200",
+    "actorName": "Inland Empire",
+    "en": "What's there not to want? It's got range, meaning, layers, colours, associations, the whole works!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
