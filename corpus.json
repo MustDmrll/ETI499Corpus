@@ -10418,5 +10418,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1015:77": {
+    "id": "1015:77",
+    "actorName": "Inland Empire",
+    "en": "This machinery is of the deeply mystical variety.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
