@@ -512,5 +512,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "13:358": {
+    "id": "13:358",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Admit it, you just missed the quarter-light. The darkness on the edge of town.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
