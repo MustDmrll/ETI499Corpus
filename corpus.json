@@ -304,5 +304,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "8:71": {
+    "id": "8:71",
+    "actorName": "Limbic System",
+    "en": "A fiery streak penetrates your skull, trying to force your eyes open. It's a sound. A clarion call from hell.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
