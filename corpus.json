@@ -2943,5 +2943,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "368:1164": {
+    "id": "368:1164",
+    "actorName": "Inland Empire",
+    "en": "Images of your body smashed against the pavement flood your mind -- this is *dangerous*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "368:1175": {
+    "id": "368:1175",
+    "actorName": "Inland Empire",
+    "en": "Meaning she's the voice of all those living souls!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
