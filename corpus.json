@@ -14747,5 +14747,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1467:139": {
+    "id": "1467:139",
+    "actorName": "Inland Empire",
+    "en": "Life has left it, unlikely to ever return.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1467:166": {
+    "id": "1467:166",
+    "actorName": "Inland Empire",
+    "en": "Lucky goats. The fog looks soft and inviting.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
