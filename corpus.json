@@ -6544,5 +6544,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "636:64": {
+    "id": "636:64",
+    "actorName": "Inland Empire",
+    "en": "This is one thought you *need* to complete. Where are you?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
