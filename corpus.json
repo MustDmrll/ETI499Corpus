@@ -9040,5 +9040,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "850:419": {
+    "id": "850:419",
+    "actorName": "Inland Empire",
+    "en": "Finally -- a chance to connect with the *divine*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
