@@ -9261,5 +9261,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "868:745": {
+    "id": "868:745",
+    "actorName": "Inland Empire",
+    "en": "Very strange... you get the sense she wouldn't have let you do this even if you did volunteer. Why?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
