@@ -11887,5 +11887,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1114:18": {
+    "id": "1114:18",
+    "actorName": "Inland Empire",
+    "en": "It's a clue!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1114:20": {
+    "id": "1114:20",
+    "actorName": "Inland Empire",
+    "en": "It's meaningful, I *swear*! You just wait... I've got the case nearly busted wide open.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
