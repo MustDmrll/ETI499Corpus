@@ -2618,5 +2618,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "362:1069": {
+    "id": "362:1069",
+    "actorName": "Inland Empire",
+    "en": "It's better not to know, that's what the wind is telling you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
