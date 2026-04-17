@@ -1734,5 +1734,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "71:536": {
+    "id": "71:536",
+    "actorName": "Inland Empire",
+    "en": "Also of note -- your unconscious racial profiling machine ruled out Messinian before. Despite all the *copporoonies* and *cobos*. That leaves Vespertine or Oranjese. Continue.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
