@@ -109,5 +109,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "8:24": {
+    "id": "8:24",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Coming right up, sir. Smooth passage...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
