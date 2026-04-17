@@ -8949,5 +8949,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "841:126": {
+    "id": "841:126",
+    "actorName": "Inland Empire",
+    "en": "You're not imagining it. Photon emissions? What is he talking about?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
