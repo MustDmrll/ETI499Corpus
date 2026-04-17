@@ -5153,5 +5153,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "546:14": {
+    "id": "546:14",
+    "actorName": "Inland Empire",
+    "en": "We'll see.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "549:377": {
+    "id": "549:377",
+    "actorName": "Inland Empire",
+    "en": "You *knew* there was something strange about this one! He's an astral projection, a phantasm!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
