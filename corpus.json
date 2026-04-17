@@ -408,5 +408,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "9:81": {
+    "id": "9:81",
+    "actorName": "Inland Empire",
+    "en": "Or has it been consigned there as punishment? You feel as though this creature is your *friend* and wants to reattach itself to your neck. So that you may continue your adventures together in this strange world!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
