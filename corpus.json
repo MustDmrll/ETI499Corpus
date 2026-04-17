@@ -7506,5 +7506,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "739:17": {
+    "id": "739:17",
+    "actorName": "Inland Empire",
+    "en": "'It's cold now,' he was supposed to say. 'But someone has been maintaining it. The wiring has been repaired'...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
