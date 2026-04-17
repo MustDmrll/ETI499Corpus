@@ -12368,5 +12368,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1149:21": {
+    "id": "1149:21",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Your name is *fuck all*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1149:22": {
+    "id": "1149:22",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Well, *almost* nothing. There is the ground below you. That's still there. And the small light that's on -- fluttering -- somewhere in the Basal Ganglia.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
