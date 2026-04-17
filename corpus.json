@@ -70,5 +70,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "8:13": {
+    "id": "8:13",
+    "actorName": "Limbic System",
+    "en": "There's this giant ball there. And evil apes. And the evil apes are dukin' it out on the ball. You're one of them. It's basically all just evil apes dukin' it out on a giant ball.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
