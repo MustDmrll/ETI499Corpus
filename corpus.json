@@ -2917,5 +2917,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "368:1142": {
+    "id": "368:1142",
+    "actorName": "Inland Empire",
+    "en": "A-a-afraid? What is she afraid of?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "368:1143": {
+    "id": "368:1143",
+    "actorName": "Inland Empire",
+    "en": "No, you *know* this tone of voice. You've heard it before. She's about to deliver some bad news...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
