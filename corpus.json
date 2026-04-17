@@ -8338,5 +8338,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "806:125": {
+    "id": "806:125",
+    "actorName": "Inland Empire",
+    "en": "The bore's the size of your eye. I can almost see the stars.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
