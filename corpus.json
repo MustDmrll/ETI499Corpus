@@ -10548,5 +10548,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1016:274": {
+    "id": "1016:274",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "WHERE IS YOUR GOD?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1016:288": {
+    "id": "1016:288",
+    "actorName": "Inland Empire",
+    "en": "He looks almost as old as you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
