@@ -12238,5 +12238,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1137:57": {
+    "id": "1137:57",
+    "actorName": "Inland Empire",
+    "en": "In the back of your head, you feel the rapid beat of anodic music... then it fades away.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1145:31": {
+    "id": "1145:31",
+    "actorName": "Inland Empire",
+    "en": "But... but... what if you never find out how *your* story ends?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1148:6": {
+    "id": "1148:6",
+    "actorName": "Inland Empire",
+    "en": "Your ears hum from the silence inside your mind...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
