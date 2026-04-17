@@ -12394,5 +12394,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1149:23": {
+    "id": "1149:23",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Is it? The world is gone, you're no longer reacting to outward stimuli. Yet still...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
