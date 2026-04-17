@@ -13681,5 +13681,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1196:28": {
+    "id": "1196:28",
+    "actorName": "Inland Empire",
+    "en": "There seems to be. An *extremely* high pitched ring. Ultrasonic. Lena said it was very high-pitched, right? It's like something *tickles* your ear.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
