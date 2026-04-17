@@ -980,5 +980,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "18:223": {
+    "id": "18:223",
+    "actorName": "Inland Empire",
+    "en": "Heartfelt gratitude -- but does it feel like closure? What *really* happened?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "18:328": {
+    "id": "18:328",
+    "actorName": "Inland Empire",
+    "en": "But what if the information is vital -- on *the hunt*...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
