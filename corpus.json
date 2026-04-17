@@ -10041,5 +10041,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "994:374": {
+    "id": "994:374",
+    "actorName": "Inland Empire",
+    "en": "It's strangely comforting to think of these voices travelling through the air, until you capture them, firefly-like, with your little metal antenna...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
