@@ -9053,5 +9053,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "850:609": {
+    "id": "850:609",
+    "actorName": "Inland Empire",
+    "en": "Wirral. A guy so engrossed with various races *has to* play pen-and-paper role-playing games.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
