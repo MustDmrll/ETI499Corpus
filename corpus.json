@@ -12654,5 +12654,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1151:16": {
+    "id": "1151:16",
+    "actorName": "Inland Empire",
+    "en": "Feels very, very familiar. Harry. Please. You were supposed to discard it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1151:20": {
+    "id": "1151:20",
+    "actorName": "Inland Empire",
+    "en": "Feels so, so familiar.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1151:34": {
+    "id": "1151:34",
+    "actorName": "Inland Empire",
+    "en": "Drawn by regret. Stop, before you *hurt* yourself with the Tutti Frutti wrapper. Throw it away, please.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
