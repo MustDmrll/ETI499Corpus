@@ -11484,5 +11484,16 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1057:24": {
+    "id": "1057:24",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "No, you haven't. You've just *been*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {},
+    "status": "pending"
   }
 }
