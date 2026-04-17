@@ -4854,5 +4854,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "537:271": {
+    "id": "537:271",
+    "actorName": "Limbic System",
+    "en": "The fight? There is no fight. The fight is over -- it was lost. A thousand years ago. You have laid here forever. Keep falling. Deeper... take the door.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
