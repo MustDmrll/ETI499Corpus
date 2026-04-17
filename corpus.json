@@ -12784,5 +12784,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1154:27": {
+    "id": "1154:27",
+    "actorName": "Inland Empire",
+    "en": "Can it be? We haven't heard that name in ages. Welcome to the RVD, Firewalker. *BZZZZZT*. You are a special man, and *definitely* not imagining it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1154:40": {
+    "id": "1154:40",
+    "actorName": "Inland Empire",
+    "en": "Now, the time has come for you to be inducted into the ranks of the Remote Viewers Division.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
