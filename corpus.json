@@ -7207,5 +7207,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "688:286": {
+    "id": "688:286",
+    "actorName": "Inland Empire",
+    "en": "She's already in prison here. For what happened. And she is prepared to never leave. Even after his death.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
