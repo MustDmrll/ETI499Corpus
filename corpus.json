@@ -11510,5 +11510,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1057:27": {
+    "id": "1057:27",
+    "actorName": "Limbic System",
+    "en": "Enjoy it while it lasts.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1057:31": {
+    "id": "1057:31",
+    "actorName": "Limbic System",
+    "en": "It's easier, this time, drifting off. Your head has found a comfortable indent in the pillow. Your legs and your torso feel like lead weights sinking to the bottom of the sea, until they're suddenly light...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
