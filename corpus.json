@@ -12459,5 +12459,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1149:55": {
+    "id": "1149:55",
+    "actorName": "Limbic System",
+    "en": "He speaks of the *sickening* longing, the unwell emotion. Even in the darkness he's grasping for it, still trying to hold on to the great sorrows slipping in the water -- slimy.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
