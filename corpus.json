@@ -6687,5 +6687,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "636:800": {
+    "id": "636:800",
+    "actorName": "Inland Empire",
+    "en": "Why should we just leave and leave -- and the world get left behind?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
