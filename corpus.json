@@ -4620,5 +4620,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "515:165": {
+    "id": "515:165",
+    "actorName": "Inland Empire",
+    "en": "Was that... acceptance? It feels so *normal*. Nourishing even.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
