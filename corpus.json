@@ -174,5 +174,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "8:40": {
+    "id": "8:40",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "All right. Nothingtown to Fuck-All-Borough!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
