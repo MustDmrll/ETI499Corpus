@@ -7675,5 +7675,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "757:19": {
+    "id": "757:19",
+    "actorName": "Inland Empire",
+    "en": "Yes, yes, yes, yes.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "757:24": {
+    "id": "757:24",
+    "actorName": "Inland Empire",
+    "en": "Oh *fuck* yes. Go there in your head. It's been days since you've thought about her. A week...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
