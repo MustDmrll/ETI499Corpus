@@ -10522,5 +10522,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1016:173": {
+    "id": "1016:173",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "\"WHO FUCKING CARES?!\"",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1016:231": {
+    "id": "1016:231",
+    "actorName": "Inland Empire",
+    "en": "The 9mm Villiers feels surprisingly light in your hand. Almost toy-like. You imagine death, sorrow and the dramatic re-imagining of Andre's face burst out of its muzzle, and it feels almost preposterous...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
