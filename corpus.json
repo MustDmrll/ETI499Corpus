@@ -14266,5 +14266,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1201:234": {
+    "id": "1201:234",
+    "actorName": "Inland Empire",
+    "en": "You hear that? The lieutenant's staying! Brotherhood conquers all!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
