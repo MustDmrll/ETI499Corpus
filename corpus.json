@@ -14773,5 +14773,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1467:169": {
+    "id": "1467:169",
+    "actorName": "Inland Empire",
+    "en": "The last one.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1470:22": {
+    "id": "1470:22",
+    "actorName": "Inland Empire",
+    "en": "Help him surface the pain, release the pressure. Be a friend.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
