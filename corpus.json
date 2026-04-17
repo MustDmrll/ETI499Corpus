@@ -759,5 +759,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "14:1238": {
+    "id": "14:1238",
+    "actorName": "Inland Empire",
+    "en": "You still feel as though there might be some honour points. And if there are, you've surely earned one.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
