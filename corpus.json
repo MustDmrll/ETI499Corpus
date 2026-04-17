@@ -5595,5 +5595,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "570:67": {
+    "id": "570:67",
+    "actorName": "Inland Empire",
+    "en": "Something bad. Someone's night thoughts. A last resort. A bad idea.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
