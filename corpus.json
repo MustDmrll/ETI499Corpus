@@ -7584,5 +7584,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "751:10": {
+    "id": "751:10",
+    "actorName": "Inland Empire",
+    "en": "You feel an ominous tingling in your fingertips as they browse the pages...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
