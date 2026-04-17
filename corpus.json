@@ -10392,5 +10392,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1013:88": {
+    "id": "1013:88",
+    "actorName": "Inland Empire",
+    "en": "You see clear, beautiful, violent flashes of light. Light cutting through a smoke-filled darkness. That is what the future will look like -- if it ever comes.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
