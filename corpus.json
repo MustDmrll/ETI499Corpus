@@ -4412,5 +4412,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "481:113": {
+    "id": "481:113",
+    "actorName": "Inland Empire",
+    "en": "Is that what it is -- this feeling?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "481:147": {
+    "id": "481:147",
+    "actorName": "Inland Empire",
+    "en": "You've found some common ground with this man. Even impressed him. The next time you look in the *mirror*, though. Remember those words...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
