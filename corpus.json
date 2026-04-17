@@ -4022,5 +4022,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "437:12": {
+    "id": "437:12",
+    "actorName": "Inland Empire",
+    "en": "The church looks old and weather-worn. There are no lights in the windows.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "447:21": {
+    "id": "447:21",
+    "actorName": "Inland Empire",
+    "en": "You're 100% sure you got special Hobocop money for that tare. At least +100% extra tare money. If the numbers on the machine told you otherwise, it's a *lie*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
