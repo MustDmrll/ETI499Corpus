@@ -11493,7 +11493,22 @@
     "trMachine": "",
     "proposed": "",
     "notes": "",
-    "votes": {},
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1057:25": {
+    "id": "1057:25",
+    "actorName": "Limbic System",
+    "en": "After centuries of darkness, the alarm rings -- but what's this? You *actually* feel rested. There's no time to cuddle with your pillow, however, or as much as shiver from the cold. The world awaits.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
     "status": "pending"
   }
 }
