@@ -9092,5 +9092,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "852:31": {
+    "id": "852:31",
+    "actorName": "Inland Empire",
+    "en": "You're not going to like it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "853:10": {
+    "id": "853:10",
+    "actorName": "Inland Empire",
+    "en": "But somehow it doesn't scare him, like it scared you. Doesn't make him quiver with cold. Poor guy...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
