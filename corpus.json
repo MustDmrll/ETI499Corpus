@@ -12693,5 +12693,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1154:2": {
+    "id": "1154:2",
+    "actorName": "Inland Empire",
+    "en": "Of course you do. You don't even know *what* it is you're feeling, but you can feel it. That's the mark of a true *Remote Viewer*...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
