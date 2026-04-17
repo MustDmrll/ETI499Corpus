@@ -7142,5 +7142,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "680:22": {
+    "id": "680:22",
+    "actorName": "Inland Empire",
+    "en": "You'll get through it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "680:49": {
+    "id": "680:49",
+    "actorName": "Inland Empire",
+    "en": "So this is what it feels like to be *interviewed*...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "680:72": {
+    "id": "680:72",
+    "actorName": "Inland Empire",
+    "en": "I wouldn't say it is.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
