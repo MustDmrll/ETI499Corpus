@@ -14799,5 +14799,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1470:37": {
+    "id": "1470:37",
+    "actorName": "Inland Empire",
+    "en": "Help him surface the pain, release the pressure. Be a friend.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1470:45": {
+    "id": "1470:45",
+    "actorName": "Inland Empire",
+    "en": "SUGGESTION",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1470:102": {
+    "id": "1470:102",
+    "actorName": "Inland Empire",
+    "en": "Help him surface the pain, release the pressure. Be a friend.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
