@@ -14513,5 +14513,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1303:39": {
+    "id": "1303:39",
+    "actorName": "Inland Empire",
+    "en": "... is what you're thinking. But you don't want to party down. Not really. Not in the deepest part of your soul, where the freckles only make you sad.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
