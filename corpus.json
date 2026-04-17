@@ -7324,5 +7324,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "692:43": {
+    "id": "692:43",
+    "actorName": "Inland Empire",
+    "en": "If it weren't for her he would not have been there. The shot would not have connected with his soft palate...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
