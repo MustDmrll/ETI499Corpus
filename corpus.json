@@ -8273,5 +8273,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "789:309": {
+    "id": "789:309",
+    "actorName": "Inland Empire",
+    "en": "There it is again -- *the pigs*, like Roy said. Not good at all.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "790:238": {
+    "id": "790:238",
+    "actorName": "Inland Empire",
+    "en": "The stars aligned into a cosmic frown here. He has your fate decided. Bide your time, however, and let the stars continue their course -- and that frown shall turn into a smile. Only if you play along...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
