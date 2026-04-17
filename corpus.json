@@ -6297,5 +6297,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "631:785": {
+    "id": "631:785",
+    "actorName": "Inland Empire",
+    "en": "Maybe you can ask her for some *stock tips* -- that's a *maybe*. Or a *job*. But you're sure as hell too ashamed to ask for cash buddy.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
