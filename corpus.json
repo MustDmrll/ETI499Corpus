@@ -1136,5 +1136,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "28:1333": {
+    "id": "28:1333",
+    "actorName": "Inland Empire",
+    "en": "You'll see her again one day. You know it. Things went like they did for a reason.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
