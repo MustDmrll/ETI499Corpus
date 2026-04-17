@@ -5569,5 +5569,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "566:28": {
+    "id": "566:28",
+    "actorName": "Inland Empire",
+    "en": "So fast as to make it seem like the weather turns at her command.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
