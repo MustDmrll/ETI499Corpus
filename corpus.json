@@ -5868,5 +5868,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "604:33": {
+    "id": "604:33",
+    "actorName": "Inland Empire",
+    "en": "No, there's more to this. You get this strange *feeling*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "605:44": {
+    "id": "605:44",
+    "actorName": "Inland Empire",
+    "en": "Forget about that. What's with this Du Bois stuff? You're getting some seriously bad vibes from that name...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
