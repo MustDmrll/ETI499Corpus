@@ -5361,5 +5361,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "557:185": {
+    "id": "557:185",
+    "actorName": "Inland Empire",
+    "en": "That is true. But what comes after death?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "558:198": {
+    "id": "558:198",
+    "actorName": "Inland Empire",
+    "en": "But does it have anything to do with necroplasmic life forms? 'Ghosts' in everyday parlance.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
