@@ -13434,5 +13434,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1195:15": {
+    "id": "1195:15",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "You're just stuck here. In the half-world. Could try looking at other people. *Really* looking. But why would you want to start doing that?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1195:21": {
+    "id": "1195:21",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "How many promises have *you* kept lately, Sir Harry? To the great, see-through world, the tenderness?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
