@@ -6362,5 +6362,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "631:1475": {
+    "id": "631:1475",
+    "actorName": "Inland Empire",
+    "en": "Now look at you, you misery-clad simian, barely able to tie your own laces. Your armpits are lakes, a scythe of booze precedes you. Your hair sticks to your forehead and your underwear feels uncomfortable...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
