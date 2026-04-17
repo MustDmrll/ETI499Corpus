@@ -6154,5 +6154,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "625:840": {
+    "id": "625:840",
+    "actorName": "Inland Empire",
+    "en": "Hmm... it's as if there is an automatic *self-defence* structure in your hand, keeping you from mind-fucking yourself with letters from past lovers.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
