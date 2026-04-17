@@ -5777,5 +5777,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "587:79": {
+    "id": "587:79",
+    "actorName": "Inland Empire",
+    "en": "Host almighty, he's a total bummer now!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
