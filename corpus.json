@@ -2176,5 +2176,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "280:105": {
+    "id": "280:105",
+    "actorName": "Inland Empire",
+    "en": "In there she is alone, trapped in a world of blue and red lights.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "280:168": {
+    "id": "280:168",
+    "actorName": "Inland Empire",
+    "en": "That gun is a joke compared to the actual greatest thing he lost.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
