@@ -1812,5 +1812,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "71:776": {
+    "id": "71:776",
+    "actorName": "Inland Empire",
+    "en": "From here it looks as though the clown-faced man is screaming. The tendons of his jaw are torn apart, hyoid ripped from the force of the lieutenant's hands.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
