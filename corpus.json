@@ -4607,5 +4607,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "513:64": {
+    "id": "513:64",
+    "actorName": "Inland Empire",
+    "en": "Yes, and it's not just a matter of comfort, but also of principle. This may be your last lifeline to being a police officer instead of a hobo.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
