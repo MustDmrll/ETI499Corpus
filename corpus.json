@@ -8556,6 +8556,32 @@
     "proposed": "",
     "notes": "",
     "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "817:53": {
+    "id": "817:53",
+    "actorName": "Inland Empire",
+    "en": "This is not the time to discuss preferences. It's not just your own life that will be at stake.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "817:66": {
+    "id": "817:66",
+    "actorName": "Inland Empire",
+    "en": "It would be better if you didn't have to. It's not just your own life that will be at stake.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
       "basak": "skip"
     },
     "status": "pending"
