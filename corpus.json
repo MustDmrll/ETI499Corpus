@@ -4113,5 +4113,44 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "460:66": {
+    "id": "460:66",
+    "actorName": "Inland Empire",
+    "en": "Is she pitying you? Good god, she's pitying you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "460:106": {
+    "id": "460:106",
+    "actorName": "Inland Empire",
+    "en": "No, it was something else... It was *eerie*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "460:272": {
+    "id": "460:272",
+    "actorName": "Inland Empire",
+    "en": "Who cares about the dead body? We might be dealing with a *malignant entity* here!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
