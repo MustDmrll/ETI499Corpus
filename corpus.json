@@ -6323,5 +6323,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "631:1111": {
+    "id": "631:1111",
+    "actorName": "Inland Empire",
+    "en": "Look at that lady. Take a *gander*. Squint your eyes, bub.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "631:1193": {
+    "id": "631:1193",
+    "actorName": "Inland Empire",
+    "en": "Yes. You're too ashamed to ask this person for *money*, too scared to belittle yourself in her eyes -- those half-precious stones of Eau-de-Nil.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
