@@ -3229,5 +3229,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "380:521": {
+    "id": "380:521",
+    "actorName": "Inland Empire",
+    "en": "He means something para-natural. He must...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "380:540": {
+    "id": "380:540",
+    "actorName": "Inland Empire",
+    "en": "He wants to keep it at a distance. He's afraid of what powers are contained therein...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
