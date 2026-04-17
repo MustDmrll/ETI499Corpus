@@ -2020,5 +2020,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "207:38": {
+    "id": "207:38",
+    "actorName": "Inland Empire",
+    "en": "It's the warmth of a winter night's fire. Maybe she could give you comfort and shelter? Some cigarettes and food money? Maybe she's your...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
