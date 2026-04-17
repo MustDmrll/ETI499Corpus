@@ -14370,5 +14370,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1219:414": {
+    "id": "1219:414",
+    "actorName": "Inland Empire",
+    "en": "*Kisses... kisses... kisses...*",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1219:447": {
+    "id": "1219:447",
+    "actorName": "Inland Empire",
+    "en": "Shit! The girl... the girl upstairs?! That can't be her! Remember what you said to her? You told you wanna have...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
