@@ -57,5 +57,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "8:12": {
+    "id": "8:12",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "You got it, sweet brother! Nothing upon nothing, upon nothing!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
