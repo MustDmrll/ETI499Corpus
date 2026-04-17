@@ -967,5 +967,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "18:135": {
+    "id": "18:135",
+    "actorName": "Inland Empire",
+    "en": "Yes, it makes perfect sense. You're beginning to suspect there's something *para-natural* about this phasmid.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
