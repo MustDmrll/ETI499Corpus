@@ -1799,5 +1799,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "71:696": {
+    "id": "71:696",
+    "actorName": "Inland Empire",
+    "en": "A strange word... *treatment*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
