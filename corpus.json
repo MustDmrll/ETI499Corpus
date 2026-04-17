@@ -317,5 +317,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "8:73": {
+    "id": "8:73",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Somewhere in the sore, bloated man-meat around you -- *a sensation*!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
