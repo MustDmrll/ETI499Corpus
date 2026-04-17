@@ -2124,5 +2124,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "271:22": {
+    "id": "271:22",
+    "actorName": "Inland Empire",
+    "en": "This is either an ominous or cool architectural choice -- hard to say.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "280:44": {
+    "id": "280:44",
+    "actorName": "Inland Empire",
+    "en": "No. A strange feeling fills your gut and suddenly you *know* the gun is empty. Thinking about it makes you nauseous.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
