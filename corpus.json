@@ -10899,5 +10899,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1030:793": {
+    "id": "1030:793",
+    "actorName": "Inland Empire",
+    "en": "There might be interesting details, fresh experiences, exciting rewards... you'd really ignore it all?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
