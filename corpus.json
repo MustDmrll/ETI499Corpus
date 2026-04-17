@@ -10314,5 +10314,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1000:45": {
+    "id": "1000:45",
+    "actorName": "Inland Empire",
+    "en": "This is just mundane garbage. What's even para-natural about this?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1000:70": {
+    "id": "1000:70",
+    "actorName": "Inland Empire",
+    "en": "The throbbing in your head increases with every passing moment you gaze at this shelf...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
