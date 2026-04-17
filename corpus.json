@@ -11718,5 +11718,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1087:38": {
+    "id": "1087:38",
+    "actorName": "Inland Empire",
+    "en": "This is a man with a lot of past, but little present. And almost no future.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
