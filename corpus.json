@@ -7844,5 +7844,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "767:280": {
+    "id": "767:280",
+    "actorName": "Inland Empire",
+    "en": "We all told you. *Everyone* warned you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "767:302": {
+    "id": "767:302",
+    "actorName": "Inland Empire",
+    "en": "A completely different world.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
