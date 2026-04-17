@@ -10184,5 +10184,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "998:100": {
+    "id": "998:100",
+    "actorName": "Inland Empire",
+    "en": "Exactly. Back out of this corner of your mind by choosing the bottom-most option: \"To hell with this.\"",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
