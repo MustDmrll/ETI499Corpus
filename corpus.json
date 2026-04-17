@@ -9313,5 +9313,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "882:108": {
+    "id": "882:108",
+    "actorName": "Inland Empire",
+    "en": "He's going to leave you alone again. That's sad.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "903:34": {
+    "id": "903:34",
+    "actorName": "Inland Empire",
+    "en": "It's as if they're *real* wizards, able to resurrect dead real estate and breathe life into bank accounts.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
