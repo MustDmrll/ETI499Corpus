@@ -8962,5 +8962,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "842:108": {
+    "id": "842:108",
+    "actorName": "Inland Empire",
+    "en": "The words *daredevil driver* sound ominous to you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
