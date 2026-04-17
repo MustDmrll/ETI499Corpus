@@ -1006,5 +1006,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "18:478": {
+    "id": "18:478",
+    "actorName": "Inland Empire",
+    "en": "Needless to say, you *must* ask her about the mysterious phasmid.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
