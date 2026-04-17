@@ -5972,5 +5972,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "611:6": {
+    "id": "611:6",
+    "actorName": "Inland Empire",
+    "en": "You can feel tension on the other side.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "617:36": {
+    "id": "617:36",
+    "actorName": "Inland Empire",
+    "en": "Her gloves -- you get the feeling that you need them. You have a dead body to deal with, after all.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
