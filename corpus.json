@@ -14669,5 +14669,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1459:20": {
+    "id": "1459:20",
+    "actorName": "Inland Empire",
+    "en": "Do you think that's what happened to the man you found? Do you think he wanted *out*?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
