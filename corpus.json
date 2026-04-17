@@ -6804,5 +6804,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "640:403": {
+    "id": "640:403",
+    "actorName": "Inland Empire",
+    "en": "He avoided looking her straight in the eye -- you would've too.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "641:109": {
+    "id": "641:109",
+    "actorName": "Inland Empire",
+    "en": "Something is seriously wrong with you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "642:266": {
+    "id": "642:266",
+    "actorName": "Inland Empire",
+    "en": "Who knows why we do the things we do. Somehow bouncing those ideas off the man with sunglasses felt calming. Like you've done it before.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
