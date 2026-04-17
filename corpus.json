@@ -343,5 +343,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "8:79": {
+    "id": "8:79",
+    "actorName": "Limbic System",
+    "en": "The stench of liquor rises from your mouth. And with it -- an *un-godly* headache.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
