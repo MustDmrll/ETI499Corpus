@@ -12888,5 +12888,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1164:13": {
+    "id": "1164:13",
+    "actorName": "Inland Empire",
+    "en": "This isn't funny... you have a bad feeling about this one.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1168:93": {
+    "id": "1168:93",
+    "actorName": "Inland Empire",
+    "en": "No. The miracle is still waiting. This is the darkness.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1168:317": {
+    "id": "1168:317",
+    "actorName": "Inland Empire",
+    "en": "The inland sea is dark, vast, and on the surface meaningless...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
