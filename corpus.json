@@ -13083,5 +13083,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1180:376": {
+    "id": "1180:376",
+    "actorName": "Inland Empire",
+    "en": "You stare at them too. In your mind, Her Innocence Dei still turns to leave, airport bag in hand, silks flowing in her wake...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1180:501": {
+    "id": "1180:501",
+    "actorName": "Inland Empire",
+    "en": "Is it? You don't feel like it is. You feel like you should make up for it by *scrutinizing* him extra carefully...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
