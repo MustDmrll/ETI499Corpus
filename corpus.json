@@ -6921,5 +6921,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "647:147": {
+    "id": "647:147",
+    "actorName": "Inland Empire",
+    "en": "You're not so sure about that. Somehow you just *know* -- there's something out there, behind the glass.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
