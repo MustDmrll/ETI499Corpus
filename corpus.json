@@ -11588,5 +11588,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1065:27": {
+    "id": "1065:27",
+    "actorName": "Inland Empire",
+    "en": "STOP. Don't say it!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1065:74": {
+    "id": "1065:74",
+    "actorName": "Inland Empire",
+    "en": "You *are* the murderer, after all...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1065:88": {
+    "id": "1065:88",
+    "actorName": "Inland Empire",
+    "en": "Have you gone over everyone? Is anybody missing?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
