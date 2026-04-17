@@ -824,5 +824,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "16:669": {
+    "id": "16:669",
+    "actorName": "Inland Empire",
+    "en": "Isn't that odd? How *can* you run so much?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "16:832": {
+    "id": "16:832",
+    "actorName": "Inland Empire",
+    "en": "If that's true then *Revacholian lit* would fit you like a glove.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
