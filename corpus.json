@@ -2995,5 +2995,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "368:1742": {
+    "id": "368:1742",
+    "actorName": "Inland Empire",
+    "en": "Yes. Unquestionably, *irrevocably* alone...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "371:19": {
+    "id": "371:19",
+    "actorName": "Inland Empire",
+    "en": "You *knew* there was something strange about this one! He's an astral projection, a bureaucratic phantasm!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
