@@ -2501,5 +2501,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "352:296": {
+    "id": "352:296",
+    "actorName": "Inland Empire",
+    "en": "Oh god, you're going to be in this church forever. FOREVER.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
