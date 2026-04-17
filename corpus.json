@@ -1500,5 +1500,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "33:60": {
+    "id": "33:60",
+    "actorName": "Inland Empire",
+    "en": "Serves them right! Wipe that smirk off their face with your sad, tragic small church song. Who's laughing now? No one.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
