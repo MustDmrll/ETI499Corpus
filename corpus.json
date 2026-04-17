@@ -2553,5 +2553,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "358:6": {
+    "id": "358:6",
+    "actorName": "Inland Empire",
+    "en": "They live underground? These communists aren't men, they're *mole people*!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
