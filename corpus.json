@@ -12927,5 +12927,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1168:318": {
+    "id": "1168:318",
+    "actorName": "Inland Empire",
+    "en": "Yes. You have a vast royalist soul and it's reaching out for something -- in the future.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
