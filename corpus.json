@@ -11081,5 +11081,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1043:42": {
+    "id": "1043:42",
+    "actorName": "Inland Empire",
+    "en": "What if all of this is staged? He could have seen something that night in the yard...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
