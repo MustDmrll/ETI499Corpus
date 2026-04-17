@@ -13213,5 +13213,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1182:192": {
+    "id": "1182:192",
+    "actorName": "Inland Empire",
+    "en": "Beckoning you to come to it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1182:400": {
+    "id": "1182:400",
+    "actorName": "Inland Empire",
+    "en": "Now that you say them, the words feel like tin, heavy, they're coming from the bottom of you. You've said them half a thousand times...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
