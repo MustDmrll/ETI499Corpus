@@ -6167,5 +6167,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "627:255": {
+    "id": "627:255",
+    "actorName": "Inland Empire",
+    "en": "You can't shake the feeling that there are more secrets concealed in the flesh before you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "627:354": {
+    "id": "627:354",
+    "actorName": "Inland Empire",
+    "en": "You're on the right track.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
