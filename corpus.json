@@ -1474,5 +1474,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "33:58": {
+    "id": "33:58",
+    "actorName": "Inland Empire",
+    "en": "Through a PA system.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
