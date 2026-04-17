@@ -10028,5 +10028,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "994:195": {
+    "id": "994:195",
+    "actorName": "Inland Empire",
+    "en": "You're all alone out there, wandering a blasted heath, calling out to the night, but there is no reply, except for the buzzing of invisible machines...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
