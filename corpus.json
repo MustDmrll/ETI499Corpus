@@ -13850,5 +13850,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1198:28": {
+    "id": "1198:28",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "You can never forget this shit.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1198:33": {
+    "id": "1198:33",
+    "actorName": "Limbic System",
+    "en": "It's not possible anymore. It's *stuck* on loop... Whirling, spitting out words and images.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
