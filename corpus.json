@@ -10626,5 +10626,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1016:561": {
+    "id": "1016:561",
+    "actorName": "Inland Empire",
+    "en": "So *this* is what power feels like. Do you like it?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1016:670": {
+    "id": "1016:670",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Nothing. Just the immaculate silence of your spinal fluid. Electrified.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
