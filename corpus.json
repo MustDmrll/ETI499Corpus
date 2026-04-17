@@ -330,5 +330,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "8:77": {
+    "id": "8:77",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Do you want me to upgrade that into a *one way trip*, sir?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
