@@ -7363,5 +7363,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "698:117": {
+    "id": "698:117",
+    "actorName": "Inland Empire",
+    "en": "Still, you felt it was important enough to make a mental note. That means *something*. You didn't pay attention to any of the other cigarette butts on the coast.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
