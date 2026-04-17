@@ -13941,5 +13941,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1198:50": {
+    "id": "1198:50",
+    "actorName": "Limbic System",
+    "en": "All *stuck* on loop... Whirling, spitting out words and images.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1198:52": {
+    "id": "1198:52",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "He's got no idea what he's in for.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
