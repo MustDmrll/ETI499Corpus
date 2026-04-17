@@ -10340,5 +10340,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1011:27": {
+    "id": "1011:27",
+    "actorName": "Inland Empire",
+    "en": "A strange feeling... Every now and then, something feels off about the way she speaks. She doesn't change tone, but you feel as though there's more about her than she lets on.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
