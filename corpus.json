@@ -681,5 +681,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "14:205": {
+    "id": "14:205",
+    "actorName": "Inland Empire",
+    "en": "The fish-lips stay silent in response. You must be losing your mind, asking him that over and over...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
