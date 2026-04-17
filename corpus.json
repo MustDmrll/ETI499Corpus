@@ -7753,5 +7753,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "762:111": {
+    "id": "762:111",
+    "actorName": "Inland Empire",
+    "en": "Be afraid. You smell wrong.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "762:782": {
+    "id": "762:782",
+    "actorName": "Inland Empire",
+    "en": "Don't say it! Are you sure? This may be the only chance you get to touch it...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
