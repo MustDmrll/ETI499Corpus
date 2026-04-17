@@ -14045,5 +14045,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1199:2": {
+    "id": "1199:2",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "We're trying to help you. All these processes -- these tortures, voices and tremors -- are all just *distractions*. Flares and countermeasures. To keep you from the *last dream*. The worst of them all.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
