@@ -11094,5 +11094,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1043:59": {
+    "id": "1043:59",
+    "actorName": "Inland Empire",
+    "en": "The view from the lookout is beautiful...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1043:132": {
+    "id": "1043:132",
+    "actorName": "Inland Empire",
+    "en": "This is where he came out of himself. Drop by drop when he was unconscious. It took three, maybe four minutes.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
