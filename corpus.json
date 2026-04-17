@@ -13616,5 +13616,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1196:2": {
+    "id": "1196:2",
+    "actorName": "Inland Empire",
+    "en": "There it is again! You are about to re-discover a long-lost species!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
