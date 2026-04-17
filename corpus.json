@@ -9820,5 +9820,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "972:30": {
+    "id": "972:30",
+    "actorName": "Inland Empire",
+    "en": "ASTRAL PROJECTION! Be *open-minded* about this.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "984:46": {
+    "id": "984:46",
+    "actorName": "Inland Empire",
+    "en": "Is it? Can you be sure? What if you are secretly being manipulated by La Puta Madre as you pursue this investigation. What if he wiped your memory on purpose?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
