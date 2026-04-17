@@ -6908,5 +6908,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "647:137": {
+    "id": "647:137",
+    "actorName": "Inland Empire",
+    "en": "Keep at it. There must be a reason you've looked out this window so many times.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
