@@ -4503,5 +4503,44 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "482:115": {
+    "id": "482:115",
+    "actorName": "Inland Empire",
+    "en": "Steer clear of this one. There's something terrible about this one.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "482:147": {
+    "id": "482:147",
+    "actorName": "Inland Empire",
+    "en": "Please. Relax.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "482:150": {
+    "id": "482:150",
+    "actorName": "Inland Empire",
+    "en": "You really navigated some treacherous waters here. Well done.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
