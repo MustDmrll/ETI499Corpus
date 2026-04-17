@@ -876,5 +876,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "17:152": {
+    "id": "17:152",
+    "actorName": "Inland Empire",
+    "en": "You could ask her about your hunch. That it was a *desperate* measure. See if she thinks Ruby fits the bill.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
