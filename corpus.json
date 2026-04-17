@@ -13395,5 +13395,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1195:11": {
+    "id": "1195:11",
+    "actorName": "Limbic System",
+    "en": "*Now* you're finally thinking about something other than yourself. Let's see how far that'll get you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
