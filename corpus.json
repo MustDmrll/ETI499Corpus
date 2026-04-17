@@ -13473,5 +13473,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1195:28": {
+    "id": "1195:28",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Let it! Let it!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1195:29": {
+    "id": "1195:29",
+    "actorName": "Limbic System",
+    "en": "It's your disgusting *body*. Even through your sleep, you feel a vague discomfort suffusing it. Your belly and your sides are unpleasantly tender. You wish you could curl up into a foetal ball of safety, but you cannot -- because of the PAIN.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
