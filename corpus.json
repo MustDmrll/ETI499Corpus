@@ -14461,5 +14461,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1260:60": {
+    "id": "1260:60",
+    "actorName": "Inland Empire",
+    "en": "It's because of all the money. Even the sky gets an aura of glistening lucre.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
