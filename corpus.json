@@ -2397,5 +2397,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "350:29": {
+    "id": "350:29",
+    "actorName": "Inland Empire",
+    "en": "As you do, you hear and the echo of the Doomed Commercial Area. Its black halls and dusty machines. Then the feeling passes.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
