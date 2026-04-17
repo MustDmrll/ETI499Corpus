@@ -10652,5 +10652,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1016:757": {
+    "id": "1016:757",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "From what I can see, it's about to BUST A MOVE.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1016:791": {
+    "id": "1016:791",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "No. NOT GOOD.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1016:809": {
+    "id": "1016:809",
+    "actorName": "Inland Empire",
+    "en": "He looks almost as old as you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
