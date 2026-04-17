@@ -9066,5 +9066,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "851:72": {
+    "id": "851:72",
+    "actorName": "Inland Empire",
+    "en": "The further out, the better.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "851:196": {
+    "id": "851:196",
+    "actorName": "Inland Empire",
+    "en": "What if *you* only appear as a large singular body, are actually a congregation of tiny organisms working in unison?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
