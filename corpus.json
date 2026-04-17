@@ -2449,5 +2449,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "352:83": {
+    "id": "352:83",
+    "actorName": "Inland Empire",
+    "en": "Could there have been a *right* way out of this garden of forking paths, you think?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
