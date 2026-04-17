@@ -11016,5 +11016,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1038:18": {
+    "id": "1038:18",
+    "actorName": "Inland Empire",
+    "en": "Right?! You'll have better luck next time, though. The phasmid -- finding it is your destiny.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
