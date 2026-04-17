@@ -5543,5 +5543,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "558:1378": {
+    "id": "558:1378",
+    "actorName": "Inland Empire",
+    "en": "Strange things may flourish in the dark...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "560:64": {
+    "id": "560:64",
+    "actorName": "Inland Empire",
+    "en": "This is the door, you already know it's the right door. This is going to be *so hard*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
