@@ -12355,5 +12355,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1149:17": {
+    "id": "1149:17",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "You think they would let you -- until you disintegrate into biomolecules? No, someone is breathing on your face now, inspecting your pupils. Stupid idiot.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
