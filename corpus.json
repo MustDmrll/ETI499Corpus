@@ -603,5 +603,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "13:668": {
+    "id": "13:668",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "It was no accident. Those were *disco moves* from your Spinal Cord. The Spinal Cord has yet to reveal itself to you -- its mysteries are unholy mysteries.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
