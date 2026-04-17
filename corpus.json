@@ -9014,5 +9014,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "850:124": {
+    "id": "850:124",
+    "actorName": "Inland Empire",
+    "en": "Father Jairzinho? Sounds like some kind of mystic. Or a magician.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "850:249": {
+    "id": "850:249",
+    "actorName": "Inland Empire",
+    "en": "The room feels soporific in its silence, dust particles twirling around in the air...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
