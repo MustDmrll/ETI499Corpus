@@ -3619,5 +3619,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "429:24": {
+    "id": "429:24",
+    "actorName": "Inland Empire",
+    "en": "Do you know what takes place upon mist-shrouded Semenese islands? Don't listen to Encyclopedia -- they're inhabited by shamans and wildmen practising unnatural mysticism.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
