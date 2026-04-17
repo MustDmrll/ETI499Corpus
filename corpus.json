@@ -12043,5 +12043,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1129:3": {
+    "id": "1129:3",
+    "actorName": "Inland Empire",
+    "en": "Go... to the trash container...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1129:4": {
+    "id": "1129:4",
+    "actorName": "Inland Empire",
+    "en": "You did it. You fucked up now. No money, no way to pay Garte. There's only one option left...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
