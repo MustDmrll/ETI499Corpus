@@ -12199,5 +12199,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1137:42": {
+    "id": "1137:42",
+    "actorName": "Inland Empire",
+    "en": "Your outstretched hand casts a deep shadow on the ground...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1137:46": {
+    "id": "1137:46",
+    "actorName": "Inland Empire",
+    "en": "Flakes of snow fall onto your outstretched hand. A slight tremble passes through it...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
