@@ -5517,5 +5517,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "558:1319": {
+    "id": "558:1319",
+    "actorName": "Inland Empire",
+    "en": "Ghosts, speak to me!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "558:1345": {
+    "id": "558:1345",
+    "actorName": "Inland Empire",
+    "en": "It may work, you think, but why do you feel like there may be a terrible cost?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
