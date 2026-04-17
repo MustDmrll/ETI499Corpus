@@ -5699,5 +5699,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "576:43": {
+    "id": "576:43",
+    "actorName": "Inland Empire",
+    "en": "It certainly feels like whatever you are will die with you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
