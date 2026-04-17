@@ -7480,5 +7480,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "723:83": {
+    "id": "723:83",
+    "actorName": "Inland Empire",
+    "en": "You hear some kind of limb fidget, producing an imperceptible tick...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
