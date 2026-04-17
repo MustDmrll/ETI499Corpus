@@ -8429,5 +8429,70 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "814:1016": {
+    "id": "814:1016",
+    "actorName": "Inland Empire",
+    "en": "It feels like you'll get to know -- soon enough.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "816:30": {
+    "id": "816:30",
+    "actorName": "Inland Empire",
+    "en": "It was just trying to help....",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "816:42": {
+    "id": "816:42",
+    "actorName": "Inland Empire",
+    "en": "Seems you'll never learn the answer to that question.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "817:8": {
+    "id": "817:8",
+    "actorName": "Inland Empire",
+    "en": "Good. Be ready to take damage.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "817:13": {
+    "id": "817:13",
+    "actorName": "Inland Empire",
+    "en": "Stop. Now. It is time.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
