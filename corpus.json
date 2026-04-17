@@ -8052,5 +8052,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "776:215": {
+    "id": "776:215",
+    "actorName": "Inland Empire",
+    "en": "Nothing. Nothing. It's probably nothing, forget I brought it up. Please proceed with the carefree lollygagging.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "776:650": {
+    "id": "776:650",
+    "actorName": "Inland Empire",
+    "en": "Motor carriage, motor carriage... Something bad with a motor carriage.... A dark lump rises in your throat.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
