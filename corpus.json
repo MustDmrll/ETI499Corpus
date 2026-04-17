@@ -3788,5 +3788,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "430:130": {
+    "id": "430:130",
+    "actorName": "Inland Empire",
+    "en": "Beauty has abandoned you in this ugliness, honcho. And then some! You cannot even remember the *name* of beauty; what beauty was...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "433:5": {
+    "id": "433:5",
+    "actorName": "Inland Empire",
+    "en": "But he *is*... you can feel it. Or maybe it's something else then!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
