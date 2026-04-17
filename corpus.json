@@ -10379,5 +10379,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1011:170": {
+    "id": "1011:170",
+    "actorName": "Inland Empire",
+    "en": "A strange feeling... like before, when you caught her lying better than she should have. Every now and then something feels off about the way she speaks. She doesn't exactly change tone, but you feel as though there's more about her than she lets on.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
