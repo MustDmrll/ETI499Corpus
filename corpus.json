@@ -12069,5 +12069,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1137:2": {
+    "id": "1137:2",
+    "actorName": "Inland Empire",
+    "en": "Cold drops of rain fall onto your outstretched hand. A slight tremble passes through it...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
