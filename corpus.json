@@ -6583,5 +6583,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "636:166": {
+    "id": "636:166",
+    "actorName": "Inland Empire",
+    "en": "As if it's self-explanatory, beyond patriotism. A fact.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
