@@ -12498,5 +12498,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1149:73": {
+    "id": "1149:73",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Don't prod at it, it will start moving again.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1149:77": {
+    "id": "1149:77",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Who was what?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
