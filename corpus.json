@@ -7831,5 +7831,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "767:219": {
+    "id": "767:219",
+    "actorName": "Inland Empire",
+    "en": "Then it's you. *You* will make her lungs glow. Your pain is NOT meaningless.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
