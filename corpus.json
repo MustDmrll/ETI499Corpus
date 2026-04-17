@@ -10353,5 +10353,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1011:105": {
+    "id": "1011:105",
+    "actorName": "Inland Empire",
+    "en": "This is the first time you've heard her laugh.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1011:165": {
+    "id": "1011:165",
+    "actorName": "Inland Empire",
+    "en": "You wish you'd been there.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
