@@ -14396,5 +14396,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1222:71": {
+    "id": "1222:71",
+    "actorName": "Inland Empire",
+    "en": "Suddenly you feel like you don't want to hear about video rentals anymore. You don't want to hear about *any of it*. It was all shit. It's over.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
