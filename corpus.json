@@ -8624,5 +8624,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "817:92": {
+    "id": "817:92",
+    "actorName": "Inland Empire",
+    "en": "No, no. You cannot get off that easy. This is serious. Lives are at stake.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
