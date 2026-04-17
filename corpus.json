@@ -291,5 +291,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "8:69": {
+    "id": "8:69",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Never ever.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
