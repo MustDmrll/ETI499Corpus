@@ -694,5 +694,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "14:229": {
+    "id": "14:229",
+    "actorName": "Inland Empire",
+    "en": "Delicate and fragile, they feel alien to the world around you. Out of place somehow.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
