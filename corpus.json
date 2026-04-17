@@ -7870,5 +7870,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "767:486": {
+    "id": "767:486",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Everyone.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "767:649": {
+    "id": "767:649",
+    "actorName": "Limbic System",
+    "en": "Literally all of you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "767:772": {
+    "id": "767:772",
+    "actorName": "Inland Empire",
+    "en": "Hidden, distant, kept safe from you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
