@@ -13772,5 +13772,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1198:9": {
+    "id": "1198:9",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Just another thoughtless vessel ploughing the grey seas of the everyday.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
