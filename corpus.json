@@ -447,5 +447,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "10:411": {
+    "id": "10:411",
+    "actorName": "Inland Empire",
+    "en": "You are a terror even to yourself!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "11:267": {
+    "id": "11:267",
+    "actorName": "Inland Empire",
+    "en": "Those words -- \"tell me something else\" -- feel like something you've said innumerable times before. Your mouth is the very shape of them.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
