@@ -5673,5 +5673,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "576:6": {
+    "id": "576:6",
+    "actorName": "Inland Empire",
+    "en": "Then don't.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
