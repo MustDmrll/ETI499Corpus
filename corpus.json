@@ -9703,5 +9703,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "968:293": {
+    "id": "968:293",
+    "actorName": "Inland Empire",
+    "en": "It was dark in the shack. The waves outside had calmed down. She looked at the loaded gun, then she cracked the barrel open and took the bullet out. Not today.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
