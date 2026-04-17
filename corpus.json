@@ -14253,5 +14253,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1199:42": {
+    "id": "1199:42",
+    "actorName": "Inland Empire",
+    "en": "The last thought in your head before waking is: you need to go to the church...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
