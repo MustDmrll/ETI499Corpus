@@ -2033,5 +2033,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "207:60": {
+    "id": "207:60",
+    "actorName": "Inland Empire",
+    "en": "Are you s-s-sure you want to do that? Remember what happened *last* time...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "207:127": {
+    "id": "207:127",
+    "actorName": "Inland Empire",
+    "en": "There's something off about this woman. Tell her to show you the soles of her boots. Maybe she was at the hanging... somehow?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
