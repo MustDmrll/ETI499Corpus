@@ -11705,5 +11705,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1070:73": {
+    "id": "1070:73",
+    "actorName": "Inland Empire",
+    "en": "His glasses turn golden as the fire reflects off the lenses. Once again, you are filled with the certainty: this man is your brother.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
