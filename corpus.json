@@ -5829,5 +5829,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "602:241": {
+    "id": "602:241",
+    "actorName": "Inland Empire",
+    "en": "Something in you wants to immediately *forget* about this. As if there was a reason you threw them away.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "602:397": {
+    "id": "602:397",
+    "actorName": "Inland Empire",
+    "en": "Interesting... you still have to find a copy though. Before you can blast it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
