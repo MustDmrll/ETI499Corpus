@@ -9846,5 +9846,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "984:99": {
+    "id": "984:99",
+    "actorName": "Inland Empire",
+    "en": "Things played out just as she had feared. Except *you* didn't shoot her.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
