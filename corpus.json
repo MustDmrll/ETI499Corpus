@@ -12173,5 +12173,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1137:38": {
+    "id": "1137:38",
+    "actorName": "Inland Empire",
+    "en": "The shadows play tricks on your mind...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
