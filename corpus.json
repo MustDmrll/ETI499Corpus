@@ -9235,5 +9235,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "868:701": {
+    "id": "868:701",
+    "actorName": "Inland Empire",
+    "en": "Of course. Do it. Who knows what mysteries await?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "868:735": {
+    "id": "868:735",
+    "actorName": "Inland Empire",
+    "en": "Do it. Find her husband. This will *surely* lead to a cryptozoological mystery with that *extremely rare insect*...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
