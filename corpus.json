@@ -2332,5 +2332,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "308:13": {
+    "id": "308:13",
+    "actorName": "Inland Empire",
+    "en": "It's gotta be the phasmid this time. Look -- it moved!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "346:57": {
+    "id": "346:57",
+    "actorName": "Inland Empire",
+    "en": "The name resounds like a bell in the air -- a dark gong. You get a bad feeling about it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
