@@ -11406,5 +11406,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1057:3": {
+    "id": "1057:3",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "This is greatest hits material. Black tape spinning and spinning and spinning... You finally tired yourself. Cornered the flicker of your mind and extinguished it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
