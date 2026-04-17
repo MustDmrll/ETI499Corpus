@@ -11055,5 +11055,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1038:22": {
+    "id": "1038:22",
+    "actorName": "Inland Empire",
+    "en": "You were just following your instincts, your destiny. You're meant to find the phasmid! Just maybe not here...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1043:41": {
+    "id": "1043:41",
+    "actorName": "Inland Empire",
+    "en": "This is an omen, a sign from above -- that you need to stop drinking.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
