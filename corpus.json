@@ -4685,5 +4685,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "520:167": {
+    "id": "520:167",
+    "actorName": "Inland Empire",
+    "en": "Something ominous.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "522:135": {
+    "id": "522:135",
+    "actorName": "Inland Empire",
+    "en": "And your chest swells with pride -- look! It's made right here in Revachol, by Saint-Batiste, a proud Revacholian pharmaceutical company with great *traditions*!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
