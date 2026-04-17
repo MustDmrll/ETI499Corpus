@@ -1123,5 +1123,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "28:1261": {
+    "id": "28:1261",
+    "actorName": "Inland Empire",
+    "en": "You feel bad suddenly. You see the delicate loops of the handwriting, in your mind's eye.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
