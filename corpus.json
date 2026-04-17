@@ -4321,5 +4321,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "462:61": {
+    "id": "462:61",
+    "actorName": "Inland Empire",
+    "en": "Don't rip the red one out -- you'll awaken the ghosts!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
