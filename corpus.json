@@ -5010,5 +5010,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "544:35": {
+    "id": "544:35",
+    "actorName": "Inland Empire",
+    "en": "A massive pit opens up in your stomach and the most terrible feeling comes over you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "544:52": {
+    "id": "544:52",
+    "actorName": "Inland Empire",
+    "en": "Forty-one, Precinct 41. A massive pit opens up in your stomach and the most terrible feeling comes over you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
