@@ -8923,5 +8923,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "839:39": {
+    "id": "839:39",
+    "actorName": "Inland Empire",
+    "en": "This is you. Gold and orange. A sunset suite.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
