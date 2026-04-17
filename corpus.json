@@ -10288,5 +10288,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1000:6": {
+    "id": "1000:6",
+    "actorName": "Inland Empire",
+    "en": "This is exactly what you need!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1000:14": {
+    "id": "1000:14",
+    "actorName": "Inland Empire",
+    "en": "You sense something ominous emanating from the shelf... but it lacks form and substance, and soon enough you lose track of it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
