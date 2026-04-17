@@ -4867,5 +4867,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "537:301": {
+    "id": "537:301",
+    "actorName": "Limbic System",
+    "en": "He's *not* taking it. His body is not taking it. Oh god, no, he's not disintegrating -- he's swelling up instead. Over the hours. Hurting. Moaning in his sleep.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
