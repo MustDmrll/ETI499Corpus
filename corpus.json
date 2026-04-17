@@ -1877,5 +1877,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "119:6": {
+    "id": "119:6",
+    "actorName": "Inland Empire",
+    "en": "All you will find here is pain.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "121:2": {
+    "id": "121:2",
+    "actorName": "Inland Empire",
+    "en": "It's only a red chair. Just a red chair in an empty shack -- with what looked like a dusty bow tie on the shelf. Nothing to see here, right?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "121:14": {
+    "id": "121:14",
+    "actorName": "Inland Empire",
+    "en": "Yes. Agreed. You should never take your neck tie off. Ever.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
