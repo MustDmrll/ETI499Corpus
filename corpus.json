@@ -7935,5 +7935,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "768:8": {
+    "id": "768:8",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Sleep is merciful this time, brother. Not too deep. Lit by the continuous sound of the sea outside.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
