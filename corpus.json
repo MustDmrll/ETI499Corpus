@@ -9885,5 +9885,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "984:137": {
+    "id": "984:137",
+    "actorName": "Inland Empire",
+    "en": "That's a good, pragmatic approach.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "984:152": {
+    "id": "984:152",
+    "actorName": "Inland Empire",
+    "en": "Maybe it's the old you? Or maybe she was just paranoid...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
