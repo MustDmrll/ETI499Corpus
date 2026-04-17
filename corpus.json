@@ -14344,5 +14344,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1212:287": {
+    "id": "1212:287",
+    "actorName": "Inland Empire",
+    "en": "Hard to see, but easy to feel. Somehow this *will* change things.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
