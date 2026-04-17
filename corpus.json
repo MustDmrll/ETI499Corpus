@@ -4542,5 +4542,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "482:192": {
+    "id": "482:192",
+    "actorName": "Inland Empire",
+    "en": "You would have done better if you'd just left Dolores Dei for the end. Dial the Dolores Dei down *a bit*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
