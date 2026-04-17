@@ -3138,5 +3138,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "379:868": {
+    "id": "379:868",
+    "actorName": "Inland Empire",
+    "en": "You're *Tequila Sunset*. You have always been Tequila Sunset. It has always been too late.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
