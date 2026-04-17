@@ -1825,5 +1825,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "71:812": {
+    "id": "71:812",
+    "actorName": "Inland Empire",
+    "en": "As you say the words you find yourself peering from the corner of your eye... to where? To the West!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
