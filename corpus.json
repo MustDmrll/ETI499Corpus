@@ -13980,5 +13980,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1198:54": {
+    "id": "1198:54",
+    "actorName": "Limbic System",
+    "en": "Reading your awful letters and *recalling* things, aren't you? The endless names of the world... An address book, you are. The map of a city.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
