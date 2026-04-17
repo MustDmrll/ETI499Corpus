@@ -4672,5 +4672,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "520:68": {
+    "id": "520:68",
+    "actorName": "Inland Empire",
+    "en": "He's right. You could smell it, that something missing, even under the overpowering odour of the corpse.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
