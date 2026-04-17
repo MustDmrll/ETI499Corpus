@@ -14032,5 +14032,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1198:71": {
+    "id": "1198:71",
+    "actorName": "Limbic System",
+    "en": "Did you hear that? He's renouncing politics. He's *strictly business* now.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
