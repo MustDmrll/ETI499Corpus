@@ -11250,5 +11250,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1049:65": {
+    "id": "1049:65",
+    "actorName": "Inland Empire",
+    "en": "Snow is quietly covering the numerous wine bottles and cigarette butts on the ground. Someone *partied* really, really hard here.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
