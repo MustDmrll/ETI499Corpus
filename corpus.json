@@ -6843,5 +6843,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "642:273": {
+    "id": "642:273",
+    "actorName": "Inland Empire",
+    "en": "He is secretly admiring your sea of muscles. Everyone is.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
