@@ -8390,5 +8390,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "814:515": {
+    "id": "814:515",
+    "actorName": "Inland Empire",
+    "en": "Weird... how? You're wearing the pinball maker's coat.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "814:734": {
+    "id": "814:734",
+    "actorName": "Inland Empire",
+    "en": "And a hole in his heart. That first.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
