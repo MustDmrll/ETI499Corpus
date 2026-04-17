@@ -3853,5 +3853,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "433:138": {
+    "id": "433:138",
+    "actorName": "Inland Empire",
+    "en": "Maybe you should... What if the cockatoo is your *astral captain*? Or your *heraldic bird*?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
