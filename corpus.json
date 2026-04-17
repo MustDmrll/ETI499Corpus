@@ -12732,5 +12732,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1154:15": {
+    "id": "1154:15",
+    "actorName": "Inland Empire",
+    "en": "Ignore the lieutenant. He's never connected with anything para-natural. You're on different planes, metaphysically speaking.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
