@@ -7376,5 +7376,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "704:311": {
+    "id": "704:311",
+    "actorName": "Inland Empire",
+    "en": "A bloodstained killer.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "704:424": {
+    "id": "704:424",
+    "actorName": "Inland Empire",
+    "en": "Plus one. Ruby.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
