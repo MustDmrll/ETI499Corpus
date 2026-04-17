@@ -11393,5 +11393,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1054:51": {
+    "id": "1054:51",
+    "actorName": "Limbic System",
+    "en": "So-something is *wrong*. Sleep shouldn't be this bad. This dry. This un-nourishing. There's something wrong with your thoughts. Some kind of... new type of hangover...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
