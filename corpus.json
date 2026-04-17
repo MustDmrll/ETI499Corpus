@@ -5608,5 +5608,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "572:27": {
+    "id": "572:27",
+    "actorName": "Inland Empire",
+    "en": "Connections to other worlds. Worlds past the Insulindian, unknown to you. You only know you've never been there.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
