@@ -2644,5 +2644,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "362:1131": {
+    "id": "362:1131",
+    "actorName": "Inland Empire",
+    "en": "This must be the *theory combat* the boiadeiro warned you about! En garde!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
