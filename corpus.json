@@ -1058,5 +1058,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "28:604": {
+    "id": "28:604",
+    "actorName": "Inland Empire",
+    "en": "He should still know. You have to be *forewarned* about these things.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
