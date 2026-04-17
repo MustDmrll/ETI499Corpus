@@ -14591,5 +14591,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1432:6": {
+    "id": "1432:6",
+    "actorName": "Inland Empire",
+    "en": "This isn't gonna work without the lieutenant here. What if you *do* find a way in and it's a *trap*? Kitsuragi needs to be here, covering you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1432:65": {
+    "id": "1432:65",
+    "actorName": "Inland Empire",
+    "en": "This isn't gonna work without the lieutenant here. What if you *do* find a way in and it's a *trap*? Kitsuragi needs to be here, covering you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
