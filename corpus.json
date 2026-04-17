@@ -8117,5 +8117,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "780:308": {
+    "id": "780:308",
+    "actorName": "Inland Empire",
+    "en": "Okay, it's gone. Your gun is most definitely gone.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
