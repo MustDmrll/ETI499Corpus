@@ -7116,5 +7116,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "675:715": {
+    "id": "675:715",
+    "actorName": "Inland Empire",
+    "en": "She meant she sees him in her dreams.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "676:291": {
+    "id": "676:291",
+    "actorName": "Inland Empire",
+    "en": "The last missing pieces of a puzzle of flesh.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
