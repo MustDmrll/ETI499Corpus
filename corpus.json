@@ -7350,5 +7350,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "692:53": {
+    "id": "692:53",
+    "actorName": "Inland Empire",
+    "en": "Remember this silence. The lady is dangerous. People suffer around her.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
