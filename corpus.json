@@ -11185,5 +11185,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1049:35": {
+    "id": "1049:35",
+    "actorName": "Inland Empire",
+    "en": "All those empty wine bottles and cigarette butts on the ground... Someone *partied* really, really hard here.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
