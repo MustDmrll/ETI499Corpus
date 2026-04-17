@@ -14838,5 +14838,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1470:110": {
+    "id": "1470:110",
+    "actorName": "Inland Empire",
+    "en": "SOMETHING MYSTERIOUS",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1499:15": {
+    "id": "1499:15",
+    "actorName": "Inland Empire",
+    "en": "Anything to not face the hanged disco man yet...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
