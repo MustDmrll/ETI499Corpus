@@ -9170,5 +9170,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "868:382": {
+    "id": "868:382",
+    "actorName": "Inland Empire",
+    "en": "You've come so far. You can't leave those locusts there, waiting on the ghost reed with no one to witness when it appears...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
