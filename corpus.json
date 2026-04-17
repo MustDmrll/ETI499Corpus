@@ -13304,5 +13304,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1189:381": {
+    "id": "1189:381",
+    "actorName": "Inland Empire",
+    "en": "It's *definitely* your style to solve *side-shit*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1189:400": {
+    "id": "1189:400",
+    "actorName": "Inland Empire",
+    "en": "Win *who* back, you don't even know her name!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
