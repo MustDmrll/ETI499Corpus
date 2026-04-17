@@ -772,5 +772,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "14:1371": {
+    "id": "14:1371",
+    "actorName": "Inland Empire",
+    "en": "You feel as though it would be *dangerous* to set this creature free to roam about the cosmos.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
