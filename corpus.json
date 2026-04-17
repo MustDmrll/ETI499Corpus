@@ -4919,5 +4919,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "537:460": {
+    "id": "537:460",
+    "actorName": "Limbic System",
+    "en": "And rotting. And being disinfected. And smelling of drugs and feeling saliva in his mouth. Drifting in painkillers. Thrashing in his wound sleep.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
