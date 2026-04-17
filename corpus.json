@@ -1409,5 +1409,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "33:40": {
+    "id": "33:40",
+    "actorName": "Inland Empire",
+    "en": "By other people.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
