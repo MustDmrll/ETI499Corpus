@@ -83,5 +83,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "8:15": {
+    "id": "8:15",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Like a fly to the ointment, your conscience sticks to it. The limbed and headed machine of pain and undignified suffering is firing up again. It wants to walk the desert. Hurting. Longing. Dancing to disco music.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
