@@ -382,5 +382,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "8:82": {
+    "id": "8:82",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Great choice, elder one. It has always been like this -- and it always will.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
