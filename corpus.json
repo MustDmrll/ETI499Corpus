@@ -12823,5 +12823,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1154:46": {
+    "id": "1154:46",
+    "actorName": "Inland Empire",
+    "en": "It takes time to block out the sounds of the world. But once you do, it's like you're on a wavelength. Not like any *natural* wavelength. No. There seems to be *something* on the other end, if only you could listen closely enough...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
