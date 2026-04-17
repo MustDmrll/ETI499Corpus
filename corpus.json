@@ -12576,5 +12576,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1149:103": {
+    "id": "1149:103",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "There is no Voyager Road. There are no roads. No houses. No lights in the windows. It's all on *pause*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
