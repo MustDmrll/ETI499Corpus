@@ -2813,5 +2813,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "368:291": {
+    "id": "368:291",
+    "actorName": "Inland Empire",
+    "en": "I-i-is there anybody th-th-there?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "368:450": {
+    "id": "368:450",
+    "actorName": "Inland Empire",
+    "en": "It's strangely comforting to think of these voices travelling through the air, until you capture them, firefly-like, with your little metal antenna...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
