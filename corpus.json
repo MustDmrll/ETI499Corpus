@@ -6258,5 +6258,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "631:87": {
+    "id": "631:87",
+    "actorName": "Inland Empire",
+    "en": "Oh, but you are: too ashamed to ask this person for *money*, too scared to belittle yourself in her eyes -- those half-precious stones of Eau-de-Nil.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
