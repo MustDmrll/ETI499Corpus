@@ -1266,5 +1266,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "33:5": {
+    "id": "33:5",
+    "actorName": "Inland Empire",
+    "en": "Who is mistakenly identified as a cop for his prominent jaw line? Yes, sounds likely. You should probably go on stage and pose for a moment when you're done with this thought. See if it works.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
