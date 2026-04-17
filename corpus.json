@@ -9690,5 +9690,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "968:256": {
+    "id": "968:256",
+    "actorName": "Inland Empire",
+    "en": "There was a longing in her for some sort of denouement, but it's unlikely that it was this... turning prematurely grey while being escorted from interrogation room to interrogation room...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
