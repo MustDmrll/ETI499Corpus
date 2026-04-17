@@ -11965,5 +11965,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1116:16": {
+    "id": "1116:16",
+    "actorName": "Inland Empire",
+    "en": "Crying is good, it gives your performance authenticity. Besides, you already know the lyrics since you've listened to it, like, a million times!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
