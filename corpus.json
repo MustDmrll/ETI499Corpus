@@ -11211,5 +11211,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1049:43": {
+    "id": "1049:43",
+    "actorName": "Inland Empire",
+    "en": "Well, they went through six bottles of *Potent Pilsner*, three bottles of *Commodore Red*, and almost four packs of cigarettes -- it must have been pretty hard.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1049:48": {
+    "id": "1049:48",
+    "actorName": "Inland Empire",
+    "en": "Move away from this scene and you don't have to think about it anymore. Just walk away and it's *gone*!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
