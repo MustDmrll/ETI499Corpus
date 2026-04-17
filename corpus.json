@@ -2293,5 +2293,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "302:44": {
+    "id": "302:44",
+    "actorName": "Inland Empire",
+    "en": "You'll get them next time. But let's be honest, they weren't even in the suspects list.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "302:45": {
+    "id": "302:45",
+    "actorName": "Inland Empire",
+    "en": "You would have wasted *so* much time talking to these two pensioners. Precious case-time.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
