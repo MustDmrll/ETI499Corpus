@@ -13876,5 +13876,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1198:40": {
+    "id": "1198:40",
+    "actorName": "Limbic System",
+    "en": "Recorded in you. Forever. On ferrotape.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
