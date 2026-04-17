@@ -7233,5 +7233,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "692:6": {
+    "id": "692:6",
+    "actorName": "Inland Empire",
+    "en": "You do not know. A wind of needles. Airships flutter in the stratosphere.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
