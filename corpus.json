@@ -5296,5 +5296,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "556:186": {
+    "id": "556:186",
+    "actorName": "Inland Empire",
+    "en": "You get a sinking feeling. It makes you look if Lieutenant Kitsuragi overheard you. To your relief, he did not.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
