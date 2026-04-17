@@ -13525,5 +13525,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1195:40": {
+    "id": "1195:40",
+    "actorName": "Limbic System",
+    "en": "Yes, your body is a system, and and it's failing you because you're failing it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
