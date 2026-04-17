@@ -11770,5 +11770,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1093:121": {
+    "id": "1093:121",
+    "actorName": "Inland Empire",
+    "en": "Yes. This troubadour has it. You can *feel* it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1095:36": {
+    "id": "1095:36",
+    "actorName": "Inland Empire",
+    "en": "We are *way* beyond normal already. We are in the STAR CHAMBER.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
