@@ -5504,5 +5504,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "558:1186": {
+    "id": "558:1186",
+    "actorName": "Inland Empire",
+    "en": "You have an explanation for all this. Somewhere deep in you -- you *know*. The person you *were* knows.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
