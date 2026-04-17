@@ -8035,7 +8035,9 @@
     "trMachine": "",
     "proposed": "",
     "notes": "",
-    "votes": {},
+    "votes": {
+      "basak": "skip"
+    },
     "status": "pending"
   }
 }
