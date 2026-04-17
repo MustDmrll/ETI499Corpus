@@ -707,5 +707,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "14:319": {
+    "id": "14:319",
+    "actorName": "Inland Empire",
+    "en": "The corpse is dead silent. You have no idea why you just said that.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
