@@ -7610,5 +7610,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "757:2": {
+    "id": "757:2",
+    "actorName": "Inland Empire",
+    "en": "A strange feeling... looking at the water. Maybe you should just wander off into the sea? Leave it all and walk in...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
