@@ -9794,5 +9794,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "971:178": {
+    "id": "971:178",
+    "actorName": "Inland Empire",
+    "en": "As if said by someone else. Someone outside you. Around you. Not you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
