@@ -3294,5 +3294,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "381:590": {
+    "id": "381:590",
+    "actorName": "Inland Empire",
+    "en": "Nature was not capable of more.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "382:115": {
+    "id": "382:115",
+    "actorName": "Inland Empire",
+    "en": "You don't really know what it's for, but you get the feeling notes like these are *super* important -- you should keep it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
