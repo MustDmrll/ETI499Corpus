@@ -7441,5 +7441,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "718:77": {
+    "id": "718:77",
+    "actorName": "Inland Empire",
+    "en": "What if the words are not directed at the people of Martinaise, or even the Coalition aerostatics above the city -- they're meant for something above even those...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
