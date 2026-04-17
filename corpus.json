@@ -10808,5 +10808,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1029:8": {
+    "id": "1029:8",
+    "actorName": "Inland Empire",
+    "en": "It's like you see your own face reflected back at you in the vanishing geometry -- a strange, alien image that's supposed to be you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
