@@ -9534,5 +9534,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "948:162": {
+    "id": "948:162",
+    "actorName": "Inland Empire",
+    "en": "Man, it's lonely doing this alone. The wind seems to howl in a strange manner...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
