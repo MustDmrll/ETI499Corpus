@@ -1227,5 +1227,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "29:570": {
+    "id": "29:570",
+    "actorName": "Inland Empire",
+    "en": "\"It\" is murder, of course. Murder. It can't be anything else. And *you* did it. And then, horrified by your own actions, you drowned out the memory...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
