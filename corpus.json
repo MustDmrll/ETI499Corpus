@@ -14240,5 +14240,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1199:40": {
+    "id": "1199:40",
+    "actorName": "Limbic System",
+    "en": "Hear that? Ice-man wants to sleep, he doesn't care about killing people. That's *nothing* to him. Black water under the bridge. The thing he's *really* scared of...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
