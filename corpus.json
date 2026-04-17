@@ -10444,5 +10444,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1015:254": {
+    "id": "1015:254",
+    "actorName": "Inland Empire",
+    "en": "The implications of this are... too numerous to consider. Proceed with caution. Learn all you can before entering that dark building.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
