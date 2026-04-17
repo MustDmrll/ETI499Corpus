@@ -9937,5 +9937,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "988:24": {
+    "id": "988:24",
+    "actorName": "Inland Empire",
+    "en": "Only *curiosity* could account for stepping over that threshold. Maybe there's treasure in there? A white alligator? A fountain of quicksilver?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
