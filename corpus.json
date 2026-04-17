@@ -1760,5 +1760,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "71:638": {
+    "id": "71:638",
+    "actorName": "Inland Empire",
+    "en": "A trash container. Yellow and capsule-like, lying in the corner of the yard.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
