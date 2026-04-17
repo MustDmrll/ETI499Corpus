@@ -8728,5 +8728,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "817:145": {
+    "id": "817:145",
+    "actorName": "Inland Empire",
+    "en": "Be prepared. Make sure you have your pepperbox in your hand.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
