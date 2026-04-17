@@ -11679,5 +11679,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1069:61": {
+    "id": "1069:61",
+    "actorName": "Inland Empire",
+    "en": "You see a flash of teeth -- a young woman smiling at you, near some railway overpass in your ruined past. She is gorgeous. And she is *yours*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
