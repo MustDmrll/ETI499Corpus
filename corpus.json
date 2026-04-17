@@ -1292,5 +1292,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "33:10": {
+    "id": "33:10",
+    "actorName": "Inland Empire",
+    "en": "You have not yet stumbled on the right *lamentation*. But it's out there. It'll come to you. You'll wreak havoc with it, don't worry.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
