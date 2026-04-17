@@ -720,5 +720,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "14:408": {
+    "id": "14:408",
+    "actorName": "Inland Empire",
+    "en": "The lips of the corpse are swollen, preposterously. They are also silent. You have no idea why you just said that.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
