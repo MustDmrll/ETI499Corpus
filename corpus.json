@@ -8078,5 +8078,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "780:81": {
+    "id": "780:81",
+    "actorName": "Inland Empire",
+    "en": "You probably don't *want* to continue on this road.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "780:226": {
+    "id": "780:226",
+    "actorName": "Inland Empire",
+    "en": "Oh, *requests a description*, huh? We'll *give* him one. Describe the Blaasma Gun.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
