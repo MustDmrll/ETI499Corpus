@@ -9365,5 +9365,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "943:11": {
+    "id": "943:11",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "No reply. There is silence now in the deep where the voice came from. It has receded into you, to return only in dreams and nightmares.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
