@@ -6466,5 +6466,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "635:86": {
+    "id": "635:86",
+    "actorName": "Inland Empire",
+    "en": "After life, death. After death, life again. After the isola, the pale. After the pale, isola again.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
