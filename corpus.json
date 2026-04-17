@@ -3697,5 +3697,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "429:107": {
+    "id": "429:107",
+    "actorName": "Inland Empire",
+    "en": "Be wary of those mysterious ornaments from the *dark isles*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "430:5": {
+    "id": "430:5",
+    "actorName": "Inland Empire",
+    "en": "You swallow, like you swallowed the last time. Whatever bitter emotion was swimming to the surface then -- and now -- subsides. Submerges. Sinks back into you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
