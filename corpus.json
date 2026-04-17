@@ -13928,5 +13928,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1198:49": {
+    "id": "1198:49",
+    "actorName": "Limbic System",
+    "en": "Beautiful? It's *stuck* on loop... whirling, spitting out words and images.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
