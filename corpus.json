@@ -11354,5 +11354,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1054:41": {
+    "id": "1054:41",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "You're trying to what? I can't hear you, this is just a word-dream now. Jumbled up garbage. The pictures are gone, the bed rises to meet you. A thin sleep-like state. More glass than velvet, *grinding* in your head.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
