@@ -14058,5 +14058,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1199:6": {
+    "id": "1199:6",
+    "actorName": "Limbic System",
+    "en": "The last dream will be total annihilation. Cinders peeling off the fuselage. We won't be there to help you anymore, Harry. We will be dormant. You will be naked and alone.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
