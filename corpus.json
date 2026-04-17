@@ -14526,5 +14526,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1303:46": {
+    "id": "1303:46",
+    "actorName": "Inland Empire",
+    "en": "... is what you're thinking. But you don't want to disco like this. Not really. Not in the deepest part of your soul, where the freckles only make you sad.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1303:66": {
+    "id": "1303:66",
+    "actorName": "Inland Empire",
+    "en": "The furnace has long been cold, despite itself. You're too sad to jerk off. This is not the first time this has happened, either.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
