@@ -4152,5 +4152,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "460:276": {
+    "id": "460:276",
+    "actorName": "Inland Empire",
+    "en": "Plaisance needs to hear about this. Perhaps if you combine your *psychic energies* you'll make sense of the situation.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
