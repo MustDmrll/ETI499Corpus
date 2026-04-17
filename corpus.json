@@ -1643,5 +1643,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "45:67": {
+    "id": "45:67",
+    "actorName": "Inland Empire",
+    "en": "Somehow that makes you feel... scared. You don't know why.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
