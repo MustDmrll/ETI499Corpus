@@ -13031,5 +13031,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1180:12": {
+    "id": "1180:12",
+    "actorName": "Inland Empire",
+    "en": "You lost it...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1180:128": {
+    "id": "1180:128",
+    "actorName": "Inland Empire",
+    "en": "See you tomorrow, Harry. Her voice rings in the evening air, burning...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
