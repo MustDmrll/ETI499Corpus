@@ -4282,5 +4282,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "461:85": {
+    "id": "461:85",
+    "actorName": "Inland Empire",
+    "en": "Yes, how grown-up. The furnace agrees.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "461:93": {
+    "id": "461:93",
+    "actorName": "Inland Empire",
+    "en": "You've awakened the entity!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
