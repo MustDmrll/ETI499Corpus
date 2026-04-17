@@ -11549,5 +11549,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1057:34": {
+    "id": "1057:34",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "You're welcome, Harry-boy. You earned it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1064:103": {
+    "id": "1064:103",
+    "actorName": "Inland Empire",
+    "en": "Finally, something to calm the angry spirits that have been plaguing you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
