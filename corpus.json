@@ -2280,5 +2280,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "302:32": {
+    "id": "302:32",
+    "actorName": "Inland Empire",
+    "en": "It's very unlikely. Everyone scattered once the tribunal started. They're probably fine.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
