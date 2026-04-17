@@ -3957,5 +3957,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "433:462": {
+    "id": "433:462",
+    "actorName": "Inland Empire",
+    "en": "Maybe you should check that cockatoo book again... What if the cockatoo is your *heraldic bird*?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
