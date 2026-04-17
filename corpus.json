@@ -12316,5 +12316,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1149:2": {
+    "id": "1149:2",
+    "actorName": "Limbic System",
+    "en": "*Beeaautiful*... Believe me, stupid ape, its lack of beauty was *not* the problem.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1149:9": {
+    "id": "1149:9",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "There is nothing.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1149:10": {
+    "id": "1149:10",
+    "actorName": "Limbic System",
+    "en": "Because it's always there.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
