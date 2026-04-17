@@ -4880,5 +4880,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "537:313": {
+    "id": "537:313",
+    "actorName": "Inland Empire",
+    "en": "He's not gonna make it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "537:334": {
+    "id": "537:334",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "This is death. One more door, baby. One more door.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
