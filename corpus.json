@@ -1669,5 +1669,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "68:35": {
+    "id": "68:35",
+    "actorName": "Inland Empire",
+    "en": "For good or ill, the deed is done.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
