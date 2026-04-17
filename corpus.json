@@ -1019,5 +1019,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "18:587": {
+    "id": "18:587",
+    "actorName": "Inland Empire",
+    "en": "But whose?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "19:259": {
+    "id": "19:259",
+    "actorName": "Inland Empire",
+    "en": "For some reason, the words don't come out. Instead you instinctively touch your collar to check your necktie.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "28:373": {
+    "id": "28:373",
+    "actorName": "Inland Empire",
+    "en": "A new dimension of reality will open. A portal is this bed of waste. Sleep there and awaken *elsewhere.*",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
