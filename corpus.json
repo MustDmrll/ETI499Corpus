@@ -6960,5 +6960,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "652:282": {
+    "id": "652:282",
+    "actorName": "Inland Empire",
+    "en": "You get the feeling this room would tell you something crucial if you only knew how to listen...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
