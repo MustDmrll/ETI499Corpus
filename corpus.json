@@ -1656,5 +1656,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "45:71": {
+    "id": "45:71",
+    "actorName": "Inland Empire",
+    "en": "An ominous warning of bad things ahead.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
