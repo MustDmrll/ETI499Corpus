@@ -5894,5 +5894,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "605:65": {
+    "id": "605:65",
+    "actorName": "Inland Empire",
+    "en": "Fuck love! This is your *GUN*, this is serious.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
