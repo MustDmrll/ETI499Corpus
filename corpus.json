@@ -4633,5 +4633,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "516:25": {
+    "id": "516:25",
+    "actorName": "Inland Empire",
+    "en": "Yeah. *Sad* rock and roll. Tune it to Sad FM.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "516:41": {
+    "id": "516:41",
+    "actorName": "Inland Empire",
+    "en": "Very cool. Now tune it to Sad FM. You know you want to.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
