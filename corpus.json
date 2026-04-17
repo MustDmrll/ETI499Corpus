@@ -8520,5 +8520,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "817:27": {
+    "id": "817:27",
+    "actorName": "Inland Empire",
+    "en": "Stop. Just up ahead: danger.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "817:36": {
+    "id": "817:36",
+    "actorName": "Inland Empire",
+    "en": "Crisis, death. You can feel it in your blue soul.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
