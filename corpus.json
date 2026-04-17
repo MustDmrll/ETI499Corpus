@@ -3424,5 +3424,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "428:26": {
+    "id": "428:26",
+    "actorName": "Inland Empire",
+    "en": "Perhaps you truly *are* the one to deliver this woman from the doom...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
