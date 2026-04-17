@@ -6128,5 +6128,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "625:691": {
+    "id": "625:691",
+    "actorName": "Inland Empire",
+    "en": "Don't worry. One day.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "625:839": {
+    "id": "625:839",
+    "actorName": "Inland Empire",
+    "en": "The blue heart. Don't look into it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
