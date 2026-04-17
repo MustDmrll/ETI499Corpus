@@ -4841,5 +4841,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "537:245": {
+    "id": "537:245",
+    "actorName": "Limbic System",
+    "en": "It's *STILL* not over, he's hurting now. Deep inside, the minuscule matter which you are composed of persists. The ride never ends. It just gets harder.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
