@@ -8663,5 +8663,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "817:107": {
+    "id": "817:107",
+    "actorName": "Inland Empire",
+    "en": "Shush. He's not drinking the spirit bomb. He's putting it in his hand and he's going to be ready.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
