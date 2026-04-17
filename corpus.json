@@ -13161,5 +13161,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1182:99": {
+    "id": "1182:99",
+    "actorName": "Inland Empire",
+    "en": "Something is happening. Stop.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1182:107": {
+    "id": "1182:107",
+    "actorName": "Inland Empire",
+    "en": "... is what you want to say. You can barely get to 'you're under...' when you suddenly get weary...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
