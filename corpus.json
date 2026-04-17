@@ -9547,5 +9547,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "949:2": {
+    "id": "949:2",
+    "actorName": "Inland Empire",
+    "en": "Perhaps you should break into apartments more often?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
