@@ -9274,5 +9274,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "868:826": {
+    "id": "868:826",
+    "actorName": "Inland Empire",
+    "en": "A dream?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "873:63": {
+    "id": "873:63",
+    "actorName": "Inland Empire",
+    "en": "This must be where the *Entity* lives...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
