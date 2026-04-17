@@ -11939,5 +11939,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1114:31": {
+    "id": "1114:31",
+    "actorName": "Inland Empire",
+    "en": "You got it, pal. I would *never* make such a thing up.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
