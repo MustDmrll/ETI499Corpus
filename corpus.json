@@ -3528,5 +3528,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "428:545": {
+    "id": "428:545",
+    "actorName": "Inland Empire",
+    "en": "A golden pendant hangs around the woman's neck, in the shape of what looks like a tiny fish head trapped in amber.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
