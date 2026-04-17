@@ -9339,5 +9339,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "910:7": {
+    "id": "910:7",
+    "actorName": "Inland Empire",
+    "en": "But this reeks of sadness!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "930:37": {
+    "id": "930:37",
+    "actorName": "Inland Empire",
+    "en": "An eerie feeling rises in your chest...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
