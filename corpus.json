@@ -2358,5 +2358,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "347:34": {
+    "id": "347:34",
+    "actorName": "Inland Empire",
+    "en": "Then why does all of this feel like some sad, strange dream?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "347:77": {
+    "id": "347:77",
+    "actorName": "Inland Empire",
+    "en": "Yeah, you're certainly the type who might find fame *posthumously*. Who knows, you might even get famous for the *manner* of your death!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
