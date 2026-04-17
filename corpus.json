@@ -395,5 +395,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "9:32": {
+    "id": "9:32",
+    "actorName": "Inland Empire",
+    "en": "An ominous, foreboding feeling fills you, as you look at the tie.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
