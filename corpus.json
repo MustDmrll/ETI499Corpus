@@ -3268,5 +3268,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "380:1002": {
+    "id": "380:1002",
+    "actorName": "Inland Empire",
+    "en": "It's not easy to reach a harmonic resonance of sines without some adjustment.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "381:85": {
+    "id": "381:85",
+    "actorName": "Inland Empire",
+    "en": "He can't hurt you. What more can he do that you haven't gone through already?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
