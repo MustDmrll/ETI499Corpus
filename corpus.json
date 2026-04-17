@@ -5764,5 +5764,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "587:37": {
+    "id": "587:37",
+    "actorName": "Inland Empire",
+    "en": "He will never play pétanque again.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
