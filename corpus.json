@@ -4360,5 +4360,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "478:41": {
+    "id": "478:41",
+    "actorName": "Inland Empire",
+    "en": "Why does it feel so familiar?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "478:62": {
+    "id": "478:62",
+    "actorName": "Inland Empire",
+    "en": "No, it's not that... It's the stale smell of rubber, the squeaky sound of sneakers, your bruised knee against the mat. And a whistle... then the feeling is gone.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
