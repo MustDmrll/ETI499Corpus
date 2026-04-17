@@ -11653,5 +11653,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1066:9": {
+    "id": "1066:9",
+    "actorName": "Inland Empire",
+    "en": "They *would* do that in Graad.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1067:406": {
+    "id": "1067:406",
+    "actorName": "Inland Empire",
+    "en": "What treasures wait in store for you?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
