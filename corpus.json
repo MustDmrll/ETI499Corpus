@@ -6973,5 +6973,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "652:409": {
+    "id": "652:409",
+    "actorName": "Inland Empire",
+    "en": "Yes, that one. Cold wind is seeping in right now -- just one floor below you, messing up your concentration here.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
