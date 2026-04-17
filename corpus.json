@@ -10860,5 +10860,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1030:417": {
+    "id": "1030:417",
+    "actorName": "Inland Empire",
+    "en": "...is what you almost say, but the words choke in your throat. Do you really want to miss out on all this good stuff? Perhaps it's *significant*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
