@@ -10197,5 +10197,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "998:135": {
+    "id": "998:135",
+    "actorName": "Inland Empire",
+    "en": "As if under a microscope.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "998:182": {
+    "id": "998:182",
+    "actorName": "Inland Empire",
+    "en": "In the darkness, you sense her eyes on you, inspecting you with their multicoloured glass. As if you're a bug under a microscope.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
