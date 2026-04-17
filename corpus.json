@@ -1604,5 +1604,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "39:149": {
+    "id": "39:149",
+    "actorName": "Inland Empire",
+    "en": "Will you ever go there?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "39:212": {
+    "id": "39:212",
+    "actorName": "Inland Empire",
+    "en": "It's home.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
