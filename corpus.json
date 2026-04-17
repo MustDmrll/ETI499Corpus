@@ -10873,5 +10873,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1030:667": {
+    "id": "1030:667",
+    "actorName": "Inland Empire",
+    "en": "No-no. You need the *wisdom*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
