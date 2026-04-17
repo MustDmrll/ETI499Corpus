@@ -6700,5 +6700,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "636:887": {
+    "id": "636:887",
+    "actorName": "Inland Empire",
+    "en": "As your gaze instinctively turns north, a small black pit opens up in your stomach.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
