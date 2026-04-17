@@ -13603,5 +13603,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1195:59": {
+    "id": "1195:59",
+    "actorName": "Limbic System",
+    "en": "What do you think you're doing right now? Coming to some greater awareness? Look at all these lights! Blinking in and out of existence -- *thoughts*! You're just *pretending* that you're asleep, even to yourself. While the world goes on without you...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
