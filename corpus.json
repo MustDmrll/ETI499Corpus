@@ -12082,5 +12082,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1137:3": {
+    "id": "1137:3",
+    "actorName": "Inland Empire",
+    "en": "Large flakes of snow fall onto your outstretched hand. A slight tremble passes through it...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1137:12": {
+    "id": "1137:12",
+    "actorName": "Inland Empire",
+    "en": "...and is swept away, out of existence.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
