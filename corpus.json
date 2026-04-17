@@ -2852,5 +2852,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "368:697": {
+    "id": "368:697",
+    "actorName": "Inland Empire",
+    "en": "But... didn't the Wild Pines representative say that Revachol would *resolve* history?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
