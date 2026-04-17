@@ -3099,5 +3099,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "379:432": {
+    "id": "379:432",
+    "actorName": "Inland Empire",
+    "en": "It feels like there's an entire history behind the word... but it doesn't really matter. You got it. You know what it *means*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
