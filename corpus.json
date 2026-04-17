@@ -12108,5 +12108,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1137:18": {
+    "id": "1137:18",
+    "actorName": "Inland Empire",
+    "en": "Your outstretched hand basks in the warm spring sun.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1137:22": {
+    "id": "1137:22",
+    "actorName": "Inland Empire",
+    "en": "At the back of your head you feel the rapid beat of anodic music... then it fades away.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
