@@ -7620,7 +7620,20 @@
     "proposed": "",
     "notes": "",
     "votes": {
-      "basak": "skip"
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "757:7": {
+    "id": "757:7",
+    "actorName": "Inland Empire",
+    "en": "Islets and posts like stepping stones lead into the water in front of you. Go. Step in... it's been too long.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
     },
     "status": "pending"
   }
