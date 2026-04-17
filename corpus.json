@@ -14071,5 +14071,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1199:7": {
+    "id": "1199:7",
+    "actorName": "Limbic System",
+    "en": "Your eyelids flutter open for a moment. When you close them again, you sense the light of the room around you -- you're back. In two seconds the alarm will ring.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
