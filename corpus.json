@@ -785,5 +785,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "14:1491": {
+    "id": "14:1491",
+    "actorName": "Inland Empire",
+    "en": "His corpse is marked by stars.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "16:193": {
+    "id": "16:193",
+    "actorName": "Inland Empire",
+    "en": "Somewhere below, military-grade Sad is dripping off the walls... you should say the first thing. It's honest. It will lead to introspection.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
