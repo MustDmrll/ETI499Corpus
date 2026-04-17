@@ -5192,5 +5192,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "552:246": {
+    "id": "552:246",
+    "actorName": "Inland Empire",
+    "en": "Soon. The time will come soon. Have patience, brave one.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "553:149": {
+    "id": "553:149",
+    "actorName": "Inland Empire",
+    "en": "Loneliness.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
