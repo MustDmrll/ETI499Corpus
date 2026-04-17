@@ -6934,5 +6934,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "652:133": {
+    "id": "652:133",
+    "actorName": "Inland Empire",
+    "en": "You know which window has *not* been recently replaced?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
