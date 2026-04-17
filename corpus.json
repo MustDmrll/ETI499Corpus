@@ -1942,5 +1942,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "204:51": {
+    "id": "204:51",
+    "actorName": "Inland Empire",
+    "en": "Compared to the intersection, in front of Video Revachol 24 -- it's nothing. Compared to that, everything is possible.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
