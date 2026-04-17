@@ -12485,5 +12485,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1149:62": {
+    "id": "1149:62",
+    "actorName": "Limbic System",
+    "en": "Ah, yes. And in the olfactory system they call it The Apricot Chewing Gum Scented One. It's unhealthy of them to linger on it so. But -- as they say -- what do you do?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
