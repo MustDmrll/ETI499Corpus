@@ -7285,5 +7285,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "692:32": {
+    "id": "692:32",
+    "actorName": "Inland Empire",
+    "en": "Who knows?... It's getting cold out. You should go.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
