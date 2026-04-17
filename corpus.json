@@ -13590,5 +13590,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1195:58": {
+    "id": "1195:58",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "You had your chance, Harry-boy, and you missed it. Started thrashing around, acting all brave -- now the Dark Centre has vanished. You'll never get back to it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
