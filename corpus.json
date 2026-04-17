@@ -96,5 +96,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "8:17": {
+    "id": "8:17",
+    "actorName": "Limbic System",
+    "en": "Infinitesimally small.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
