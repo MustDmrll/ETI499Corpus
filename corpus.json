@@ -2059,5 +2059,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "207:496": {
+    "id": "207:496",
+    "actorName": "Inland Empire",
+    "en": "What if... to truly love a boiadeiro is to float lifeless downstream?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
