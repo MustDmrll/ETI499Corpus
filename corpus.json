@@ -2228,5 +2228,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "302:5": {
+    "id": "302:5",
+    "actorName": "Inland Empire",
+    "en": "The pétanque players?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "302:15": {
+    "id": "302:15",
+    "actorName": "Inland Empire",
+    "en": "Awful lonely here. No ruckus. No old men playing their little ball game.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
