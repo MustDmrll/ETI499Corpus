@@ -7311,5 +7311,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "692:39": {
+    "id": "692:39",
+    "actorName": "Inland Empire",
+    "en": "No. Communism killed him, remember? Love made it possible. You know this much.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
