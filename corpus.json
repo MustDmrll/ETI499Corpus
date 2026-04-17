@@ -12589,5 +12589,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1149:106": {
+    "id": "1149:106",
+    "actorName": "Limbic System",
+    "en": "Yes, they're *pouring* something on you -- something *in* you. And it's...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1149:115": {
+    "id": "1149:115",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "...bloated corpse of the past, resurfacing?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
