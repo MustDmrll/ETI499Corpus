@@ -8494,5 +8494,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "817:17": {
+    "id": "817:17",
+    "actorName": "Inland Empire",
+    "en": "You are prepared. Don't put away your friend. Your weapon. It is glowing in your hand, ready to serve.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
