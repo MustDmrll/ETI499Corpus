@@ -11757,5 +11757,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1088:81": {
+    "id": "1088:81",
+    "actorName": "Inland Empire",
+    "en": "Feels as though you should do more honourable things. As if there's some kind of a... secret reward. If you just commit enough honourable acts.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
