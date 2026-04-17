@@ -3593,5 +3593,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "429:10": {
+    "id": "429:10",
+    "actorName": "Inland Empire",
+    "en": "There *is* something mysterious about the curtains... be careful!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
