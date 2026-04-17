@@ -7077,5 +7077,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "675:190": {
+    "id": "675:190",
+    "actorName": "Inland Empire",
+    "en": "As she says so you feel the young woman looking at you... and get a *feeling* you can't quite put your finger on. A suspicion?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
