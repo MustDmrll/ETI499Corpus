@@ -7636,5 +7636,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "757:13": {
+    "id": "757:13",
+    "actorName": "Inland Empire",
+    "en": "Perhaps there's someone there? Under the water. Waiting for you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "757:17": {
+    "id": "757:17",
+    "actorName": "Inland Empire",
+    "en": "Yes -- cold and still. But love is warm, like the inside of her mouth.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
