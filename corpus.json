@@ -538,5 +538,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "13:485": {
+    "id": "13:485",
+    "actorName": "Limbic System",
+    "en": "How's it going out there? Are the tiny apes screaming about money yet?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
