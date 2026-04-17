@@ -1071,5 +1071,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "28:609": {
+    "id": "28:609",
+    "actorName": "Inland Empire",
+    "en": "Absolutely *in* the question! First we find a *sad* banger, then we sing this place to SHIT.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
