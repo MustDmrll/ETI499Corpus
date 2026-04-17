@@ -8585,5 +8585,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "817:80": {
+    "id": "817:80",
+    "actorName": "Inland Empire",
+    "en": "Do what you need to do. And then keep moving toward the future.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "817:82": {
+    "id": "817:82",
+    "actorName": "Inland Empire",
+    "en": "This isn't the time for fear. Go.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "817:87": {
+    "id": "817:87",
+    "actorName": "Inland Empire",
+    "en": "Be prepared. Wield Ruby's double-barrelled pistol.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
