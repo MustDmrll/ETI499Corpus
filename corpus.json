@@ -2527,5 +2527,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "352:491": {
+    "id": "352:491",
+    "actorName": "Inland Empire",
+    "en": "Something *mysterious* is going on here...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "352:526": {
+    "id": "352:526",
+    "actorName": "Inland Empire",
+    "en": "Feels like you should reply with the very pinnacle of idiocy here, so that things get totally transcendent. But you haven't gotten there yet, so you don't know what to say.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
