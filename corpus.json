@@ -11744,5 +11744,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1088:18": {
+    "id": "1088:18",
+    "actorName": "Inland Empire",
+    "en": "Flashes of bloody and terrible scenes of war. Men dying, horses shrieking, blood sinking into sand and snow and asphalt and fertile black earth...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
