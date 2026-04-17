@@ -11731,5 +11731,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1088:2": {
+    "id": "1088:2",
+    "actorName": "Inland Empire",
+    "en": "All of this, accompanied by a musical composition telling of the heroism of old, when men were bigger in both body and heart. You feel strange kinship to this old soldier. You and him are the same now.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
