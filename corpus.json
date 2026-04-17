@@ -4308,5 +4308,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "461:130": {
+    "id": "461:130",
+    "actorName": "Inland Empire",
+    "en": "You feel the spirit of Ramout Karzai, ancient hero of Graad, pulsing through you. All that's left is to cover your face in war-paint.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
