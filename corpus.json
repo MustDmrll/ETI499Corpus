@@ -135,5 +135,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "8:32": {
+    "id": "8:32",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "I know you do, baby... I know...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
