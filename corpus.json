@@ -1175,5 +1175,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "29:100": {
+    "id": "29:100",
+    "actorName": "Inland Empire",
+    "en": "Yes, you killed him. And then, as part of the plan, you drowned out the memory...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
