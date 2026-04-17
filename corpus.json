@@ -1929,5 +1929,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "121:32": {
+    "id": "121:32",
+    "actorName": "Inland Empire",
+    "en": "Investigate the blood red chair? You're going to leave it alone, Harry. That's what you're going to do.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
