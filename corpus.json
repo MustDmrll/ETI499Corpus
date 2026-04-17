@@ -590,5 +590,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "13:628": {
+    "id": "13:628",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "You are *way* cool, cooler than the bottom of the sea. Too cool for this world.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
