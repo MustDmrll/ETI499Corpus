@@ -4724,5 +4724,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "533:511": {
+    "id": "533:511",
+    "actorName": "Inland Empire",
+    "en": "Yellow Man? Feels significant somehow, him saying that. You should ask him about it, later...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "534:181": {
+    "id": "534:181",
+    "actorName": "Inland Empire",
+    "en": "Man, it's lonely doing this alone. The wind seems to howl in a strange manner...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
