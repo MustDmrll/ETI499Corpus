@@ -14552,5 +14552,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1303:67": {
+    "id": "1303:67",
+    "actorName": "Inland Empire",
+    "en": "And more than that: you're sad. There's an absence inside of you, something missing that may have been freckled too.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
