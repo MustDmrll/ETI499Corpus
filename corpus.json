@@ -7662,5 +7662,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "757:18": {
+    "id": "757:18",
+    "actorName": "Inland Empire",
+    "en": "In the still mirror of the bay you see Martinaise, reflected. Tall edifices of ruins reach into the water, like shimmering towers. And the shacks too. Pine trees and motor lorries, upside down...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
