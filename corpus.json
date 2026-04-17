@@ -4165,5 +4165,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "460:312": {
+    "id": "460:312",
+    "actorName": "Inland Empire",
+    "en": "Don't let her become complacent! She still needs to ward *her soul* against the evil forces!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
