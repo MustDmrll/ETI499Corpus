@@ -7805,5 +7805,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "762:944": {
+    "id": "762:944",
+    "actorName": "Inland Empire",
+    "en": "DETECTIVE",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "767:107": {
+    "id": "767:107",
+    "actorName": "Inland Empire",
+    "en": "This is everything I always warned you about.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
