@@ -6895,5 +6895,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "647:89": {
+    "id": "647:89",
+    "actorName": "Inland Empire",
+    "en": "It wasn't time yet. You have to know of the girl... Return when you know more.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
