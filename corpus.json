@@ -9807,5 +9807,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "971:313": {
+    "id": "971:313",
+    "actorName": "Inland Empire",
+    "en": "A prayer of sorts? To Revachol.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
