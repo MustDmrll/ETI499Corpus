@@ -11029,5 +11029,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1038:19": {
+    "id": "1038:19",
+    "actorName": "Inland Empire",
+    "en": "Is that the phasmid? It looks like the phasmid, leaning against the wall...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1038:21": {
+    "id": "1038:21",
+    "actorName": "Inland Empire",
+    "en": "It's not the phasmid... It's not even organic -- it's a fire iron. How disappointing!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
