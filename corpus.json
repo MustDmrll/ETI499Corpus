@@ -10886,5 +10886,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1030:685": {
+    "id": "1030:685",
+    "actorName": "Inland Empire",
+    "en": "Suddenly you feel sad, looking at this man and his bottle... somehow he looks *ancient*, these thoughts having chased him for years.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
