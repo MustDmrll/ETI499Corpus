@@ -5101,5 +5101,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "544:285": {
+    "id": "544:285",
+    "actorName": "Inland Empire",
+    "en": "You get a sudden sinking feeling. Stomach acid comes up as you look at the motor carriage in the deep, dark, cold water.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "544:304": {
+    "id": "544:304",
+    "actorName": "Inland Empire",
+    "en": "More precious than the gun, the badge and the motor carriage *combined*. Lost forever. Into the deepest of seas.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
