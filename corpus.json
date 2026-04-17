@@ -10457,5 +10457,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1015:288": {
+    "id": "1015:288",
+    "actorName": "Inland Empire",
+    "en": "Of course you are! It's too late to be a Tequila *Sunrise* now... there will be no sunrise, not for you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
