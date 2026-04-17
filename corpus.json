@@ -7272,5 +7272,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "692:31": {
+    "id": "692:31",
+    "actorName": "Inland Empire",
+    "en": "As you look back you think: So love did *do him in* after all.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
