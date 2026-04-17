@@ -5452,5 +5452,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "558:906": {
+    "id": "558:906",
+    "actorName": "Inland Empire",
+    "en": "Silence is silence? You're sure there's more to it...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "558:914": {
+    "id": "558:914",
+    "actorName": "Inland Empire",
+    "en": "And then there is you. And what happened to *your* mind. Are you not a saeraff in worship too?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
