@@ -12810,5 +12810,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1154:44": {
+    "id": "1154:44",
+    "actorName": "Inland Empire",
+    "en": "Close your eyes. Reach out with your *feelings*. There's something *para-natural* at play here.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
