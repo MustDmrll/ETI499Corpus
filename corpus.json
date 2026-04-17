@@ -5907,5 +5907,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "605:66": {
+    "id": "605:66",
+    "actorName": "Inland Empire",
+    "en": "Oh god, why didn't you think of this before -- COPS HAVE GUNS! Where's yours?!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
