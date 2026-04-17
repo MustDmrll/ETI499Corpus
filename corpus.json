@@ -14435,5 +14435,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1248:5": {
+    "id": "1248:5",
+    "actorName": "Inland Empire",
+    "en": "You stop mid-step and put your hand on the garish necktie.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1249:119": {
+    "id": "1249:119",
+    "actorName": "Inland Empire",
+    "en": "This story she will tell only before she *leaves* Martinaise. At the very end of her stay.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
