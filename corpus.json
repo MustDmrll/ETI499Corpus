@@ -8832,5 +8832,57 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "828:6": {
+    "id": "828:6",
+    "actorName": "Inland Empire",
+    "en": "Silence...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "828:147": {
+    "id": "828:147",
+    "actorName": "Inland Empire",
+    "en": "Silence...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "828:176": {
+    "id": "828:176",
+    "actorName": "Inland Empire",
+    "en": "She's going to *love* it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "829:23": {
+    "id": "829:23",
+    "actorName": "Inland Empire",
+    "en": "Try to find something pretty and cool here. Then use it to win her back!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
