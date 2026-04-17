@@ -12771,5 +12771,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1154:21": {
+    "id": "1154:21",
+    "actorName": "Inland Empire",
+    "en": "... must have been... para-natural static. Ghosts... in the wires... Kill the connection... *BZZZZT*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
