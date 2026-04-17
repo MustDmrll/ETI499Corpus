@@ -8507,5 +8507,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "817:25": {
+    "id": "817:25",
+    "actorName": "Inland Empire",
+    "en": "Your old friend has prepared you for this -- at great cost to himself. Make sure you have the spirit bomb in your hand when *shit goes south*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
