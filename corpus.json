@@ -3112,5 +3112,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "379:434": {
+    "id": "379:434",
+    "actorName": "Inland Empire",
+    "en": "You're *Tequila Sunset*. You have been Tequila Sunset for a long time now.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "379:813": {
+    "id": "379:813",
+    "actorName": "Inland Empire",
+    "en": "Your mind can only conjure up Hunk Handy, Fucke Waldéz, Bosco... you might want to decide to keep quiet about these.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
