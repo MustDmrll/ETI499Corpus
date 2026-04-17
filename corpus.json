@@ -3749,5 +3749,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "430:43": {
+    "id": "430:43",
+    "actorName": "Inland Empire",
+    "en": "A tremendous loneliness comes over you. Everybody in the world is doing something without you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "430:78": {
+    "id": "430:78",
+    "actorName": "Inland Empire",
+    "en": "You're just as alone as the last time. Whatever kept you company in this world -- what kept you safe -- has left your side, never to return again.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
