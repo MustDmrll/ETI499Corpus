@@ -564,5 +564,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "13:562": {
+    "id": "13:562",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Those are the mysteries of the Spinal Cord. The Spinal Cord has yet to reveal itself to you -- its mysteries are unholy mysteries.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
