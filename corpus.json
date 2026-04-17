@@ -11952,5 +11952,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1114:35": {
+    "id": "1114:35",
+    "actorName": "Inland Empire",
+    "en": "Peer into a discarded coffee cup!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
