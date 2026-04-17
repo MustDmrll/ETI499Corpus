@@ -7597,5 +7597,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "752:147": {
+    "id": "752:147",
+    "actorName": "Inland Empire",
+    "en": "Trepidation. A tingling feeling in your stomach...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
