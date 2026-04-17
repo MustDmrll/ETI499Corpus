@@ -6856,5 +6856,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "645:61": {
+    "id": "645:61",
+    "actorName": "Inland Empire",
+    "en": "You have awakened the *hunger*. There is no turning back now, better invest in a good cook book and stock up on salt.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
