@@ -3073,5 +3073,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "379:243": {
+    "id": "379:243",
+    "actorName": "Inland Empire",
+    "en": "The encroaching doom is golden red. It is inside you, but also outside, on the horizon, by the water's edge. Innermost but yet to happen -- things make sense from that angle...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
