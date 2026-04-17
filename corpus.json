@@ -6219,5 +6219,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "630:94": {
+    "id": "630:94",
+    "actorName": "Inland Empire",
+    "en": "Marked by the devil itself!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "630:221": {
+    "id": "630:221",
+    "actorName": "Inland Empire",
+    "en": "Have you stirred the ghost of the Doomed Commercial Area from its rest? Could this be its dismembered heart, beginning to flutter?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
