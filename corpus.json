@@ -12407,5 +12407,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1149:25": {
+    "id": "1149:25",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Yeah, man, what was that about?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1149:35": {
+    "id": "1149:35",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "That's me, blue eyes. That's me.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
