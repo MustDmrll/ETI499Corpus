@@ -5634,5 +5634,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "572:58": {
+    "id": "572:58",
+    "actorName": "Inland Empire",
+    "en": "You feel you're *just* west of Coal City. Somewhere above Jamrock and close to Coal City.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "573:37": {
+    "id": "573:37",
+    "actorName": "Inland Empire",
+    "en": "She's laughing at him. Belittling him.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
