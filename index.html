@@ -229,12 +229,6 @@ nav {
 }
 .table-toolbar input { min-width: 160px; }
 .row-count { font-size: 12px; color: var(--muted); margin-left: auto; white-space: nowrap; }
-.processing-status {
-  font-size: 12px; color: var(--muted);
-  padding: 6px 12px; background: var(--surface2);
-  border-radius: 6px; display: none;
-}
-.processing-status.show { display: block; }
 table {
   width: 100%;
   border-collapse: collapse;
@@ -438,7 +432,6 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
       <option value="pending">Bekliyor</option>
     </select>
     <input type="text" id="filt-search" placeholder="Metin ara..." oninput="renderTable()" />
-    <span class="processing-status" id="proc-status"></span>
     <span class="row-count" id="row-count"></span>
     <span class="row-count" id="wc-total" style="color:var(--accent)"></span>
     <button class="btn" onclick="exportCSV()">CSV İndir</button>
@@ -479,11 +472,6 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
   <div class="main">
     <div class="settings-card">
       <h2>Ayarlar</h2>
-      <div class="field">
-        <label>Anthropic API Key</label>
-        <input type="password" id="settings-api-key" placeholder="sk-ant-..." />
-        <span class="hint">Claude Opus 4.6 makine çevirisi için kullanılır.</span>
-      </div>
       <hr style="border-color:var(--border)" />
       <div class="field">
         <label>GitHub Kullanıcı Adı</label>
@@ -549,14 +537,12 @@ const CHAR_CLASS = {
 
 let state = {
   user: null,
-  apiKey: "",
   githubToken: "",
   githubOwner: "",
   entries: [],        // tüm oyun satırları
   queueIds: [],       // mevcut kullanıcının henüz oy vermediği satır ID'leri
   historyStack: [],   // [{id, prevVote}] geri alma için
-  corpus: {},         // paylaşımlı: { entryId: {id, actorName, en, trOfficial, trMachine, proposed, notes, votes:{userId:'keep'|'skip'}, status} }
-  translating: false
+  corpus: {}          // paylaşımlı: { entryId: {id, actorName, en, trOfficial, trMachine, proposed, notes, votes:{userId:'keep'|'skip'}, status} }
 };
 
 // ════════════════════════════════════════════════════════════
@@ -713,18 +699,15 @@ async function confirmLogin() {
   }
 
   state.user      = pendingUserId;
-  state.apiKey    = localStorage.getItem('de_api_key') || '';
   const loginToken = document.getElementById('login-gh-token').value.trim();
   state.githubToken = loginToken || localStorage.getItem('de_github_token') || '';
   state.githubOwner = localStorage.getItem('de_github_owner') || 'MustDmrll';
   if (loginToken) localStorage.setItem('de_github_token', loginToken);
-  localStorage.setItem('de_api_key', state.apiKey);
 
   ['nav-user-tinder','nav-user-table','nav-user-settings'].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.textContent = userObj.name;
   });
-  document.getElementById('settings-api-key').value  = state.apiKey;
   document.getElementById('settings-gh-token').value = state.githubToken;
   document.getElementById('settings-gh-owner').value = state.githubOwner;
 
@@ -771,7 +754,6 @@ async function loadData() {
     await new Promise(r => setTimeout(r, 300));
     showScreen('tinder');
     renderCard();
-    processTranslationQueue();
 
   } catch (e) {
     console.error('loadData error:', e);
@@ -818,6 +800,11 @@ function renderCard() {
         <span class="card-conv" style="color:var(--muted);font-size:11px">conv ${entry.convId} · entry ${entry.entryId}</span>
       </div>
       <div class="card-text">${escHtml(entry.en)}</div>
+      ${entry.trOfficial ? `
+        <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border)">
+          <div style="font-size:11px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:6px">TR Resmi</div>
+          <div class="card-text" style="font-size:15px;color:#aaa">${escHtml(entry.trOfficial)}</div>
+        </div>` : ''}
     </div>`;
 }
 
@@ -837,7 +824,6 @@ async function doKeep() {
   state.corpus[id].votes[state.user] = 'keep';
 
   renderCard();
-  processTranslationQueue();
   try { await saveCorpus(); } catch (e) { console.error('Kayıt hatası:', e); }
 }
 
@@ -886,68 +872,7 @@ document.addEventListener('keydown', e => {
   if (e.key === 'z' || e.key === 'Z') goBack();
 });
 
-// ════════════════════════════════════════════════════════════
-// CLAUDE OPUS TRANSLATION
-// ════════════════════════════════════════════════════════════
 
-async function processTranslationQueue() {
-  if (state.translating) return;
-  if (!state.apiKey) return;
-
-  const pending = Object.values(state.corpus).filter(k =>
-    k.status === 'pending' && !k.trMachine &&
-    Object.values(k.votes || {}).some(v => v === 'keep')
-  );
-  if (pending.length === 0) return;
-
-  state.translating = true;
-  updateProcStatus(`Makine çevirisi: 0 / ${pending.length}`);
-
-  for (let i = 0; i < pending.length; i++) {
-    const item = pending[i];
-    updateProcStatus(`Makine çevirisi: ${i + 1} / ${pending.length}`);
-    try {
-      const tr = await claudeTranslate(item.en);
-      if (state.corpus[item.id]) {
-        state.corpus[item.id].trMachine = tr;
-        state.corpus[item.id].status = 'done';
-      }
-      try { await saveCorpus(); } catch {}
-      if (document.getElementById('table-screen').classList.contains('active')) renderTable();
-    } catch (e) {
-      if (state.corpus[item.id]) state.corpus[item.id].status = 'error';
-    }
-    await sleep(400);
-  }
-
-  state.translating = false;
-  updateProcStatus('');
-}
-
-async function claudeTranslate(enText) {
-  const resp = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'x-api-key': state.apiKey,
-      'anthropic-version': '2023-06-01'
-    },
-    body: JSON.stringify({
-      model: 'claude-opus-4-6',
-      max_tokens: 1000,
-      messages: [{ role: 'user', content: `Çevir: ${enText}` }]
-    })
-  });
-  if (!resp.ok) throw new Error('API ' + resp.status);
-  const data = await resp.json();
-  return (data.content || []).map(c => c.text || '').join('').trim();
-}
-
-function updateProcStatus(msg) {
-  const el = document.getElementById('proc-status');
-  if (msg) { el.textContent = msg; el.classList.add('show'); }
-  else { el.classList.remove('show'); }
-}
 
 // ════════════════════════════════════════════════════════════
 // TABLE
@@ -1110,16 +1035,13 @@ function download(content, filename, type) {
 // ════════════════════════════════════════════════════════════
 
 function saveSettings() {
-  state.apiKey      = document.getElementById('settings-api-key').value.trim();
   state.githubToken = document.getElementById('settings-gh-token').value.trim();
   state.githubOwner = document.getElementById('settings-gh-owner').value.trim();
-  localStorage.setItem('de_api_key',       state.apiKey);
   localStorage.setItem('de_github_token',  state.githubToken);
   localStorage.setItem('de_github_owner',  state.githubOwner);
   const note = document.getElementById('save-note');
   note.classList.add('show');
   setTimeout(() => note.classList.remove('show'), 2000);
-  processTranslationQueue();
 }
 
 function logout() {
