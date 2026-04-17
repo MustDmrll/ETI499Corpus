@@ -10431,5 +10431,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1015:238": {
+    "id": "1015:238",
+    "actorName": "Inland Empire",
+    "en": "Are you sure? It's probably too late to be a Tequila *Sunrise* now.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
