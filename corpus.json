@@ -7519,5 +7519,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "739:18": {
+    "id": "739:18",
+    "actorName": "Inland Empire",
+    "en": "W-w-w-wait. Haven't you heard this before?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "739:78": {
+    "id": "739:78",
+    "actorName": "Inland Empire",
+    "en": "But he's not here to say it. Something *else* got in the way. Events *intervened*...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
