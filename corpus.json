@@ -14565,5 +14565,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1303:69": {
+    "id": "1303:69",
+    "actorName": "Inland Empire",
+    "en": "You're right. There's an absence inside of you, something missing that may have been freckled too.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1369:7": {
+    "id": "1369:7",
+    "actorName": "Inland Empire",
+    "en": "And dangerous. Dangerous too.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
