@@ -13135,5 +13135,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1181:452": {
+    "id": "1181:452",
+    "actorName": "Inland Empire",
+    "en": "This has to be one of the mysteries you never got to solve...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1182:56": {
+    "id": "1182:56",
+    "actorName": "Inland Empire",
+    "en": "The words feel heavy, like they're coming from the bottom of you. You've said them half a thousand times...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
