@@ -11796,5 +11796,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1095:122": {
+    "id": "1095:122",
+    "actorName": "Inland Empire",
+    "en": "You glance again at the roofing material in front of the shack -- yes, you should go back there.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
