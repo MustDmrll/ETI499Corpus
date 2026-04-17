@@ -3190,5 +3190,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "380:270": {
+    "id": "380:270",
+    "actorName": "Inland Empire",
+    "en": "But you don't like that, you liar. You like this one, the softness of her core is dear to you...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
