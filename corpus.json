@@ -10609,7 +10609,22 @@
     "trMachine": "",
     "proposed": "",
     "notes": "",
-    "votes": {},
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1016:431": {
+    "id": "1016:431",
+    "actorName": "Inland Empire",
+    "en": "You feel as if turning on the hyper-drive will be a point of no return. Feels almost melancholy... Are you sure you have the entire posse along for this?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
     "status": "pending"
   }
 }
