@@ -8169,5 +8169,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "785:71": {
+    "id": "785:71",
+    "actorName": "Inland Empire",
+    "en": "The giant neon sign reading \"HARRY DU BOIS\" hanging from the Kvalsund crane can be seen all the way to Jamrock.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "785:105": {
+    "id": "785:105",
+    "actorName": "Inland Empire",
+    "en": "Somewhere in Mirova a beautiful woman sees the bright glow on the horizon and says to herself: \"Oh my god, I shouldn't have left him...\"",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
