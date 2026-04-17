@@ -1383,5 +1383,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "33:37": {
+    "id": "33:37",
+    "actorName": "Inland Empire",
+    "en": "You have to find something tragic to sing first, though.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
