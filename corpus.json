@@ -6986,5 +6986,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "652:434": {
+    "id": "652:434",
+    "actorName": "Inland Empire",
+    "en": "I think it was established that *you* did it. Anyway.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "654:29": {
+    "id": "654:29",
+    "actorName": "Inland Empire",
+    "en": "No one knows. It is a fleeting feeling.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
