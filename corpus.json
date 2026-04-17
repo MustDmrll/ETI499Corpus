@@ -1773,5 +1773,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "71:641": {
+    "id": "71:641",
+    "actorName": "Inland Empire",
+    "en": "Mute silence as always.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "71:673": {
+    "id": "71:673",
+    "actorName": "Inland Empire",
+    "en": "THERE ARE ANCIENT MYSTERIES DOWN THERE, COBO... ASK ME LATER.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
