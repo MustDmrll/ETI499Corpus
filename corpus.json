@@ -4334,5 +4334,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "463:9": {
+    "id": "463:9",
+    "actorName": "Inland Empire",
+    "en": "It's all gone now. You never became a poet or an entroponaut.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
