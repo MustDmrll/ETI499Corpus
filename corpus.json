@@ -11172,5 +11172,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1049:18": {
+    "id": "1049:18",
+    "actorName": "Inland Empire",
+    "en": "Yeah, it doesn't exactly look like someone really enjoyed themselves here. No point in dwelling on it now, better keep moving.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
