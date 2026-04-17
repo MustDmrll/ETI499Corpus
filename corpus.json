@@ -3359,5 +3359,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "383:315": {
+    "id": "383:315",
+    "actorName": "Inland Empire",
+    "en": "'Higher realms'? Of course -- it all makes sense...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "383:327": {
+    "id": "383:327",
+    "actorName": "Inland Empire",
+    "en": "He is not going to become an entrepreneur.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
