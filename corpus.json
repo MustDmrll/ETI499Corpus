@@ -7948,5 +7948,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "768:13": {
+    "id": "768:13",
+    "actorName": "Limbic System",
+    "en": "You do so many times. Until dim light starts peeking into the hood you're under. The rough karakul. More and more each second. Time to face it again -- the world. Anew...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
