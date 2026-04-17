@@ -4789,5 +4789,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "537:113": {
+    "id": "537:113",
+    "actorName": "Inland Empire",
+    "en": "No. No. It's just a fear. Even if... who cares. No one wants you anyway.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "537:154": {
+    "id": "537:154",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Brother, you already *were* a ghost. Up there, screaming -- along with all of them. Scaring each other. Haunting each other.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
