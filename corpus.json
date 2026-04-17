@@ -14097,5 +14097,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1199:15": {
+    "id": "1199:15",
+    "actorName": "Inland Empire",
+    "en": "The last thought in your head before waking is: maybe you shouldn't have seen that stained glass window? In the church....",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
