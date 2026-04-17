@@ -7493,5 +7493,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "723:84": {
+    "id": "723:84",
+    "actorName": "Inland Empire",
+    "en": "We are way out now... Way out in the West.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
