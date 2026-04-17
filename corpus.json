@@ -2384,5 +2384,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "347:677": {
+    "id": "347:677",
+    "actorName": "Inland Empire",
+    "en": "Behind her the window has been boarded up. You sense the boards creaking, twisting for a second... and some kind of *doubt* in her tense shoulders.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
