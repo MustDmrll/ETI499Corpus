@@ -3489,5 +3489,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "428:376": {
+    "id": "428:376",
+    "actorName": "Inland Empire",
+    "en": "Unbelievable darkness and ruin.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "428:477": {
+    "id": "428:477",
+    "actorName": "Inland Empire",
+    "en": "Wow. Total psychic collapse between you two right now.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
