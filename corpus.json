@@ -10782,5 +10782,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1021:61": {
+    "id": "1021:61",
+    "actorName": "Inland Empire",
+    "en": "Shhhh! You shouldn't say it out loud... they'll realize you know!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1021:100": {
+    "id": "1021:100",
+    "actorName": "Inland Empire",
+    "en": "It was a retaliation for your earlier assault... the trees... are they plotting something?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
