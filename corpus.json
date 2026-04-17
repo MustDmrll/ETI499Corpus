@@ -7987,5 +7987,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "768:23": {
+    "id": "768:23",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "No. Relax, man. It's just the comfortable darkness. Interrupted by the pain in your body. A telegraph, far away.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
