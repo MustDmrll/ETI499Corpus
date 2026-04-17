@@ -1084,5 +1084,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "28:711": {
+    "id": "28:711",
+    "actorName": "Inland Empire",
+    "en": "It is not clear. All that is known is: Sleep in the trash and there is *no coming back.*",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
