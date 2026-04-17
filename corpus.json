@@ -13356,5 +13356,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1192:107": {
+    "id": "1192:107",
+    "actorName": "Inland Empire",
+    "en": "A glorious sight: your body, tired from the vastness of the visions that haunt it,  burning up in a flame fed by your own living breath.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
