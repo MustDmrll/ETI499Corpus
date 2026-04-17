@@ -187,5 +187,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "8:45": {
+    "id": "8:45",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "There is nothing. Only warm, primordial blackness. Your conscience ferments in it -- no larger than a single grain of malt. You don't have to do anything anymore.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
