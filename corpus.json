@@ -1916,5 +1916,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "121:15": {
+    "id": "121:15",
+    "actorName": "Inland Empire",
+    "en": "Red paint is peeling off it. Looks like blood, no?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
