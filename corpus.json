@@ -7246,5 +7246,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "692:16": {
+    "id": "692:16",
+    "actorName": "Inland Empire",
+    "en": "Feels good, doesn't it? Doing the right thing.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "692:25": {
+    "id": "692:25",
+    "actorName": "Inland Empire",
+    "en": "If it weren't for her he would not have been there. The shot would not have connected with his soft palate...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
