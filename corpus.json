@@ -1448,5 +1448,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "33:50": {
+    "id": "33:50",
+    "actorName": "Inland Empire",
+    "en": "Of course. At this point, precise measurements of your soul can only be performed from the outside. It needs to be heard.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
