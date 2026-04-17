@@ -11458,5 +11458,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1057:14": {
+    "id": "1057:14",
+    "actorName": "Limbic System",
+    "en": "When the pictograms and the hieroglyphs of the world return, they seem silent somehow. The alarm rings quietly too. You're ready.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
