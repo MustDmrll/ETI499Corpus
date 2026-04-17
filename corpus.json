@@ -13733,5 +13733,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1196:42": {
+    "id": "1196:42",
+    "actorName": "Inland Empire",
+    "en": "No... Too late. It's gone... There is no ringing anymore. Just the sound of the streets.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1198:5": {
+    "id": "1198:5",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "No. You're spinning tapes at the discotheque. The great, unceasing disco of the mind. The flash! The bang! The endless *learning* experience.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
