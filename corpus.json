@@ -9768,5 +9768,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "968:626": {
+    "id": "968:626",
+    "actorName": "Inland Empire",
+    "en": "...and it hasn't even really started yet.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "971:130": {
+    "id": "971:130",
+    "actorName": "Inland Empire",
+    "en": "There's something in the wind. Sometimes the only way to go forward is to fail first.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
