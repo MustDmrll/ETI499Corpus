@@ -14318,5 +14318,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1211:2": {
+    "id": "1211:2",
+    "actorName": "Inland Empire",
+    "en": "So it wasn't the phasmid... a wave of disappointment washes over you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1212:8": {
+    "id": "1212:8",
+    "actorName": "Inland Empire",
+    "en": "Not like he thinks, but you can feel it. Somehow this *will* change things.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
