@@ -1864,5 +1864,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "71:1031": {
+    "id": "71:1031",
+    "actorName": "Inland Empire",
+    "en": "His flesh is cold. Icy.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
