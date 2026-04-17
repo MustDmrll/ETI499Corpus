@@ -9677,5 +9677,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "968:198": {
+    "id": "968:198",
+    "actorName": "Inland Empire",
+    "en": "...the shed will be gone, and you won't even remember that the tree was ever there, much less what kind of tree it was, a pine or a birch. You won't remember if a man had been hanging from it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
