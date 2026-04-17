@@ -11822,5 +11822,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1099:4": {
+    "id": "1099:4",
+    "actorName": "Inland Empire",
+    "en": "He's not gonna get over it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1099:164": {
+    "id": "1099:164",
+    "actorName": "Inland Empire",
+    "en": "Yes. People have called you that before. You didn't care.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
