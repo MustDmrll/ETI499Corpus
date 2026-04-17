@@ -12641,5 +12641,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1151:12": {
+    "id": "1151:12",
+    "actorName": "Inland Empire",
+    "en": "You carefully fold the wrapper into a square, before putting it back into your pocket. Lovingly even -- despite the strange feeling of regret.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
