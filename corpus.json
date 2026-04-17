@@ -10938,5 +10938,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1030:1045": {
+    "id": "1030:1045",
+    "actorName": "Inland Empire",
+    "en": "Tequila... Tequila Sunset... Something ominous there.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1030:1126": {
+    "id": "1030:1126",
+    "actorName": "Inland Empire",
+    "en": "Now, now detective... always the sceptic.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
