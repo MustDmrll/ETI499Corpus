@@ -4555,5 +4555,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "482:213": {
+    "id": "482:213",
+    "actorName": "Inland Empire",
+    "en": "Just steer clear of this one, okay. There's something terrible about this one.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "495:85": {
+    "id": "495:85",
+    "actorName": "Inland Empire",
+    "en": "Holy shit! A disembodied voice! Have cursed void-phantasms come to haunt us for misdeeds done in the past?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
