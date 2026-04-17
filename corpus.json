@@ -3723,5 +3723,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "430:27": {
+    "id": "430:27",
+    "actorName": "Inland Empire",
+    "en": "White Mourning. It was mourning all along. You should've seen it coming, it was right behind her eyes...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "430:34": {
+    "id": "430:34",
+    "actorName": "Inland Empire",
+    "en": "Caustic Echo. It was darkness all along. But you were young and it was summer. You just had to take a dive...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
