@@ -6102,5 +6102,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "625:474": {
+    "id": "625:474",
+    "actorName": "Inland Empire",
+    "en": "Yeah, we're staying out of this business for now. HDB is *bad news* from yesteryear. It's shit, honcho.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "625:553": {
+    "id": "625:553",
+    "actorName": "Inland Empire",
+    "en": "Still feels like there's *something* missing from that...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
