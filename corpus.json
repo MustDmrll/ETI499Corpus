@@ -941,5 +941,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "17:811": {
+    "id": "17:811",
+    "actorName": "Inland Empire",
+    "en": "The sun sets for everyone.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "18:41": {
+    "id": "18:41",
+    "actorName": "Inland Empire",
+    "en": "But you... you *feel* you should have it on you. Something bad might happen.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
