@@ -9859,5 +9859,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "984:112": {
+    "id": "984:112",
+    "actorName": "Inland Empire",
+    "en": "Whatever you may *look* like, you don't *feel* like a hired assassin.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "984:131": {
+    "id": "984:131",
+    "actorName": "Inland Empire",
+    "en": "The thought steadies your nerves. The journal stops shaking in your hand.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
