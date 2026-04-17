@@ -8802,7 +8802,22 @@
     "trMachine": "",
     "proposed": "",
     "notes": "",
-    "votes": {},
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "827:364": {
+    "id": "827:364",
+    "actorName": "Inland Empire",
+    "en": "There's a growing sense of dread: the sound is coming from inside you but also surrounding you. It feels as though someone is standing just outside your range of vision and watching you, doing this to you...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
     "status": "pending"
   }
 }
