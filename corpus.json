@@ -8312,5 +8312,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "797:85": {
+    "id": "797:85",
+    "actorName": "Inland Empire",
+    "en": "A lot can happen in four months. Especially in winter. The winters are never easy on you, of that you are sure.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "797:180": {
+    "id": "797:180",
+    "actorName": "Inland Empire",
+    "en": "Don't be fooled. The bad times have already begun.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
