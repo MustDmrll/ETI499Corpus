@@ -6648,5 +6648,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "636:553": {
+    "id": "636:553",
+    "actorName": "Inland Empire",
+    "en": "She's over-radiated. And then some.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "636:618": {
+    "id": "636:618",
+    "actorName": "Inland Empire",
+    "en": "Vast, lukewarm and unknowable. Flowing in and out of sight.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
