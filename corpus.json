@@ -4711,5 +4711,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "533:243": {
+    "id": "533:243",
+    "actorName": "Inland Empire",
+    "en": "Yellow Man? Feels significant somehow, him saying that. You should ask him about it, later...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
