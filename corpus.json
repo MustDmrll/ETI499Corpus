@@ -13837,5 +13837,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1198:27": {
+    "id": "1198:27",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "It's the *world*, Harry-boy. And you're *made* of it. Every day you're out there you make more of yourself from it. I'm afraid you can't be *unmade* now.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
