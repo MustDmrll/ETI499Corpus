@@ -12992,5 +12992,44 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1168:713": {
+    "id": "1168:713",
+    "actorName": "Inland Empire",
+    "en": "But still, somehow you *knew* it was a communist.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1168:811": {
+    "id": "1168:811",
+    "actorName": "Inland Empire",
+    "en": "Perhaps you suspected it *before* you took the case.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1176:53": {
+    "id": "1176:53",
+    "actorName": "Inland Empire",
+    "en": "Something unpleasant twitches in your stomach.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
