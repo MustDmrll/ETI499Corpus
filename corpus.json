@@ -3515,5 +3515,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "428:482": {
+    "id": "428:482",
+    "actorName": "Inland Empire",
+    "en": "She remembers. Good.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
