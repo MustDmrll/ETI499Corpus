@@ -8767,5 +8767,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "819:24": {
+    "id": "819:24",
+    "actorName": "Inland Empire",
+    "en": "You should implicate *yourself*. Throw yourself onto the embrasure, chest first!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
