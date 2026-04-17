@@ -2657,5 +2657,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "362:1768": {
+    "id": "362:1768",
+    "actorName": "Inland Empire",
+    "en": "But it is! It is!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "362:1852": {
+    "id": "362:1852",
+    "actorName": "Inland Empire",
+    "en": "Their faces, blurred yet frozen as though in ambrotype. You were never *that young*, were you?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
