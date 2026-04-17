@@ -2098,5 +2098,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "225:6": {
+    "id": "225:6",
+    "actorName": "Inland Empire",
+    "en": "Rust peels off the bent iron posts of the swing. The wind whistles through the skeleton of the small house behind you. There's desolation... everywhere.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "225:19": {
+    "id": "225:19",
+    "actorName": "Inland Empire",
+    "en": "In this yard? Someone thought they could have a summer house on the beach. For cheap. It didn't work out. Looks like they abandoned it.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
