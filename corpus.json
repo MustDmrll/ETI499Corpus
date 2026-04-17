@@ -6557,5 +6557,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "636:68": {
+    "id": "636:68",
+    "actorName": "Inland Empire",
+    "en": "The aim is to gain a deeper understanding.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "636:122": {
+    "id": "636:122",
+    "actorName": "Inland Empire",
+    "en": "*Off we go...* you see the hanged man's mouth open.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
