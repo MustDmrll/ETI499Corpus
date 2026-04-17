@@ -9183,5 +9183,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "868:417": {
+    "id": "868:417",
+    "actorName": "Inland Empire",
+    "en": "You sense that she won't judge you, no matter what you say.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "868:428": {
+    "id": "868:428",
+    "actorName": "Inland Empire",
+    "en": "Oh yeah. Here comes the *interesting*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
