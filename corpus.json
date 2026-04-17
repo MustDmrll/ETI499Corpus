@@ -13187,5 +13187,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1182:162": {
+    "id": "1182:162",
+    "actorName": "Inland Empire",
+    "en": "There's *much* more. Remember what it said, when it spoke.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1182:181": {
+    "id": "1182:181",
+    "actorName": "Inland Empire",
+    "en": "There is nothing. Only the reeds for him. The reeds and devastation.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
