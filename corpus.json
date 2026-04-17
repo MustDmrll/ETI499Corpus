@@ -3255,5 +3255,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "380:572": {
+    "id": "380:572",
+    "actorName": "Inland Empire",
+    "en": "It's not easy to reach a harmonic resonance of sines without some adjustment.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
