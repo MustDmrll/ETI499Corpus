@@ -915,5 +915,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "17:503": {
+    "id": "17:503",
+    "actorName": "Inland Empire",
+    "en": "Does this *feel* like a *good* thing though?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "17:673": {
+    "id": "17:673",
+    "actorName": "Inland Empire",
+    "en": "The 'Feld Electric' mural... you feel like you should go look at it again. Step *closer* this time.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
