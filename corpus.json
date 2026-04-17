@@ -8299,5 +8299,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "797:28": {
+    "id": "797:28",
+    "actorName": "Inland Empire",
+    "en": "Don't be fooled. The bad times have already begun.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
