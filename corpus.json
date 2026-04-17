@@ -278,5 +278,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "8:64": {
+    "id": "8:64",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Ex-love, ex-tenderness. It is foolish of you to resurface to the loss. Not after all the damage you suffered to get here, some of it irreversible... Stay, sail with me through the Abyssopelagic Zone!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
