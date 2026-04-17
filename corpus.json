@@ -44,5 +44,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "8:11": {
+    "id": "8:11",
+    "actorName": "Inland Empire",
+    "en": "Fear and apprehension... You should ask what's out there first.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
