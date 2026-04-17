@@ -7194,5 +7194,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "686:74": {
+    "id": "686:74",
+    "actorName": "Inland Empire",
+    "en": "The tape feels ominous... Upon it, the dead speak. Respect the tape!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
