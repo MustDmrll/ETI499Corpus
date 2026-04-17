@@ -12625,7 +12625,20 @@
     "proposed": "",
     "notes": "",
     "votes": {
-      "basak": "skip"
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1149:119": {
+    "id": "1149:119",
+    "actorName": "Limbic System",
+    "en": "Here in the Paleo-Mammalian Cortex we call it -- *the shadow*.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
     },
     "status": "pending"
   }
