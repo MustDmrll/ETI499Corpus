@@ -10470,5 +10470,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1015:289": {
+    "id": "1015:289",
+    "actorName": "Inland Empire",
+    "en": "Like a Tequila Sunset.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1016:9": {
+    "id": "1016:9",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "HERE IT WILL BEGIN.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
