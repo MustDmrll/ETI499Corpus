@@ -9729,5 +9729,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "968:402": {
+    "id": "968:402",
+    "actorName": "Inland Empire",
+    "en": "Fragments on bone scattering, like your thoughts at this moment, sticking now to forebodings, now to a strangely familiar voice...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
