@@ -12706,5 +12706,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1154:8": {
+    "id": "1154:8",
+    "actorName": "Inland Empire",
+    "en": "*BZZZZT*. Do you copy? This is RVD HQ. Anyone there?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1154:10": {
+    "id": "1154:10",
+    "actorName": "Inland Empire",
+    "en": "The time has come to *connect* to RVD HQ. By establishing a connection you'll have proved yourself worthy as a Remote Viewer...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
