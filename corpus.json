@@ -13057,5 +13057,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1180:348": {
+    "id": "1180:348",
+    "actorName": "Inland Empire",
+    "en": "It's no good, Harry. Her voice rings in the evening air. It smells of burning buildings...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1180:373": {
+    "id": "1180:373",
+    "actorName": "Inland Empire",
+    "en": "Dive for other clues now, like you always do. Make it up in the deep end...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
