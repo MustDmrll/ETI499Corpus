@@ -7064,5 +7064,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "675:24": {
+    "id": "675:24",
+    "actorName": "Inland Empire",
+    "en": "You *pissed* it all away... All of it. Elysium.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
