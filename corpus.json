@@ -1188,5 +1188,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "29:252": {
+    "id": "29:252",
+    "actorName": "Inland Empire",
+    "en": "Tell him. Tell him why it's you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "29:352": {
+    "id": "29:352",
+    "actorName": "Inland Empire",
+    "en": "What if *you* did it?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
