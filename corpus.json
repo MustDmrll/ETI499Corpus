@@ -4386,5 +4386,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "478:63": {
+    "id": "478:63",
+    "actorName": "Inland Empire",
+    "en": "See, see! This place is cursed!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "478:64": {
+    "id": "478:64",
+    "actorName": "Inland Empire",
+    "en": "Hey, but you're still in a ghost house... What if someone heard this? What if they know you're here?!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
