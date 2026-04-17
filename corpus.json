@@ -8377,5 +8377,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "814:404": {
+    "id": "814:404",
+    "actorName": "Inland Empire",
+    "en": "There's a *spooky* building West of this. Take a flashlight with you, search the basement. There are secrets -- magisterial, ancient secrets that may assist you.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
