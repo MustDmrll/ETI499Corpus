@@ -3918,5 +3918,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "433:410": {
+    "id": "433:410",
+    "actorName": "Inland Empire",
+    "en": "So tell me, how does it feel -- to be close to someone, skin to skin?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "433:417": {
+    "id": "433:417",
+    "actorName": "Inland Empire",
+    "en": "Nothing.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
