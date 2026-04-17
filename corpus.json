@@ -3632,5 +3632,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "429:27": {
+    "id": "429:27",
+    "actorName": "Inland Empire",
+    "en": "Not so! You sense their strange magicks, cast from the dark forests they writhe around in. Don't believe it? Go ahead, straight through the curtains. Suffer the consequences.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
