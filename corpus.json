@@ -4451,5 +4451,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "481:595": {
+    "id": "481:595",
+    "actorName": "Inland Empire",
+    "en": "*Did* you?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "482:2": {
+    "id": "482:2",
+    "actorName": "Inland Empire",
+    "en": "A strange sensation of loss. When she left the Earth, the dust and the ice and the humans... That is unimportant to the quiz. Stop thinking about this.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
