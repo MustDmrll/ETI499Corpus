@@ -10912,5 +10912,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1030:863": {
+    "id": "1030:863",
+    "actorName": "Inland Empire",
+    "en": "Don't turn around, don't turn around!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1030:918": {
+    "id": "1030:918",
+    "actorName": "Inland Empire",
+    "en": "The throttle is jammed and the brakeman's nowhere to be seen! There's no getting off this ride!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
