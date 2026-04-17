@@ -3463,5 +3463,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "428:106": {
+    "id": "428:106",
+    "actorName": "Inland Empire",
+    "en": "Yes, the venture continues. In other waters. Darker waters.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "428:319": {
+    "id": "428:319",
+    "actorName": "Inland Empire",
+    "en": "Didn't... didn't that curtain just *move*?!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
