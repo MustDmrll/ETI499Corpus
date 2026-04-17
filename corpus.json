@@ -11263,5 +11263,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1049:66": {
+    "id": "1049:66",
+    "actorName": "Inland Empire",
+    "en": "Numerous empty wine bottles glisten in the rain. Someone *partied* really, really hard here.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "1049:67": {
+    "id": "1049:67",
+    "actorName": "Inland Empire",
+    "en": "Yes. That's what this was. A reconnaissance mission. Wish you'd only remember the good intel you brought back...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
