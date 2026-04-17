@@ -9573,5 +9573,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "959:27": {
+    "id": "959:27",
+    "actorName": "Inland Empire",
+    "en": "You feel nice and lonely. And so, so tired.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "963:49": {
+    "id": "963:49",
+    "actorName": "Inland Empire",
+    "en": "Is that an accusatory glance he gave you? No... no, he's cool.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
