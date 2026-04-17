@@ -11975,7 +11975,20 @@
     "proposed": "",
     "notes": "",
     "votes": {
-      "basak": "keep"
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1116:32": {
+    "id": "1116:32",
+    "actorName": "Inland Empire",
+    "en": "Garte. You have to convince Garte to let you sing karaoke in the Whirling. After you've won him over, you can *express* yourself. Let the pain out. Make everyone understand.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
     },
     "status": "pending"
   }
