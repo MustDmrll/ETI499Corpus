@@ -5998,5 +5998,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "617:222": {
+    "id": "617:222",
+    "actorName": "Inland Empire",
+    "en": "In the West is the miracle...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "617:265": {
+    "id": "617:265",
+    "actorName": "Inland Empire",
+    "en": "Psst! Her gloves -- they'll help you with the autopsy.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
