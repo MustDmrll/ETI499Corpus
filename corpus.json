@@ -11536,5 +11536,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1057:33": {
+    "id": "1057:33",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "This respite -- you've earned it, brother. Bask in the darkness. Let it swallow you up and swivel you around while you forget everything you've managed to remember...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
