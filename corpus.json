@@ -10704,5 +10704,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1016:829": {
+    "id": "1016:829",
+    "actorName": "Inland Empire",
+    "en": "SALVATION!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1016:832": {
+    "id": "1016:832",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "GOOD. YOU SHOULD BE.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
