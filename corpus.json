@@ -7792,5 +7792,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "762:836": {
+    "id": "762:836",
+    "actorName": "Inland Empire",
+    "en": "Nothing. Its simple eyes give off no flicker of light, no one is home. The twitches of its limbs are insect-like, unknowable, perhaps without substance even.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
