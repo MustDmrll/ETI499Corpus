@@ -2150,5 +2150,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "280:62": {
+    "id": "280:62",
+    "actorName": "Inland Empire",
+    "en": "No. An ominous feeling fills your gut and suddenly you *know* the gun is empty. Thinking about it makes you nauseous.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "280:65": {
+    "id": "280:65",
+    "actorName": "Inland Empire",
+    "en": "'Paint the wall with your brains' dark.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
