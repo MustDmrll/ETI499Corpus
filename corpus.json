@@ -5127,5 +5127,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "545:80": {
+    "id": "545:80",
+    "actorName": "Inland Empire",
+    "en": "You immediately feel *drawn* to the colour. Blue is for mystery.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
