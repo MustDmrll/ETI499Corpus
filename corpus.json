@@ -5478,5 +5478,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "558:974": {
+    "id": "558:974",
+    "actorName": "Inland Empire",
+    "en": "Suddenly your palms are sweaty. The church seems cold and large, somehow...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "558:1154": {
+    "id": "558:1154",
+    "actorName": "Inland Empire",
+    "en": "Wait, no! That's dangerous, she shouldn't do it!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
