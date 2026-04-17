@@ -1747,5 +1747,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "71:577": {
+    "id": "71:577",
+    "actorName": "Inland Empire",
+    "en": "The trash container. THE TRASH CONTAINER OF BAD MEMORIES.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
