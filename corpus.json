@@ -6024,5 +6024,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "625:43": {
+    "id": "625:43",
+    "actorName": "Inland Empire",
+    "en": "That's because you know where this leads to.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "625:112": {
+    "id": "625:112",
+    "actorName": "Inland Empire",
+    "en": "Usual is boring. We don't do that.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
