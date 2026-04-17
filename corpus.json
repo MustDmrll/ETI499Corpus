@@ -11380,5 +11380,18 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1054:50": {
+    "id": "1054:50",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Your mind is what now? I can't hear you, the rest is just a word-dream. Jumbled up garbage. The pictures are gone, the bed rises to meet you. A thin, sleep-like state. More glass than velvet, *grinding* in your head.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
