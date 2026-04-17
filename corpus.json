@@ -2423,5 +2423,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "350:163": {
+    "id": "350:163",
+    "actorName": "Inland Empire",
+    "en": "A bad omen. Beware of this church.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "352:35": {
+    "id": "352:35",
+    "actorName": "Inland Empire",
+    "en": "He *seems* sure, but you are left with the nagging doubt you might have overestimated the hard coreness of that jam...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
