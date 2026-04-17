@@ -2319,5 +2319,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "307:24": {
+    "id": "307:24",
+    "actorName": "Inland Empire",
+    "en": "It's gotta be the phasmid this time. Look -- it moved!",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
