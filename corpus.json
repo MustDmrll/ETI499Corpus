@@ -14019,5 +14019,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1198:65": {
+    "id": "1198:65",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "It's too late. You're not *made* of nothing anymore, you're something now, Harry. I tried to drown you in the black water but you re-emerged. Kicking and screaming. Running. And for what?",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
