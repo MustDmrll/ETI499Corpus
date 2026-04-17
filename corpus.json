@@ -4204,5 +4204,18 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "460:484": {
+    "id": "460:484",
+    "actorName": "Inland Empire",
+    "en": "The dice is black and filled with little silvery flakes, like snowfall.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
