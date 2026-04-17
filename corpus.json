@@ -12550,5 +12550,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "1149:96": {
+    "id": "1149:96",
+    "actorName": "Limbic System",
+    "en": "It certainly ain't Harry.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1149:102": {
+    "id": "1149:102",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Yeah, man. Fuck *everything*. Total blackout forever.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
