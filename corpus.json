@@ -7701,5 +7701,31 @@
       "basak": "keep"
     },
     "status": "pending"
+  },
+  "761:388": {
+    "id": "761:388",
+    "actorName": "Inland Empire",
+    "en": "He was like a cleric, a shepherd.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
+  },
+  "761:733": {
+    "id": "761:733",
+    "actorName": "Inland Empire",
+    "en": "Okay then. Over-mystified that a bit..",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
