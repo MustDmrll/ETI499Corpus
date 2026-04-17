@@ -7909,5 +7909,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "767:844": {
+    "id": "767:844",
+    "actorName": "Inland Empire",
+    "en": "That's the problem. Look at what's pouring out of you...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "768:5": {
+    "id": "768:5",
+    "actorName": "Limbic System",
+    "en": "And a little something in there... a sensation. The bow drawn across a string. Something small and crustacean-like.",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
