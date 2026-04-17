@@ -4217,5 +4217,31 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "460:869": {
+    "id": "460:869",
+    "actorName": "Inland Empire",
+    "en": "Could this be the malicious Entity? Perhaps it's wise to go along with this *masquerade* for now...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "460:937": {
+    "id": "460:937",
+    "actorName": "Inland Empire",
+    "en": "If the Whirling is part of the same building then it's part of the Doomed Commercial Area. The darkness of this place is there too...",
+    "trOfficial": "",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending"
   }
 }
