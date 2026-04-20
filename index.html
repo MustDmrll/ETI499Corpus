@@ -324,6 +324,49 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
 .save-note { font-size: 12px; color: var(--keep); display: none; }
 .save-note.show { display: block; }
 
+/* ── USER PROGRESS ── */
+.progress-section {
+  padding: 10px 20px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+.user-prog {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  min-width: 160px;
+}
+.user-prog-name {
+  font-weight: 600;
+  color: var(--text);
+  width: 52px;
+  flex-shrink: 0;
+}
+.user-prog-track {
+  flex: 1;
+  height: 6px;
+  background: var(--surface2);
+  border-radius: 3px;
+  overflow: hidden;
+  min-width: 80px;
+}
+.user-prog-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 3px;
+  transition: width 0.3s;
+}
+.user-prog-label {
+  color: var(--muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
 /* ── MISC ── */
 .spinner {
   width: 20px; height: 20px;
@@ -345,6 +388,11 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
     <p>Disco Elysium · Game Localization · Comparative Analysis</p>
   </div>
   <div class="user-grid" id="user-grid"></div>
+  <div style="margin-top:8px">
+    <button class="btn" onclick="viewTableGuest()" style="font-size:13px;padding:9px 20px">
+      Giriş yapmadan tabloyu görüntüle →
+    </button>
+  </div>
   <div id="password-section" style="display:none;flex-direction:column;gap:10px;align-items:center">
     <div class="api-row" style="align-items:center">
       <label id="pw-label">Şifre</label>
@@ -413,12 +461,13 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
   <nav>
     <span class="nav-logo">DE Corpus</span>
     <div class="nav-tabs">
-      <button class="nav-tab" onclick="showScreen('tinder')">Seç</button>
+      <button class="nav-tab" onclick="navToTinder()">Seç</button>
       <button class="nav-tab active" onclick="showScreen('table-screen'); renderTable()">Tablo</button>
-      <button class="nav-tab" onclick="showScreen('settings-screen')">Ayarlar</button>
+      <button class="nav-tab" onclick="navToSettings()">Ayarlar</button>
     </div>
     <span class="nav-user" id="nav-user-table"></span>
   </nav>
+  <div class="progress-section" id="progress-section"></div>
   <div class="table-toolbar">
     <select id="filt-char" onchange="renderTable()">
       <option value="">Tüm karakterler</option>
@@ -442,15 +491,16 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
     <table>
       <thead>
         <tr>
-          <th style="width:80px">Karakter</th>
-          <th style="width:80px">Seçenler</th>
-          <th>İngilizce</th>
-          <th style="width:60px;text-align:center">WC</th>
-          <th>TR Resmi</th>
-          <th>TR Makine (Opus)</th>
-          <th>Önerilen Çeviri</th>
-          <th>Notlar</th>
-          <th style="width:71px"></th>
+          <th style="width:72px">Karakter</th>
+          <th style="width:72px">Seçenler</th>
+          <th style="width:16%">İngilizce</th>
+          <th style="width:44px;text-align:center">WC</th>
+          <th style="width:14%">TR Resmi</th>
+          <th style="width:14%">TR Makine (Opus)</th>
+          <th style="width:14%">Önerilen Çeviri</th>
+          <th style="width:14%">Thought Process</th>
+          <th style="width:14%">Notlar</th>
+          <th style="width:62px" id="th-delete"></th>
         </tr>
       </thead>
       <tbody id="table-body"></tbody>
@@ -601,10 +651,11 @@ async function saveCorpus() {
       remote[id] = entry;
     } else {
       remote[id].votes   = { ...remote[id].votes, ...entry.votes };
-      if (entry.trMachine)              remote[id].trMachine = entry.trMachine;
-      if (entry.proposed !== undefined) remote[id].proposed  = entry.proposed;
-      if (entry.notes    !== undefined) remote[id].notes     = entry.notes;
-      if (entry.status)                remote[id].status     = entry.status;
+      if (entry.trMachine)                    remote[id].trMachine     = entry.trMachine;
+      if (entry.proposed !== undefined)       remote[id].proposed      = entry.proposed;
+      if (entry.thoughtProcess !== undefined) remote[id].thoughtProcess = entry.thoughtProcess;
+      if (entry.notes    !== undefined)       remote[id].notes         = entry.notes;
+      if (entry.status)                       remote[id].status        = entry.status;
     }
   }
   state.corpus = remote;
@@ -646,6 +697,36 @@ async function deleteFromGitHub(id) {
 function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
+}
+
+function navToTinder() {
+  if (!state.user) { showScreen('login'); return; }
+  showScreen('tinder');
+}
+
+function navToSettings() {
+  if (!state.user) { showScreen('login'); return; }
+  showScreen('settings-screen');
+}
+
+async function viewTableGuest() {
+  state.githubToken = localStorage.getItem('de_github_token') || '';
+  state.githubOwner = localStorage.getItem('de_github_owner') || 'MustDmrll';
+
+  showScreen('loading');
+  try {
+    setLoadStatus('Corpus yükleniyor...', 50);
+    await loadCorpus();
+    if (typeof DISCO_DATA !== 'undefined' && Array.isArray(DISCO_DATA)) {
+      state.entries = DISCO_DATA;
+    }
+    setLoadStatus('Hazır.', 100);
+    await new Promise(r => setTimeout(r, 300));
+    showScreen('table-screen');
+    renderTable();
+  } catch (e) {
+    setLoadStatus('Hata: ' + e.message, 0);
+  }
 }
 
 // ════════════════════════════════════════════════════════════
@@ -818,7 +899,7 @@ async function doKeep() {
     state.corpus[id] = {
       id, actorName: entry.actorName, en: entry.en,
       trOfficial: entry.trOfficial, articy: entry.articy,
-      trMachine: '', proposed: '', notes: '', votes: {}, status: 'pending'
+      trMachine: '', proposed: '', thoughtProcess: '', notes: '', votes: {}, status: 'pending'
     };
   }
   state.corpus[id].votes[state.user] = 'keep';
@@ -837,7 +918,7 @@ async function doSkip() {
     state.corpus[id] = {
       id, actorName: entry.actorName, en: entry.en,
       trOfficial: entry.trOfficial, articy: entry.articy,
-      trMachine: '', proposed: '', notes: '', votes: {}, status: 'pending'
+      trMachine: '', proposed: '', thoughtProcess: '', notes: '', votes: {}, status: 'pending'
     };
   }
   state.corpus[id].votes[state.user] = 'skip';
@@ -878,10 +959,41 @@ document.addEventListener('keydown', e => {
 // TABLE
 // ════════════════════════════════════════════════════════════
 
+function renderUserProgress() {
+  const section = document.getElementById('progress-section');
+  if (!section) return;
+  const total = state.entries.length;
+  if (total === 0) { section.style.display = 'none'; return; }
+  section.style.display = 'flex';
+
+  section.innerHTML = USERS.map(u => {
+    const reviewed = Object.values(state.corpus)
+      .filter(e => e.votes?.[u.id] !== undefined).length;
+    const kept = Object.values(state.corpus)
+      .filter(e => e.votes?.[u.id] === 'keep').length;
+    const pct = total > 0 ? Math.round(reviewed / total * 100) : 0;
+    return `
+      <div class="user-prog">
+        <span class="user-prog-name">${u.name}</span>
+        <div class="user-prog-track">
+          <div class="user-prog-fill" style="width:${pct}%"></div>
+        </div>
+        <span class="user-prog-label">${reviewed}/${total} <span style="color:var(--keep)">+${kept}</span></span>
+      </div>`;
+  }).join('');
+}
+
 function renderTable() {
+  const isReadOnly = !state.user;
   const fc = document.getElementById('filt-char').value;
   const ft = document.getElementById('filt-tr').value;
   const fs = document.getElementById('filt-search').value.toLowerCase();
+
+  renderUserProgress();
+
+  // Sil sütunu başlığı: kullanıcı yoksa gizle
+  const thDel = document.getElementById('th-delete');
+  if (thDel) thDel.style.display = isReadOnly ? 'none' : '';
 
   // Tabloda: en az bir "keep" oyu olan satırlar
   const kept = Object.values(state.corpus).filter(r =>
@@ -905,13 +1017,15 @@ function renderTable() {
 
   const tb = document.getElementById('table-body');
   if (!filtered.length) {
-    tb.innerHTML = `<tr><td colspan="9" class="empty-table">
+    tb.innerHTML = `<tr><td colspan="10" class="empty-table">
       ${kept.length === 0
         ? 'Henüz satır seçilmedi. "Seç" sekmesinden başlayın.'
         : 'Filtrelerle eşleşen satır bulunamadı.'}
     </td></tr>`;
     return;
   }
+
+  const ro = isReadOnly ? ' disabled' : '';
 
   tb.innerHTML = filtered.map(r => {
     const voterBadges = USERS
@@ -931,15 +1045,17 @@ function renderTable() {
       <td>${escHtml(r.en)}</td>
       <td style="text-align:center;color:var(--muted);font-size:12px;white-space:nowrap">${wc}</td>
       <td style="color:#aaa">${escHtml(r.trOfficial) || '<em style="color:var(--muted)">—</em>'}</td>
-      <td><textarea class="editable" rows="2" placeholder="Makine çevirisi..."
+      <td><textarea class="editable" rows="2" placeholder="Makine çevirisi..."${ro}
         onchange="updateField('${r.id}','trMachine',this.value)">${escHtml(r.trMachine||'')}</textarea></td>
-      <td><textarea class="editable" rows="2" placeholder="Önerilen çeviri..."
+      <td><textarea class="editable" rows="2" placeholder="Önerilen çeviri..."${ro}
         onchange="updateField('${r.id}','proposed',this.value)">${escHtml(r.proposed||'')}</textarea></td>
-      <td><textarea class="editable" rows="2" placeholder="Not..."
+      <td><textarea class="editable" rows="2" placeholder="Düşünce süreci..."${ro}
+        onchange="updateField('${r.id}','thoughtProcess',this.value)">${escHtml(r.thoughtProcess||'')}</textarea></td>
+      <td><textarea class="editable" rows="2" placeholder="Not..."${ro}
         onchange="updateField('${r.id}','notes',this.value)">${escHtml(r.notes||'')}</textarea></td>
-      <td class="delete-cell">
+      ${isReadOnly ? '' : `<td class="delete-cell">
         <button class="btn danger" onclick="deleteEntry('${r.id}')">Sil</button>
-      </td>
+      </td>`}
     </tr>`;
   }).join('');
 }
@@ -970,7 +1086,7 @@ function exportCSV() {
     Object.values(r.votes || {}).some(v => v === 'keep')
   );
   if (!kept.length) { alert('Corpus boş.'); return; }
-  const header = ['Karakter','Seçenler','İngilizce','TR Resmi','TR Makine (Opus)','Önerilen Çeviri','Notlar'];
+  const header = ['Karakter','Seçenler','İngilizce','TR Resmi','TR Makine (Opus)','Önerilen Çeviri','Thought Process','Notlar'];
   const rows = kept.map(r => {
     const voters = USERS.filter(u => r.votes?.[u.id] === 'keep').map(u => u.name).join('+');
     return [
@@ -979,6 +1095,7 @@ function exportCSV() {
       `"${(r.trOfficial||'').replace(/"/g,'""')}"`,
       `"${(r.trMachine||'').replace(/"/g,'""')}"`,
       `"${(r.proposed||'').replace(/"/g,'""')}"`,
+      `"${(r.thoughtProcess||'').replace(/"/g,'""')}"`,
       `"${(r.notes||'').replace(/"/g,'""')}"`
     ];
   });
