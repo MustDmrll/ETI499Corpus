@@ -414,7 +414,8 @@
     "proposed": "",
     "notes": "",
     "votes": {
-      "basak": "skip"
+      "basak": "skip",
+      "mustafa": "skip"
     },
     "status": "pending",
     "articy": "0x010000040000006A"
@@ -428,7 +429,8 @@
     "proposed": "",
     "notes": "",
     "votes": {
-      "basak": "skip"
+      "basak": "skip",
+      "mustafa": "skip"
     },
     "status": "pending",
     "articy": "0x0100000400000081"
