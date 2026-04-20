@@ -408,7 +408,7 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
   <div class="api-row">
     <label>GitHub Token</label>
     <input type="password" id="login-gh-token" placeholder="github_pat_..." />
-    <span class="hint">İlk girişte bir kez girilir, tarayıcıda saklanır.</span>
+    <span class="hint">İlk girişte bir kez girdikten sonra, cihazda saklanır.</span>
   </div>
 </div>
 
@@ -423,7 +423,7 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
 <!-- TINDER -->
 <div id="tinder" class="screen">
   <nav>
-    <span class="nav-logo">DE Corpus</span>
+    <span class="nav-logo">ETI 499 Corpus</span>
     <div class="nav-tabs">
       <button class="nav-tab active" onclick="showScreen('tinder')">Seç</button>
       <button class="nav-tab" onclick="showScreen('table-screen'); renderTable()">Tablo</button>
@@ -483,9 +483,9 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
     <input type="text" id="filt-search" placeholder="Metin ara..." oninput="renderTable()" />
     <span class="row-count" id="row-count"></span>
     <span class="row-count" id="wc-total" style="color:var(--accent)"></span>
-    <button class="btn" onclick="exportCSV()">CSV İndir</button>
-    <button class="btn" onclick="exportJSON()">JSON</button>
-    <button class="btn" onclick="importJSON()">İçe Aktar</button>
+    <button class="btn" id="btn-csv" onclick="exportCSV()">CSV İndir</button>
+    <button class="btn" id="btn-json" onclick="exportJSON()">JSON</button>
+    <button class="btn" id="btn-import" onclick="importJSON()">İçe Aktar</button>
   </div>
   <div class="main">
     <table>
@@ -962,6 +962,7 @@ document.addEventListener('keydown', e => {
 function renderUserProgress() {
   const section = document.getElementById('progress-section');
   if (!section) return;
+  if (!state.user) { section.style.display = 'none'; return; }
   const total = state.entries.length;
   if (total === 0) { section.style.display = 'none'; return; }
   section.style.display = 'flex';
@@ -991,9 +992,13 @@ function renderTable() {
 
   renderUserProgress();
 
-  // Sil sütunu başlığı: kullanıcı yoksa gizle
+  // Sil sütunu başlığı + araç çubuğu butonları: kullanıcı yoksa gizle
   const thDel = document.getElementById('th-delete');
   if (thDel) thDel.style.display = isReadOnly ? 'none' : '';
+  ['btn-csv','btn-json','btn-import'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.style.display = isReadOnly ? 'none' : '';
+  });
 
   // Tabloda: en az bir "keep" oyu olan satırlar
   const kept = Object.values(state.corpus).filter(r =>
