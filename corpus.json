@@ -249,7 +249,8 @@
     "proposed": "",
     "notes": "",
     "votes": {
-      "basak": "keep"
+      "basak": "keep",
+      "mustafa": "keep"
     },
     "status": "pending",
     "articy": "0x010000040000014C"
@@ -263,7 +264,8 @@
     "proposed": "",
     "notes": "",
     "votes": {
-      "basak": "skip"
+      "basak": "skip",
+      "mustafa": "skip"
     },
     "status": "pending",
     "articy": "0x01000004000000C8"
@@ -277,7 +279,8 @@
     "proposed": "",
     "notes": "",
     "votes": {
-      "basak": "skip"
+      "basak": "skip",
+      "mustafa": "skip"
     },
     "status": "pending",
     "articy": "0x0100000400000103"
