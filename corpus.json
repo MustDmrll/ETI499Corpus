@@ -189,7 +189,8 @@
     "proposed": "",
     "notes": "",
     "votes": {
-      "basak": "skip"
+      "basak": "skip",
+      "mustafa": "keep"
     },
     "status": "pending",
     "articy": "0x0100000400000109"
