@@ -1025,7 +1025,8 @@
     "proposed": "",
     "notes": "",
     "votes": {
-      "basak": "skip"
+      "basak": "skip",
+      "emre": "skip"
     },
     "status": "pending",
     "articy": "0x010000070000FEB4"
