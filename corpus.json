@@ -505,7 +505,8 @@
     "notes": "",
     "votes": {
       "basak": "skip",
-      "mustafa": "keep"
+      "mustafa": "keep",
+      "emre": "skip"
     },
     "status": "pending",
     "articy": "0x0100000400000F9A"
