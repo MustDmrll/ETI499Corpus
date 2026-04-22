@@ -43,7 +43,7 @@
     "votes": {
       "mustafa": "skip",
       "basak": "keep",
-      "emre": "keep"
+      "emre": "skip"
     },
     "status": "pending"
   },
