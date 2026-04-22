@@ -1415,7 +1415,8 @@
     "proposed": "",
     "notes": "",
     "votes": {
-      "basak": "skip"
+      "basak": "skip",
+      "emre": "skip"
     },
     "status": "pending",
     "articy": "0x010000040000979D"
@@ -1429,7 +1430,8 @@
     "proposed": "",
     "notes": "",
     "votes": {
-      "basak": "skip"
+      "basak": "skip",
+      "emre": "skip"
     },
     "status": "pending",
     "articy": "0x01000094000000B8"
