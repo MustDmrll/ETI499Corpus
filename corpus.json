@@ -47,22 +47,6 @@
     },
     "status": "pending"
   },
-  "8:11": {
-    "id": "8:11",
-    "actorName": "Inland Empire",
-    "en": "Fear and apprehension... You should ask what's out there first.",
-    "trOfficial": "Korku ve endişe... Önce orada ne olduğunu sormalısın.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "skip",
-      "mustafa": "skip",
-      "emre": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000450000C5C5"
-  },
   "8:12": {
     "id": "8:12",
     "actorName": "Ancient Reptilian Brain",
