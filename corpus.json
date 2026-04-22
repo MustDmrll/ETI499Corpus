@@ -800,7 +800,8 @@
     "proposed": "",
     "notes": "",
     "votes": {
-      "basak": "skip"
+      "basak": "skip",
+      "emre": "keep"
     },
     "status": "pending",
     "articy": "0x01000006000084F8"
