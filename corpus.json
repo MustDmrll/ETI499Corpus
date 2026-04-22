@@ -890,7 +890,8 @@
     "proposed": "",
     "notes": "",
     "votes": {
-      "basak": "skip"
+      "basak": "skip",
+      "emre": "skip"
     },
     "status": "pending",
     "articy": "0x0100000600008552"
