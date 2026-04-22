@@ -710,7 +710,8 @@
     "proposed": "",
     "notes": "",
     "votes": {
-      "basak": "skip"
+      "basak": "skip",
+      "emre": "keep"
     },
     "status": "pending",
     "articy": "0x0100000400006EC7"
