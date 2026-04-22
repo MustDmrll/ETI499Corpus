@@ -121,7 +121,8 @@
     "notes": "",
     "votes": {
       "basak": "skip",
-      "mustafa": "skip"
+      "mustafa": "skip",
+      "emre": "keep"
     },
     "status": "pending",
     "articy": "0x010000040000013E"
