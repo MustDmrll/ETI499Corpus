@@ -14606,5 +14606,523 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1038:11": {
+    "id": "1038:11",
+    "actorName": "Inland Empire",
+    "en": "Don't be too hard on yourself. You couldn't have known that for sure. And, besides, finding this phasmid is your special destiny -- you can feel it!",
+    "trOfficial": "Kendine çok yüklenme. Nereden bilebilirdin ki? Ayrıca, bu fazmiti bulmak senin kaderinde var, bunu hissedebiliyorsun!",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending",
+    "articy": "0x0100008100000155"
+  },
+  "1038:18": {
+    "id": "1038:18",
+    "actorName": "Inland Empire",
+    "en": "Right?! You'll have better luck next time, though. The phasmid -- finding it is your destiny.",
+    "trOfficial": "Değil mi? Ama bir dahaki sefere şans yüzüne gülecektir. O fazmiti bulmak senin kaderin.",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending",
+    "articy": "0x010000810000014F"
+  },
+  "1038:21": {
+    "id": "1038:21",
+    "actorName": "Inland Empire",
+    "en": "It's not the phasmid... It's not even organic -- it's a fire iron. How disappointing!",
+    "trOfficial": "Bu fazmit falan değil... Canlı bile değil, şömine maşası bu. Ne büyük hayal kırıklığı!",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending",
+    "articy": "0x0100005A000100F7"
+  },
+  "1038:22": {
+    "id": "1038:22",
+    "actorName": "Inland Empire",
+    "en": "You were just following your instincts, your destiny. You're meant to find the phasmid! Just maybe not here...",
+    "trOfficial": "Sen sadece içgüdülerinin ve kaderinin peşinden gidiyordun. Bu fazmiti bulacak olan kişi sensin! Burada değilse de başka bir yerde...",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending",
+    "articy": "0x010000810000015B"
+  },
+  "1057:33": {
+    "id": "1057:33",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "This respite -- you've earned it, brother. Bask in the darkness. Let it swallow you up and swivel you around while you forget everything you've managed to remember...",
+    "trOfficial": "Bu dinlenişi hak ettin, kardeşim. Karanlığa dal. Bırak seni yutsun, sen hatırlayabildiğin her şeyi unutana kadar seni evirip çevirsin...",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending",
+    "articy": "0x0100008100002FBC"
+  },
+  "1211:2": {
+    "id": "1211:2",
+    "actorName": "Inland Empire",
+    "en": "So it wasn't the phasmid... a wave of disappointment washes over you.",
+    "trOfficial": "Yani fazmit değildi... Hayal kırıklığı hissi vücudunu kaplıyor.",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending",
+    "articy": "0x010000060001EFA0"
+  },
+  "8:3": {
+    "id": "8:3",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "An inordinate amount of time passes.  It is utterly void of struggle. No ex-wives are contained within it.",
+    "trOfficial": "Haddinden uzun bir süre geçiyor. O anların içinde mücadeleden eser yok. Eski eşlerden de.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "8:11": {
+    "id": "8:11",
+    "actorName": "Inland Empire",
+    "en": "Fear and apprehension... You should ask what's out there first.",
+    "trOfficial": "Korku ve endişe... Önce orada ne olduğunu sormalısın.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "8:45": {
+    "id": "8:45",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "There is nothing. Only warm, primordial blackness. Your conscience ferments in it -- no larger than a single grain of malt. You don't have to do anything anymore.",
+    "trOfficial": "Hiçbir şey yok. Yalnızca ılık, ilkel bir karanlık var. Bilincin bu karanlıkta mayalanıyor. Bir malt taneciği kadar küçücük. Artık hiçbir şey yapmana gerek yok.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "11:267": {
+    "id": "11:267",
+    "actorName": "Inland Empire",
+    "en": "Those words -- \"tell me something else\" -- feel like something you've said innumerable times before. Your mouth is the very shape of them.",
+    "trOfficial": "Bu sözler, \"başka bir şeyden bahsedelim,\" daha önce sayısız defa söylediğin şeyler gibi. Ağzın artık bu cümlenin şeklini almış.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "13:533": {
+    "id": "13:533",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "I was wrong to let you go. I should have kept you here... is it bright where you are? Is it TERRIFYING? Have you felt THE LOVE?!",
+    "trOfficial": "Gitmene izin vermem yanlıştı. Seni burada tutmalıydım... Bulunduğun yer aydınlık mı? KORKUTUCU mu? SEVGİYİ hissettin mi?",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "13:562": {
+    "id": "13:562",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Those are the mysteries of the Spinal Cord. The Spinal Cord has yet to reveal itself to you -- its mysteries are unholy mysteries.",
+    "trOfficial": "Omuriliğin gizemleriydi onlar. Omurilik henüz kendini sana göstermiş değil. Onun gizemleri habis gizemler.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "13:584": {
+    "id": "13:584",
+    "actorName": "Inland Empire",
+    "en": "No one is saying the multi-patterned necktie you found tied to the ceiling fan can *talk*. No one. It must be merely *imagination*, but...",
+    "trOfficial": "Tavandaki vantilatöre bağlanmış hâlde bulduğun çok desenli kravatın <i>konuşabileceğini</i> kimse söylemiyor. Hiç kimse. Bu yalnızca <i>hayal gücü</i> olmalı ama...",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "14:205": {
+    "id": "14:205",
+    "actorName": "Inland Empire",
+    "en": "The fish-lips stay silent in response. You must be losing your mind, asking him that over and over...",
+    "trOfficial": "Balık dudaklardan cevap gelmiyor. Ona böyle tekrar tekrar sormak... Aklını kaçırıyor olmalısın...",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "16:832": {
+    "id": "16:832",
+    "actorName": "Inland Empire",
+    "en": "If that's true then *Revacholian lit* would fit you like a glove.",
+    "trOfficial": "Anlattıkları doğruysa, <i>Revachol edebiyatı</i> tam sana göreymiş.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "17:98": {
+    "id": "17:98",
+    "actorName": "Inland Empire",
+    "en": "That's you alright. A black hound licking your own heels.",
+    "trOfficial": "Bu tam olarak sensin. Kendi topuğunu yalayan kara bir tazı.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "18:223": {
+    "id": "18:223",
+    "actorName": "Inland Empire",
+    "en": "Heartfelt gratitude -- but does it feel like closure? What *really* happened?",
+    "trOfficial": "İçten bir minnettarlık ama... noktayı koyar mı? <i>Gerçekte</i> ne oldu?",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "29:68": {
+    "id": "29:68",
+    "actorName": "Inland Empire",
+    "en": "Only banal things strike you. At the core, you're a very banal person, with a very small soul.",
+    "trOfficial": "Yalnızca bayağı şeyler ilgini çekiyor. Özünde, ruhu çok çapsız olan oldukça bayağı bir insansın.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "33:9": {
+    "id": "33:9",
+    "actorName": "Inland Empire",
+    "en": "You should sing the sad small church song from that tape you found. Thought it was obvious...",
+    "trOfficial": "Bulduğun kasetteki hüzünlü kilise şarkısını söylemen lazım. Çok bariz değil mi?",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "33:36": {
+    "id": "33:36",
+    "actorName": "Inland Empire",
+    "en": "Serves them right! Wipe that smirk off their face with your sad, tragic song. Who's laughing now? No one.",
+    "trOfficial": "Şimdi onlar düşünsün! Suratlarındaki sırıtışı o hüzünlü, trajik şarkınla bir güzel sil. Hâlâ gülüyorlar mı? Kesinlikle hayır.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "33:49": {
+    "id": "33:49",
+    "actorName": "Inland Empire",
+    "en": "Serves them right! Wipe that smirk off their face with your sad, tragic song. Who's laughing now? No one.",
+    "trOfficial": "Şimdi onlar düşünsün! Suratlarındaki sırıtışı o hüzünlü, trajik şarkınla bir güzel sil. Hâlâ gülüyorlar mı? Kesinlikle hayır.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "33:58": {
+    "id": "33:58",
+    "actorName": "Inland Empire",
+    "en": "Through a PA system.",
+    "trOfficial": "Hoparlör sisteminden.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "71:861": {
+    "id": "71:861",
+    "actorName": "Inland Empire",
+    "en": "Good call! Never mind that *old trash container* lurching in the corner of this yard, full of  old news...",
+    "trOfficial": "İyi dedin! Avlunun köşesinde duran, geçmişten kalma haberlerle dolu <i>eski çöp konteynerini</i> boş ver gitsin...",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "204:51": {
+    "id": "204:51",
+    "actorName": "Inland Empire",
+    "en": "Compared to the intersection, in front of Video Revachol 24 -- it's nothing. Compared to that, everything is possible.",
+    "trOfficial": "Video Revachol 24'ün önündeki kavşağa kıyasla bunun hiçbir zorluğu yok. Ona kıyasla her şey kolay.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "204:583": {
+    "id": "204:583",
+    "actorName": "Inland Empire",
+    "en": "Heartbreak Welkin.",
+    "trOfficial": "Kalp yarası welkin'i.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "302:5": {
+    "id": "302:5",
+    "actorName": "Inland Empire",
+    "en": "The pétanque players?",
+    "trOfficial": "Pétanque oynayanlar mı?",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "358:6": {
+    "id": "358:6",
+    "actorName": "Inland Empire",
+    "en": "They live underground? These communists aren't men, they're *mole people*!",
+    "trOfficial": "Yerin altında mı yaşıyorlar? Bu komünistler insan değiller, <i>köstebek insan</i> olmuşlar!",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "371:19": {
+    "id": "371:19",
+    "actorName": "Inland Empire",
+    "en": "You *knew* there was something strange about this one! He's an astral projection, a bureaucratic phantasm!",
+    "trOfficial": "Bu adamda bir tuhaflık olduğu <i>belliydi</i>! O bir astral projeksiyon, bürokratik bir ruh!",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "379:434": {
+    "id": "379:434",
+    "actorName": "Inland Empire",
+    "en": "You're *Tequila Sunset*. You have been Tequila Sunset for a long time now.",
+    "trOfficial": "Sen <i>Akşamcı Kovboy</i>'sun. Epey zamandır Akşamcı Kovboy'sun.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "379:868": {
+    "id": "379:868",
+    "actorName": "Inland Empire",
+    "en": "You're *Tequila Sunset*. You have always been Tequila Sunset. It has always been too late.",
+    "trOfficial": "Sen <i>Akşamcı Kovboy</i>'sun. Her zaman Akşamcı Kovboy oldun. Hep çok geçti.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "380:521": {
+    "id": "380:521",
+    "actorName": "Inland Empire",
+    "en": "He means something para-natural. He must...",
+    "trOfficial": "Doğaüstü bir şeyden bahsediyor. Öyle olmalı...",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "380:572": {
+    "id": "380:572",
+    "actorName": "Inland Empire",
+    "en": "It's not easy to reach a harmonic resonance of sines without some adjustment.",
+    "trOfficial": "Biraz ayarlama yapmadan sinüslerin armonik rezonansına ulaşmak kolay değildir.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "460:51": {
+    "id": "460:51",
+    "actorName": "Inland Empire",
+    "en": "Time has come to face the Source. Fear not, for the forces of the universe are supporting you in this psychic quest.",
+    "trOfficial": "Kaynak ile yüzleşme vakti geldi. Korkmana gerek yok, evrenin güçleri bu ruhani araştırmanda seni destekliyor.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "460:276": {
+    "id": "460:276",
+    "actorName": "Inland Empire",
+    "en": "Plaisance needs to hear about this. Perhaps if you combine your *psychic energies* you'll make sense of the situation.",
+    "trOfficial": "Plaisance'a hepsini anlatmalısın. Belki <i>ruhani enerjilerinizi</i> birleştirirseniz durumdan bir anlam çıkarabilirsiniz.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "460:937": {
+    "id": "460:937",
+    "actorName": "Inland Empire",
+    "en": "If the Whirling is part of the same building then it's part of the Doomed Commercial Area. The darkness of this place is there too...",
+    "trOfficial": "Eğer Whirling aynı binanın bir parçasıysa o da Lanetli Ticaret Bölgesi'nin bir parçası olmuş oluyor. Bu yerin karanlığı orada da devam ediyor...",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "482:68": {
+    "id": "482:68",
+    "actorName": "Inland Empire",
+    "en": "You would have done better if you'd just dial the Dolores Dei down a bit.",
+    "trOfficial": "Dolores Dei'e bu kadar takık olmasaydın daha iyi bir not alabilirdin.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "482:192": {
+    "id": "482:192",
+    "actorName": "Inland Empire",
+    "en": "You would have done better if you'd just left Dolores Dei for the end. Dial the Dolores Dei down *a bit*.",
+    "trOfficial": "Dolores Dei'i sona saklasaydın daha iyi bir sonuç alabilirdin. Dolores Dei bahsini <i>biraz</i> azaltmalısın.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
