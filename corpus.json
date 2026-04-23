@@ -14010,20 +14010,6 @@
     "status": "pending",
     "articy": "0x01000053000060CB"
   },
-  "1198:16": {
-    "id": "1198:16",
-    "actorName": "Ancient Reptilian Brain",
-    "en": "You're the son of the World again. Harrister -- a ceaseless agent picking up litter and old newspapers, collecting your little bubble gum wrappers and idiotic picture post cards. Meaningless, meaningless keepsakes.",
-    "trOfficial": "Sen yine Dünya'nın oğlu oldun, Harrister. Çöp ve eski gazete toplayan, küçük sakız kâğıtları ve fotoğraflı salakça kartpostallar biriktiren bir Dünya görevlisi oldun. Anlamsız, manasız hatıralar.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001C14A"
-  },
   "1198:25": {
     "id": "1198:25",
     "actorName": "Limbic System",
