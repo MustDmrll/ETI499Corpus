@@ -13436,20 +13436,6 @@
     "status": "pending",
     "articy": "0x01000081000023FB"
   },
-  "1195:43": {
-    "id": "1195:43",
-    "actorName": "Limbic System",
-    "en": "You're not *cooperating* brother-man.",
-    "trOfficial": "<i>İş birliği yapmıyorsun</i>, kardeşim.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000600015D75"
-  },
   "1195:44": {
     "id": "1195:44",
     "actorName": "Limbic System",
