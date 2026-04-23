@@ -8900,20 +8900,6 @@
     "status": "pending",
     "articy": "0x01000002000008F6"
   },
-  "785:175": {
-    "id": "785:175",
-    "actorName": "Inland Empire",
-    "en": "You feel like a *Du Bois*, but you don't feel like a *Harry*. Strange.",
-    "trOfficial": "Kendini <i>Du Bois</i> gibi hissediyorsun ama <i>Harry</i> gibi hissetmiyorsun. Tuhaf.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000820002025D"
-  },
   "785:201": {
     "id": "785:201",
     "actorName": "Inland Empire",
