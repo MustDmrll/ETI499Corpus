@@ -655,22 +655,6 @@
     "status": "pending",
     "articy": "0x0100000400006EA6"
   },
-  "13:533": {
-    "id": "13:533",
-    "actorName": "Ancient Reptilian Brain",
-    "en": "I was wrong to let you go. I should have kept you here... is it bright where you are? Is it TERRIFYING? Have you felt THE LOVE?!",
-    "trOfficial": "Gitmene izin vermem yanlıştı. Seni burada tutmalıydım... Bulunduğun yer aydınlık mı? KORKUTUCU mu? SEVGİYİ hissettin mi?",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "skip",
-      "mustafa": "skip",
-      "emre": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000400006EAC"
-  },
   "13:562": {
     "id": "13:562",
     "actorName": "Ancient Reptilian Brain",
