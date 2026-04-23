@@ -6786,20 +6786,6 @@
     "status": "pending",
     "articy": "0x0100002100002882"
   },
-  "630:221": {
-    "id": "630:221",
-    "actorName": "Inland Empire",
-    "en": "Have you stirred the ghost of the Doomed Commercial Area from its rest? Could this be its dismembered heart, beginning to flutter?",
-    "trOfficial": "Lanetli Ticaret Bölgesi hayaletini uykusundan mı uyandırdın? Bu onun titremeye başlayan parçalanmış kalbi olabilir mi?",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100005700016D1C"
-  },
   "631:53": {
     "id": "631:53",
     "actorName": "Inland Empire",
