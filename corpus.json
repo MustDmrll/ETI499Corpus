@@ -11308,20 +11308,6 @@
     "status": "pending",
     "articy": "0x010000060001E1EC"
   },
-  "1015:238": {
-    "id": "1015:238",
-    "actorName": "Inland Empire",
-    "en": "Are you sure? It's probably too late to be a Tequila *Sunrise* now.",
-    "trOfficial": "Emin misin? Muhtemelen <i>Gününde</i> Kovboy olmak için çok geç artık.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100005A000085C7"
-  },
   "1015:254": {
     "id": "1015:254",
     "actorName": "Inland Empire",
