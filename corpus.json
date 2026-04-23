@@ -4630,20 +4630,6 @@
     "status": "pending",
     "articy": "0x0100005700026CF2"
   },
-  "460:937": {
-    "id": "460:937",
-    "actorName": "Inland Empire",
-    "en": "If the Whirling is part of the same building then it's part of the Doomed Commercial Area. The darkness of this place is there too...",
-    "trOfficial": "Eğer Whirling aynı binanın bir parçasıysa o da Lanetli Ticaret Bölgesi'nin bir parçası olmuş oluyor. Bu yerin karanlığı orada da devam ediyor...",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001A646"
-  },
   "460:980": {
     "id": "460:980",
     "actorName": "Inland Empire",
