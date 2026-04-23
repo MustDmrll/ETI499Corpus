@@ -13674,20 +13674,6 @@
     "status": "pending",
     "articy": "0x0100008100002230"
   },
-  "1195:37": {
-    "id": "1195:37",
-    "actorName": "Limbic System",
-    "en": "Oh, baby boy. You're already *in* the other place. There's no nourishment for you tonight. Maybe tomorrow?",
-    "trOfficial": "Ah yavrum. Sen <i>zaten</i> diğer yerdesin. Bu gece uykun sana doygunluk vermeyecek. Belki yarın.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000600015DCB"
-  },
   "1195:40": {
     "id": "1195:40",
     "actorName": "Limbic System",
