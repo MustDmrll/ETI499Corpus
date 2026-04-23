@@ -9054,20 +9054,6 @@
     "status": "pending",
     "articy": "0x0100000200001112"
   },
-  "806:125": {
-    "id": "806:125",
-    "actorName": "Inland Empire",
-    "en": "The bore's the size of your eye. I can almost see the stars.",
-    "trOfficial": "Namlunun çapı gözün kadar. Yıldızları görür gibiyim...",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000820000F263"
-  },
   "806:330": {
     "id": "806:330",
     "actorName": "Inland Empire",
