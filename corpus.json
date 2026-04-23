@@ -10398,20 +10398,6 @@
     "status": "pending",
     "articy": "0x01000058000086B3"
   },
-  "963:49": {
-    "id": "963:49",
-    "actorName": "Inland Empire",
-    "en": "Is that an accusatory glance he gave you? No... no, he's cool.",
-    "trOfficial": "Sana suçlayan gözlerle mi baktı o? Yok canım... Yapmaz öyle şey.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001A8D3"
-  },
   "965:40": {
     "id": "965:40",
     "actorName": "Inland Empire",
