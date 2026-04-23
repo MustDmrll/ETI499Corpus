@@ -302,6 +302,16 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
 .col-toggle:hover { color: var(--text); }
 .col-collapsed .col-toggle { transform: rotate(-90deg); }
 
+#th-proposed, #th-notes {
+  white-space: nowrap;
+  overflow: hidden;
+}
+#th-proposed .col-th-label, #th-notes .col-th-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+
 table.hide-proposed #th-proposed { width: 28px !important; padding: 4px 6px !important; }
 table.hide-proposed #th-proposed .col-th-label { display: none; }
 table.hide-proposed .col-proposed { padding: 0 !important; overflow: hidden; }
