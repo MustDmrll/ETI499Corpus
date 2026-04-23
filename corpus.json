@@ -12484,20 +12484,6 @@
     "status": "pending",
     "articy": "0x0100006B0000932A"
   },
-  "1149:62": {
-    "id": "1149:62",
-    "actorName": "Limbic System",
-    "en": "Ah, yes. And in the olfactory system they call it The Apricot Chewing Gum Scented One. It's unhealthy of them to linger on it so. But -- as they say -- what do you do?",
-    "trOfficial": "Aa, evet. Olfaktör sistemde ona, Kayısı Aromalı Ciklet Kokusu diyorlar. Bu kokuya takılıp kalmaları gerçekten çok sağlıksız. Gel gör ki elden ne gelir?",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100006B000093CD"
-  },
   "1149:73": {
     "id": "1149:73",
     "actorName": "Ancient Reptilian Brain",
