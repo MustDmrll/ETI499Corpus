@@ -955,21 +955,6 @@
     "status": "pending",
     "articy": "0x010000450000FA28"
   },
-  "16:832": {
-    "id": "16:832",
-    "actorName": "Inland Empire",
-    "en": "If that's true then *Revacholian lit* would fit you like a glove.",
-    "trOfficial": "Anlattıkları doğruysa, <i>Revachol edebiyatı</i> tam sana göreymiş.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep",
-      "emre": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001AC2F"
-  },
   "17:104": {
     "id": "17:104",
     "actorName": "Inland Empire",
