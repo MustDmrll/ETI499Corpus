@@ -207,22 +207,6 @@
     "status": "pending",
     "articy": "0x01000004000000BA"
   },
-  "8:45": {
-    "id": "8:45",
-    "actorName": "Ancient Reptilian Brain",
-    "en": "There is nothing. Only warm, primordial blackness. Your conscience ferments in it -- no larger than a single grain of malt. You don't have to do anything anymore.",
-    "trOfficial": "Hiçbir şey yok. Yalnızca ılık, ilkel bir karanlık var. Bilincin bu karanlıkta mayalanıyor. Bir malt taneciği kadar küçücük. Artık hiçbir şey yapmana gerek yok.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "skip",
-      "mustafa": "keep",
-      "emre": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000400000046"
-  },
   "8:48": {
     "id": "8:48",
     "actorName": "Ancient Reptilian Brain",
