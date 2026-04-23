@@ -9250,20 +9250,6 @@
     "status": "pending",
     "articy": "0x010000060001E658"
   },
-  "868:341": {
-    "id": "868:341",
-    "actorName": "Inland Empire",
-    "en": "This will *surely* lead to a cryptozoological mystery with that *extremely rare insect*...",
-    "trOfficial": "Şu <i>son derece nadir böcekten</i> bir kriptozooloji gizemi çıkacağı <i>kesin</i>...",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000600017577"
-  },
   "868:382": {
     "id": "868:382",
     "actorName": "Inland Empire",
