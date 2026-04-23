@@ -5372,20 +5372,6 @@
     "status": "pending",
     "articy": "0x010000780001395C"
   },
-  "537:460": {
-    "id": "537:460",
-    "actorName": "Limbic System",
-    "en": "And rotting. And being disinfected. And smelling of drugs and feeling saliva in his mouth. Drifting in painkillers. Thrashing in his wound sleep.",
-    "trOfficial": "Sonra çürüyor. Dezenfekte oluyor. Bir de ilaç kokuyor ve ağzındaki salyayı hissediyor. Ağrı kesicilerin arasında sürükleniyor. Zorlu uykusunda tepiniyor.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000780001391B"
-  },
   "537:461": {
     "id": "537:461",
     "actorName": "Limbic System",
