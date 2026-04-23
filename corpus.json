@@ -11182,20 +11182,6 @@
     "status": "pending",
     "articy": "0x0100006B0000098F"
   },
-  "1000:45": {
-    "id": "1000:45",
-    "actorName": "Inland Empire",
-    "en": "This is just mundane garbage. What's even para-natural about this?",
-    "trOfficial": "Sıradan boş konular. Nesi doğaüstü ki bunun?",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100006B00000953"
-  },
   "1000:70": {
     "id": "1000:70",
     "actorName": "Inland Empire",
