@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -390,33 +390,33 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
   <div class="user-grid" id="user-grid"></div>
   <div style="margin-top:8px">
     <button class="btn" onclick="viewTableGuest()" style="font-size:13px;padding:9px 20px">
-      Giriş yapmadan tabloyu görüntüle →
+      View Table →
     </button>
   </div>
   <div id="password-section" style="display:none;flex-direction:column;gap:10px;align-items:center">
     <div class="api-row" style="align-items:center">
-      <label id="pw-label">Şifre</label>
-      <input type="password" id="user-pw-input" placeholder="Şifrenizi girin..."
+      <label id="pw-label">Password</label>
+      <input type="password" id="user-pw-input" placeholder="Enter your password..."
         onkeydown="if(event.key==='Enter') confirmLogin()" />
     </div>
     <div style="display:flex;gap:8px">
-      <button class="btn" onclick="cancelLogin()">Geri</button>
-      <button class="btn primary" onclick="confirmLogin()">Giriş Yap</button>
+      <button class="btn" onclick="cancelLogin()">Back</button>
+      <button class="btn primary" onclick="confirmLogin()">Log In</button>
     </div>
-    <span id="pw-error" style="font-size:12px;color:var(--skip);display:none">Hatalı şifre.</span>
+    <span id="pw-error" style="font-size:12px;color:var(--skip);display:none">Incorrect password.</span>
   </div>
   <div class="api-row">
     <label>GitHub Token</label>
     <input type="password" id="login-gh-token" placeholder="github_pat_..." />
-    <span class="hint">İlk girişte bir kez girdikten sonra, cihazda saklanır.</span>
+    <span class="hint">Saved on this device after the first login.</span>
   </div>
 </div>
 
 <!-- LOADING -->
 <div id="loading" class="screen">
   <div class="spinner"></div>
-  <div class="load-title">Veri yükleniyor...</div>
-  <div class="load-status" id="load-status">Başlatılıyor...</div>
+  <div class="load-title">Loading Data...</div>
+  <div class="load-status" id="load-status">Starting...</div>
   <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
 </div>
 
@@ -425,9 +425,9 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
   <nav>
     <span class="nav-logo">ETI 499 Corpus</span>
     <div class="nav-tabs">
-      <button class="nav-tab active" onclick="showScreen('tinder')">Seç</button>
-      <button class="nav-tab" onclick="showScreen('table-screen'); renderTable()">Tablo</button>
-      <button class="nav-tab" onclick="showScreen('settings-screen')">Ayarlar</button>
+      <button class="nav-tab active" onclick="showScreen('tinder')">Select</button>
+      <button class="nav-tab" onclick="showScreen('table-screen'); renderTable()">Table</button>
+      <button class="nav-tab" onclick="showScreen('settings-screen')">Settings</button>
     </div>
     <span class="nav-user" id="nav-user-tinder"></span>
   </nav>
@@ -435,20 +435,20 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
     <div class="card-wrap">
       <div class="progress-info">
         <span id="progress-text">0 / 0</span>
-        <span id="kept-count">0 seçildi</span>
+        <span id="kept-count">0 chosen</span>
       </div>
       <div id="card-area"></div>
       <div class="btn-row" id="btn-row">
         <button class="action-btn back" onclick="goBack()">
-          Geri Al
+          Undo
           <span class="key-hint">Z</span>
         </button>
         <button class="action-btn skip" onclick="doSkip()">
-          Atla
-          <span class="key-hint">Boşluk</span>
+          Skip
+          <span class="key-hint">Space</span>
         </button>
         <button class="action-btn keep" onclick="doKeep()">
-          Seç
+          Keep
           <span class="key-hint">Enter</span>
         </button>
       </div>
@@ -461,45 +461,45 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
   <nav>
     <span class="nav-logo">ETI 499 Corpus</span>
     <div class="nav-tabs">
-      <button class="nav-tab" onclick="navToTinder()">Seç</button>
-      <button class="nav-tab active" onclick="showScreen('table-screen'); renderTable()">Tablo</button>
-      <button class="nav-tab" onclick="navToSettings()">Ayarlar</button>
+      <button class="nav-tab" onclick="navToTinder()">Select</button>
+      <button class="nav-tab active" onclick="showScreen('table-screen'); renderTable()">Table</button>
+      <button class="nav-tab" onclick="navToSettings()">Settings</button>
     </div>
     <span class="nav-user" id="nav-user-table"></span>
   </nav>
   <div class="progress-section" id="progress-section"></div>
   <div class="table-toolbar">
     <select id="filt-char" onchange="renderTable()">
-      <option value="">Tüm karakterler</option>
+      <option value="">All characters</option>
       <option value="Ancient Reptilian Brain">ARB</option>
       <option value="Inland Empire">IE</option>
       <option value="Limbic System">LS</option>
     </select>
     <select id="filt-tr" onchange="renderTable()">
-      <option value="">Tüm satırlar</option>
-      <option value="translated">Çevrilmiş</option>
-      <option value="pending">Bekliyor</option>
+      <option value="">All rows</option>
+      <option value="translated">Translated</option>
+      <option value="pending">Pending</option>
     </select>
-    <input type="text" id="filt-search" placeholder="Metin ara..." oninput="renderTable()" />
+    <input type="text" id="filt-search" placeholder="Search text..." oninput="renderTable()" />
     <span class="row-count" id="row-count"></span>
     <span class="row-count" id="wc-total" style="color:var(--accent)"></span>
-    <button class="btn" id="btn-csv" onclick="exportCSV()">CSV İndir</button>
+    <button class="btn" id="btn-csv" onclick="exportCSV()">Download CSV</button>
     <button class="btn" id="btn-json" onclick="exportJSON()">JSON</button>
-    <button class="btn" id="btn-import" onclick="importJSON()">İçe Aktar</button>
+    <button class="btn" id="btn-import" onclick="importJSON()">Import</button>
   </div>
   <div class="main">
     <table>
       <thead>
         <tr>
-          <th style="width:72px">Karakter</th>
-          <th style="width:72px">Seçenler</th>
-          <th style="width:16%">İngilizce</th>
+          <th style="width:72px">Character</th>
+          <th style="width:72px">Voters</th>
+          <th style="width:16%">English</th>
           <th style="width:44px;text-align:center">WC</th>
-          <th style="width:14%">TR Resmi</th>
-          <th style="width:14%">TR Makine (Opus)</th>
-          <th style="width:14%">Önerilen Çeviri</th>
+          <th style="width:14%">TR Official</th>
+          <th style="width:14%">TR Machine (Opus)</th>
+          <th style="width:14%">Proposed Translation</th>
           <th style="width:14%">Thought Process</th>
-          <th style="width:14%">Notlar</th>
+          <th style="width:14%">Notes</th>
           <th style="width:62px" id="th-delete"></th>
         </tr>
       </thead>
@@ -513,38 +513,38 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
   <nav>
     <span class="nav-logo">ETI 499 Corpus</span>
     <div class="nav-tabs">
-      <button class="nav-tab" onclick="showScreen('tinder')">Seç</button>
-      <button class="nav-tab" onclick="showScreen('table-screen'); renderTable()">Tablo</button>
-      <button class="nav-tab active" onclick="showScreen('settings-screen')">Ayarlar</button>
+      <button class="nav-tab" onclick="showScreen('tinder')">Select</button>
+      <button class="nav-tab" onclick="showScreen('table-screen'); renderTable()">Table</button>
+      <button class="nav-tab active" onclick="showScreen('settings-screen')">Settings</button>
     </div>
     <span class="nav-user" id="nav-user-settings"></span>
   </nav>
   <div class="main">
     <div class="settings-card">
-      <h2>Ayarlar</h2>
+      <h2>Settings</h2>
       <hr style="border-color:var(--border)" />
       <div class="field">
-        <label>GitHub Kullanıcı Adı</label>
-        <input type="text" id="settings-gh-owner" placeholder="github-kullanici-adi" />
-        <span class="hint">Corpus, bu repo altındaki corpus.json dosyasına kaydedilir.</span>
+        <label>GitHub Username</label>
+        <input type="text" id="settings-gh-owner" placeholder="github-username" />
+        <span class="hint">Corpus is saved to corpus.json in this repository.</span>
       </div>
       <div class="field">
         <label>GitHub Token</label>
         <input type="password" id="settings-gh-token" placeholder="ghp_..." />
-        <span class="hint">Fine-grained PAT: Contents (Read &amp; Write) izni yeterli.</span>
+        <span class="hint">Fine-grained PAT: Contents (Read &amp; Write) permission is sufficient.</span>
       </div>
       <div style="display:flex;gap:8px;align-items:center">
-        <button class="btn primary" onclick="saveSettings()">Kaydet</button>
-        <span class="save-note" id="save-note">✓ Kaydedildi</span>
+        <button class="btn primary" onclick="saveSettings()">Save</button>
+        <span class="save-note" id="save-note">✓ Saved</span>
       </div>
       <hr style="border-color:var(--border)" />
       <div class="field">
-        <label>Oturumu Kapat</label>
-        <button class="btn danger" onclick="logout()" style="align-self:flex-start">Çıkış Yap</button>
+        <label>Sign Out</label>
+        <button class="btn danger" onclick="logout()" style="align-self:flex-start">Log Out</button>
       </div>
       <div class="field">
-        <label>Corpus'u Sıfırla</label>
-        <button class="btn danger" onclick="resetCorpus()" style="align-self:flex-start">Tüm Seçimleri Sil</button>
+        <label>Reset Corpus</label>
+        <button class="btn danger" onclick="resetCorpus()" style="align-self:flex-start">Delete All Selections</button>
       </div>
     </div>
   </div>
@@ -624,7 +624,7 @@ async function loadCorpus() {
   if (resp.status === 404) { state.corpus = {}; return; }
   if (!resp.ok) {
     const body = await resp.text();
-    throw new Error(`GitHub okuma hatası: ${resp.status} — ${body}`);
+    throw new Error(`GitHub read error: ${resp.status} — ${body}`);
   }
   const data = await resp.json();
   try {
@@ -665,7 +665,7 @@ async function saveCorpus() {
   const body = { message: `corpus: ${state.user}`, content };
   if (sha) body.sha = sha;
   const putResp = await fetch(url, { method: 'PUT', headers: ghPutHeaders(), body: JSON.stringify(body) });
-  if (!putResp.ok) throw new Error('GitHub yazma hatası: ' + putResp.status);
+  if (!putResp.ok) throw new Error('GitHub write error: ' + putResp.status);
 }
 
 async function deleteFromGitHub(id) {
@@ -684,10 +684,10 @@ async function deleteFromGitHub(id) {
   delete state.corpus[id];
 
   const content = btoa(unescape(encodeURIComponent(JSON.stringify(remote, null, 2))));
-  const body = { message: `corpus: sil ${id}`, content };
+  const body = { message: `corpus: delete ${id}`, content };
   if (sha) body.sha = sha;
   const putResp = await fetch(url, { method: 'PUT', headers: ghPutHeaders(), body: JSON.stringify(body) });
-  if (!putResp.ok) throw new Error('GitHub silme hatası: ' + putResp.status);
+  if (!putResp.ok) throw new Error('GitHub delete error: ' + putResp.status);
 }
 
 // ════════════════════════════════════════════════════════════
@@ -715,17 +715,17 @@ async function viewTableGuest() {
 
   showScreen('loading');
   try {
-    setLoadStatus('Corpus yükleniyor...', 50);
+    setLoadStatus('Loading corpus...', 50);
     await loadCorpus();
     if (typeof DISCO_DATA !== 'undefined' && Array.isArray(DISCO_DATA)) {
       state.entries = DISCO_DATA;
     }
-    setLoadStatus('Hazır.', 100);
+    setLoadStatus('Ready.', 100);
     await new Promise(r => setTimeout(r, 300));
     showScreen('table-screen');
     renderTable();
   } catch (e) {
-    setLoadStatus('Hata: ' + e.message, 0);
+    setLoadStatus('Error: ' + e.message, 0);
   }
 }
 
@@ -755,7 +755,7 @@ function selectUser(userId) {
   document.querySelectorAll('.user-btn').forEach(b => b.classList.remove('selected'));
   event.currentTarget.classList.add('selected');
 
-  document.getElementById('pw-label').textContent = `${userObj.name} – Şifre`;
+  document.getElementById('pw-label').textContent = `${userObj.name} – Password`;
   document.getElementById('user-pw-input').value = '';
   document.getElementById('pw-error').style.display = 'none';
   document.getElementById('password-section').style.display = 'flex';
@@ -811,34 +811,34 @@ async function loadData() {
     if (typeof DISCO_DATA === 'undefined' || !Array.isArray(DISCO_DATA) || DISCO_DATA.length === 0) {
       setLoadStatus('', 0);
       document.getElementById('load-status').innerHTML =
-        '<span style="color:#ef4444;font-weight:600">⚠ data.js bulunamadı</span><br>' +
+        '<span style="color:#ef4444;font-weight:600">⚠ data.js not found</span><br>' +
         '<span style="color:#888;font-size:13px;margin-top:8px;display:block">' +
-        'Lütfen bilgisayarda <code>python build.py</code> çalıştır ve ' +
-        '<code>data.js</code> ile <code>index.html</code> dosyalarını birlikte yükle.' +
+        'Please run <code>python build.py</code> and upload ' +
+        '<code>data.js</code> together with <code>index.html</code>.' +
         '</span>';
       return;
     }
 
-    setLoadStatus('Gömülü veri okunuyor...', 20);
-    await new Promise(r => setTimeout(r, 50)); // UI güncellemesi için küçük bekleme
+    setLoadStatus('Reading embedded data...', 20);
+    await new Promise(r => setTimeout(r, 50));
 
-    setLoadStatus('Corpus yükleniyor...', 50);
+    setLoadStatus('Loading corpus...', 50);
     await loadCorpus();
 
-    setLoadStatus('Satırlar hazırlanıyor...', 85);
+    setLoadStatus('Preparing entries...', 85);
     state.entries = DISCO_DATA;
     state.queueIds = DISCO_DATA
       .filter(e => !state.corpus[e.id]?.votes?.[state.user])
       .map(e => e.id);
 
-    setLoadStatus(`${DISCO_DATA.length} satır hazır.`, 100);
+    setLoadStatus(`${DISCO_DATA.length} entries ready.`, 100);
     await new Promise(r => setTimeout(r, 300));
     showScreen('tinder');
     renderCard();
 
   } catch (e) {
     console.error('loadData error:', e);
-    setLoadStatus('Hata: ' + e.message, 0);
+    setLoadStatus('Error: ' + e.message, 0);
   }
 }
 
@@ -854,17 +854,17 @@ function renderCard() {
   document.getElementById('progress-text').textContent = `${reviewed} / ${total}`;
   const keptCount = Object.values(state.corpus)
     .filter(e => Object.values(e.votes || {}).some(v => v === 'keep')).length;
-  document.getElementById('kept-count').textContent = `${keptCount} seçildi`;
+  document.getElementById('kept-count').textContent = `${keptCount} kept`;
   document.getElementById('btn-row').style.display = 'flex';
 
   if (state.queueIds.length === 0) {
     document.getElementById('btn-row').style.display = 'none';
     area.innerHTML = `
       <div class="tinder-done">
-        <h2>Tüm satırlar incelendi!</h2>
-        <p>Bu kullanıcı için incelenecek satır kalmadı.</p>
+        <h2>All entries reviewed!</h2>
+        <p>No entries left to review for this user.</p>
         <button class="btn primary" onclick="showScreen('table-screen'); renderTable()" style="margin-top:16px">
-          Tabloya Git →
+          Go to Table →
         </button>
       </div>`;
     return;
@@ -883,7 +883,7 @@ function renderCard() {
       <div class="card-text">${escHtml(entry.en)}</div>
       ${entry.trOfficial ? `
         <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border)">
-          <div style="font-size:11px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:6px">TR Resmi</div>
+          <div style="font-size:11px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:6px">TR Official</div>
           <div class="card-text" style="font-size:15px;color:#aaa">${escHtml(entry.trOfficial)}</div>
         </div>` : ''}
     </div>`;
@@ -905,7 +905,7 @@ async function doKeep() {
   state.corpus[id].votes[state.user] = 'keep';
 
   renderCard();
-  try { await saveCorpus(); } catch (e) { console.error('Kayıt hatası:', e); }
+  try { await saveCorpus(); } catch (e) { console.error('Save error:', e); }
 }
 
 async function doSkip() {
@@ -924,7 +924,7 @@ async function doSkip() {
   state.corpus[id].votes[state.user] = 'skip';
 
   renderCard();
-  try { await saveCorpus(); } catch (e) { console.error('Kayıt hatası:', e); }
+  try { await saveCorpus(); } catch (e) { console.error('Save error:', e); }
 }
 
 async function goBack() {
@@ -941,7 +941,7 @@ async function goBack() {
   }
 
   renderCard();
-  try { await saveCorpus(); } catch (e) { console.error('Kayıt hatası:', e); }
+  try { await saveCorpus(); } catch (e) { console.error('Save error:', e); }
 }
 
 // Keyboard shortcuts
@@ -1026,8 +1026,8 @@ function renderTable() {
   if (!filtered.length) {
     tb.innerHTML = `<tr><td colspan="10" class="empty-table">
       ${kept.length === 0
-        ? 'Henüz satır seçilmedi. "Seç" sekmesinden başlayın.'
-        : 'Filtrelerle eşleşen satır bulunamadı.'}
+        ? 'No entries selected yet. Start from the "Select" tab.'
+        : 'No entries match the current filters.'}
     </td></tr>`;
     return;
   }
@@ -1052,16 +1052,16 @@ function renderTable() {
       <td>${escHtml(r.en)}</td>
       <td style="text-align:center;color:var(--muted);font-size:12px;white-space:nowrap">${wc}</td>
       <td style="color:#aaa">${escHtml(r.trOfficial) || '<em style="color:var(--muted)">—</em>'}</td>
-      <td><textarea class="editable" rows="2" placeholder="Makine çevirisi..."${ro}
+      <td><textarea class="editable" rows="2" placeholder="Machine translation..."${ro}
         onchange="updateField('${r.id}','trMachine',this.value)">${escHtml(r.trMachine||'')}</textarea></td>
-      <td><textarea class="editable" rows="2" placeholder="Önerilen çeviri..."${ro}
+      <td><textarea class="editable" rows="2" placeholder="Proposed translation..."${ro}
         onchange="updateField('${r.id}','proposed',this.value)">${escHtml(r.proposed||'')}</textarea></td>
-      <td><textarea class="editable" rows="2" placeholder="Düşünce süreci..."${ro}
+      <td><textarea class="editable" rows="2" placeholder="Thought process..."${ro}
         onchange="updateField('${r.id}','thoughtProcess',this.value)">${escHtml(r.thoughtProcess||'')}</textarea></td>
-      <td><textarea class="editable" rows="2" placeholder="Not..."${ro}
+      <td><textarea class="editable" rows="2" placeholder="Notes..."${ro}
         onchange="updateField('${r.id}','notes',this.value)">${escHtml(r.notes||'')}</textarea></td>
       ${isReadOnly ? '' : `<td class="delete-cell">
-        <button class="btn danger" onclick="deleteEntry('${r.id}')">Sil</button>
+        <button class="btn danger" onclick="deleteEntry('${r.id}')">Delete</button>
       </td>`}
     </tr>`;
   }).join('');
@@ -1075,12 +1075,12 @@ async function updateField(id, field, value) {
 }
 
 async function deleteEntry(id) {
-  if (!confirm('Bu satırı corpus\'tan tamamen silmek istediğinizden emin misiniz?')) return;
+  if (!confirm('Are you sure you want to permanently delete this entry from the corpus?')) return;
   try {
     await deleteFromGitHub(id);
     renderTable();
   } catch (e) {
-    alert('Silme hatası: ' + e.message);
+    alert('Delete error: ' + e.message);
   }
 }
 
@@ -1092,8 +1092,8 @@ function exportCSV() {
   const kept = Object.values(state.corpus).filter(r =>
     Object.values(r.votes || {}).some(v => v === 'keep')
   );
-  if (!kept.length) { alert('Corpus boş.'); return; }
-  const header = ['Karakter','Seçenler','İngilizce','TR Resmi','TR Makine (Opus)','Önerilen Çeviri','Thought Process','Notlar'];
+  if (!kept.length) { alert('Corpus is empty.'); return; }
+  const header = ['Character','Voters','English','TR Official','TR Machine (Opus)','Proposed Translation','Thought Process','Notes'];
   const rows = kept.map(r => {
     const voters = USERS.filter(u => r.votes?.[u.id] === 'keep').map(u => u.name).join('+');
     return [
@@ -1137,8 +1137,8 @@ function importJSON() {
         }
         try { await saveCorpus(); } catch {}
         renderTable();
-        alert(`${added} yeni satır içe aktarıldı.`);
-      } catch (err) { alert('Hata: ' + err.message); }
+        alert(`${added} new entries imported.`);
+      } catch (err) { alert('Error: ' + err.message); }
     };
     reader.readAsText(file);
   };
@@ -1176,13 +1176,13 @@ function logout() {
 }
 
 async function resetCorpus() {
-  if (!confirm('Tüm corpus\'u sıfırlamak istediğinizden emin misiniz? Bu işlem geri alınamaz.')) return;
+  if (!confirm('Are you sure you want to reset the entire corpus? This action cannot be undone.')) return;
   state.corpus = {};
-  try { await saveCorpus(); } catch (e) { alert('Hata: ' + e.message); return; }
+  try { await saveCorpus(); } catch (e) { alert('Error: ' + e.message); return; }
   state.queueIds = state.entries.map(e => e.id);
   state.historyStack = [];
   renderCard();
-  alert('Corpus sıfırlandı.');
+  alert('Corpus reset.');
 }
 
 // ════════════════════════════════════════════════════════════
