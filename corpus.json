@@ -8144,20 +8144,6 @@
     "status": "pending",
     "articy": "0x010000450001C61B"
   },
-  "723:84": {
-    "id": "723:84",
-    "actorName": "Inland Empire",
-    "en": "We are way out now... Way out in the West.",
-    "trOfficial": "Şu an çok uzaktayız, epey bir batıdayız.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000450001C622"
-  },
   "739:17": {
     "id": "739:17",
     "actorName": "Inland Empire",
