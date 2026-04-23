@@ -2474,20 +2474,6 @@
     "status": "pending",
     "articy": "0x010000070001ACE1"
   },
-  "302:5": {
-    "id": "302:5",
-    "actorName": "Inland Empire",
-    "en": "The pétanque players?",
-    "trOfficial": "Pétanque oynayanlar mı?",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000070001A9A6"
-  },
   "302:15": {
     "id": "302:15",
     "actorName": "Inland Empire",
