@@ -3454,20 +3454,6 @@
     "status": "pending",
     "articy": "0x01000014000011E8"
   },
-  "379:868": {
-    "id": "379:868",
-    "actorName": "Inland Empire",
-    "en": "You're *Tequila Sunset*. You have always been Tequila Sunset. It has always been too late.",
-    "trOfficial": "Sen <i>Akşamcı Kovboy</i>'sun. Her zaman Akşamcı Kovboy oldun. Hep çok geçti.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001D420"
-  },
   "380:55": {
     "id": "380:55",
     "actorName": "Inland Empire",
