@@ -14374,20 +14374,6 @@
     "status": "pending",
     "articy": "0x0100000600016086"
   },
-  "1199:24": {
-    "id": "1199:24",
-    "actorName": "Limbic System",
-    "en": "Like a deftly cast fishing net, sleep pulls you out of the world and into its dark shore. The rough mesh chafes, then, tightening around you, it digs into your brain.",
-    "trOfficial": "Ustalıkla atılmış bir ağ gibi, uyku seni dünyadan çekip karanlık kıyılarına getiriyor. Pürüzlü ağ canını yakıyor, seni sarıyor, beynine giriyor.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x01000081000036DA"
-  },
   "1199:25": {
     "id": "1199:25",
     "actorName": "Ancient Reptilian Brain",
