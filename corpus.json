@@ -12442,20 +12442,6 @@
     "status": "pending",
     "articy": "0x0100000600016198"
   },
-  "1057:24": {
-    "id": "1057:24",
-    "actorName": "Ancient Reptilian Brain",
-    "en": "No, you haven't. You've just *been*.",
-    "trOfficial": "Hayır, kötülük yapmadın. Yalnızca <i>yaşadın</i>.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001613F"
-  },
   "1057:25": {
     "id": "1057:25",
     "actorName": "Limbic System",
