@@ -970,21 +970,6 @@
     "status": "pending",
     "articy": "0x010000060001AC2F"
   },
-  "17:98": {
-    "id": "17:98",
-    "actorName": "Inland Empire",
-    "en": "That's you alright. A black hound licking your own heels.",
-    "trOfficial": "Bu tam olarak sensin. Kendi topuğunu yalayan kara bir tazı.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep",
-      "emre": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001C772"
-  },
   "17:104": {
     "id": "17:104",
     "actorName": "Inland Empire",
