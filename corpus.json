@@ -13800,20 +13800,6 @@
     "status": "pending",
     "articy": "0x0100008100002C06"
   },
-  "1196:3": {
-    "id": "1196:3",
-    "actorName": "Inland Empire",
-    "en": "Keep your ears peeled, then. If the species really has migrated to Martinaise, you're sure to hear it again.",
-    "trOfficial": "Kulaklarını dört aç o zaman. Eğer bu tür gerçekten Martinaise'e göç ettiyse kesinlikle yine duyarsın.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100008100002C8D"
-  },
   "1196:4": {
     "id": "1196:4",
     "actorName": "Inland Empire",
