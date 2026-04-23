@@ -7206,20 +7206,6 @@
     "status": "pending",
     "articy": "0x010000060001D4F3"
   },
-  "636:499": {
-    "id": "636:499",
-    "actorName": "Inland Empire",
-    "en": "The camera of her mind glides over the surface of the water.",
-    "trOfficial": "Zihninin kamerası suyun yüzeyinde süzülüyor.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000450000B630"
-  },
   "636:536": {
     "id": "636:536",
     "actorName": "Inland Empire",
