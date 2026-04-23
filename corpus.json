@@ -11350,20 +11350,6 @@
     "status": "pending",
     "articy": "0x0100005A000085BB"
   },
-  "1015:289": {
-    "id": "1015:289",
-    "actorName": "Inland Empire",
-    "en": "Like a Tequila Sunset.",
-    "trOfficial": "Akşamcı Kovboy gibi.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100005A000085E3"
-  },
   "1016:9": {
     "id": "1016:9",
     "actorName": "Ancient Reptilian Brain",
