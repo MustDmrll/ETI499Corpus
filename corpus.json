@@ -2054,20 +2054,6 @@
     "status": "pending",
     "articy": "0x0100000400011FD9"
   },
-  "71:861": {
-    "id": "71:861",
-    "actorName": "Inland Empire",
-    "en": "Good call! Never mind that *old trash container* lurching in the corner of this yard, full of  old news...",
-    "trOfficial": "İyi dedin! Avlunun köşesinde duran, geçmişten kalma haberlerle dolu <i>eski çöp konteynerini</i> boş ver gitsin...",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000400012004"
-  },
   "71:900": {
     "id": "71:900",
     "actorName": "Inland Empire",
