@@ -12736,20 +12736,6 @@
     "status": "pending",
     "articy": "0x0100006B00009417"
   },
-  "1149:119": {
-    "id": "1149:119",
-    "actorName": "Limbic System",
-    "en": "Here in the Paleo-Mammalian Cortex we call it -- *the shadow*.",
-    "trOfficial": "Biz ona paleo-memeli beyninde <i>gölge</i> deriz.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100006B00009469"
-  },
   "1151:12": {
     "id": "1151:12",
     "actorName": "Inland Empire",
