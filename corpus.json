@@ -14192,20 +14192,6 @@
     "status": "pending",
     "articy": "0x01000053000061D7"
   },
-  "1199:2": {
-    "id": "1199:2",
-    "actorName": "Ancient Reptilian Brain",
-    "en": "We're trying to help you. All these processes -- these tortures, voices and tremors -- are all just *distractions*. Flares and countermeasures. To keep you from the *last dream*. The worst of them all.",
-    "trOfficial": "Sana yardımcı olmaya çalışıyoruz. Tüm bu işlemler, bu işkenceler, sesler ve titreyişler, hepsi <i>dikkatini dağıtmak için</i>. Hepsi, en kötüsüne, <i>son rüyaya</i> gelmeni engellemek için.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000600016050"
-  },
   "1199:6": {
     "id": "1199:6",
     "actorName": "Limbic System",
