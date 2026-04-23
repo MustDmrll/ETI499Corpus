@@ -6086,20 +6086,6 @@
     "status": "pending",
     "articy": "0x0100002A00000CF8"
   },
-  "566:222": {
-    "id": "566:222",
-    "actorName": "Inland Empire",
-    "en": "The Sun does little for the dead, and those hopelessly lost in their own minds.",
-    "trOfficial": "Güneş; ölülere ve kendi zihninde umutsuzca kaybolmuşlara fayda etmez.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000810000256D"
-  },
   "570:67": {
     "id": "570:67",
     "actorName": "Inland Empire",
