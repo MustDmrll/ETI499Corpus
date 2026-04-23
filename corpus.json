@@ -8032,20 +8032,6 @@
     "status": "pending",
     "articy": "0x0100004500019EA3"
   },
-  "704:424": {
-    "id": "704:424",
-    "actorName": "Inland Empire",
-    "en": "Plus one. Ruby.",
-    "trOfficial": "Artı bir. Ruby.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001E9DA"
-  },
   "704:441": {
     "id": "704:441",
     "actorName": "Inland Empire",
