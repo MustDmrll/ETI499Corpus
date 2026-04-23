@@ -686,21 +686,6 @@
     "status": "pending",
     "articy": "0x0100000400006E6D"
   },
-  "13:584": {
-    "id": "13:584",
-    "actorName": "Inland Empire",
-    "en": "No one is saying the multi-patterned necktie you found tied to the ceiling fan can *talk*. No one. It must be merely *imagination*, but...",
-    "trOfficial": "Tavandaki vantilatöre bağlanmış hâlde bulduğun çok desenli kravatın <i>konuşabileceğini</i> kimse söylemiyor. Hiç kimse. Bu yalnızca <i>hayal gücü</i> olmalı ama...",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "skip",
-      "emre": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000400006AA5"
-  },
   "13:628": {
     "id": "13:628",
     "actorName": "Ancient Reptilian Brain",
