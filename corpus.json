@@ -3580,20 +3580,6 @@
     "status": "pending",
     "articy": "0x0100000F0000F7F2"
   },
-  "380:572": {
-    "id": "380:572",
-    "actorName": "Inland Empire",
-    "en": "It's not easy to reach a harmonic resonance of sines without some adjustment.",
-    "trOfficial": "Biraz ayarlama yapmadan sinüslerin armonik rezonansına ulaşmak kolay değildir.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100005A0000A226"
-  },
   "380:1002": {
     "id": "380:1002",
     "actorName": "Inland Empire",
