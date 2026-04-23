@@ -3426,20 +3426,6 @@
     "status": "pending",
     "articy": "0x0100001400000BC3"
   },
-  "379:434": {
-    "id": "379:434",
-    "actorName": "Inland Empire",
-    "en": "You're *Tequila Sunset*. You have been Tequila Sunset for a long time now.",
-    "trOfficial": "Sen <i>Akşamcı Kovboy</i>'sun. Epey zamandır Akşamcı Kovboy'sun.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000140000120D"
-  },
   "379:813": {
     "id": "379:813",
     "actorName": "Inland Empire",
