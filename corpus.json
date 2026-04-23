@@ -5554,20 +5554,6 @@
     "status": "pending",
     "articy": "0x01000007000071D1"
   },
-  "544:214": {
-    "id": "544:214",
-    "actorName": "Inland Empire",
-    "en": "Suddenly you're reminded of the lieutenant's Kineema and the weird feeling about the fish and seaweed you had...",
-    "trOfficial": "Bir anda teğmenin Kineema'sını hatırlıyorsun, balık ve deniz yosunuyla ilgili garip bir his geliyor...",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000070000697D"
-  },
   "544:285": {
     "id": "544:285",
     "actorName": "Inland Empire",
