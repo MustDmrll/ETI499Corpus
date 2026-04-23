@@ -13604,20 +13604,6 @@
     "status": "pending",
     "articy": "0x0100008100002D8B"
   },
-  "1195:15": {
-    "id": "1195:15",
-    "actorName": "Ancient Reptilian Brain",
-    "en": "You're just stuck here. In the half-world. Could try looking at other people. *Really* looking. But why would you want to start doing that?",
-    "trOfficial": "Burada, bu yarı dünyada mahsur kaldın. Başka insanlara bakmayı, <i>gerçekten</i> bakmayı deneyebilirsin ama bunu neden isteyesin ki?",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100008100002403"
-  },
   "1195:21": {
     "id": "1195:21",
     "actorName": "Ancient Reptilian Brain",
