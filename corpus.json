@@ -12666,20 +12666,6 @@
     "status": "pending",
     "articy": "0x010000060000FD06"
   },
-  "1070:44": {
-    "id": "1070:44",
-    "actorName": "Inland Empire",
-    "en": "His glasses turn golden as the fire reflects off the lenses. You feel this man is your brother.",
-    "trOfficial": "Alev, merceklerden yansıdıkça gözlükleri altın rengini alıyor. Bu adamın kardeşin olduğunu hissediyorsun.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060000FF7B"
-  },
   "1070:73": {
     "id": "1070:73",
     "actorName": "Inland Empire",
