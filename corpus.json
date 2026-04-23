@@ -655,21 +655,6 @@
     "status": "pending",
     "articy": "0x0100000400006EA6"
   },
-  "13:562": {
-    "id": "13:562",
-    "actorName": "Ancient Reptilian Brain",
-    "en": "Those are the mysteries of the Spinal Cord. The Spinal Cord has yet to reveal itself to you -- its mysteries are unholy mysteries.",
-    "trOfficial": "Omuriliğin gizemleriydi onlar. Omurilik henüz kendini sana göstermiş değil. Onun gizemleri habis gizemler.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "skip",
-      "emre": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000400006E6D"
-  },
   "13:628": {
     "id": "13:628",
     "actorName": "Ancient Reptilian Brain",
