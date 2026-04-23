@@ -4952,20 +4952,6 @@
     "status": "pending",
     "articy": "0x010000060000E745"
   },
-  "482:192": {
-    "id": "482:192",
-    "actorName": "Inland Empire",
-    "en": "You would have done better if you'd just left Dolores Dei for the end. Dial the Dolores Dei down *a bit*.",
-    "trOfficial": "Dolores Dei'i sona saklasaydın daha iyi bir sonuç alabilirdin. Dolores Dei bahsini <i>biraz</i> azaltmalısın.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060000E718"
-  },
   "482:213": {
     "id": "482:213",
     "actorName": "Inland Empire",
