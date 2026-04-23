@@ -5652,20 +5652,6 @@
     "status": "pending",
     "articy": "0x0100000F0000EF48"
   },
-  "550:127": {
-    "id": "550:127",
-    "actorName": "Inland Empire",
-    "en": "It's not too late, no one's going to blame you for backing out. You don't have to do this. Just get out.",
-    "trOfficial": "Hâlâ çok geç değil. Şimdi çekilirsen kimse seni suçlamayacak. Bunu yapmak zorunda değilsin. Git buradan.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100008200008E97"
-  },
   "552:246": {
     "id": "552:246",
     "actorName": "Inland Empire",
