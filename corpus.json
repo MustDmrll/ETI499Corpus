@@ -9250,20 +9250,6 @@
     "status": "pending",
     "articy": "0x010000060001E658"
   },
-  "868:251": {
-    "id": "868:251",
-    "actorName": "Inland Empire",
-    "en": "Do it. Who knows what cryptozoological mysteries will be uncovered?",
-    "trOfficial": "Kabul et. Kim bilir ne biçim kriptozooloji gizemleri açığa çıkacak?",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001768B"
-  },
   "868:341": {
     "id": "868:341",
     "actorName": "Inland Empire",
