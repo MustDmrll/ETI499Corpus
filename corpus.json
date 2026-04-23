@@ -12806,20 +12806,6 @@
     "status": "pending",
     "articy": "0x0100006B00009E71"
   },
-  "1154:2": {
-    "id": "1154:2",
-    "actorName": "Inland Empire",
-    "en": "Of course you do. You don't even know *what* it is you're feeling, but you can feel it. That's the mark of a true *Remote Viewer*...",
-    "trOfficial": "Tabii hissediyorsun. Hissettiğin şeyin <i>ne</i> olduğunu bile bilmiyorsun ama hissediyorsun. İşte gerçek bir <i>Gaipten Sesler Memuru</i>...",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100009400000D49"
-  },
   "1154:16": {
     "id": "1154:16",
     "actorName": "Inland Empire",
