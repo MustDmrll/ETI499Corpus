@@ -10076,20 +10076,6 @@
     "status": "pending",
     "articy": "0x0100000600017B37"
   },
-  "873:63": {
-    "id": "873:63",
-    "actorName": "Inland Empire",
-    "en": "This must be where the *Entity* lives...",
-    "trOfficial": "<i>Mahluk</i> burada yaşıyor olmalı...",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100009200000BE3"
-  },
   "874:46": {
     "id": "874:46",
     "actorName": "Inland Empire",
