@@ -14080,20 +14080,6 @@
     "status": "pending",
     "articy": "0x010000060001C13A"
   },
-  "1198:40": {
-    "id": "1198:40",
-    "actorName": "Limbic System",
-    "en": "Recorded in you. Forever. On ferrotape.",
-    "trOfficial": "Hepsi sende kayıtlı. Sonsuza dek. Manyetik banda yazılı.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001C0C1"
-  },
   "1198:43": {
     "id": "1198:43",
     "actorName": "Ancient Reptilian Brain",
