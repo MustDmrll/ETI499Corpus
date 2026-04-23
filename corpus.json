@@ -775,21 +775,6 @@
     "status": "pending",
     "articy": "0x01000006000084F8"
   },
-  "14:205": {
-    "id": "14:205",
-    "actorName": "Inland Empire",
-    "en": "The fish-lips stay silent in response. You must be losing your mind, asking him that over and over...",
-    "trOfficial": "Balık dudaklardan cevap gelmiyor. Ona böyle tekrar tekrar sormak... Aklını kaçırıyor olmalısın...",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "skip",
-      "emre": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000600008544"
-  },
   "14:229": {
     "id": "14:229",
     "actorName": "Inland Empire",
