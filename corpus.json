@@ -10216,20 +10216,6 @@
     "status": "pending",
     "articy": "0x0100001D00000111"
   },
-  "943:94": {
-    "id": "943:94",
-    "actorName": "Ancient Reptilian Brain",
-    "en": "\"I would often go there. To the tiny church there. The smallest church in Saint-Saëns -- though it once was larger.\n\nHow the rill may rest there. Down through the mist there. Toward the seven sisters -- toward those pale cliffs there\n\nI would often stay there. In the tiny yard there. I have been so glad here -- looking forward to the past here\n\nBut now you are alone. None of this matters at all.\"",
-    "trOfficial": "\"Sık sık giderdim o yere. Oradaki ufacık kiliseye. Saint‑Saëns'ın en küçük kilisesi... Gerçi daha büyüktü eskide.\n\nNehir ne dingindir o yerde. Sisin ortasından inişlerde. Yedi kız kardeşe doğru akarken... Puslu uçurumlar var ileride.\n\nSık sık kalırdım o yerde. Oradaki ufacık bahçede. Çok bahtiyar oldum bu yerde... Heves ederek buradaki maziye.\n\nFakat şimdi yapayalnızsın. Bütün bunlar da anlamsız.\"",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100001D000000F4"
-  },
   "943:129": {
     "id": "943:129",
     "actorName": "Ancient Reptilian Brain",
