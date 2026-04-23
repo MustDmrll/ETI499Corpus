@@ -11280,20 +11280,6 @@
     "status": "pending",
     "articy": "0x010000060001E053"
   },
-  "1015:35": {
-    "id": "1015:35",
-    "actorName": "Inland Empire",
-    "en": "Just felt right. Why, do you want to be a Tequila *Sunrise?* It's a little too late for that...",
-    "trOfficial": "Sana tam oturdu. Neden ki? <i>Gününde</i> Kovboy mu olmak istersin? Bunun için biraz geç kaldın...",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100005A000085D3"
-  },
   "1015:77": {
     "id": "1015:77",
     "actorName": "Inland Empire",
