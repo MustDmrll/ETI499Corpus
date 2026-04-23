@@ -12792,20 +12792,6 @@
     "status": "pending",
     "articy": "0x0100006B00009EA9"
   },
-  "1151:34": {
-    "id": "1151:34",
-    "actorName": "Inland Empire",
-    "en": "Drawn by regret. Stop, before you *hurt* yourself with the Tutti Frutti wrapper. Throw it away, please.",
-    "trOfficial": "Pişmanlık çekiyor. Dur artık, Tutti Frutti ambalajıyla kendine <i>zarar</i> vermeden önce dur. Lütfen, at gitsin.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100006B00009E71"
-  },
   "1154:16": {
     "id": "1154:16",
     "actorName": "Inland Empire",
