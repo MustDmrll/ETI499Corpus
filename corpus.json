@@ -11070,20 +11070,6 @@
     "status": "pending",
     "articy": "0x0100008100000155"
   },
-  "1038:18": {
-    "id": "1038:18",
-    "actorName": "Inland Empire",
-    "en": "Right?! You'll have better luck next time, though. The phasmid -- finding it is your destiny.",
-    "trOfficial": "Değil mi? Ama bir dahaki sefere şans yüzüne gülecektir. O fazmiti bulmak senin kaderin.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000810000014F"
-  },
   "1038:21": {
     "id": "1038:21",
     "actorName": "Inland Empire",
