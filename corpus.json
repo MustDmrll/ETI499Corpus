@@ -11952,20 +11952,6 @@
     "status": "pending",
     "articy": "0x010000810000014F"
   },
-  "1038:19": {
-    "id": "1038:19",
-    "actorName": "Inland Empire",
-    "en": "Is that the phasmid? It looks like the phasmid, leaning against the wall...",
-    "trOfficial": "Yoksa bu o fazmit mi? Sanki duvara yaslanmış bir fazmit gibi duruyor...",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100005A000100DD"
-  },
   "1038:21": {
     "id": "1038:21",
     "actorName": "Inland Empire",
