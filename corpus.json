@@ -14458,20 +14458,6 @@
     "status": "pending",
     "articy": "0x0100000600016025"
   },
-  "1199:40": {
-    "id": "1199:40",
-    "actorName": "Limbic System",
-    "en": "Hear that? Ice-man wants to sleep, he doesn't care about killing people. That's *nothing* to him. Black water under the bridge. The thing he's *really* scared of...",
-    "trOfficial": "Duydun mu? Taş kalpli bu adam yalnızca uyumak istiyor, insan öldürmek umurunda değil. Bu, onun için bir <i>hiç</i>. O kara günler geride kaldı. Onu <i>gerçekten</i> korkutan şey...",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000600016048"
-  },
   "1199:42": {
     "id": "1199:42",
     "actorName": "Inland Empire",
