@@ -301,13 +301,16 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
 }
 .col-toggle:hover { color: var(--text); }
 .col-collapsed .col-toggle { transform: rotate(-90deg); }
-.col-proposed, .col-notes { transition: width 0.2s; }
-table.hide-proposed .col-proposed,
-table.hide-proposed #th-proposed { width: 0 !important; padding: 0 !important; overflow: hidden; }
-table.hide-proposed #th-proposed > :not(.col-toggle) { display: none; }
-table.hide-notes   .col-notes,
-table.hide-notes   #th-notes   { width: 0 !important; padding: 0 !important; overflow: hidden; }
-table.hide-notes #th-notes > :not(.col-toggle) { display: none; }
+
+table.hide-proposed #th-proposed { width: 28px !important; padding: 4px 6px !important; }
+table.hide-proposed #th-proposed .col-th-label { display: none; }
+table.hide-proposed .col-proposed { padding: 0 !important; overflow: hidden; }
+table.hide-proposed .col-proposed textarea { display: none; }
+
+table.hide-notes #th-notes { width: 28px !important; padding: 4px 6px !important; }
+table.hide-notes #th-notes .col-th-label { display: none; }
+table.hide-notes .col-notes { padding: 0 !important; overflow: hidden; }
+table.hide-notes .col-notes textarea { display: none; }
 
 /* ── BUTTONS ── */
 .btn {
@@ -523,11 +526,11 @@ table.hide-notes #th-notes > :not(.col-toggle) { display: none; }
           <th style="width:14%">TR Machine (Opus)</th>
           <th style="width:14%">Thought Process</th>
           <th style="width:14%" id="th-proposed">
-            Proposed Translation
+            <span class="col-th-label">Proposed Translation</span>
             <button class="col-toggle" onclick="toggleCol('proposed')" title="Toggle column">▾</button>
           </th>
           <th style="width:14%" id="th-notes">
-            Notes
+            <span class="col-th-label">Notes</span>
             <button class="col-toggle" onclick="toggleCol('notes')" title="Toggle column">▾</button>
           </th>
           <th style="width:62px" id="th-delete"></th>
