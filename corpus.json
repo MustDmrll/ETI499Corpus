@@ -3314,20 +3314,6 @@
     "status": "pending",
     "articy": "0x010000530000301F"
   },
-  "371:19": {
-    "id": "371:19",
-    "actorName": "Inland Empire",
-    "en": "You *knew* there was something strange about this one! He's an astral projection, a bureaucratic phantasm!",
-    "trOfficial": "Bu adamda bir tuhaflık olduğu <i>belliydi</i>! O bir astral projeksiyon, bürokratik bir ruh!",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000F0000EC32"
-  },
   "378:163": {
     "id": "378:163",
     "actorName": "Inland Empire",
