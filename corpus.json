@@ -12680,20 +12680,6 @@
     "status": "pending",
     "articy": "0x0100006B00009336"
   },
-  "1149:103": {
-    "id": "1149:103",
-    "actorName": "Ancient Reptilian Brain",
-    "en": "There is no Voyager Road. There are no roads. No houses. No lights in the windows. It's all on *pause*.",
-    "trOfficial": "Voyager Yolu diye bir yer yok. Yol falan yok. Ev yok. Pencerelerde ışık yok. Şu an hepsi <i>askıda</i>.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100006B0000939D"
-  },
   "1149:106": {
     "id": "1149:106",
     "actorName": "Limbic System",
