@@ -1077,7 +1077,7 @@ function renderTable() {
       <td><textarea class="editable" rows="2" placeholder="Notes..."${ro}
         onchange="updateField('${r.id}','notes',this.value)">${escHtml(r.notes||'')}</textarea></td>
       ${isReadOnly ? '' : `<td class="delete-cell">
-        <button class="btn danger" onclick="deleteEntry('${r.id}')">Delete</button>
+        <button class="btn danger" onclick="deleteEntry('${r.id}')">Del</button>
       </td>`}
     </tr>`;
   }).join('');
