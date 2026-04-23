@@ -11056,20 +11056,6 @@
     "status": "pending",
     "articy": "0x01000081000010E8"
   },
-  "1038:21": {
-    "id": "1038:21",
-    "actorName": "Inland Empire",
-    "en": "It's not the phasmid... It's not even organic -- it's a fire iron. How disappointing!",
-    "trOfficial": "Bu fazmit falan değil... Canlı bile değil, şömine maşası bu. Ne büyük hayal kırıklığı!",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100005A000100F7"
-  },
   "1043:41": {
     "id": "1043:41",
     "actorName": "Inland Empire",
