@@ -543,22 +543,6 @@
     "status": "pending",
     "articy": "0x0100005100009196"
   },
-  "11:267": {
-    "id": "11:267",
-    "actorName": "Inland Empire",
-    "en": "Those words -- \"tell me something else\" -- feel like something you've said innumerable times before. Your mouth is the very shape of them.",
-    "trOfficial": "Bu sözler, \"başka bir şeyden bahsedelim,\" daha önce sayısız defa söylediğin şeyler gibi. Ağzın artık bu cümlenin şeklini almış.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "skip",
-      "mustafa": "skip",
-      "emre": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000400005E8F"
-  },
   "12:217": {
     "id": "12:217",
     "actorName": "Inland Empire",
