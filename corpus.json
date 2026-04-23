@@ -9334,20 +9334,6 @@
     "status": "pending",
     "articy": "0x010000060001B3CF"
   },
-  "868:735": {
-    "id": "868:735",
-    "actorName": "Inland Empire",
-    "en": "Do it. Find her husband. This will *surely* lead to a cryptozoological mystery with that *extremely rare insect*...",
-    "trOfficial": "Çöz bu işi. Adamı bul. Şu <i>son derece nadir böcekten</i> bir kriptozooloji gizemi çıkacağı <i>kesin</i>...",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x01000006000175D1"
-  },
   "868:745": {
     "id": "868:745",
     "actorName": "Inland Empire",
