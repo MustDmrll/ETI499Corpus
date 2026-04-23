@@ -8984,20 +8984,6 @@
     "status": "pending",
     "articy": "0x010000060001CDB2"
   },
-  "789:309": {
-    "id": "789:309",
-    "actorName": "Inland Empire",
-    "en": "There it is again -- *the pigs*, like Roy said. Not good at all.",
-    "trOfficial": "İşte yine. <i>Aynasız</i>, tıpkı Roy'un dediği gibi. Hiç iyi değil.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001CD8D"
-  },
   "790:238": {
     "id": "790:238",
     "actorName": "Inland Empire",
