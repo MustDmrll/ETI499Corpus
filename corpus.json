@@ -9334,20 +9334,6 @@
     "status": "pending",
     "articy": "0x01000081000044F9"
   },
-  "817:87": {
-    "id": "817:87",
-    "actorName": "Inland Empire",
-    "en": "Be prepared. Wield Ruby's double-barrelled pistol.",
-    "trOfficial": "Hazırlıklı ol. Ruby'nin çift namlulu tabancasını kullan.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100006B00009216"
-  },
   "817:92": {
     "id": "817:92",
     "actorName": "Inland Empire",
