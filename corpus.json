@@ -1660,21 +1660,6 @@
     "status": "pending",
     "articy": "0x010000040000843D"
   },
-  "33:58": {
-    "id": "33:58",
-    "actorName": "Inland Empire",
-    "en": "Through a PA system.",
-    "trOfficial": "Hoparlör sisteminden.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep",
-      "emre": "skip"
-    },
-    "status": "pending",
-    "articy": "0x010000040000842A"
-  },
   "33:59": {
     "id": "33:59",
     "actorName": "Inland Empire",
