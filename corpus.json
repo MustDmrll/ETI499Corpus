@@ -5162,20 +5162,6 @@
     "status": "pending",
     "articy": "0x0100000600013B96"
   },
-  "533:511": {
-    "id": "533:511",
-    "actorName": "Inland Empire",
-    "en": "Yellow Man? Feels significant somehow, him saying that. You should ask him about it, later...",
-    "trOfficial": "Sarı Adam mı? Nedense bunu söylemesi önemliymiş gibi geliyor. Ona sormalısın, ama sonra...",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000600013B9E"
-  },
   "534:181": {
     "id": "534:181",
     "actorName": "Inland Empire",
