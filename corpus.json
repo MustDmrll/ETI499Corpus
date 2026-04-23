@@ -12512,20 +12512,6 @@
     "status": "pending",
     "articy": "0x0100006B00009283"
   },
-  "1149:35": {
-    "id": "1149:35",
-    "actorName": "Ancient Reptilian Brain",
-    "en": "That's me, blue eyes. That's me.",
-    "trOfficial": "Benim o, mavi göz. Benim.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100006B0000937B"
-  },
   "1149:37": {
     "id": "1149:37",
     "actorName": "Ancient Reptilian Brain",
