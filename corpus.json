@@ -12176,20 +12176,6 @@
     "status": "pending",
     "articy": "0x010000820001F659"
   },
-  "1049:52": {
-    "id": "1049:52",
-    "actorName": "Inland Empire",
-    "en": "Look at it. Of course it was you. You *partied* here.",
-    "trOfficial": "Şuraya baksana! Tabii ki sen içtin. Burada <i>partiledin</i> sen.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000820001F5E8"
-  },
   "1049:65": {
     "id": "1049:65",
     "actorName": "Inland Empire",
