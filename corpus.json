@@ -12610,20 +12610,6 @@
     "status": "pending",
     "articy": "0x0100006B0000928F"
   },
-  "1149:94": {
-    "id": "1149:94",
-    "actorName": "Limbic System",
-    "en": "Your name is *Passed Out on the Ground*. Dragged around by one of the other evil apes. They're taking you somewhere...",
-    "trOfficial": "Senin adın <i>Yerde Baygın Yatan</i>. Diğer kötü maymunlar tarafından oradan oraya sürükleniyorsun. Seni bir yere götürüyorlar...",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100006B000093F6"
-  },
   "1149:96": {
     "id": "1149:96",
     "actorName": "Limbic System",
