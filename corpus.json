@@ -14150,20 +14150,6 @@
     "status": "pending",
     "articy": "0x010000060001C142"
   },
-  "1198:52": {
-    "id": "1198:52",
-    "actorName": "Ancient Reptilian Brain",
-    "en": "He's got no idea what he's in for.",
-    "trOfficial": "Onu nelerin beklediğini hiç bilmiyor.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100005300006137"
-  },
   "1198:53": {
     "id": "1198:53",
     "actorName": "Ancient Reptilian Brain",
