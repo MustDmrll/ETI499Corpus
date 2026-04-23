@@ -15110,5 +15110,663 @@
       "basak": "skip"
     },
     "status": "pending"
+  },
+  "1195:43": {
+    "id": "1195:43",
+    "actorName": "Limbic System",
+    "en": "You're not *cooperating* brother-man.",
+    "trOfficial": "<i>İş birliği yapmıyorsun</i>, kardeşim.",
+    "trMachine": "",
+    "proposed": "",
+    "notes": "",
+    "votes": {
+      "basak": "keep"
+    },
+    "status": "pending",
+    "articy": "0x0100000600015D75"
+  },
+  "533:511": {
+    "id": "533:511",
+    "actorName": "Inland Empire",
+    "en": "Yellow Man? Feels significant somehow, him saying that. You should ask him about it, later...",
+    "trOfficial": "Sarı Adam mı? Nedense bunu söylemesi önemliymiş gibi geliyor. Ona sormalısın, ama sonra...",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "537:460": {
+    "id": "537:460",
+    "actorName": "Limbic System",
+    "en": "And rotting. And being disinfected. And smelling of drugs and feeling saliva in his mouth. Drifting in painkillers. Thrashing in his wound sleep.",
+    "trOfficial": "Sonra çürüyor. Dezenfekte oluyor. Bir de ilaç kokuyor ve ağzındaki salyayı hissediyor. Ağrı kesicilerin arasında sürükleniyor. Zorlu uykusunda tepiniyor.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "544:52": {
+    "id": "544:52",
+    "actorName": "Inland Empire",
+    "en": "Forty-one, Precinct 41. A massive pit opens up in your stomach and the most terrible feeling comes over you.",
+    "trOfficial": "41, yani 41. Polis Karakolu. Midende garip çalkantılar olmaya başlıyor ve vücudunu berbat bir his sarıyor.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "544:214": {
+    "id": "544:214",
+    "actorName": "Inland Empire",
+    "en": "Suddenly you're reminded of the lieutenant's Kineema and the weird feeling about the fish and seaweed you had...",
+    "trOfficial": "Bir anda teğmenin Kineema'sını hatırlıyorsun, balık ve deniz yosunuyla ilgili garip bir his geliyor...",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "550:127": {
+    "id": "550:127",
+    "actorName": "Inland Empire",
+    "en": "It's not too late, no one's going to blame you for backing out. You don't have to do this. Just get out.",
+    "trOfficial": "Hâlâ çok geç değil. Şimdi çekilirsen kimse seni suçlamayacak. Bunu yapmak zorunda değilsin. Git buradan.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "566:222": {
+    "id": "566:222",
+    "actorName": "Inland Empire",
+    "en": "The Sun does little for the dead, and those hopelessly lost in their own minds.",
+    "trOfficial": "Güneş; ölülere ve kendi zihninde umutsuzca kaybolmuşlara fayda etmez.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "630:221": {
+    "id": "630:221",
+    "actorName": "Inland Empire",
+    "en": "Have you stirred the ghost of the Doomed Commercial Area from its rest? Could this be its dismembered heart, beginning to flutter?",
+    "trOfficial": "Lanetli Ticaret Bölgesi hayaletini uykusundan mı uyandırdın? Bu onun titremeye başlayan parçalanmış kalbi olabilir mi?",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "631:1111": {
+    "id": "631:1111",
+    "actorName": "Inland Empire",
+    "en": "Look at that lady. Take a *gander*. Squint your eyes, bub.",
+    "trOfficial": "Kadına bir bak. İyice bir <i>göz at</i>. Gözlerini kıs da bak, ahbap.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "635:916": {
+    "id": "635:916",
+    "actorName": "Inland Empire",
+    "en": "You think we should... turn him off and back on again?",
+    "trOfficial": "Sence onu... kapatıp tekrar açmalı mıyız?",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "636:499": {
+    "id": "636:499",
+    "actorName": "Inland Empire",
+    "en": "The camera of her mind glides over the surface of the water.",
+    "trOfficial": "Zihninin kamerası suyun yüzeyinde süzülüyor.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "636:553": {
+    "id": "636:553",
+    "actorName": "Inland Empire",
+    "en": "She's over-radiated. And then some.",
+    "trOfficial": "Aşırı radyasyona maruz kalmış. Hatta daha da fazlasına.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "637:11": {
+    "id": "637:11",
+    "actorName": "Inland Empire",
+    "en": "Then *you* happened. Your youth in the Thirties.",
+    "trOfficial": "Sonra <i>sen</i> oldun. 30'lu yıllardaki gençliğin.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "704:424": {
+    "id": "704:424",
+    "actorName": "Inland Empire",
+    "en": "Plus one. Ruby.",
+    "trOfficial": "Artı bir. Ruby.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "723:84": {
+    "id": "723:84",
+    "actorName": "Inland Empire",
+    "en": "We are way out now... Way out in the West.",
+    "trOfficial": "Şu an çok uzaktayız, epey bir batıdayız.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "757:24": {
+    "id": "757:24",
+    "actorName": "Inland Empire",
+    "en": "Oh *fuck* yes. Go there in your head. It's been days since you've thought about her. A week...",
+    "trOfficial": "<i>Hele şükür</i> amına koyayım. Kafanda oraya git. Onu düşünmeyeli günler oldu, bir hafta oldu...",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "761:388": {
+    "id": "761:388",
+    "actorName": "Inland Empire",
+    "en": "He was like a cleric, a shepherd.",
+    "trOfficial": "Bir rahip, bir önder gibiydi.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "785:175": {
+    "id": "785:175",
+    "actorName": "Inland Empire",
+    "en": "You feel like a *Du Bois*, but you don't feel like a *Harry*. Strange.",
+    "trOfficial": "Kendini <i>Du Bois</i> gibi hissediyorsun ama <i>Harry</i> gibi hissetmiyorsun. Tuhaf.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "789:309": {
+    "id": "789:309",
+    "actorName": "Inland Empire",
+    "en": "There it is again -- *the pigs*, like Roy said. Not good at all.",
+    "trOfficial": "İşte yine. <i>Aynasız</i>, tıpkı Roy'un dediği gibi. Hiç iyi değil.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "806:125": {
+    "id": "806:125",
+    "actorName": "Inland Empire",
+    "en": "The bore's the size of your eye. I can almost see the stars.",
+    "trOfficial": "Namlunun çapı gözün kadar. Yıldızları görür gibiyim...",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "817:36": {
+    "id": "817:36",
+    "actorName": "Inland Empire",
+    "en": "Crisis, death. You can feel it in your blue soul.",
+    "trOfficial": "Kriz, ölüm. Hüzünlü ruhunda onu hissedebiliyorsun.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "817:87": {
+    "id": "817:87",
+    "actorName": "Inland Empire",
+    "en": "Be prepared. Wield Ruby's double-barrelled pistol.",
+    "trOfficial": "Hazırlıklı ol. Ruby'nin çift namlulu tabancasını kullan.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "873:63": {
+    "id": "873:63",
+    "actorName": "Inland Empire",
+    "en": "This must be where the *Entity* lives...",
+    "trOfficial": "<i>Mahluk</i> burada yaşıyor olmalı...",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "943:23": {
+    "id": "943:23",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "\"I would often go there. To the tiny church there. The smallest church in Saint-Saëns -- though it once was larger.\n\nHow the rill may rest there. Down through the mist there. Toward the seven sisters -- toward those pale cliffs there\n\nI would often stay there. In the tiny yard there. I have been so glad here -- looking forward to the past here\n\nBut now you are alone. None of this matters at all.\"",
+    "trOfficial": "\"Sık sık giderdim o yere. Oradaki ufacık kiliseye. Saint‑Saëns'ın en küçük kilisesi... Gerçi daha büyüktü eskide.\n\nNehir ne dingindir o yerde. Sisin ortasından inişlerde. Yedi kız kardeşe doğru akarken... Puslu uçurumlar var ileride.\n\nSık sık kalırdım o yerde. Oradaki ufacık bahçede. Çok bahtiyar oldum bu yerde... Heves ederek buradaki maziye.\n\nFakat şimdi yapayalnızsın. Bütün bunlar da anlamsız.\"",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "943:28": {
+    "id": "943:28",
+    "actorName": "Limbic System",
+    "en": "\"I would often go there. To the tiny church there. The smallest church in Saint-Saëns -- though it once was larger.\n\nHow the rill may rest there. Down through the mist there. Toward the seven sisters -- toward those pale cliffs there\n\nI would often stay there. In the tiny yard there. I have been so glad here -- looking forward to the past here\n\nBut now you are alone. None of this matters at all.\"",
+    "trOfficial": "\"Sık sık giderdim o yere. Oradaki ufacık kiliseye. Saint‑Saëns'ın en küçük kilisesi... Gerçi daha büyüktü eskide.\n\nNehir ne dingindir o yerde. Sisin ortasından inişlerde. Yedi kız kardeşe doğru akarken... Puslu uçurumlar var ileride.\n\nSık sık kalırdım o yerde. Oradaki ufacık bahçede. Çok bahtiyar oldum bu yerde... Heves ederek buradaki maziye.\n\nFakat şimdi yapayalnızsın. Bütün bunlar da anlamsız.\"",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "943:43": {
+    "id": "943:43",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "\"I would often go there. To the tiny church there. The smallest church in Saint-Saëns -- though it once was larger.\n\nHow the rill may rest there. Down through the mist there. Toward the seven sisters -- toward those pale cliffs there\n\nI would often stay there. In the tiny yard there. I have been so glad here -- looking forward to the past here\n\nBut now you are alone. None of this matters at all.\"",
+    "trOfficial": "\"Sık sık giderdim o yere. Oradaki ufacık kiliseye. Saint‑Saëns'ın en küçük kilisesi... Gerçi daha büyüktü eskide.\n\nNehir ne dingindir o yerde. Sisin ortasından inişlerde. Yedi kız kardeşe doğru akarken... Puslu uçurumlar var ileride.\n\nSık sık kalırdım o yerde. Oradaki ufacık bahçede. Çok bahtiyar oldum bu yerde... Heves ederek buradaki maziye.\n\nFakat şimdi yapayalnızsın. Bütün bunlar da anlamsız.\"",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "943:55": {
+    "id": "943:55",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "\"I would often go there. To the tiny church there. The smallest church in Saint-Saëns -- though it once was larger.\n\nHow the rill may rest there. Down through the mist there. Toward the seven sisters -- toward those pale cliffs there\n\nI would often stay there. In the tiny yard there. I have been so glad here -- looking forward to the past here\n\nBut now you are alone. None of this matters at all.\"",
+    "trOfficial": "\"Sık sık giderdim o yere. Oradaki ufacık kiliseye. Saint‑Saëns'ın en küçük kilisesi... Gerçi daha büyüktü eskide.\n\nNehir ne dingindir o yerde. Sisin ortasından inişlerde. Yedi kız kardeşe doğru akarken... Puslu uçurumlar var ileride.\n\nSık sık kalırdım o yerde. Oradaki ufacık bahçede. Çok bahtiyar oldum bu yerde... Heves ederek buradaki maziye.\n\nFakat şimdi yapayalnızsın. Bütün bunlar da anlamsız.\"",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "943:94": {
+    "id": "943:94",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "\"I would often go there. To the tiny church there. The smallest church in Saint-Saëns -- though it once was larger.\n\nHow the rill may rest there. Down through the mist there. Toward the seven sisters -- toward those pale cliffs there\n\nI would often stay there. In the tiny yard there. I have been so glad here -- looking forward to the past here\n\nBut now you are alone. None of this matters at all.\"",
+    "trOfficial": "\"Sık sık giderdim o yere. Oradaki ufacık kiliseye. Saint‑Saëns'ın en küçük kilisesi... Gerçi daha büyüktü eskide.\n\nNehir ne dingindir o yerde. Sisin ortasından inişlerde. Yedi kız kardeşe doğru akarken... Puslu uçurumlar var ileride.\n\nSık sık kalırdım o yerde. Oradaki ufacık bahçede. Çok bahtiyar oldum bu yerde... Heves ederek buradaki maziye.\n\nFakat şimdi yapayalnızsın. Bütün bunlar da anlamsız.\"",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "943:166": {
+    "id": "943:166",
+    "actorName": "Limbic System",
+    "en": "\"I would often go there. To the tiny church there. The smallest church in Saint-Saëns -- though it once was larger.\n\nHow the rill may rest there. Down through the mist there. Toward the seven sisters -- toward those pale cliffs there\n\nI would often stay there. In the tiny yard there. I have been so glad here -- looking forward to the past here\n\nBut now you are alone. None of this matters at all.\"",
+    "trOfficial": "\"Sık sık giderdim o yere. Oradaki ufacık kiliseye. Saint‑Saëns'ın en küçük kilisesi... Gerçi daha büyüktü eskide.\n\nNehir ne dingindir o yerde. Sisin ortasından inişlerde. Yedi kız kardeşe doğru akarken... Puslu uçurumlar var ileride.\n\nSık sık kalırdım o yerde. Oradaki ufacık bahçede. Çok bahtiyar oldum bu yerde... Heves ederek buradaki maziye.\n\nFakat şimdi yapayalnızsın. Bütün bunlar da anlamsız.\"",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "963:49": {
+    "id": "963:49",
+    "actorName": "Inland Empire",
+    "en": "Is that an accusatory glance he gave you? No... no, he's cool.",
+    "trOfficial": "Sana suçlayan gözlerle mi baktı o? Yok canım... Yapmaz öyle şey.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "971:313": {
+    "id": "971:313",
+    "actorName": "Inland Empire",
+    "en": "A prayer of sorts? To Revachol.",
+    "trOfficial": "Bir tür dua mı? Revachol için bir dua.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1000:45": {
+    "id": "1000:45",
+    "actorName": "Inland Empire",
+    "en": "This is just mundane garbage. What's even para-natural about this?",
+    "trOfficial": "Sıradan boş konular. Nesi doğaüstü ki bunun?",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1015:35": {
+    "id": "1015:35",
+    "actorName": "Inland Empire",
+    "en": "Just felt right. Why, do you want to be a Tequila *Sunrise?* It's a little too late for that...",
+    "trOfficial": "Sana tam oturdu. Neden ki? <i>Gününde</i> Kovboy mu olmak istersin? Bunun için biraz geç kaldın...",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1015:238": {
+    "id": "1015:238",
+    "actorName": "Inland Empire",
+    "en": "Are you sure? It's probably too late to be a Tequila *Sunrise* now.",
+    "trOfficial": "Emin misin? Muhtemelen <i>Gününde</i> Kovboy olmak için çok geç artık.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1015:289": {
+    "id": "1015:289",
+    "actorName": "Inland Empire",
+    "en": "Like a Tequila Sunset.",
+    "trOfficial": "Akşamcı Kovboy gibi.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1016:835": {
+    "id": "1016:835",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "Good. Because from what I can see, it's about to BUST A MOVE.",
+    "trOfficial": "Güzel. Çünkü gördüğüm kadarıyla DANS ETMEK üzere.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1038:19": {
+    "id": "1038:19",
+    "actorName": "Inland Empire",
+    "en": "Is that the phasmid? It looks like the phasmid, leaning against the wall...",
+    "trOfficial": "Yoksa bu o fazmit mi? Sanki duvara yaslanmış bir fazmit gibi duruyor...",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1049:52": {
+    "id": "1049:52",
+    "actorName": "Inland Empire",
+    "en": "Look at it. Of course it was you. You *partied* here.",
+    "trOfficial": "Şuraya baksana! Tabii ki sen içtin. Burada <i>partiledin</i> sen.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1054:47": {
+    "id": "1054:47",
+    "actorName": "Limbic System",
+    "en": "Time to go to work in the shit factory!",
+    "trOfficial": "Bok fabrikasında vardiyan başlıyor!",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1057:24": {
+    "id": "1057:24",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "No, you haven't. You've just *been*.",
+    "trOfficial": "Hayır, kötülük yapmadın. Yalnızca <i>yaşadın</i>.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1070:44": {
+    "id": "1070:44",
+    "actorName": "Inland Empire",
+    "en": "His glasses turn golden as the fire reflects off the lenses. You feel this man is your brother.",
+    "trOfficial": "Alev, merceklerden yansıdıkça gözlükleri altın rengini alıyor. Bu adamın kardeşin olduğunu hissediyorsun.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1149:35": {
+    "id": "1149:35",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "That's me, blue eyes. That's me.",
+    "trOfficial": "Benim o, mavi göz. Benim.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1149:55": {
+    "id": "1149:55",
+    "actorName": "Limbic System",
+    "en": "He speaks of the *sickening* longing, the unwell emotion. Even in the darkness he's grasping for it, still trying to hold on to the great sorrows slipping in the water -- slimy.",
+    "trOfficial": "Şu <i>bıkkınlık veren</i> hasretinden bahsediyor. Zifiri karanlıkta bile sımsıkı ona tutunuyor. Suyun içinde ellerinden kayıp gitmek üzere olan o dev ızdıraplara tutunmaya çalışıyor.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1149:94": {
+    "id": "1149:94",
+    "actorName": "Limbic System",
+    "en": "Your name is *Passed Out on the Ground*. Dragged around by one of the other evil apes. They're taking you somewhere...",
+    "trOfficial": "Senin adın <i>Yerde Baygın Yatan</i>. Diğer kötü maymunlar tarafından oradan oraya sürükleniyorsun. Seni bir yere götürüyorlar...",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1149:103": {
+    "id": "1149:103",
+    "actorName": "Ancient Reptilian Brain",
+    "en": "There is no Voyager Road. There are no roads. No houses. No lights in the windows. It's all on *pause*.",
+    "trOfficial": "Voyager Yolu diye bir yer yok. Yol falan yok. Ev yok. Pencerelerde ışık yok. Şu an hepsi <i>askıda</i>.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1149:118": {
+    "id": "1149:118",
+    "actorName": "Limbic System",
+    "en": "...a bitter, caustic sense of loss remains. Even in the darkness, great sorrows slip in the water -- slimy.",
+    "trOfficial": "...acı, can yakıcı bir eksiklik hissi yerli yerinde duruyor. Karanlıkta bile, ızdırapların elinden kayıp suya karışıyor.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
+  },
+  "1149:119": {
+    "id": "1149:119",
+    "actorName": "Limbic System",
+    "en": "Here in the Paleo-Mammalian Cortex we call it -- *the shadow*.",
+    "trOfficial": "Biz ona paleo-memeli beyninde <i>gölge</i> deriz.",
+    "trMachine": "",
+    "proposed": "",
+    "thoughtProcess": "",
+    "notes": "",
+    "votes": {
+      "basak": "skip"
+    },
+    "status": "pending"
   }
 }
