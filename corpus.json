@@ -4910,20 +4910,6 @@
     "status": "pending",
     "articy": "0x010000060000E6AA"
   },
-  "482:68": {
-    "id": "482:68",
-    "actorName": "Inland Empire",
-    "en": "You would have done better if you'd just dial the Dolores Dei down a bit.",
-    "trOfficial": "Dolores Dei'e bu kadar takık olmasaydın daha iyi bir not alabilirdin.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060000E71F"
-  },
   "482:115": {
     "id": "482:115",
     "actorName": "Inland Empire",
