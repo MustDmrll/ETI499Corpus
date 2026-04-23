@@ -4490,20 +4490,6 @@
     "status": "pending",
     "articy": "0x0100009200000CA8"
   },
-  "460:51": {
-    "id": "460:51",
-    "actorName": "Inland Empire",
-    "en": "Time has come to face the Source. Fear not, for the forces of the universe are supporting you in this psychic quest.",
-    "trOfficial": "Kaynak ile yüzleşme vakti geldi. Korkmana gerek yok, evrenin güçleri bu ruhani araştırmanda seni destekliyor.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100009200001C41"
-  },
   "460:66": {
     "id": "460:66",
     "actorName": "Inland Empire",
