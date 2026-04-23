@@ -12834,20 +12834,6 @@
     "status": "pending",
     "articy": "0x0100006B0000A1D1"
   },
-  "1154:20": {
-    "id": "1154:20",
-    "actorName": "Inland Empire",
-    "en": "Acknowledged. Connection established. *BZZZZT*. Welcome aboard, Remote Viewer. You are a special man, and *definitely* not imagining it.",
-    "trOfficial": "Anlaşıldı. Bağlantı kuruldu. <i>BZZZT</i>. Hoş geldin, Gaipten Sesler Memuru. Sen özel birisin ve bunları <i>kesinlikle</i> hayal etmiyorsun.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100009400000E09"
-  },
   "1154:21": {
     "id": "1154:21",
     "actorName": "Inland Empire",
