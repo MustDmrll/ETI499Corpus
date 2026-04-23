@@ -7304,20 +7304,6 @@
     "status": "pending",
     "articy": "0x01000006000071FA"
   },
-  "637:11": {
-    "id": "637:11",
-    "actorName": "Inland Empire",
-    "en": "Then *you* happened. Your youth in the Thirties.",
-    "trOfficial": "Sonra <i>sen</i> oldun. 30'lu yıllardaki gençliğin.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001BF86"
-  },
   "637:155": {
     "id": "637:155",
     "actorName": "Inland Empire",
