@@ -12904,20 +12904,6 @@
     "status": "pending",
     "articy": "0x0100009400000E10"
   },
-  "1154:27": {
-    "id": "1154:27",
-    "actorName": "Inland Empire",
-    "en": "Can it be? We haven't heard that name in ages. Welcome to the RVD, Firewalker. *BZZZZZT*. You are a special man, and *definitely* not imagining it.",
-    "trOfficial": "O olabilir mi? Bu adı asırlardır duymuyorduk. GSB'ye hoş geldin, Ateşte Yürüyen. <i>BZZZT</i>. Sen özel birisin ve bunları <i>kesinlikle</i> hayal etmiyorsun.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100009400000E61"
-  },
   "1154:40": {
     "id": "1154:40",
     "actorName": "Inland Empire",
