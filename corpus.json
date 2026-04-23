@@ -14430,20 +14430,6 @@
     "status": "pending",
     "articy": "0x0100000600016039"
   },
-  "1199:32": {
-    "id": "1199:32",
-    "actorName": "Ancient Reptilian Brain",
-    "en": "Oh, but you *will*. You're already *going* there. Slipping. How long can we keep you from the precipice? *One* more dream? Two max, baby. Then it's...",
-    "trOfficial": "Yine de <i>düşüneceksin</i>. Gitmeye <i>çoktan</i> başladın. Kayıyorsun. Seni uçurumun ucunda ne kadar tutabiliriz? <i>Bir</i> rüya daha mı? En fazla iki, bebeğim. Sonra...",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001606C"
-  },
   "1199:33": {
     "id": "1199:33",
     "actorName": "Limbic System",
