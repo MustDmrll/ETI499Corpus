@@ -12316,20 +12316,6 @@
     "status": "pending",
     "articy": "0x010000450001FC36"
   },
-  "1054:47": {
-    "id": "1054:47",
-    "actorName": "Limbic System",
-    "en": "Time to go to work in the shit factory!",
-    "trOfficial": "Bok fabrikasında vardiyan başlıyor!",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100007200003BF5"
-  },
   "1054:50": {
     "id": "1054:50",
     "actorName": "Ancient Reptilian Brain",
