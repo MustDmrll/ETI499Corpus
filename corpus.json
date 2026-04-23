@@ -8368,20 +8368,6 @@
     "status": "pending",
     "articy": "0x010000450001D44C"
   },
-  "761:388": {
-    "id": "761:388",
-    "actorName": "Inland Empire",
-    "en": "He was like a cleric, a shepherd.",
-    "trOfficial": "Bir rahip, bir önder gibiydi.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100007200009F28"
-  },
   "761:733": {
     "id": "761:733",
     "actorName": "Inland Empire",
