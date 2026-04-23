@@ -2824,20 +2824,6 @@
     "status": "pending",
     "articy": "0x0100000400003AB7"
   },
-  "358:6": {
-    "id": "358:6",
-    "actorName": "Inland Empire",
-    "en": "They live underground? These communists aren't men, they're *mole people*!",
-    "trOfficial": "Yerin altında mı yaşıyorlar? Bu komünistler insan değiller, <i>köstebek insan</i> olmuşlar!",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000F00006EDB"
-  },
   "361:13": {
     "id": "361:13",
     "actorName": "Inland Empire",
