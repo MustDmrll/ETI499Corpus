@@ -5484,20 +5484,6 @@
     "status": "pending",
     "articy": "0x0100000700007276"
   },
-  "544:52": {
-    "id": "544:52",
-    "actorName": "Inland Empire",
-    "en": "Forty-one, Precinct 41. A massive pit opens up in your stomach and the most terrible feeling comes over you.",
-    "trOfficial": "41, yani 41. Polis Karakolu. Midende garip çalkantılar olmaya başlıyor ve vücudunu berbat bir his sarıyor.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000700006EFC"
-  },
   "544:83": {
     "id": "544:83",
     "actorName": "Inland Empire",
