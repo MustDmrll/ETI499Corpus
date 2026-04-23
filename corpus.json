@@ -1120,21 +1120,6 @@
     "status": "pending",
     "articy": "0x01000012000008B6"
   },
-  "18:223": {
-    "id": "18:223",
-    "actorName": "Inland Empire",
-    "en": "Heartfelt gratitude -- but does it feel like closure? What *really* happened?",
-    "trOfficial": "İçten bir minnettarlık ama... noktayı koyar mı? <i>Gerçekte</i> ne oldu?",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "skip",
-      "emre": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000600014596"
-  },
   "18:328": {
     "id": "18:328",
     "actorName": "Inland Empire",
