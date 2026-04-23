@@ -480,6 +480,9 @@ th:nth-child(6), td:nth-child(6) { width: auto; }
       <option value="translated">Translated</option>
       <option value="pending">Pending</option>
     </select>
+    <select id="filt-voter" onchange="renderTable()">
+      <option value="">All voters</option>
+    </select>
     <input type="text" id="filt-search" placeholder="Search text..." oninput="renderTable()" />
     <span class="row-count" id="row-count"></span>
     <span class="row-count" id="wc-total" style="color:var(--accent)"></span>
@@ -989,6 +992,18 @@ function renderTable() {
   const fc = document.getElementById('filt-char').value;
   const ft = document.getElementById('filt-tr').value;
   const fs = document.getElementById('filt-search').value.toLowerCase();
+  const fv = document.getElementById('filt-voter').value;
+
+  // Populate voter dropdown once
+  const voterSel = document.getElementById('filt-voter');
+  if (voterSel.options.length <= 1) {
+    USERS.forEach(u => {
+      const opt = document.createElement('option');
+      opt.value = u.id;
+      opt.textContent = u.name;
+      voterSel.appendChild(opt);
+    });
+  }
 
   renderUserProgress();
 
@@ -1009,6 +1024,7 @@ function renderTable() {
     if (fc && r.actorName !== fc) return false;
     if (ft === 'translated' && !r.trMachine) return false;
     if (ft === 'pending' && r.trMachine) return false;
+    if (fv && r.votes?.[fv] !== 'keep') return false;
     if (fs && !r.en.toLowerCase().includes(fs) &&
         !r.trOfficial.toLowerCase().includes(fs)) return false;
     return true;
