@@ -15704,20 +15704,6 @@
     "status": "pending",
     "articy": "0x0100008F00002EE4"
   },
-  "1303:39": {
-    "id": "1303:39",
-    "actorName": "Inland Empire",
-    "en": "... is what you're thinking. But you don't want to party down. Not really. Not in the deepest part of your soul, where the freckles only make you sad.",
-    "trOfficial": "...diye düşünüyorsun. Ama aslında böyle bir parti istemiyorsun. Asıl istediğin bu değil. Ruhunun derinliklerinde istemiyorsun. Orada çiller seni üzüyor.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100008F000023B3"
-  },
   "1303:46": {
     "id": "1303:46",
     "actorName": "Inland Empire",
