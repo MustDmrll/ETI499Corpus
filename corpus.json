@@ -4546,20 +4546,6 @@
     "status": "pending",
     "articy": "0x0100009200001A02"
   },
-  "460:276": {
-    "id": "460:276",
-    "actorName": "Inland Empire",
-    "en": "Plaisance needs to hear about this. Perhaps if you combine your *psychic energies* you'll make sense of the situation.",
-    "trOfficial": "Plaisance'a hepsini anlatmalısın. Belki <i>ruhani enerjilerinizi</i> birleştirirseniz durumdan bir anlam çıkarabilirsiniz.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001A672"
-  },
   "460:312": {
     "id": "460:312",
     "actorName": "Inland Empire",
