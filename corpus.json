@@ -7108,20 +7108,6 @@
     "status": "pending",
     "articy": "0x010000450000D007"
   },
-  "635:916": {
-    "id": "635:916",
-    "actorName": "Inland Empire",
-    "en": "You think we should... turn him off and back on again?",
-    "trOfficial": "Sence onu... kapatıp tekrar açmalı mıyız?",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000450000D523"
-  },
   "636:64": {
     "id": "636:64",
     "actorName": "Inland Empire",
