@@ -6884,20 +6884,6 @@
     "status": "pending",
     "articy": "0x0100004500008F38"
   },
-  "631:1111": {
-    "id": "631:1111",
-    "actorName": "Inland Empire",
-    "en": "Look at that lady. Take a *gander*. Squint your eyes, bub.",
-    "trOfficial": "Kadına bir bak. İyice bir <i>göz at</i>. Gözlerini kıs da bak, ahbap.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100004500008F52"
-  },
   "631:1193": {
     "id": "631:1193",
     "actorName": "Inland Empire",
