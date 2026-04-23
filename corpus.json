@@ -1555,21 +1555,6 @@
     "status": "pending",
     "articy": "0x0100001600008A8D"
   },
-  "33:36": {
-    "id": "33:36",
-    "actorName": "Inland Empire",
-    "en": "Serves them right! Wipe that smirk off their face with your sad, tragic song. Who's laughing now? No one.",
-    "trOfficial": "Şimdi onlar düşünsün! Suratlarındaki sırıtışı o hüzünlü, trajik şarkınla bir güzel sil. Hâlâ gülüyorlar mı? Kesinlikle hayır.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "skip",
-      "emre": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100002700000CEF"
-  },
   "33:37": {
     "id": "33:37",
     "actorName": "Inland Empire",
