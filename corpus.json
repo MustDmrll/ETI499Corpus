@@ -2152,20 +2152,6 @@
     "status": "pending",
     "articy": "0x0100000400016494"
   },
-  "204:51": {
-    "id": "204:51",
-    "actorName": "Inland Empire",
-    "en": "Compared to the intersection, in front of Video Revachol 24 -- it's nothing. Compared to that, everything is possible.",
-    "trOfficial": "Video Revachol 24'ün önündeki kavşağa kıyasla bunun hiçbir zorluğu yok. Ona kıyasla her şey kolay.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100000600002021"
-  },
   "204:89": {
     "id": "204:89",
     "actorName": "Inland Empire",
