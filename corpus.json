@@ -12820,20 +12820,6 @@
     "status": "pending",
     "articy": "0x0100009400000D49"
   },
-  "1154:8": {
-    "id": "1154:8",
-    "actorName": "Inland Empire",
-    "en": "*BZZZZT*. Do you copy? This is RVD HQ. Anyone there?",
-    "trOfficial": "<i>BZZZT</i>. Orada mısınız? Burası GSB merkez. Kimse var mı?",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100009400000DF4"
-  },
   "1154:16": {
     "id": "1154:16",
     "actorName": "Inland Empire",
