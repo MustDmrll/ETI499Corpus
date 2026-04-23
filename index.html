@@ -1014,13 +1014,13 @@ function renderTable() {
     return true;
   });
 
-  document.getElementById('row-count').textContent = `Total Findings: ${filtered.length} / ${kept.length}`;
+  document.getElementById('row-count').textContent = `Total Lines: ${filtered.length} / ${kept.length}`;
 
   const totalWC = filtered.reduce((sum, r) =>
     sum + (r.en ? r.en.trim().split(/\s+/).filter(Boolean).length : 0), 0);
   const allDataWC = state.entries.reduce((sum, e) =>
     sum + (e.en ? e.en.trim().split(/\s+/).filter(Boolean).length : 0), 0);
-  document.getElementById('wc-total').textContent = `${totalWC} / ${allDataWC} kelime`;
+  document.getElementById('wc-total').textContent = `Total Findings: ${totalWC} / ${allDataWC}`;
 
   const tb = document.getElementById('table-body');
   if (!filtered.length) {
