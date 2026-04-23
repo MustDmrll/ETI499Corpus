@@ -12722,20 +12722,6 @@
     "status": "pending",
     "articy": "0x0100006B0000929B"
   },
-  "1149:118": {
-    "id": "1149:118",
-    "actorName": "Limbic System",
-    "en": "...a bitter, caustic sense of loss remains. Even in the darkness, great sorrows slip in the water -- slimy.",
-    "trOfficial": "...acı, can yakıcı bir eksiklik hissi yerli yerinde duruyor. Karanlıkta bile, ızdırapların elinden kayıp suya karışıyor.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100006B00009417"
-  },
   "1151:12": {
     "id": "1151:12",
     "actorName": "Inland Empire",
