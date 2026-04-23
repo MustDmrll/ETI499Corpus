@@ -2222,20 +2222,6 @@
     "status": "pending",
     "articy": "0x01000006000024A4"
   },
-  "204:583": {
-    "id": "204:583",
-    "actorName": "Inland Empire",
-    "en": "Heartbreak Welkin.",
-    "trOfficial": "Kalp yarası welkin'i.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060000277B"
-  },
   "204:586": {
     "id": "204:586",
     "actorName": "Inland Empire",
