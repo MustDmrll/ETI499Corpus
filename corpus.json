@@ -10636,20 +10636,6 @@
     "status": "pending",
     "articy": "0x0100001600009779"
   },
-  "971:313": {
-    "id": "971:313",
-    "actorName": "Inland Empire",
-    "en": "A prayer of sorts? To Revachol.",
-    "trOfficial": "Bir tür dua mı? Revachol için bir dua.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001494E"
-  },
   "972:30": {
     "id": "972:30",
     "actorName": "Inland Empire",
