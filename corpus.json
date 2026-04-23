@@ -9264,20 +9264,6 @@
     "status": "pending",
     "articy": "0x01000081000042E7"
   },
-  "817:36": {
-    "id": "817:36",
-    "actorName": "Inland Empire",
-    "en": "Crisis, death. You can feel it in your blue soul.",
-    "trOfficial": "Kriz, ölüm. Hüzünlü ruhunda onu hissedebiliyorsun.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100006B00009978"
-  },
   "817:43": {
     "id": "817:43",
     "actorName": "Inland Empire",
