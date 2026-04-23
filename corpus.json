@@ -7234,20 +7234,6 @@
     "status": "pending",
     "articy": "0x0100004500020B56"
   },
-  "636:553": {
-    "id": "636:553",
-    "actorName": "Inland Empire",
-    "en": "She's over-radiated. And then some.",
-    "trOfficial": "Aşırı radyasyona maruz kalmış. Hatta daha da fazlasına.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x01000006000072E3"
-  },
   "636:618": {
     "id": "636:618",
     "actorName": "Inland Empire",
