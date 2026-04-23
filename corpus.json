@@ -12540,20 +12540,6 @@
     "status": "pending",
     "articy": "0x0100006B0000934E"
   },
-  "1149:55": {
-    "id": "1149:55",
-    "actorName": "Limbic System",
-    "en": "He speaks of the *sickening* longing, the unwell emotion. Even in the darkness he's grasping for it, still trying to hold on to the great sorrows slipping in the water -- slimy.",
-    "trOfficial": "Şu <i>bıkkınlık veren</i> hasretinden bahsediyor. Zifiri karanlıkta bile sımsıkı ona tutunuyor. Suyun içinde ellerinden kayıp gitmek üzere olan o dev ızdıraplara tutunmaya çalışıyor.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100006B00009441"
-  },
   "1149:60": {
     "id": "1149:60",
     "actorName": "Limbic System",
