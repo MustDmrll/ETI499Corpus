@@ -13926,20 +13926,6 @@
     "status": "pending",
     "articy": "0x0100008100002C63"
   },
-  "1198:5": {
-    "id": "1198:5",
-    "actorName": "Ancient Reptilian Brain",
-    "en": "No. You're spinning tapes at the discotheque. The great, unceasing disco of the mind. The flash! The bang! The endless *learning* experience.",
-    "trOfficial": "Hayır. Diskotekte, zihninin devasa ve bitmeyen diskosunda kaset çeviriyorsun. Işıklar! Patlamalar! Sonsuz <i>öğrenme</i> deneyimlerin.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001C0E6"
-  },
   "1198:6": {
     "id": "1198:6",
     "actorName": "Ancient Reptilian Brain",
