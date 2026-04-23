@@ -12848,20 +12848,6 @@
     "status": "pending",
     "articy": "0x0100009400000D84"
   },
-  "1154:15": {
-    "id": "1154:15",
-    "actorName": "Inland Empire",
-    "en": "Ignore the lieutenant. He's never connected with anything para-natural. You're on different planes, metaphysically speaking.",
-    "trOfficial": "Teğmene aldırış etme. O hiç doğaüstü bir şeyle bağlantı kurmamış. Metafizik açıdan konuşacak olursak farklı düzlemlerdesiniz.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100009400000DD8"
-  },
   "1154:16": {
     "id": "1154:16",
     "actorName": "Inland Empire",
