@@ -1361,21 +1361,6 @@
     "status": "pending",
     "articy": "0x0100000600016E2D"
   },
-  "29:68": {
-    "id": "29:68",
-    "actorName": "Inland Empire",
-    "en": "Only banal things strike you. At the core, you're a very banal person, with a very small soul.",
-    "trOfficial": "Yalnızca bayağı şeyler ilgini çekiyor. Özünde, ruhu çok çapsız olan oldukça bayağı bir insansın.",
-    "trMachine": "",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "skip",
-      "emre": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000040000975D"
-  },
   "29:100": {
     "id": "29:100",
     "actorName": "Inland Empire",
