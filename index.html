@@ -2806,6 +2806,12 @@ const PRES_TOTAL = 5;
 let _prevScreen = 'login';
 
 function openPresentation() {
+  const pwd = prompt('Şifre giriniz:');
+  if (pwd === null) return;
+  if (pwd !== '12345') {
+    alert('Hocam henüz hazır değil >:)');
+    return;
+  }
   const active = document.querySelector('.screen.active');
   _prevScreen = active ? active.id : 'login';
   showScreen('presentation');
