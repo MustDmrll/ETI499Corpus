@@ -407,16 +407,24 @@ table.hide-notes .col-notes textarea { display: none; }
    ═══════════════════════════════════════════════════════════ */
 
 :root {
+  /* Disco Elysium — Rostov oil-painting palette */
   --pres-amber: #d4a574;
   --pres-amber-deep: #b8894f;
-  --pres-red: #c26b5a;
+  --pres-amber-glow: #f0c88c;
+  --pres-red: #c13a3a;           /* iconic DE crimson */
+  --pres-red-deep: #7a2222;
+  --pres-teal: #5a8a90;           /* Harry's tie / DE turquoise */
+  --pres-teal-deep: #2d4a50;
+  --pres-navy: #1c2838;           /* deep Martinaise night */
   --pres-paper: #e8dcc4;
-  --pres-ink: #1a1612;
+  --pres-paper-dim: #b8ac95;
+  --pres-ink: #12100c;
+  --pres-bg: #0b0907;             /* warmer than pure black */
   --serif: Georgia, 'Iowan Old Style', 'Apple Garamond', 'Palatino Linotype', serif;
   --mono: 'SF Mono', 'JetBrains Mono', Monaco, Consolas, monospace;
 }
 
-#presentation { flex-direction: column; background: #0a0a0a; position: relative; }
+#presentation { flex-direction: column; background: var(--pres-bg); position: relative; }
 
 .pres-close-btn {
   position: fixed;
@@ -447,24 +455,66 @@ table.hide-notes .col-notes textarea { display: none; }
   isolation: isolate;
 }
 
-/* Film-grain texture overlay (SVG noise) */
+/* Painterly ambient wash — warm dusk undertone, gently drifts (Ken Burns) */
+.pres-atmosphere {
+  position: absolute; inset: -5%;
+  background:
+    radial-gradient(ellipse 60% 50% at 25% 35%, rgba(193, 58, 58, 0.10), transparent 55%),
+    radial-gradient(ellipse 70% 60% at 78% 70%, rgba(90, 138, 144, 0.08), transparent 60%),
+    radial-gradient(ellipse 80% 70% at 50% 100%, rgba(212, 165, 116, 0.06), transparent 65%);
+  pointer-events: none;
+  z-index: 1;
+  animation: atmosphere-drift 40s ease-in-out infinite alternate;
+}
+
+/* Film-grain texture overlay — a touch heavier, with warm tint */
 #presentation .main::before {
   content: '';
   position: absolute; inset: 0;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.83 0 0 0 0 0.65 0 0 0 0 0.46 0 0 0 0.35 0'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='0.5'/></svg>");
-  opacity: 0.08;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.92' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.83 0 0 0 0 0.65 0 0 0 0 0.46 0 0 0 0.45 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.6'/></svg>");
+  opacity: 0.13;
   pointer-events: none;
   z-index: 10;
   mix-blend-mode: overlay;
+  animation: grain-flicker 0.6s steps(3) infinite;
 }
 
-/* Vignette */
+/* Vignette — deeper, warmer, with a kiss of amber at the edges */
 #presentation .main::after {
   content: '';
   position: absolute; inset: 0;
-  background: radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.55) 100%);
+  background:
+    radial-gradient(ellipse at center, transparent 45%, rgba(0,0,0,0.65) 95%),
+    radial-gradient(ellipse at 50% 110%, rgba(122, 34, 34, 0.18), transparent 55%);
   pointer-events: none;
   z-index: 9;
+}
+
+/* Cinematic letterbox bars — slide in on presentation open, stay as frame */
+.letterbox {
+  position: absolute;
+  left: 0; right: 0;
+  height: 32px;
+  background: #000;
+  z-index: 15;
+  pointer-events: none;
+  transform: translateY(var(--lb-from, -100%));
+  transition: transform 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.letterbox.top { top: 0; --lb-from: -100%; }
+.letterbox.bottom { bottom: 0; --lb-from: 100%; }
+#presentation.active .letterbox { transform: translateY(0); }
+
+/* Scene-flash — a brief warm whitewash between slides */
+.scene-flash {
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse at center, rgba(240, 200, 140, 0.25), rgba(240, 200, 140, 0) 60%);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 14;
+}
+.scene-flash.firing {
+  animation: scene-flash-anim 0.55s ease-out;
 }
 
 .slide-stage {
@@ -484,18 +534,25 @@ table.hide-notes .col-notes textarea { display: none; }
   flex-direction: column;
   opacity: 0;
   overflow: hidden;
-  transform: translateX(40px);
+  transform: translateX(40px) scale(1.02);
+  filter: blur(8px);
   pointer-events: none;
-  transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition:
+    opacity 0.9s ease,
+    transform 1.1s cubic-bezier(0.19, 1, 0.22, 1),
+    filter 0.7s ease-out;
+  z-index: 2;
 }
 .slide.active {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateX(0) scale(1);
+  filter: blur(0);
   pointer-events: auto;
 }
 .slide.exiting {
   opacity: 0;
-  transform: translateX(-40px);
+  transform: translateX(-40px) scale(0.98);
+  filter: blur(6px);
 }
 
 .slide-tag {
@@ -527,16 +584,44 @@ table.hide-notes .col-notes textarea { display: none; }
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: radial-gradient(ellipse at 50% 40%, rgba(212, 165, 116, 0.08) 0%, transparent 55%);
+  background: radial-gradient(ellipse at 50% 40%, rgba(212, 165, 116, 0.06) 0%, transparent 55%);
 }
+
+/* Painterly SVG backdrop — Rostov-style dusk over Martinaise */
+.cover-backdrop {
+  position: absolute;
+  inset: -6%;
+  z-index: 0;
+  opacity: 0;
+  pointer-events: none;
+  filter: saturate(0.85) contrast(0.95);
+}
+.slide-cover.active .cover-backdrop {
+  animation:
+    fade-up 2.2s 0.1s forwards,
+    ken-burns 28s 0.5s ease-in-out infinite alternate;
+}
+.cover-backdrop svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Cover content needs to sit above backdrop */
+.slide-cover > *:not(.cover-backdrop):not(.ambient-dots) {
+  position: relative;
+  z-index: 2;
+}
+
 .cover-rule {
   width: 48px; height: 1px;
-  background: var(--pres-amber);
+  background: linear-gradient(to right, transparent, var(--pres-amber), transparent);
   margin: 0 auto 18px;
   opacity: 0;
+  box-shadow: 0 0 12px rgba(212, 165, 116, 0.4);
 }
 .slide-cover.active .cover-rule {
-  animation: rule-expand 0.8s 0.1s forwards;
+  animation: rule-expand 1.2s 0.4s forwards;
 }
 .cover-subtag {
   font-family: var(--mono);
@@ -548,7 +633,7 @@ table.hide-notes .col-notes textarea { display: none; }
   opacity: 0;
 }
 .slide-cover.active .cover-subtag {
-  animation: fade-up 0.8s 0.3s forwards;
+  animation: fade-up 1.2s 0.7s forwards;
 }
 .cover-title {
   font-family: var(--serif);
@@ -570,7 +655,9 @@ table.hide-notes .col-notes textarea { display: none; }
   margin-bottom: 4px;
 }
 .slide-cover.active .cover-title {
-  animation: fade-up 1s 0.5s forwards;
+  animation:
+    fade-up 1.4s 1s forwards,
+    title-shimmer 6s 2.5s ease-in-out infinite;
 }
 .cover-subtitle {
   font-family: var(--serif);
@@ -583,7 +670,7 @@ table.hide-notes .col-notes textarea { display: none; }
   opacity: 0;
 }
 .slide-cover.active .cover-subtitle {
-  animation: fade-up 0.8s 1s forwards;
+  animation: fade-up 1.2s 1.8s forwards;
 }
 .cover-meta {
   font-family: var(--mono);
@@ -601,7 +688,7 @@ table.hide-notes .col-notes textarea { display: none; }
   background: var(--pres-amber);
 }
 .slide-cover.active .cover-meta {
-  animation: fade-up 0.8s 1.3s forwards;
+  animation: fade-up 1.2s 2.4s forwards;
 }
 .cover-authors {
   font-family: var(--mono);
@@ -612,7 +699,7 @@ table.hide-notes .col-notes textarea { display: none; }
   opacity: 0;
 }
 .slide-cover.active .cover-authors {
-  animation: fade-up 0.8s 1.15s forwards;
+  animation: fade-up 1.2s 2.1s forwards;
 }
 
 /* Ambient floating dots for cover */
@@ -731,18 +818,22 @@ table.hide-notes .col-notes textarea { display: none; }
 }
 .voice-card {
   position: relative;
-  background: rgba(26, 22, 18, 0.55);
+  background:
+    linear-gradient(to bottom, rgba(26, 22, 18, 0.2) 0%, rgba(26, 22, 18, 0.7) 100%),
+    rgba(26, 22, 18, 0.55);
   border: 1px solid var(--border);
   border-radius: 8px;
-  padding: 14px 14px 12px;
+  padding: 0;
   overflow: hidden;
   opacity: 0;
   transform: translateY(20px);
-  transition: transform 0.3s ease, border-color 0.3s ease;
+  transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1), border-color 0.3s ease, box-shadow 0.4s ease;
+  display: flex;
+  flex-direction: column;
 }
-.slide.active .voice-card:nth-child(1) { animation: card-in 0.65s 0.8s forwards; }
-.slide.active .voice-card:nth-child(2) { animation: card-in 0.65s 1.0s forwards; }
-.slide.active .voice-card:nth-child(3) { animation: card-in 0.65s 1.2s forwards; }
+.slide.active .voice-card:nth-child(1) { animation: card-in 1s 1s forwards; }
+.slide.active .voice-card:nth-child(2) { animation: card-in 1s 1.25s forwards; }
+.slide.active .voice-card:nth-child(3) { animation: card-in 1s 1.5s forwards; }
 
 .voice-card::before {
   content: '';
@@ -751,7 +842,40 @@ table.hide-notes .col-notes textarea { display: none; }
   height: 2px;
   background: var(--voice-color);
   opacity: 0.7;
+  z-index: 3;
+  transition: opacity 0.3s, box-shadow 0.3s;
 }
+
+/* Painterly portrait header for each voice */
+.voice-portrait {
+  position: relative;
+  height: 110px;
+  overflow: hidden;
+  background: var(--voice-bg, #1a1612);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.voice-portrait svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  filter: saturate(0.85) contrast(1.05);
+}
+.voice-portrait::after {
+  content: '';
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse at 50% 120%, rgba(0,0,0,0.6), transparent 55%),
+    linear-gradient(to bottom, transparent 55%, rgba(11,9,7,0.6) 100%);
+  pointer-events: none;
+}
+.voice-card:hover .voice-portrait svg {
+  animation: portrait-breathe 3s ease-in-out infinite;
+}
+
+.voice-body {
+  padding: 12px 14px 14px;
+}
+
 .voice-card .voice-abbr {
   font-family: var(--mono);
   font-size: 10px;
@@ -776,16 +900,19 @@ table.hide-notes .col-notes textarea { display: none; }
   line-height: 1.45;
 }
 .voice-card:hover {
-  transform: translateY(0) scale(1.03);
+  transform: translateY(-4px) scale(1.02);
   border-color: var(--voice-color);
+  box-shadow:
+    0 12px 40px -12px rgba(0,0,0,0.8),
+    0 0 24px -8px var(--voice-color);
 }
 .voice-card:hover::before {
   opacity: 1;
-  box-shadow: 0 0 12px var(--voice-color);
+  box-shadow: 0 0 16px var(--voice-color);
 }
-.voice-card.arb { --voice-color: #a78bfa; }
-.voice-card.ls  { --voice-color: #fb923c; }
-.voice-card.ie  { --voice-color: #34d399; }
+.voice-card.arb { --voice-color: #a78bfa; --voice-bg: #1a1626; }
+.voice-card.ls  { --voice-color: #fb923c; --voice-bg: #261608; }
+.voice-card.ie  { --voice-color: #34d399; --voice-bg: #0d2118; }
 
 /* ── RESEARCH FOCUS (slide 3) ───────────────── */
 .rf-funnel {
@@ -1216,32 +1343,32 @@ table.hide-notes .col-notes textarea { display: none; }
 
 /* ── ANIMATIONS ─────────────────────────────── */
 @keyframes fade-up {
-  from { opacity: 0; transform: translateY(18px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(22px); filter: blur(6px); }
+  to   { opacity: 1; transform: translateY(0); filter: blur(0); }
 }
 @keyframes fade-down {
-  from { opacity: 0; transform: translateY(-10px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(-12px); filter: blur(4px); }
+  to   { opacity: 1; transform: translateY(0); filter: blur(0); }
 }
 @keyframes rule-expand {
   from { width: 0; opacity: 0; }
   to   { width: 48px; opacity: 1; }
 }
 @keyframes card-in {
-  from { opacity: 0; transform: translateY(20px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(24px) scale(0.97); filter: blur(5px); }
+  to   { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
 }
 @keyframes funnel-in {
-  from { opacity: 0; transform: scale(0.9); }
-  to   { opacity: 1; transform: scale(1); }
+  from { opacity: 0; transform: scale(0.88); filter: blur(6px); }
+  to   { opacity: 1; transform: scale(1); filter: blur(0); }
 }
 @keyframes arrow-in {
   from { opacity: 0; height: 0; }
   to   { opacity: 1; height: 24px; }
 }
 @keyframes find-in {
-  from { opacity: 0; transform: translateX(-20px); }
-  to   { opacity: 1; transform: translateX(0); }
+  from { opacity: 0; transform: translateX(-24px); filter: blur(4px); }
+  to   { opacity: 1; transform: translateX(0); filter: blur(0); }
 }
 @keyframes drift {
   0%   { transform: translateY(100vh) translateX(0); opacity: 0; }
@@ -1252,6 +1379,35 @@ table.hide-notes .col-notes textarea { display: none; }
 @keyframes hint-pulse {
   0%, 100% { opacity: 0.3; }
   50%      { opacity: 0.7; }
+}
+/* Cinematic-only keyframes */
+@keyframes atmosphere-drift {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(-2%, 1%) scale(1.04); }
+  100% { transform: translate(2%, -1%) scale(1.02); }
+}
+@keyframes grain-flicker {
+  0%   { transform: translate(0, 0); }
+  33%  { transform: translate(-1%, 1%); }
+  66%  { transform: translate(1%, -1%); }
+  100% { transform: translate(0, 0); }
+}
+@keyframes scene-flash-anim {
+  0%   { opacity: 0; }
+  20%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes ken-burns {
+  0%   { transform: scale(1.05) translate(0, 0); }
+  100% { transform: scale(1.18) translate(-2%, -1.5%); }
+}
+@keyframes portrait-breathe {
+  0%, 100% { transform: scale(1); filter: brightness(1); }
+  50%      { transform: scale(1.015); filter: brightness(1.08); }
+}
+@keyframes title-shimmer {
+  0%, 100% { text-shadow: 0 0 24px rgba(212, 165, 116, 0.15); }
+  50%      { text-shadow: 0 0 40px rgba(212, 165, 116, 0.35); }
 }
 
 /* Responsiveness for presentation */
@@ -1451,10 +1607,101 @@ table.hide-notes .col-notes textarea { display: none; }
 <!-- PRESENTATION -->
 <div id="presentation" class="screen">
   <button class="pres-close-btn" onclick="closePresentation()" title="Close">&#x2715;</button>
+
+  <!-- Cinematic frame -->
+  <div class="letterbox top"></div>
+  <div class="letterbox bottom"></div>
+
   <div class="main">
+
+    <!-- Painterly ambient wash + flash -->
+    <div class="pres-atmosphere"></div>
+    <div class="scene-flash" id="scene-flash"></div>
 
     <!-- SLIDE 1 · COVER -->
     <section class="slide slide-cover" data-slide="0">
+      <!-- Painterly Rostov-style dusk backdrop -->
+      <div class="cover-backdrop" aria-hidden="true">
+        <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <!-- warm sky gradient: deep navy → crimson → amber horizon -->
+            <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%"   stop-color="#1c2838"/>
+              <stop offset="45%"  stop-color="#3a2a33"/>
+              <stop offset="72%"  stop-color="#7a2222"/>
+              <stop offset="88%"  stop-color="#c26b3a"/>
+              <stop offset="100%" stop-color="#d4a574"/>
+            </linearGradient>
+            <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%"   stop-color="#2d4a50"/>
+              <stop offset="100%" stop-color="#0f1a20"/>
+            </linearGradient>
+            <radialGradient id="sun" cx="0.62" cy="0.68" r="0.14">
+              <stop offset="0%"  stop-color="#f0c88c" stop-opacity="0.95"/>
+              <stop offset="60%" stop-color="#c26b3a" stop-opacity="0.4"/>
+              <stop offset="100%" stop-color="#c26b3a" stop-opacity="0"/>
+            </radialGradient>
+            <filter id="paint" x="-5%" y="-5%" width="110%" height="110%">
+              <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="7"/>
+              <feDisplacementMap in="SourceGraphic" scale="14"/>
+            </filter>
+            <filter id="soft-blur"><feGaussianBlur stdDeviation="2.2"/></filter>
+          </defs>
+
+          <!-- Sky -->
+          <rect width="1600" height="640" fill="url(#sky)"/>
+          <!-- Sun glow -->
+          <rect width="1600" height="900" fill="url(#sun)"/>
+
+          <!-- Painterly horizon clouds -->
+          <g filter="url(#paint)" opacity="0.55">
+            <ellipse cx="300" cy="420" rx="360" ry="28" fill="#2d1a1a"/>
+            <ellipse cx="900" cy="460" rx="520" ry="22" fill="#3a1f1f"/>
+            <ellipse cx="1400" cy="430" rx="300" ry="18" fill="#2d1a1a"/>
+            <ellipse cx="700" cy="520" rx="460" ry="16" fill="#5a2a20"/>
+          </g>
+
+          <!-- Distant city silhouette (Martinaise-like) -->
+          <g filter="url(#soft-blur)" opacity="0.88">
+            <path d="M0,640 L0,570 L40,570 L40,555 L90,555 L90,540 L130,540 L130,560 L180,560 L180,525 L220,525 L220,545 L260,545 L260,530 L310,530 L310,560 L360,560 L360,535 L410,535 L410,555 L460,555 L460,540 L510,540 L510,520 L560,520 L560,548 L610,548 L610,535 L670,535 L670,555 L720,555 L720,525 L780,525 L780,540 L840,540 L840,560 L900,560 L900,530 L960,530 L960,555 L1020,555 L1020,540 L1080,540 L1080,560 L1140,560 L1140,528 L1200,528 L1200,545 L1260,545 L1260,535 L1320,535 L1320,558 L1380,558 L1380,540 L1440,540 L1440,525 L1500,525 L1500,555 L1560,555 L1560,545 L1600,545 L1600,640 Z"
+                  fill="#0f1620"/>
+            <!-- window specks -->
+            <g fill="#f0c88c" opacity="0.5">
+              <rect x="58"  y="580" width="2" height="3"/>
+              <rect x="146" y="573" width="2" height="3"/>
+              <rect x="234" y="560" width="2" height="3"/>
+              <rect x="335" y="570" width="2" height="3"/>
+              <rect x="478" y="568" width="2" height="3"/>
+              <rect x="600" y="560" width="2" height="3"/>
+              <rect x="735" y="550" width="2" height="3"/>
+              <rect x="870" y="580" width="2" height="3"/>
+              <rect x="990" y="568" width="2" height="3"/>
+              <rect x="1100" y="578" width="2" height="3"/>
+              <rect x="1240" y="560" width="2" height="3"/>
+              <rect x="1380" y="575" width="2" height="3"/>
+              <rect x="1510" y="565" width="2" height="3"/>
+            </g>
+          </g>
+
+          <!-- Sea -->
+          <rect y="640" width="1600" height="260" fill="url(#sea)"/>
+          <!-- Reflective ripples -->
+          <g opacity="0.25" filter="url(#paint)">
+            <rect x="0" y="660" width="1600" height="2" fill="#c26b3a"/>
+            <rect x="0" y="690" width="1600" height="1" fill="#d4a574"/>
+            <rect x="0" y="730" width="1600" height="1" fill="#8a4a2a"/>
+            <rect x="0" y="780" width="1600" height="1" fill="#5a3a2a"/>
+          </g>
+
+          <!-- Lone figure silhouette (very small, right-of-center) -->
+          <g opacity="0.8" transform="translate(1080, 595)">
+            <ellipse cx="0" cy="40" rx="16" ry="3" fill="#000" opacity="0.5"/>
+            <path d="M-5,0 C-5,-14 5,-14 5,0 L6,12 C10,14 10,26 6,30 L4,36 L-4,36 L-6,30 C-10,26 -10,14 -6,12 Z"
+                  fill="#0a0806"/>
+          </g>
+        </svg>
+      </div>
+
       <div class="ambient-dots" id="ambient-dots"></div>
 
       <div class="cover-rule"></div>
@@ -1505,19 +1752,155 @@ table.hide-notes .col-notes textarea { display: none; }
 
         <div class="voice-cards">
           <div class="voice-card arb">
-            <div class="voice-abbr">ARB</div>
-            <div class="voice-name">Ancient<br>Reptilian Brain</div>
-            <div class="voice-desc">Primal dread, hostility, pre-verbal urges. Fragmented, guttural.</div>
+            <div class="voice-portrait" aria-hidden="true">
+              <svg viewBox="0 0 300 110" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="arb-bg" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%"   stop-color="#2a1f4a"/>
+                    <stop offset="60%"  stop-color="#1a1230"/>
+                    <stop offset="100%" stop-color="#0a0615"/>
+                  </linearGradient>
+                  <radialGradient id="arb-eye" cx="0.5" cy="0.5" r="0.5">
+                    <stop offset="0%"  stop-color="#e9d5ff"/>
+                    <stop offset="40%" stop-color="#a78bfa"/>
+                    <stop offset="100%" stop-color="#2a1f4a" stop-opacity="0"/>
+                  </radialGradient>
+                  <filter id="arb-paint" x="-5%" y="-5%" width="110%" height="110%">
+                    <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="3"/>
+                    <feDisplacementMap in="SourceGraphic" scale="8"/>
+                  </filter>
+                </defs>
+                <rect width="300" height="110" fill="url(#arb-bg)"/>
+                <!-- primal cave shapes -->
+                <g filter="url(#arb-paint)" opacity="0.8">
+                  <path d="M0,110 L0,60 Q40,40 80,55 Q120,70 160,50 Q200,30 240,55 Q280,75 300,60 L300,110 Z" fill="#0a0615"/>
+                  <path d="M0,110 L0,85 Q60,75 120,88 Q180,98 240,82 Q280,74 300,85 L300,110 Z" fill="#1a0f2e"/>
+                </g>
+                <!-- watching eyes -->
+                <circle cx="90"  cy="45" r="14" fill="url(#arb-eye)" opacity="0.85"/>
+                <circle cx="90"  cy="45" r="3" fill="#1a0f2e"/>
+                <circle cx="210" cy="52" r="11" fill="url(#arb-eye)" opacity="0.7"/>
+                <circle cx="210" cy="52" r="2.5" fill="#1a0f2e"/>
+                <!-- scratchy stars -->
+                <g fill="#a78bfa" opacity="0.6">
+                  <circle cx="30"  cy="20" r="0.8"/>
+                  <circle cx="140" cy="12" r="1"/>
+                  <circle cx="250" cy="22" r="0.8"/>
+                  <circle cx="180" cy="28" r="0.6"/>
+                </g>
+              </svg>
+            </div>
+            <div class="voice-body">
+              <div class="voice-abbr">ARB</div>
+              <div class="voice-name">Ancient<br>Reptilian Brain</div>
+              <div class="voice-desc">Primal dread, hostility, pre-verbal urges. Fragmented, guttural.</div>
+            </div>
           </div>
+
           <div class="voice-card ls">
-            <div class="voice-abbr">LS</div>
-            <div class="voice-name">Limbic<br>System</div>
-            <div class="voice-desc">Raw affect, cravings, panic. Urgent, breathless, theatrical.</div>
+            <div class="voice-portrait" aria-hidden="true">
+              <svg viewBox="0 0 300 110" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="ls-bg" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%"   stop-color="#3a1a08"/>
+                    <stop offset="50%"  stop-color="#5a2a10"/>
+                    <stop offset="100%" stop-color="#1a0d04"/>
+                  </linearGradient>
+                  <radialGradient id="ls-glow" cx="0.5" cy="0.65" r="0.7">
+                    <stop offset="0%"   stop-color="#fb923c" stop-opacity="0.9"/>
+                    <stop offset="50%"  stop-color="#c26b3a" stop-opacity="0.3"/>
+                    <stop offset="100%" stop-color="#c26b3a" stop-opacity="0"/>
+                  </radialGradient>
+                  <filter id="ls-paint" x="-5%" y="-5%" width="110%" height="110%">
+                    <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="9"/>
+                    <feDisplacementMap in="SourceGraphic" scale="10"/>
+                  </filter>
+                </defs>
+                <rect width="300" height="110" fill="url(#ls-bg)"/>
+                <!-- bar / dance-floor glow -->
+                <rect width="300" height="110" fill="url(#ls-glow)"/>
+                <!-- smoke wisps -->
+                <g filter="url(#ls-paint)" opacity="0.55">
+                  <ellipse cx="80"  cy="35" rx="60" ry="10" fill="#1a0d04"/>
+                  <ellipse cx="220" cy="25" rx="70" ry="8" fill="#1a0d04"/>
+                </g>
+                <!-- dancing silhouettes -->
+                <g fill="#0a0502" filter="url(#ls-paint)" opacity="0.95">
+                  <!-- figure 1 -->
+                  <path d="M70,105 L70,75 Q65,65 72,58 Q75,50 80,50 Q85,50 88,58 Q95,65 90,75 L90,105 Z"/>
+                  <!-- figure 2 -->
+                  <path d="M145,105 L140,78 Q130,70 138,60 Q142,52 148,52 Q154,52 158,60 Q168,70 160,78 L155,105 Z"/>
+                  <!-- figure 3 -->
+                  <path d="M215,105 L212,80 Q205,70 210,62 Q214,54 220,54 Q226,54 230,62 Q235,70 228,80 L225,105 Z"/>
+                </g>
+                <!-- disco sparks -->
+                <g fill="#fdba74" opacity="0.75">
+                  <circle cx="50"  cy="28" r="1.2"/>
+                  <circle cx="120" cy="18" r="0.9"/>
+                  <circle cx="180" cy="24" r="1"/>
+                  <circle cx="255" cy="30" r="1.2"/>
+                  <circle cx="95"  cy="45" r="0.7"/>
+                  <circle cx="275" cy="48" r="0.8"/>
+                </g>
+              </svg>
+            </div>
+            <div class="voice-body">
+              <div class="voice-abbr">LS</div>
+              <div class="voice-name">Limbic<br>System</div>
+              <div class="voice-desc">Raw affect, cravings, panic. Urgent, breathless, theatrical.</div>
+            </div>
           </div>
+
           <div class="voice-card ie">
-            <div class="voice-abbr">IE</div>
-            <div class="voice-name">Inland<br>Empire</div>
-            <div class="voice-desc">The surreal, the animistic. Dream-logic, metaphor, things that shouldn't speak speaking.</div>
+            <div class="voice-portrait" aria-hidden="true">
+              <svg viewBox="0 0 300 110" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="ie-bg" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%"   stop-color="#0a1a18"/>
+                    <stop offset="55%"  stop-color="#0d2a24"/>
+                    <stop offset="100%" stop-color="#05120e"/>
+                  </linearGradient>
+                  <radialGradient id="ie-moon" cx="0.28" cy="0.35" r="0.18">
+                    <stop offset="0%"   stop-color="#a7f3d0"/>
+                    <stop offset="60%"  stop-color="#34d399" stop-opacity="0.5"/>
+                    <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+                  </radialGradient>
+                  <filter id="ie-paint" x="-5%" y="-5%" width="110%" height="110%">
+                    <feTurbulence type="fractalNoise" baseFrequency="0.025" numOctaves="3" seed="5"/>
+                    <feDisplacementMap in="SourceGraphic" scale="12"/>
+                  </filter>
+                </defs>
+                <rect width="300" height="110" fill="url(#ie-bg)"/>
+                <!-- ghost moon -->
+                <rect width="300" height="110" fill="url(#ie-moon)"/>
+                <circle cx="84" cy="38" r="14" fill="#a7f3d0" opacity="0.35"/>
+                <circle cx="84" cy="38" r="10" fill="#d1fae5" opacity="0.55"/>
+                <!-- floating surreal shapes -->
+                <g filter="url(#ie-paint)" opacity="0.75">
+                  <!-- crooked tree / antenna -->
+                  <path d="M200,105 L200,55 Q198,48 205,45 Q210,50 208,55 L208,105 Z" fill="#0a1a14"/>
+                  <path d="M205,60 L190,50 M208,55 L222,45 M205,48 L198,38" stroke="#0a1a14" stroke-width="1.5" fill="none"/>
+                  <!-- distant hills -->
+                  <path d="M0,105 L0,88 Q50,80 100,85 Q150,90 200,80 Q250,70 300,82 L300,105 Z" fill="#0a1a14"/>
+                </g>
+                <!-- whispering specks — things that shouldn't speak -->
+                <g fill="#34d399" opacity="0.6">
+                  <circle cx="130" cy="30" r="0.8"/>
+                  <circle cx="155" cy="22" r="1"/>
+                  <circle cx="175" cy="38" r="0.7"/>
+                  <circle cx="240" cy="25" r="0.9"/>
+                  <circle cx="265" cy="36" r="0.6"/>
+                  <circle cx="50"  cy="62" r="0.8"/>
+                </g>
+                <!-- soft aurora wisp -->
+                <path d="M0,65 Q80,58 160,68 Q240,75 300,65" stroke="#34d399" stroke-width="0.8" fill="none" opacity="0.3" filter="url(#ie-paint)"/>
+              </svg>
+            </div>
+            <div class="voice-body">
+              <div class="voice-abbr">IE</div>
+              <div class="voice-name">Inland<br>Empire</div>
+              <div class="voice-desc">The surreal, the animistic. Dream-logic, metaphor, things that shouldn't speak speaking.</div>
+            </div>
           </div>
         </div>
       </div>
@@ -2393,6 +2776,16 @@ function gotoSlide(idx, force = false) {
   const slides = document.querySelectorAll('#presentation .slide');
   const prev = presIdx;
   presIdx = idx;
+
+  // Cinematic scene-flash — brief warm whitewash on transition (skip on first open)
+  if (!force) {
+    const flash = document.getElementById('scene-flash');
+    if (flash) {
+      flash.classList.remove('firing');
+      void flash.offsetWidth;          // reflow to restart animation
+      flash.classList.add('firing');
+    }
+  }
 
   slides.forEach((s, i) => {
     s.classList.remove('active', 'exiting');
