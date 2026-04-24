@@ -514,7 +514,7 @@ table.hide-notes .col-notes textarea { display: none; }
   z-index: 14;
 }
 .scene-flash.firing {
-  animation: scene-flash-anim 0.55s ease-out;
+  animation: scene-flash-anim 0.3s ease-out;
 }
 
 .slide-stage {
@@ -538,9 +538,9 @@ table.hide-notes .col-notes textarea { display: none; }
   filter: blur(8px);
   pointer-events: none;
   transition:
-    opacity 0.9s ease,
-    transform 1.1s cubic-bezier(0.19, 1, 0.22, 1),
-    filter 0.7s ease-out;
+    opacity 0.55s ease,
+    transform 0.7s cubic-bezier(0.19, 1, 0.22, 1),
+    filter 0.45s ease-out;
   z-index: 2;
 }
 .slide.active {
@@ -1297,7 +1297,7 @@ table.hide-notes .col-notes textarea { display: none; }
   letter-spacing: 0.22em;
   color: var(--pres-amber);
   text-transform: uppercase;
-  text-align: left;
+  text-align: center;
   opacity: 0.85;
 }
 
@@ -1366,6 +1366,7 @@ table.hide-notes .col-notes textarea { display: none; }
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  text-align: center;
 }
 .rr-cell.rr-en {
   font-style: italic;
@@ -1420,7 +1421,7 @@ table.hide-notes .col-notes textarea { display: none; }
   content: '';
   position: absolute;
   left: -1px;
-  top: 14px; bottom: 14px;
+  top: 0; bottom: 0;
   width: 3px;
   border-radius: 2px;
   background: var(--pres-amber);
@@ -1428,14 +1429,14 @@ table.hide-notes .col-notes textarea { display: none; }
   opacity: 0;
 }
 .slide.active .reel-row.main::before {
-  animation: fade-up 0.8s 4.0s forwards, pulse-glow 2.2s 4.8s ease-in-out infinite;
+  animation: fade-in 0.8s 4.0s forwards, pulse-glow 2.2s 4.8s ease-in-out infinite;
 }
 
 /* Scroll indicator — tiny needle showing where we "landed" */
 .reel-indicator {
   position: absolute;
   left: 10px;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   width: 3px; height: 28px;
   border-radius: 2px;
@@ -1544,6 +1545,10 @@ table.hide-notes .col-notes textarea { display: none; }
 }
 
 /* ── ANIMATIONS ─────────────────────────────── */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
 @keyframes fade-up {
   from { opacity: 0; transform: translateY(22px); filter: blur(6px); }
   to   { opacity: 1; transform: translateY(0); filter: blur(0); }
@@ -2025,10 +2030,10 @@ table.hide-notes .col-notes textarea { display: none; }
         <div class="find-right">
           <div class="reel-frame">
             <div class="reel-header">
-              <span class="rh-col">Orijinal</span>
-              <span class="rh-col">Resmi Çeviri</span>
-              <span class="rh-col">Makine Çevirisi</span>
-              <span class="rh-col">Önerilen</span>
+              <span class="rh-col">English</span>
+              <span class="rh-col">TR Official</span>
+              <span class="rh-col">TR Machine (Opus)</span>
+              <span class="rh-col">Proposed Translation</span>
             </div>
 
             <div class="reel-viewport">
