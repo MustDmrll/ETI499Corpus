@@ -3275,21 +3275,6 @@
     "status": "pending",
     "articy": "0x01000014000034B3"
   },
-  "380:246": {
-    "id": "380:246",
-    "actorName": "Inland Empire",
-    "en": "Just a moment. That voice isn't human, and it's not saying 'Nay!' -- It's saying 'N-n-n-neigh!'",
-    "trOfficial": "Bir dakika. Bu ses bir insandan gelmiyor, ayrıca \"Nihihey!\" de demiyor; at kişneme sesi bu!",
-    "trMachine": "Bir dakika. O ses insan değil ve 'Yook!' demiyor -- 'K-k-k-kişneme!' diyor!",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100005300004C2D",
-    "thoughtProcess": "Satır 73 ile aynı. Çeviri tutarlılığı için aynı karşılık korundu."
-  },
   "380:270": {
     "id": "380:270",
     "actorName": "Inland Empire",
