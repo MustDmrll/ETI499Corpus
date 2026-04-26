@@ -10738,21 +10738,6 @@
     "status": "pending",
     "articy": "0x0100005A00008F8D"
   },
-  "1016:364": {
-    "id": "1016:364",
-    "actorName": "Ancient Reptilian Brain",
-    "en": "ORGASMIC!!!",
-    "trOfficial": "ORGAZMİK!!!",
-    "trMachine": "ORGAZMİK!!!",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100005A00008AE2",
-    "thoughtProcess": "'Orgasmic' = 'orgazmik' (Türkçe'de de aynen kullanılıyor). Üç ünlem ve büyük harfler korundu."
-  },
   "1016:410": {
     "id": "1016:410",
     "actorName": "Ancient Reptilian Brain",
