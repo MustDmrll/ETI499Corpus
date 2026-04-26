@@ -14817,21 +14817,6 @@
     "articy": "0x0100008100000155",
     "thoughtProcess": "'Too hard on yourself' = 'kendine fazla yüklenme'. 'Couldn't have known for sure' = 'kesin olarak bilemezdin'. 'Special destiny' = 'özel kader'. Yüreklendirici ton."
   },
-  "1038:18": {
-    "id": "1038:18",
-    "actorName": "Inland Empire",
-    "en": "Right?! You'll have better luck next time, though. The phasmid -- finding it is your destiny.",
-    "trOfficial": "Değil mi? Ama bir dahaki sefere şans yüzüne gülecektir. O fazmiti bulmak senin kaderin.",
-    "trMachine": "Değil mi?! Bir dahaki sefere daha şanslı olursun ama. Fasmid -- onu bulmak senin kaderin.",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000810000014F",
-    "thoughtProcess": "'Right?!' = 'değil mi?!' (onaylama-sorgu). 'Better luck next time' = 'bir dahaki sefere daha şanslı olmak'. Tire ile vurgu yapısı aynen."
-  },
   "1038:22": {
     "id": "1038:22",
     "actorName": "Inland Empire",
