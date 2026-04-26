@@ -14862,21 +14862,6 @@
     "articy": "0x0100008100002FBC",
     "thoughtProcess": "'Respite' = 'mola' (dinlenme fırsatı). 'Bask in' = 'tadını çıkarmak'. 'Swivel you around' = 'döndürmek'. 'Managed to remember' = 'hatırlamayı başarmak'. İronik teselli tonu."
   },
-  "1211:2": {
-    "id": "1211:2",
-    "actorName": "Inland Empire",
-    "en": "So it wasn't the phasmid... a wave of disappointment washes over you.",
-    "trOfficial": "Yani fazmit değildi... Hayal kırıklığı hissi vücudunu kaplıyor.",
-    "trMachine": "Demek fasmid değilmiş... üstüne bir hayal kırıklığı dalgası yıkanıyor.",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x010000060001EFA0",
-    "thoughtProcess": "'So it wasn't' = 'demek değilmiş' (geçmiş zaman itiraf). 'Wave of disappointment' = 'hayal kırıklığı dalgası'. 'Washes over you' = 'üstüne yıkanır'. 'Phasmid' önceki satırlarla tutarlı."
-  },
   "8:3": {
     "id": "8:3",
     "actorName": "Ancient Reptilian Brain",
