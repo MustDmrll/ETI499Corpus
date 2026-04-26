@@ -14832,21 +14832,6 @@
     "articy": "0x010000810000014F",
     "thoughtProcess": "'Right?!' = 'değil mi?!' (onaylama-sorgu). 'Better luck next time' = 'bir dahaki sefere daha şanslı olmak'. Tire ile vurgu yapısı aynen."
   },
-  "1038:21": {
-    "id": "1038:21",
-    "actorName": "Inland Empire",
-    "en": "It's not the phasmid... It's not even organic -- it's a fire iron. How disappointing!",
-    "trOfficial": "Bu fazmit falan değil... Canlı bile değil, şömine maşası bu. Ne büyük hayal kırıklığı!",
-    "trMachine": "Fasmid değil... Organik bile değil -- bir ateş demiri. Ne hayal kırıklığı!",
-    "proposed": "",
-    "notes": "",
-    "votes": {
-      "basak": "keep"
-    },
-    "status": "pending",
-    "articy": "0x0100005A000100F7",
-    "thoughtProcess": "'How disappointing' = 'ne hayal kırıklığı' (ünlem). Önceki satırlarla tutarlı 'fasmid' ve 'ateş demiri'."
-  },
   "1038:22": {
     "id": "1038:22",
     "actorName": "Inland Empire",
