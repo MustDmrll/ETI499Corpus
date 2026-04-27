@@ -424,10 +424,9 @@ table.hide-notes .col-notes textarea { display: none; }
   --mono: 'SF Mono', 'JetBrains Mono', Monaco, Consolas, monospace;
 }
 
-#presentation { flex-direction: column; background: var(--pres-bg); position: relative; align-items: center; justify-content: center; overflow: hidden; }
+#presentation { flex-direction: column; background: var(--pres-bg); position: relative; }
 
 .pres-close-btn {
-  display: none;
   position: fixed;
   top: 16px;
   right: 20px;
@@ -450,9 +449,7 @@ table.hide-notes .col-notes textarea { display: none; }
   background: rgba(30,24,14,0.85);
 }
 #presentation .main {
-  flex: none;
-  width: 1920px;
-  height: 1080px;
+  flex: 1;
   position: relative;
   overflow: hidden;
   isolation: isolate;
@@ -2835,8 +2832,6 @@ table.hide-notes .col-notes textarea { display: none; }
 
 <!-- PRESENTATION -->
 <div id="presentation" class="screen">
-  <button class="pres-close-btn" onclick="closePresentation()" title="Close">&#x2715;</button>
-
   <div class="main">
 
     <!-- Painterly ambient wash + flash + cinematic letterbox (all inside .main for proper stacking) -->
@@ -3690,7 +3685,6 @@ async function deleteFromGitHub(id) {
 function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
-  if (id === 'presentation') applyPresScale();
 }
 
 function navToTinder() {
@@ -4439,20 +4433,15 @@ function spawnAmbientDots() {
 }
 
 // ════════════════════════════════════════════════════════════
-// SCALING SYSTEM — letterbox + manual adjust (O / P)
+// SCALING SYSTEM — manual zoom only (O = shrink, P = grow)
 // ════════════════════════════════════════════════════════════
-const PRES_REF_W = 1920;
-const PRES_REF_H = 1080;
 let presManualScale = 1.0;
 
 function applyPresScale() {
   const main = document.querySelector('#presentation .main');
   if (!main) return;
-  const auto = Math.min(window.innerWidth / PRES_REF_W, window.innerHeight / PRES_REF_H);
-  main.style.transform = `scale(${(auto * presManualScale).toFixed(4)})`;
+  main.style.transform = presManualScale === 1.0 ? '' : `scale(${presManualScale.toFixed(2)})`;
 }
-
-window.addEventListener('resize', applyPresScale);
 
 // Keyboard navigation — only when presentation screen is active
 document.addEventListener('keydown', (e) => {
