@@ -2647,9 +2647,21 @@ table.hide-notes .col-notes textarea { display: none; }
     <button class="btn" onclick="viewTableGuest()" style="font-size:13px;padding:9px 20px">
       View Table →
     </button>
-    <button class="btn" onclick="openPresentation()" style="font-size:13px;padding:9px 20px">
+    <button class="btn" onclick="togglePresPassword()" style="font-size:13px;padding:9px 20px">
       Presentation →
     </button>
+  </div>
+  <div id="pres-password-section" style="display:none;flex-direction:column;gap:10px;align-items:center">
+    <div class="api-row" style="align-items:center">
+      <label>Presentation Password</label>
+      <input type="text" id="pres-pw-input" placeholder="Şifre giriniz..."
+        onkeydown="if(event.key==='Enter') confirmPresLogin()" />
+    </div>
+    <div style="display:flex;gap:8px">
+      <button class="btn" onclick="togglePresPassword()">Back</button>
+      <button class="btn primary" onclick="confirmPresLogin()">Giriş</button>
+    </div>
+    <span id="pres-pw-error" style="font-size:12px;color:var(--skip);display:none">Hatalı şifre.</span>
   </div>
   <div id="password-section" style="display:none;flex-direction:column;gap:10px;align-items:center">
     <div class="api-row" style="align-items:center">
@@ -2957,7 +2969,7 @@ table.hide-notes .col-notes textarea { display: none; }
     <!-- SLIDE 4 · THEORETICAL FRAMEWORK -->
     <section class="slide slide-theory" data-slide="3">
       <div class="slide-tag">§ 03 &nbsp; / &nbsp; Theoretical Framework</div>
-      <h2 class="slide-heading">Two lenses, one verdict.</h2>
+      <h2 class="slide-heading">Twelwe lenses, five verdict.</h2>
       <p class="slide-subheading">Mechanics describe <em>what</em> the translator did. Deformation judges <em>what it cost</em>.</p>
 
       <div class="th-stage">
@@ -4220,19 +4232,37 @@ const PRES_TOTAL = 16;
 
 let _prevScreen = 'login';
 
-function openPresentation() {
-  const pwd = prompt('Şifre giriniz:');
-  if (pwd === null) return;
-  if (pwd !== '12345') {
-    alert('Hocam henüz hazır değil >:)');
+function togglePresPassword() {
+  const sec = document.getElementById('pres-password-section');
+  const isVisible = sec.style.display === 'flex';
+  sec.style.display = isVisible ? 'none' : 'flex';
+  if (!isVisible) {
+    const inp = document.getElementById('pres-pw-input');
+    inp.value = '';
+    document.getElementById('pres-pw-error').style.display = 'none';
+    inp.focus();
+  }
+}
+
+function confirmPresLogin() {
+  const entered = document.getElementById('pres-pw-input').value;
+  if (entered !== 'ruhi123') {
+    document.getElementById('pres-pw-error').style.display = 'block';
+    document.getElementById('pres-pw-input').value = '';
+    document.getElementById('pres-pw-input').focus();
     return;
   }
+  document.getElementById('pres-password-section').style.display = 'none';
   const active = document.querySelector('.screen.active');
   _prevScreen = active ? active.id : 'login';
   showScreen('presentation');
   buildPresDots();
   spawnAmbientDots();
   gotoSlide(0, true);
+}
+
+function openPresentation() {
+  togglePresPassword();
 }
 
 function closePresentation() {
