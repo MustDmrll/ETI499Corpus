@@ -1835,6 +1835,151 @@ table.hide-notes .col-notes textarea { display: none; }
   display: contents;
 }
 
+/* ── CAROUSEL MODE (slides 6, 7, 8) ─────────── */
+.slide.dt-carousel .dt-examples {
+  position: relative;
+  display: block;
+  flex: 1;
+  min-height: 0;
+  overflow: visible;
+  margin-top: 24px;
+  perspective: 1400px;
+}
+/* Reset stagger animations from base — we control visibility manually */
+.slide.dt-carousel.active .dt-example {
+  animation: none;
+  transition:
+    opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.75s cubic-bezier(0.34, 1.15, 0.45, 1),
+    filter 0.55s ease,
+    box-shadow 0.55s ease;
+}
+.slide.dt-carousel .dt-example {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: min(880px, 92%);
+  max-height: 100%;
+  transform-origin: center center;
+  /* hidden offscreen right by default */
+  opacity: 0;
+  transform: translate(-50%, -50%) translateX(110%) scale(0.9) rotateY(-8deg);
+  pointer-events: none;
+  filter: blur(4px);
+  /* hero styling */
+  padding: 26px 32px 28px;
+  border: 1px solid rgba(212, 165, 116, 0.45);
+  border-radius: 14px;
+  background:
+    linear-gradient(135deg, rgba(48, 36, 22, 0.55) 0%, rgba(26, 22, 18, 0.55) 60%, rgba(20, 17, 14, 0.6) 100%),
+    radial-gradient(ellipse at top right, rgba(212, 165, 116, 0.07), transparent 60%);
+  box-shadow:
+    0 0 0 1px rgba(212, 165, 116, 0.12),
+    0 0 70px rgba(212, 165, 116, 0.18),
+    0 24px 60px rgba(0, 0, 0, 0.55);
+}
+.slide.dt-carousel .dt-example.is-active {
+  opacity: 1;
+  transform: translate(-50%, -50%) translateX(0) scale(1) rotateY(0);
+  pointer-events: auto;
+  filter: blur(0);
+  animation: carousel-glow 3.6s ease-in-out 0.9s infinite;
+}
+.slide.dt-carousel .dt-example.is-out-left {
+  opacity: 0;
+  transform: translate(-50%, -50%) translateX(-110%) scale(0.9) rotateY(8deg);
+  filter: blur(4px);
+}
+.slide.dt-carousel .dt-example.is-out-right {
+  opacity: 0;
+  transform: translate(-50%, -50%) translateX(110%) scale(0.9) rotateY(-8deg);
+  filter: blur(4px);
+}
+/* First-load entrance: only animate the very first example */
+.slide.dt-carousel.active .dt-example.is-active.is-first-entry {
+  animation: carousel-enter 0.9s cubic-bezier(0.34, 1.15, 0.45, 1) 0.5s both, carousel-glow 3.6s ease-in-out 1.4s infinite;
+}
+@keyframes carousel-enter {
+  0%   { opacity: 0; transform: translate(-50%, -50%) translateX(60%) scale(0.92) rotateY(-10deg); filter: blur(8px); }
+  60%  { opacity: 1; filter: blur(0); }
+  100% { opacity: 1; transform: translate(-50%, -50%) translateX(0) scale(1) rotateY(0); filter: blur(0); }
+}
+@keyframes carousel-glow {
+  0%, 100% {
+    box-shadow:
+      0 0 0 1px rgba(212, 165, 116, 0.12),
+      0 0 70px rgba(212, 165, 116, 0.16),
+      0 24px 60px rgba(0, 0, 0, 0.55);
+  }
+  50% {
+    box-shadow:
+      0 0 0 1px rgba(212, 165, 116, 0.32),
+      0 0 110px rgba(212, 165, 116, 0.32),
+      0 24px 60px rgba(0, 0, 0, 0.55);
+  }
+}
+/* Carousel indicator pips */
+.dt-indicator {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: 14px;
+  padding-top: 18px;
+  opacity: 0;
+}
+.slide.dt-carousel.active .dt-indicator {
+  animation: fade-up 0.6s 0.85s forwards;
+}
+.dt-indicator-dot {
+  width: 28px;
+  height: 3px;
+  background: rgba(212, 165, 116, 0.22);
+  border-radius: 2px;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.dt-indicator-dot.is-active {
+  background: var(--pres-amber);
+  width: 56px;
+  box-shadow: 0 0 14px rgba(212, 165, 116, 0.55);
+}
+.dt-indicator-dot.is-past {
+  background: rgba(212, 165, 116, 0.45);
+}
+/* Hint at bottom — quietly visible */
+.dt-carousel-hint {
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--pres-paper-dim);
+  opacity: 0;
+  margin-bottom: 4px;
+}
+.slide.dt-carousel.active .dt-carousel-hint {
+  animation: fade-up 0.5s 1.1s forwards;
+  opacity: 0.45;
+}
+.slide.dt-carousel.active .dt-carousel-hint.is-final {
+  opacity: 0;
+}
+.dt-carousel-hint kbd {
+  font-family: var(--mono);
+  font-size: 10px;
+  padding: 1px 6px;
+  border: 1px solid rgba(212, 165, 116, 0.3);
+  border-radius: 4px;
+  background: rgba(212, 165, 116, 0.06);
+  color: var(--pres-amber);
+  margin: 0 2px;
+}
+/* On carousel slides, hide the dt-intro pulse so the example is the hero */
+.slide.dt-carousel .dt-example .dt-num {
+  font-size: 13px;
+  color: var(--pres-amber);
+}
+
 /* ── QUALITATIVE IMPOVERISHMENT (slide 10) ─── */
 .qi-stage {
   display: grid;
@@ -2003,10 +2148,12 @@ table.hide-notes .col-notes textarea { display: none; }
 .mx-stage {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 14px;
   margin-top: 12px;
   flex: 1;
   min-height: 0;
+  /* Allow container to shrink contents if needed */
+  overflow: hidden;
 }
 .mx-tendency {
   display: inline-flex;
@@ -2024,7 +2171,11 @@ table.hide-notes .col-notes textarea { display: none; }
   align-self: flex-start;
   opacity: 0;
 }
-.slide.active .mx-tendency { animation: fade-up 0.6s 0.35s forwards; }
+.slide.active .mx-tendency { animation: mx-tag-in 0.7s 0.35s forwards cubic-bezier(0.34, 1.2, 0.45, 1); }
+@keyframes mx-tag-in {
+  from { opacity: 0; transform: translateX(-30px) scale(0.9); filter: blur(4px); }
+  to   { opacity: 1; transform: translateX(0) scale(1); filter: blur(0); }
+}
 
 .mx-author {
   font-family: var(--serif);
@@ -2034,33 +2185,105 @@ table.hide-notes .col-notes textarea { display: none; }
   margin-top: -8px;
   opacity: 0;
 }
-.slide.active .mx-author { animation: fade-up 0.6s 0.45s forwards; }
+.slide.active .mx-author { animation: fade-up 0.6s 0.55s forwards; }
 .mx-author strong {
   color: var(--pres-paper);
   font-style: normal;
   font-weight: 500;
 }
 
+/* The hero "table" — animated build-up */
 .mx-versions {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
   border: 1px solid var(--border);
   border-radius: 12px;
-  background: rgba(26, 22, 18, 0.4);
-  padding: 16px 20px;
+  background:
+    linear-gradient(135deg, rgba(40, 30, 20, 0.42) 0%, rgba(26, 22, 18, 0.42) 100%),
+    radial-gradient(ellipse at top right, rgba(212, 165, 116, 0.06), transparent 60%);
+  padding: 14px 18px;
   opacity: 0;
+  transform: scale(0.94) translateY(24px);
+  filter: blur(8px);
+  position: relative;
+  /* Allow shrink */
+  min-height: 0;
 }
-.slide.active .mx-versions { animation: fade-up 0.8s 0.6s forwards; }
+.slide.active .mx-versions {
+  animation: mx-table-build 0.9s 0.7s forwards cubic-bezier(0.34, 1.15, 0.45, 1);
+}
+@keyframes mx-table-build {
+  0%   { opacity: 0; transform: scale(0.94) translateY(24px); filter: blur(8px); box-shadow: 0 0 0 rgba(212, 165, 116, 0); }
+  60%  { opacity: 1; filter: blur(0); box-shadow: 0 0 60px rgba(212, 165, 116, 0.18); }
+  100% { opacity: 1; transform: scale(1) translateY(0); filter: blur(0); box-shadow: 0 0 0 rgba(212, 165, 116, 0); }
+}
+/* Glow sweep across the table border on entry */
+.mx-versions::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 12px;
+  padding: 1px;
+  background: linear-gradient(120deg, transparent 30%, rgba(212, 165, 116, 0.55) 50%, transparent 70%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  opacity: 0;
+  pointer-events: none;
+}
+.slide.active .mx-versions::before {
+  animation: mx-edge-sweep 1.4s 1.0s forwards;
+}
+@keyframes mx-edge-sweep {
+  0%   { opacity: 0; background-position: -200% 0; }
+  30%  { opacity: 1; }
+  100% { opacity: 0; background-position: 200% 0; }
+}
 
 .mx-row {
   display: grid;
   grid-template-columns: 70px 1fr;
   gap: 16px;
-  padding: 8px 0;
+  padding: 7px 0;
   align-items: baseline;
+  opacity: 0;
 }
 .mx-row + .mx-row { border-top: 1px dashed rgba(212, 165, 116, 0.12); }
+
+/* Per-row entry: each row arrives from a different direction */
+.slide.active .mx-row.st {
+  animation: mx-row-from-top 0.65s 1.0s forwards cubic-bezier(0.34, 1.15, 0.45, 1);
+}
+.slide.active .mx-row:not(.st):not(.proposed):nth-of-type(2) {
+  /* HT */
+  animation: mx-row-from-left 0.65s 1.15s forwards cubic-bezier(0.34, 1.15, 0.45, 1);
+}
+.slide.active .mx-row:not(.st):not(.proposed):nth-of-type(3) {
+  /* AI */
+  animation: mx-row-from-right 0.65s 1.30s forwards cubic-bezier(0.34, 1.15, 0.45, 1);
+}
+.slide.active .mx-row.proposed {
+  animation: mx-row-burst 0.85s 1.50s forwards cubic-bezier(0.34, 1.3, 0.45, 1);
+}
+@keyframes mx-row-from-top {
+  from { opacity: 0; transform: translateY(-18px); filter: blur(4px); }
+  to   { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+@keyframes mx-row-from-left {
+  from { opacity: 0; transform: translateX(-30px); filter: blur(4px); }
+  to   { opacity: 1; transform: translateX(0); filter: blur(0); }
+}
+@keyframes mx-row-from-right {
+  from { opacity: 0; transform: translateX(30px); filter: blur(4px); }
+  to   { opacity: 1; transform: translateX(0); filter: blur(0); }
+}
+@keyframes mx-row-burst {
+  0%   { opacity: 0; transform: scale(0.9) translateY(8px); filter: blur(8px); }
+  60%  { opacity: 1; transform: scale(1.015) translateY(0); filter: blur(0); }
+  100% { opacity: 1; transform: scale(1) translateY(0); filter: blur(0); }
+}
+
 .mx-row-label {
   font-family: var(--mono);
   font-size: 10px;
@@ -2070,21 +2293,21 @@ table.hide-notes .col-notes textarea { display: none; }
 }
 .mx-row-text {
   font-family: var(--serif);
-  font-size: 14.5px;
-  line-height: 1.55;
+  font-size: 14px;
+  line-height: 1.5;
   color: var(--pres-paper-dim);
 }
 .mx-row.st .mx-row-text { color: #c0b9ab; font-style: italic; }
 .mx-row.proposed {
   margin-top: 4px;
-  padding: 12px 0 4px;
+  padding: 10px 0 4px;
   border-top: 1px solid rgba(212, 165, 116, 0.4) !important;
 }
 .mx-row.proposed .mx-row-label { color: var(--pres-amber); }
 .mx-row.proposed .mx-row-text {
   color: var(--pres-paper);
   font-weight: 500;
-  font-size: 15.5px;
+  font-size: 14.5px;
 }
 .mx-proposed-marker {
   display: inline-block;
@@ -2094,33 +2317,98 @@ table.hide-notes .col-notes textarea { display: none; }
   box-shadow: 0 0 10px var(--pres-amber);
   margin-right: 8px;
   vertical-align: middle;
+  animation: mx-marker-pulse 2.5s ease-in-out infinite 1.8s;
+}
+@keyframes mx-marker-pulse {
+  0%, 100% { box-shadow: 0 0 10px var(--pres-amber); transform: scale(1); }
+  50%      { box-shadow: 0 0 20px var(--pres-amber); transform: scale(1.25); }
 }
 
 .mx-note {
   font-family: var(--serif);
   font-style: italic;
-  font-size: 13px;
-  line-height: 1.55;
+  font-size: 12.5px;
+  line-height: 1.5;
   color: var(--pres-paper-dim);
   padding: 0 4px;
   opacity: 0;
+  /* prevent overflow */
+  flex-shrink: 0;
 }
-.slide.active .mx-note { animation: fade-up 0.7s 0.95s forwards; }
+.slide.active .mx-note { animation: fade-up 0.7s 1.85s forwards; }
 .mx-note strong { color: var(--pres-amber); font-style: normal; font-weight: 500; }
+
+/* Slide 15 (Emre's case) — even tighter to fit the long passages */
+.slide.slide-member[data-slide="14"] .mx-versions {
+  padding: 12px 16px;
+  gap: 6px;
+}
+.slide.slide-member[data-slide="14"] .mx-row {
+  padding: 6px 0;
+}
+.slide.slide-member[data-slide="14"] .mx-row-text {
+  font-size: 12.5px;
+  line-height: 1.45;
+}
+.slide.slide-member[data-slide="14"] .mx-row.proposed .mx-row-text {
+  font-size: 13px;
+}
+.slide.slide-member[data-slide="14"] .mx-note {
+  font-size: 11.5px;
+  line-height: 1.45;
+}
+.slide.slide-member[data-slide="14"] .mx-stage { gap: 10px; }
+.slide.slide-member[data-slide="14"] .mx-author { margin-top: -6px; font-size: 13px; }
 
 /* ── REFERENCES (slide 16) ───────────────────── */
 .ref-stage {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px 32px;
-  margin-top: 14px;
+  position: relative;
   flex: 1;
   min-height: 0;
-  overflow: auto;
+  margin-top: 14px;
+  /* No scrolling — split in halves instead */
+  overflow: visible;
+}
+.ref-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 32px;
+  align-content: start;
+  position: absolute;
+  inset: 0;
+  transition:
+    opacity 0.55s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.7s cubic-bezier(0.34, 1.15, 0.45, 1),
+    filter 0.55s ease;
 }
 @media (max-width: 1000px) {
-  .ref-stage { grid-template-columns: 1fr; gap: 12px; }
+  .ref-group { grid-template-columns: 1fr; gap: 10px; }
 }
+.ref-group-1 {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0);
+}
+.ref-group-2 {
+  opacity: 0;
+  transform: translateX(60px) scale(0.97);
+  filter: blur(6px);
+  pointer-events: none;
+}
+/* When step 1 is active, swap visibility */
+.slide.ref-stepped.ref-step-1 .ref-group-1 {
+  opacity: 0;
+  transform: translateX(-60px) scale(0.97);
+  filter: blur(6px);
+  pointer-events: none;
+}
+.slide.ref-stepped.ref-step-1 .ref-group-2 {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+  filter: blur(0);
+  pointer-events: auto;
+}
+
 .ref-item {
   font-family: var(--serif);
   font-size: 12px;
@@ -2131,19 +2419,44 @@ table.hide-notes .col-notes textarea { display: none; }
   opacity: 0;
   transform: translateY(10px);
 }
-.slide.active .ref-item { animation: fade-up 0.5s forwards; }
-.slide.active .ref-item:nth-child(1)  { animation-delay: 0.40s; }
-.slide.active .ref-item:nth-child(2)  { animation-delay: 0.46s; }
-.slide.active .ref-item:nth-child(3)  { animation-delay: 0.52s; }
-.slide.active .ref-item:nth-child(4)  { animation-delay: 0.58s; }
-.slide.active .ref-item:nth-child(5)  { animation-delay: 0.64s; }
-.slide.active .ref-item:nth-child(6)  { animation-delay: 0.70s; }
-.slide.active .ref-item:nth-child(7)  { animation-delay: 0.76s; }
-.slide.active .ref-item:nth-child(8)  { animation-delay: 0.82s; }
-.slide.active .ref-item:nth-child(9)  { animation-delay: 0.88s; }
-.slide.active .ref-item:nth-child(10) { animation-delay: 0.94s; }
-.slide.active .ref-item:nth-child(11) { animation-delay: 1.00s; }
-.slide.active .ref-item:nth-child(12) { animation-delay: 1.06s; }
+/* Group 1 entrance — staggered */
+.slide.active .ref-group-1 .ref-item { animation: fade-up 0.5s forwards; }
+.slide.active .ref-group-1 .ref-item:nth-child(1) { animation-delay: 0.40s; }
+.slide.active .ref-group-1 .ref-item:nth-child(2) { animation-delay: 0.50s; }
+.slide.active .ref-group-1 .ref-item:nth-child(3) { animation-delay: 0.60s; }
+.slide.active .ref-group-1 .ref-item:nth-child(4) { animation-delay: 0.70s; }
+.slide.active .ref-group-1 .ref-item:nth-child(5) { animation-delay: 0.80s; }
+.slide.active .ref-group-1 .ref-item:nth-child(6) { animation-delay: 0.90s; }
+/* Group 2 entrance — only animate when step-1 is engaged, with a flashy stagger */
+.slide.ref-stepped.ref-step-1 .ref-group-2 .ref-item {
+  animation: ref-item-burst 0.65s forwards cubic-bezier(0.34, 1.2, 0.45, 1);
+}
+.slide.ref-stepped.ref-step-1 .ref-group-2 .ref-item:nth-child(1) { animation-delay: 0.05s; }
+.slide.ref-stepped.ref-step-1 .ref-group-2 .ref-item:nth-child(2) { animation-delay: 0.15s; }
+.slide.ref-stepped.ref-step-1 .ref-group-2 .ref-item:nth-child(3) { animation-delay: 0.25s; }
+.slide.ref-stepped.ref-step-1 .ref-group-2 .ref-item:nth-child(4) { animation-delay: 0.35s; }
+.slide.ref-stepped.ref-step-1 .ref-group-2 .ref-item:nth-child(5) { animation-delay: 0.45s; }
+.slide.ref-stepped.ref-step-1 .ref-group-2 .ref-item:nth-child(6) { animation-delay: 0.55s; }
+@keyframes ref-item-burst {
+  0% {
+    opacity: 0;
+    transform: translateX(40px) translateY(8px) scale(0.96);
+    filter: blur(6px);
+    border-left-color: var(--pres-amber);
+    box-shadow: -3px 0 18px rgba(212, 165, 116, 0.5);
+  }
+  60% {
+    opacity: 1;
+    filter: blur(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) translateY(0) scale(1);
+    filter: blur(0);
+    border-left-color: var(--pres-amber-deep);
+    box-shadow: none;
+  }
+}
 
 .ref-author {
   color: var(--pres-paper);
@@ -2158,6 +2471,59 @@ table.hide-notes .col-notes textarea { display: none; }
   font-style: italic;
   color: var(--pres-paper-dim);
 }
+
+/* References step indicator */
+.ref-step-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: auto;
+  padding: 18px 0 4px;
+  opacity: 0;
+}
+.slide.active .ref-step-indicator {
+  animation: fade-up 0.6s 1.0s forwards;
+}
+.ref-step-pip {
+  width: 32px;
+  height: 3px;
+  background: rgba(212, 165, 116, 0.22);
+  border-radius: 2px;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.ref-step-pip.is-active {
+  background: var(--pres-amber);
+  width: 64px;
+  box-shadow: 0 0 14px rgba(212, 165, 116, 0.55);
+}
+.slide.ref-stepped.ref-step-1 .ref-step-indicator .ref-step-pip:nth-child(1) {
+  background: rgba(212, 165, 116, 0.45);
+  width: 32px;
+  box-shadow: none;
+}
+.slide.ref-stepped.ref-step-1 .ref-step-indicator .ref-step-pip:nth-child(2) {
+  background: var(--pres-amber);
+  width: 64px;
+  box-shadow: 0 0 14px rgba(212, 165, 116, 0.55);
+}
+.ref-step-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--pres-paper-dim);
+  margin-left: 6px;
+}
+.ref-step-current {
+  color: var(--pres-amber);
+  font-weight: 600;
+}
+.slide.ref-stepped.ref-step-1 .ref-step-current::before {
+  content: "II";
+}
+.slide.ref-stepped.ref-step-1 .ref-step-current { font-size: 0; }
+.slide.ref-stepped.ref-step-1 .ref-step-current::before { font-size: 10px; }
 
 /* ── THANK YOU (slide 17) ──────────────────── */
 .slide-thanks {
@@ -2649,7 +3015,7 @@ table.hide-notes .col-notes textarea { display: none; }
     </section>
 
     <!-- SLIDE 6 · EFFACEMENT OF SUPERIMPOSITION -->
-    <section class="slide slide-deformation dt-mode-ht" data-slide="5">
+    <section class="slide slide-deformation dt-mode-ht dt-carousel" data-slide="5">
       <div class="slide-tag">§ 05 &nbsp; / &nbsp; Human Translation, tendency I</div>
       <h2 class="slide-heading">The Effacement of the Superimposition of Languages</h2>
       <p class="slide-subheading">When the foreign-within-the-foreign — the bilingual flicker — gets quietly assimilated.</p>
@@ -2687,10 +3053,17 @@ table.hide-notes .col-notes textarea { display: none; }
           </div>
         </div>
       </div>
+
+      <div class="dt-indicator" aria-hidden="true">
+        <span class="dt-indicator-dot"></span>
+        <span class="dt-indicator-dot"></span>
+        <span class="dt-indicator-dot"></span>
+      </div>
+      <div class="dt-carousel-hint">Press <kbd>→</kbd> for next example</div>
     </section>
 
     <!-- SLIDE 7 · ENNOBLEMENT -->
-    <section class="slide slide-deformation dt-mode-ht" data-slide="6">
+    <section class="slide slide-deformation dt-mode-ht dt-carousel" data-slide="6">
       <div class="slide-tag">§ 06 &nbsp; / &nbsp; Human Translation, tendency II</div>
       <h2 class="slide-heading">Ennoblement</h2>
       <p class="slide-subheading">When the gutter is rewritten as the parlour — vulgar registers polished into something tamer.</p>
@@ -2728,10 +3101,17 @@ table.hide-notes .col-notes textarea { display: none; }
           </div>
         </div>
       </div>
+
+      <div class="dt-indicator" aria-hidden="true">
+        <span class="dt-indicator-dot"></span>
+        <span class="dt-indicator-dot"></span>
+        <span class="dt-indicator-dot"></span>
+      </div>
+      <div class="dt-carousel-hint">Press <kbd>→</kbd> for next example</div>
     </section>
 
     <!-- SLIDE 8 · DESTRUCTION OF EXPRESSIONS AND IDIOMS -->
-    <section class="slide slide-deformation dt-mode-ai" data-slide="7">
+    <section class="slide slide-deformation dt-mode-ai dt-carousel" data-slide="7">
       <div class="slide-tag">§ 07 &nbsp; / &nbsp; Machine Translation, tendency I</div>
       <h2 class="slide-heading">Destruction of Expressions and Idioms</h2>
       <p class="slide-subheading">When figurative language is rendered word-for-word — the meaning intact, the music gone.</p>
@@ -2769,6 +3149,13 @@ table.hide-notes .col-notes textarea { display: none; }
           </div>
         </div>
       </div>
+
+      <div class="dt-indicator" aria-hidden="true">
+        <span class="dt-indicator-dot"></span>
+        <span class="dt-indicator-dot"></span>
+        <span class="dt-indicator-dot"></span>
+      </div>
+      <div class="dt-carousel-hint">Press <kbd>→</kbd> for next example</div>
     </section>
 
     <!-- SLIDE 9 · UNDERLYING NETWORKS OF SIGNIFICATION -->
@@ -2857,127 +3244,6 @@ table.hide-notes .col-notes textarea { display: none; }
             <span class="dt-row-label">ST</span><span class="dt-row-text" style="font-style:italic;color:#c0b9ab">You are way cool, cooler than the bottom of the sea. Too cool for this world.</span>
             <span class="dt-row-label" style="color:var(--pres-amber)">HT</span><span class="dt-row-text" style="color:var(--pres-paper);border-left:2px solid var(--pres-amber);padding-left:10px;margin-left:-12px">Aşırı derinliklisin, okyanusun dibinden bile daha derin. Bu dünya için fazla derin.</span>
             <span class="dt-row-label">AI</span><span class="dt-row-text">Sen acayip havalısın, denizin dibinden bile daha havalı. Bu dünya için fazla havalısın.</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- SLIDE 5 · FINDING -->
-    <section class="slide slide-finding" data-slide="10">
-      <div class="slide-tag">§ 04 &nbsp; / &nbsp; A Finding</div>
-      <h2 class="slide-heading">One line, four versions.</h2>
-      <p class="slide-subheading">A small moment where style survives — or doesn't.</p>
-
-      <div class="find-layout">
-
-        <!-- LEFT: commentary -->
-        <div class="find-left">
-          <div class="find-char">
-            <span class="find-char-dot"></span>
-            Limbic System
-          </div>
-
-          <div class="find-quote">
-            <span class="find-quote-mark">&ldquo;</span>Yes, you're one disco mother.<span class="find-quote-mark">&rdquo;</span>
-          </div>
-
-          <p class="find-commentary">
-            A playful, gendered address — faintly ridiculous, consciously strange.
-            The kind of line a character says <em>at</em> a woman, not <em>to</em> her.
-          </p>
-
-          <p class="find-commentary">
-            The official Turkish flattens the feminine into a generic <strong>çocuk</strong>.
-            The machine, pedantically literal, gives us <strong>disko anası</strong> —
-            grammatically faithful, stylistically deaf.
-          </p>
-
-          <p class="find-commentary">
-            Our proposal restores the wink: <strong>altın günü kadını</strong> —
-            a culturally-anchored register that keeps the playful-feminine teasing intact.
-          </p>
-
-          <div class="find-verdict">
-            <span class="fv-label">Per Berman</span>
-            <span class="fv-sep">·</span>
-            <span class="fv-body">HT commits <em>rationalization</em>; AT commits <em>qualitative impoverishment</em>.</span>
-          </div>
-        </div>
-
-        <!-- RIGHT: scrolling reel -->
-        <div class="find-right">
-          <div class="reel-frame">
-            <div class="reel-header">
-              <span class="rh-col">English</span>
-              <span class="rh-col">TR Official</span>
-              <span class="rh-col">TR Machine (Opus)</span>
-              <span class="rh-col">Proposed Translation</span>
-            </div>
-
-            <div class="reel-viewport">
-              <div class="reel-indicator"></div>
-              <div class="reel-track">
-
-                <div class="reel-row" data-voice="ie">
-                  <span class="rr-char">LS</span>
-                  <span class="rr-cell rr-en">Infinitesimally small.</span>
-                  <span class="rr-cell rr-muted">Ölçemeyeceğin kadar.</span>
-                  <span class="rr-cell rr-muted">Sonsuz derecede küçük.</span>
-                  <span class="rr-cell rr-muted">İncir çekirdeğini doldurmaz.</span>
-                </div>
-
-                <div class="reel-row" data-voice="arb">
-                  <span class="rr-char">ARB</span>
-                  <span class="rr-cell rr-en">Coming right up, sir. Smooth passage...</span>
-                  <span class="rr-cell rr-muted">Hemen geliyor, efendim...</span>
-                  <span class="rr-cell rr-muted">Derhal hazır, beyefendi...</span>
-                  <span class="rr-cell rr-muted">Baş üstüne abim. Tekerine...</span>
-                </div>
-
-                <div class="reel-row" data-voice="ls">
-                  <span class="rr-char">ARB</span>
-                  <span class="rr-cell rr-en">All right. Nothingtown to Fuck-All-Borough!</span>
-                  <span class="rr-cell rr-muted">Pekâlâ. Hiçlikbaşı...</span>
-                  <span class="rr-cell rr-muted">Pekala. Hiçlik-kasabasından...</span>
-                  <span class="rr-cell rr-muted">Peki madem. Boktan bir...</span>
-                </div>
-
-                <!-- ★ MAIN FINDING ★ -->
-                <div class="reel-row main" data-voice="ls">
-                  <span class="rr-char">LS</span>
-                  <span class="rr-cell rr-en">Yes, you're one disco mother.</span>
-                  <span class="rr-cell">Evet. Tam bir disko çocuğusun.</span>
-                  <span class="rr-cell">Evet, sen bir disko anasısın.</span>
-                  <span class="rr-cell rr-pt">Evet, tam bir altın günü kadınısın.</span>
-                </div>
-
-                <div class="reel-row" data-voice="ie">
-                  <span class="rr-char">LS</span>
-                  <span class="rr-cell rr-en">You can't even make out it's a ball, when you're dukin' it out. It's that large.</span>
-                  <span class="rr-cell rr-muted">Didişmekle meşgulken top olduğunu...</span>
-                  <span class="rr-cell rr-muted">Birbirinize girerken top olduğunu...</span>
-                  <span class="rr-cell rr-muted">Can havliyle debelenirken onun...</span>
-                </div>
-
-                <div class="reel-row" data-voice="arb">
-                  <span class="rr-char">ARB</span>
-                  <span class="rr-cell rr-en">Do you want me to upgrade that into a *one way trip*, sir?</span>
-                  <span class="rr-cell rr-muted">*Tek yön bilete* yükseltme yapmamı ister...</span>
-                  <span class="rr-cell rr-muted">Bunu bir *tek yönlü bilet*e yükseltmemi...</span>
-                  <span class="rr-cell rr-muted">Bunu sizin için "tek yön tahtalı köy"...</span>
-                </div>
-
-                <div class="reel-row" data-voice="ls">
-                  <span class="rr-char">IE</span>
-                  <span class="rr-cell rr-en">An ominous, foreboding feeling fills you, as you look at the tie.</span>
-                  <span class="rr-cell rr-muted">Kravata bakarken, içine uğursuz...</span>
-                  <span class="rr-cell rr-muted">Kravata bakarken içini uğursuz...</span>
-                  <span class="rr-cell rr-muted">Kravata bakarken içine darallar...</span>
-                </div>
-
-              </div>
-            </div>
           </div>
         </div>
 
@@ -3157,83 +3423,96 @@ table.hide-notes .col-notes textarea { display: none; }
     </section>
 
     <!-- SLIDE 16 · REFERENCES -->
-    <section class="slide slide-references" data-slide="15">
+    <section class="slide slide-references ref-stepped" data-slide="15">
       <div class="slide-tag">§ 15 &nbsp; / &nbsp; References</div>
       <h2 class="slide-heading">Sources.</h2>
       <p class="slide-subheading">The scholarly threads that informed our framework, methods and thinking.</p>
 
       <div class="ref-stage">
-        <div class="ref-item">
-          <span class="ref-author">Berman, A.</span><span class="ref-year">(2000)</span>
-          Translation and the trials of the foreign (L. Venuti, Trans.). In L. Venuti (Ed.), <span class="ref-title">The Translation Studies Reader</span> (pp. 284–297). Routledge.
+        <!-- Group 1: first 6 references -->
+        <div class="ref-group ref-group-1">
+          <div class="ref-item">
+            <span class="ref-author">Berman, A.</span><span class="ref-year">(2000)</span>
+            Translation and the trials of the foreign (L. Venuti, Trans.). In L. Venuti (Ed.), <span class="ref-title">The Translation Studies Reader</span> (pp. 284–297). Routledge.
+          </div>
+
+          <div class="ref-item">
+            <span class="ref-author">Yüncü Kurt, P. &amp; Özcan, L.</span><span class="ref-year">(2024)</span>
+            Antoine Berman'ın Çeviri Eleştirisi Yöntemi ve Biçim-Bozucu Eğilimler Analitiği Uygulaması. <span class="ref-title">RumeliDE Dil ve Edebiyat Araştırmaları Dergisi</span>, (Ö14), 1471–1498.
+          </div>
+
+          <div class="ref-item">
+            <span class="ref-author">Vinay, J.-P., &amp; Darbelnet, J.</span><span class="ref-year">(2000)</span>
+            A methodology for translation (J. C. Sager &amp; M.-J. Hamel, Trans.). In L. Venuti (Ed.), <span class="ref-title">The Translation Studies Reader</span> (pp. 84–93). Routledge.
+          </div>
+
+          <div class="ref-item">
+            <span class="ref-author">O'Hagan, M.</span><span class="ref-year">(2007)</span>
+            Video games as a new domain for translation research: From translating text to translating experience. <span class="ref-title">Revista Tradumàtica</span>, (5), 1–7.
+          </div>
+
+          <div class="ref-item">
+            <span class="ref-author">Sönmez, M. E.</span><span class="ref-year">(2023)</span>
+            <span class="ref-title">The rise of multimodality: Applying translation criticism to video games</span> [Master's thesis, Boğaziçi University]. Boğaziçi University Institutional Repository.
+          </div>
+
+          <div class="ref-item">
+            <span class="ref-author">Pak, L. E. E., &amp; Marus, N. D.</span><span class="ref-year">(2024)</span>
+            The problem of the transfer of onyms in the modern discourse of video games (based on the material of the game Disco Elysium). <span class="ref-title">Litera</span>, (10), 82–94.
+          </div>
         </div>
 
-        <div class="ref-item">
-          <span class="ref-author">Yüncü Kurt, P. &amp; Özcan, L.</span><span class="ref-year">(2024)</span>
-          Antoine Berman'ın Çeviri Eleştirisi Yöntemi ve Biçim-Bozucu Eğilimler Analitiği Uygulaması. <span class="ref-title">RumeliDE Dil ve Edebiyat Araştırmaları Dergisi</span>, (Ö14), 1471–1498.
-        </div>
+        <!-- Group 2: last 6 references -->
+        <div class="ref-group ref-group-2">
+          <div class="ref-item">
+            <span class="ref-author">Xu, L.</span><span class="ref-year">(2025)</span>
+            Translator agency and multimodal translation in game localization: A case study of The Witcher 3. In <span class="ref-title">SHS Web of Conferences</span> (Vol. 222, p. 01027). EDP Sciences.
+          </div>
 
-        <div class="ref-item">
-          <span class="ref-author">Vinay, J.-P., &amp; Darbelnet, J.</span><span class="ref-year">(2000)</span>
-          A methodology for translation (J. C. Sager &amp; M.-J. Hamel, Trans.). In L. Venuti (Ed.), <span class="ref-title">The Translation Studies Reader</span> (pp. 84–93). Routledge.
-        </div>
+          <div class="ref-item">
+            <span class="ref-author">González, R. M.</span><span class="ref-year">(2019)</span>
+            Specialized terminology in the video game industry: Neologisms and their translation. <span class="ref-title">Vertimo Studijos</span>, 12(12), 71–86.
+          </div>
 
-        <div class="ref-item">
-          <span class="ref-author">O'Hagan, M.</span><span class="ref-year">(2007)</span>
-          Video games as a new domain for translation research: From translating text to translating experience. <span class="ref-title">Revista Tradumàtica</span>, (5), 1–7.
-        </div>
+          <div class="ref-item">
+            <span class="ref-author">Noriega-Santiáñez, L., &amp; Pastor, G. C.</span><span class="ref-year">(2023)</span>
+            Machine vs Human Translation of Formal Neologisms in Literature: Exploring E-tools and Creativity in Students. <span class="ref-title">Tradumàtica</span>, (21), 233–264.
+          </div>
 
-        <div class="ref-item">
-          <span class="ref-author">Sönmez, M. E.</span><span class="ref-year">(2023)</span>
-          <span class="ref-title">The rise of multimodality: Applying translation criticism to video games</span> [Master's thesis, Boğaziçi University]. Boğaziçi University Institutional Repository.
-        </div>
+          <div class="ref-item">
+            <span class="ref-author">Brenner, J.</span><span class="ref-year">(2025)</span>
+            MTxGames: Machine Translation Post-Editing in Video Game Translation — Findings on User Experience and Preliminary Results on Productivity. In <span class="ref-title">Proceedings of Machine Translation Summit XX</span> (Vol. 2, pp. 107–108).
+          </div>
 
-        <div class="ref-item">
-          <span class="ref-author">Pak, L. E. E., &amp; Marus, N. D.</span><span class="ref-year">(2024)</span>
-          The problem of the transfer of onyms in the modern discourse of video games (based on the material of the game Disco Elysium). <span class="ref-title">Litera</span>, (10), 82–94.
-        </div>
+          <div class="ref-item">
+            <span class="ref-author">Li, C.</span><span class="ref-year">(2022)</span>
+            Silvia Pettini, <span class="ref-title">The Translation of Realia and Irrealia in Game Localization</span>. International Journal of Communication, 16, 3–3.
+          </div>
 
-        <div class="ref-item">
-          <span class="ref-author">Xu, L.</span><span class="ref-year">(2025)</span>
-          Translator agency and multimodal translation in game localization: A case study of The Witcher 3. In <span class="ref-title">SHS Web of Conferences</span> (Vol. 222, p. 01027). EDP Sciences.
+          <div class="ref-item">
+            <span class="ref-author">Demirel, M., Canal, E., &amp; İlhan, B.</span><span class="ref-year">(2026)</span>
+            <span class="ref-title">ETI499 Corpus</span>. GitHub Pages. https://mustdmrll.github.io/ETI499Corpus/
+          </div>
         </div>
+      </div>
 
-        <div class="ref-item">
-          <span class="ref-author">González, R. M.</span><span class="ref-year">(2019)</span>
-          Specialized terminology in the video game industry: Neologisms and their translation. <span class="ref-title">Vertimo Studijos</span>, 12(12), 71–86.
-        </div>
-
-        <div class="ref-item">
-          <span class="ref-author">Noriega-Santiáñez, L., &amp; Pastor, G. C.</span><span class="ref-year">(2023)</span>
-          Machine vs Human Translation of Formal Neologisms in Literature: Exploring E-tools and Creativity in Students. <span class="ref-title">Tradumàtica</span>, (21), 233–264.
-        </div>
-
-        <div class="ref-item">
-          <span class="ref-author">Brenner, J.</span><span class="ref-year">(2025)</span>
-          MTxGames: Machine Translation Post-Editing in Video Game Translation — Findings on User Experience and Preliminary Results on Productivity. In <span class="ref-title">Proceedings of Machine Translation Summit XX</span> (Vol. 2, pp. 107–108).
-        </div>
-
-        <div class="ref-item">
-          <span class="ref-author">Li, C.</span><span class="ref-year">(2022)</span>
-          Silvia Pettini, <span class="ref-title">The Translation of Realia and Irrealia in Game Localization</span>. International Journal of Communication, 16, 3–3.
-        </div>
-
-        <div class="ref-item">
-          <span class="ref-author">Demirel, M., Canal, E., &amp; İlhan, B.</span><span class="ref-year">(2026)</span>
-          <span class="ref-title">ETI499 Corpus</span>. GitHub Pages. https://mustdmrll.github.io/ETI499Corpus/
-        </div>
+      <!-- Step indicator: which half are we on -->
+      <div class="ref-step-indicator">
+        <span class="ref-step-pip is-active"></span>
+        <span class="ref-step-pip"></span>
+        <span class="ref-step-label"><span class="ref-step-current">I</span> &nbsp;·&nbsp; II</span>
       </div>
     </section>
 
     <!-- SLIDE 17 · THANK YOU -->
     <section class="slide slide-thanks" data-slide="16">
       <div class="tn-rule"></div>
-      <div class="tn-tag">Fin · Закат · Le Retour</div>
+      <div class="tn-tag">Curtain &nbsp;·&nbsp; Занавес &nbsp;·&nbsp; Rideau</div>
 
       <h1 class="tn-thanks">Thank <em>You</em>.</h1>
 
       <p class="tn-quote">
-        "It has always been like this — and it always will."
+        "All things ended this way — the long ones, the short ones, the ones that mattered. With a slow, slow exhale."
         <span class="tn-quote-attr">Ancient Reptilian Brain</span>
       </p>
 
@@ -3243,13 +3522,13 @@ table.hide-notes .col-notes textarea { display: none; }
 
     <!-- BOTTOM NAV -->
     <div class="pres-nav">
-      <button class="pres-nav-btn" id="pres-prev" onclick="gotoSlide(presIdx - 1)">← &nbsp; Prev</button>
+      <button class="pres-nav-btn" id="pres-prev" onclick="presPrev()">← &nbsp; Prev</button>
       <div class="pres-dots" id="pres-dots"></div>
-      <button class="pres-nav-btn" id="pres-next" onclick="gotoSlide(presIdx + 1)">Next &nbsp; →</button>
+      <button class="pres-nav-btn" id="pres-next" onclick="presNext()">Next &nbsp; →</button>
     </div>
 
     <!-- Slide counter (top-right) -->
-    <div class="slide-number" id="slide-number"><span class="current">01</span> &nbsp;/&nbsp; 17</div>
+    <div class="slide-number" id="slide-number"><span class="current">01</span> &nbsp;/&nbsp; 16</div>
   </div>
 </div>
 
@@ -3937,7 +4216,7 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 // ════════════════════════════════════════════════════════════
 
 let presIdx = 0;
-const PRES_TOTAL = 17;
+const PRES_TOTAL = 16;
 
 let _prevScreen = 'login';
 
@@ -3996,8 +4275,12 @@ function gotoSlide(idx, force = false) {
       // Trigger reflow so that re-entering a slide replays animations
       void s.offsetWidth;
       s.classList.add('active');
+      // Reset step-based slides to step 0
+      initSlideStep(s);
     } else if (i === prev) {
       s.classList.add('exiting');
+      // Reset stepped state on slide exit
+      cleanupSlideStep(s);
     }
   });
 
@@ -4015,6 +4298,100 @@ function gotoSlide(idx, force = false) {
   // Prev / Next state
   document.getElementById('pres-prev').disabled = idx === 0;
   document.getElementById('pres-next').disabled = idx === PRES_TOTAL - 1;
+}
+
+// ── Step-based navigation (carousels, multi-step reveals) ─────
+function getSlideStepCount(slide) {
+  if (!slide) return 1;
+  if (slide.classList.contains('dt-carousel')) {
+    return slide.querySelectorAll('.dt-example').length || 1;
+  }
+  if (slide.classList.contains('ref-stepped')) {
+    return 2;
+  }
+  return 1;
+}
+
+function getSlideStep(slide) {
+  return parseInt(slide.dataset.step || '0', 10);
+}
+
+function setSlideStep(slide, step) {
+  slide.dataset.step = String(step);
+  applySlideStep(slide, step);
+}
+
+function applySlideStep(slide, step) {
+  if (slide.classList.contains('dt-carousel')) {
+    const examples = slide.querySelectorAll('.dt-example');
+    examples.forEach((ex, i) => {
+      ex.classList.remove('is-active', 'is-out-left', 'is-out-right', 'is-first-entry');
+      if (i === step) {
+        ex.classList.add('is-active');
+        if (step === 0) ex.classList.add('is-first-entry');
+      } else if (i < step) {
+        ex.classList.add('is-out-left');
+      } else {
+        ex.classList.add('is-out-right');
+      }
+    });
+    const dots = slide.querySelectorAll('.dt-indicator-dot');
+    dots.forEach((d, i) => {
+      d.classList.toggle('is-active', i === step);
+      d.classList.toggle('is-past', i < step);
+    });
+    // Hide hint on the last example
+    const hint = slide.querySelector('.dt-carousel-hint');
+    if (hint) hint.classList.toggle('is-final', step >= examples.length - 1);
+  } else if (slide.classList.contains('ref-stepped')) {
+    slide.classList.toggle('ref-step-1', step >= 1);
+  }
+}
+
+function initSlideStep(slide) {
+  if (!slide) return;
+  if (slide.classList.contains('dt-carousel') || slide.classList.contains('ref-stepped')) {
+    setSlideStep(slide, 0);
+  }
+}
+
+function cleanupSlideStep(slide) {
+  if (!slide) return;
+  if (slide.classList.contains('dt-carousel')) {
+    const examples = slide.querySelectorAll('.dt-example');
+    examples.forEach(ex => ex.classList.remove('is-active', 'is-out-left', 'is-out-right', 'is-first-entry'));
+    const dots = slide.querySelectorAll('.dt-indicator-dot');
+    dots.forEach(d => d.classList.remove('is-active', 'is-past'));
+    slide.dataset.step = '0';
+  } else if (slide.classList.contains('ref-stepped')) {
+    slide.classList.remove('ref-step-1');
+    slide.dataset.step = '0';
+  }
+}
+
+function presNext() {
+  const cur = document.querySelector('#presentation .slide.active');
+  if (cur) {
+    const total = getSlideStepCount(cur);
+    const step = getSlideStep(cur);
+    if (step < total - 1) {
+      setSlideStep(cur, step + 1);
+      return;
+    }
+  }
+  gotoSlide(presIdx + 1);
+}
+
+function presPrev() {
+  const cur = document.querySelector('#presentation .slide.active');
+  if (cur) {
+    const step = getSlideStep(cur);
+    if (step > 0) {
+      setSlideStep(cur, step - 1);
+      return;
+    }
+  }
+  gotoSlide(presIdx - 1);
 }
 
 function spawnAmbientDots() {
@@ -4041,10 +4418,10 @@ document.addEventListener('keydown', (e) => {
 
   if (e.key === 'ArrowRight' || e.key === 'PageDown') {
     e.preventDefault();
-    gotoSlide(presIdx + 1);
+    presNext();
   } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
     e.preventDefault();
-    gotoSlide(presIdx - 1);
+    presPrev();
   } else if (e.key === 'Home') {
     e.preventDefault();
     gotoSlide(0);
