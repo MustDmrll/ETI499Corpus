@@ -511,6 +511,25 @@ table.hide-notes .col-notes textarea { display: none; }
 .letterbox.bottom { bottom: 0; --lb-from: 100%; }
 #presentation.active .letterbox { transform: translateY(0); }
 
+/* Hide default cursor in presentation mode */
+#presentation.active,
+#presentation.active * { cursor: none !important; }
+
+/* White dot cursor */
+#pres-cursor {
+  position: fixed;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: #ffffff;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  display: none;
+  box-shadow: 0 0 6px rgba(255,255,255,0.7);
+}
+#presentation.active ~ #pres-cursor,
+body.pres-active #pres-cursor { display: block; }
+
 /* Scene-flash — a brief warm whitewash between slides */
 .scene-flash {
   position: absolute; inset: 0;
@@ -4490,6 +4509,24 @@ document.addEventListener('keydown', (e) => {
 // ════════════════════════════════════════════════════════════
 
 initLogin();
+
+// ── Presentation dot cursor ──────────────────────────────────
+(function () {
+  const dot = document.createElement('div');
+  dot.id = 'pres-cursor';
+  document.body.appendChild(dot);
+
+  document.addEventListener('mousemove', e => {
+    dot.style.left = e.clientX + 'px';
+    dot.style.top  = e.clientY + 'px';
+  });
+
+  const pres = document.getElementById('presentation');
+  const observer = new MutationObserver(() => {
+    document.body.classList.toggle('pres-active', pres.classList.contains('active'));
+  });
+  observer.observe(pres, { attributes: true, attributeFilter: ['class'] });
+})();
 </script>
 </body>
 </html>
