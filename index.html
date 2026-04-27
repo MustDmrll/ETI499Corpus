@@ -1617,6 +1617,639 @@ table.hide-notes .col-notes textarea { display: none; }
   50%      { text-shadow: 0 0 40px rgba(212, 165, 116, 0.35); }
 }
 
+/* ── BERMAN'S 12 TENDENCIES (slide 5) ────────── */
+.bt-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-top: 12px;
+}
+.bt-card {
+  position: relative;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 14px 12px;
+  background: rgba(26, 22, 18, 0.45);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-height: 86px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: border-color 0.3s, background 0.3s;
+}
+.slide.active .bt-card {
+  animation: fade-up 0.6s forwards;
+}
+/* stagger the 12 cards */
+.slide.active .bt-card:nth-child(1)  { animation-delay: 0.40s; }
+.slide.active .bt-card:nth-child(2)  { animation-delay: 0.46s; }
+.slide.active .bt-card:nth-child(3)  { animation-delay: 0.52s; }
+.slide.active .bt-card:nth-child(4)  { animation-delay: 0.58s; }
+.slide.active .bt-card:nth-child(5)  { animation-delay: 0.64s; }
+.slide.active .bt-card:nth-child(6)  { animation-delay: 0.70s; }
+.slide.active .bt-card:nth-child(7)  { animation-delay: 0.76s; }
+.slide.active .bt-card:nth-child(8)  { animation-delay: 0.82s; }
+.slide.active .bt-card:nth-child(9)  { animation-delay: 0.88s; }
+.slide.active .bt-card:nth-child(10) { animation-delay: 0.94s; }
+.slide.active .bt-card:nth-child(11) { animation-delay: 1.00s; }
+.slide.active .bt-card:nth-child(12) { animation-delay: 1.06s; }
+
+.bt-num {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  color: var(--pres-amber-deep);
+}
+.bt-name {
+  font-family: var(--serif);
+  font-size: 13.5px;
+  line-height: 1.35;
+  color: var(--pres-paper-dim);
+}
+
+/* highlighted = the tendencies our analysis focuses on */
+.bt-card.highlight {
+  border-color: rgba(212, 165, 116, 0.55);
+  background:
+    linear-gradient(135deg, rgba(212, 165, 116, 0.10), rgba(212, 165, 116, 0.03)),
+    rgba(26, 22, 18, 0.55);
+  box-shadow: 0 0 0 1px rgba(212, 165, 116, 0.18) inset, 0 12px 28px -16px rgba(212, 165, 116, 0.45);
+}
+.bt-card.highlight .bt-num { color: var(--pres-amber); }
+.bt-card.highlight .bt-name { color: var(--pres-paper); }
+.bt-card.highlight::after {
+  content: '';
+  position: absolute;
+  top: 10px; right: 10px;
+  width: 5px; height: 5px;
+  background: var(--pres-amber);
+  border-radius: 50%;
+  box-shadow: 0 0 8px var(--pres-amber);
+}
+
+.bt-legend {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--pres-paper-dim);
+  opacity: 0;
+}
+.slide.active .bt-legend {
+  animation: fade-up 0.7s 1.25s forwards;
+}
+.bt-legend-dot {
+  display: inline-block;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--pres-amber);
+  box-shadow: 0 0 8px var(--pres-amber);
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* ── DEFORMATION TENDENCY EXAMPLES (slides 6–9) ── */
+.dt-intro {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 14px;
+  border: 1px solid rgba(212, 165, 116, 0.4);
+  background: rgba(212, 165, 116, 0.06);
+  border-radius: 999px;
+  color: var(--pres-amber);
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  align-self: flex-start;
+  margin-top: 4px;
+  opacity: 0;
+}
+.slide.active .dt-intro {
+  animation: fade-up 0.6s 0.35s forwards;
+}
+.dt-intro-tag {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 11.5px;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--pres-paper-dim);
+  margin-left: 4px;
+  padding-left: 10px;
+  border-left: 1px solid rgba(212, 165, 116, 0.3);
+}
+
+.dt-examples {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 18px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+.dt-example {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  gap: 16px;
+  padding: 12px 16px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: rgba(26, 22, 18, 0.4);
+  opacity: 0;
+  transform: translateY(20px);
+}
+.slide.active .dt-example { animation: fade-up 0.7s forwards; }
+.slide.active .dt-example:nth-child(1) { animation-delay: 0.55s; }
+.slide.active .dt-example:nth-child(2) { animation-delay: 0.75s; }
+.slide.active .dt-example:nth-child(3) { animation-delay: 0.95s; }
+.slide.active .dt-example:nth-child(4) { animation-delay: 1.15s; }
+
+.dt-num {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: var(--pres-amber-deep);
+  padding-top: 2px;
+}
+.dt-rows {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 4px 14px;
+  align-items: baseline;
+}
+.dt-row-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  color: var(--pres-amber-deep);
+  text-transform: uppercase;
+  padding-top: 2px;
+}
+.dt-row-text {
+  font-family: var(--serif);
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--pres-paper-dim);
+}
+.dt-row.st .dt-row-label { color: var(--pres-paper-dim); opacity: 0.7; }
+.dt-row.st .dt-row-text {
+  color: #c0b9ab;
+  font-style: italic;
+}
+.dt-row.focus .dt-row-label { color: var(--pres-amber); }
+.dt-row.focus .dt-row-text {
+  color: var(--pres-paper);
+  border-left: 2px solid var(--pres-amber);
+  padding-left: 10px;
+  margin-left: -12px;
+}
+
+/* slide 6/7 (HT-side tendencies): HT row is highlighted */
+.dt-mode-ht .dt-row.ht .dt-row-label { color: var(--pres-amber); }
+.dt-mode-ht .dt-row.ht .dt-row-text {
+  color: var(--pres-paper);
+  border-left: 2px solid var(--pres-amber);
+  padding-left: 10px;
+  margin-left: -12px;
+}
+/* slide 8/9 (AI-side tendencies): AI row is highlighted */
+.dt-mode-ai .dt-row.ai .dt-row-label { color: var(--pres-amber); }
+.dt-mode-ai .dt-row.ai .dt-row-text {
+  color: var(--pres-paper);
+  border-left: 2px solid var(--pres-amber);
+  padding-left: 10px;
+  margin-left: -12px;
+}
+
+/* contiguous "row" structure inside each example */
+.dt-row {
+  display: contents;
+}
+
+/* ── QUALITATIVE IMPOVERISHMENT (slide 10) ─── */
+.qi-stage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-top: 16px;
+  flex: 1;
+  min-height: 0;
+}
+@media (max-width: 1100px) {
+  .qi-stage { grid-template-columns: 1fr; gap: 16px; }
+}
+.qi-side {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  opacity: 0;
+}
+.slide.active .qi-side.left  { animation: fade-up 0.8s 0.5s forwards; }
+.slide.active .qi-side.right { animation: fade-up 0.8s 0.75s forwards; }
+
+.qi-side-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(212, 165, 116, 0.18);
+}
+.qi-who {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--pres-amber);
+  padding: 4px 10px;
+  border: 1px solid var(--pres-amber-deep);
+  border-radius: 999px;
+  background: rgba(212, 165, 116, 0.06);
+}
+.qi-side-sub {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 12.5px;
+  color: var(--pres-paper-dim);
+}
+
+.qi-example {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  background: rgba(26, 22, 18, 0.4);
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 4px 12px;
+  align-items: baseline;
+}
+.qi-example .dt-row-label,
+.qi-example .dt-row-text { font-size: 12.5px; }
+
+/* ── SUMMARY & EXPECTATIONS (slide 12) ────── */
+.sm-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 36px;
+  margin-top: 12px;
+  flex: 1;
+  align-items: center;
+}
+@media (max-width: 1100px) {
+  .sm-layout { grid-template-columns: 1fr; gap: 18px; }
+}
+.sm-col {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  opacity: 0;
+}
+.slide.active .sm-col.left  { animation: fade-up 0.9s 0.5s forwards; }
+.slide.active .sm-col.right { animation: fade-up 0.9s 0.7s forwards; }
+
+.sm-block {
+  border-left: 2px solid var(--pres-amber-deep);
+  padding: 4px 0 4px 16px;
+}
+.sm-block-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--pres-amber);
+  margin-bottom: 6px;
+}
+.sm-block-text {
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--pres-paper-dim);
+}
+.sm-block-text strong {
+  color: var(--pres-paper);
+  font-weight: 500;
+}
+.sm-block-text em {
+  color: var(--pres-amber);
+  font-style: italic;
+}
+.sm-arrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 4px 0;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--pres-amber);
+}
+.sm-arrow::before {
+  content: '';
+  height: 1px; flex: 1;
+  background: linear-gradient(to right, var(--pres-amber-deep), transparent);
+}
+
+.sm-callback {
+  border: 1px solid rgba(212, 165, 116, 0.28);
+  border-radius: 14px;
+  padding: 18px 20px;
+  background:
+    linear-gradient(135deg, rgba(212, 165, 116, 0.08), rgba(212, 165, 116, 0.02)),
+    rgba(26, 22, 18, 0.5);
+  box-shadow: 0 16px 42px -20px rgba(212, 165, 116, 0.4);
+}
+.sm-callback-tag {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--pres-amber);
+  margin-bottom: 10px;
+}
+.sm-cb-row {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 4px 14px;
+  padding: 6px 0;
+  align-items: baseline;
+  font-family: var(--serif);
+  font-size: 13px;
+}
+.sm-cb-row + .sm-cb-row { border-top: 1px dashed rgba(212, 165, 116, 0.15); }
+.sm-cb-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--pres-amber-deep);
+}
+.sm-cb-text {
+  color: var(--pres-paper-dim);
+  line-height: 1.45;
+}
+.sm-cb-row.st .sm-cb-text { color: #c0b9ab; font-style: italic; }
+.sm-cb-row.both .sm-cb-text { color: var(--pres-paper); }
+
+/* ── MEMBER CASE STUDIES (slides 13–15) ───── */
+.mx-stage {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 12px;
+  flex: 1;
+  min-height: 0;
+}
+.mx-tendency {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 14px;
+  border: 1px solid rgba(212, 165, 116, 0.4);
+  background: rgba(212, 165, 116, 0.06);
+  border-radius: 999px;
+  color: var(--pres-amber);
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  align-self: flex-start;
+  opacity: 0;
+}
+.slide.active .mx-tendency { animation: fade-up 0.6s 0.35s forwards; }
+
+.mx-author {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--pres-paper-dim);
+  margin-top: -8px;
+  opacity: 0;
+}
+.slide.active .mx-author { animation: fade-up 0.6s 0.45s forwards; }
+.mx-author strong {
+  color: var(--pres-paper);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.mx-versions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: rgba(26, 22, 18, 0.4);
+  padding: 16px 20px;
+  opacity: 0;
+}
+.slide.active .mx-versions { animation: fade-up 0.8s 0.6s forwards; }
+
+.mx-row {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 16px;
+  padding: 8px 0;
+  align-items: baseline;
+}
+.mx-row + .mx-row { border-top: 1px dashed rgba(212, 165, 116, 0.12); }
+.mx-row-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--pres-amber-deep);
+}
+.mx-row-text {
+  font-family: var(--serif);
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--pres-paper-dim);
+}
+.mx-row.st .mx-row-text { color: #c0b9ab; font-style: italic; }
+.mx-row.proposed {
+  margin-top: 4px;
+  padding: 12px 0 4px;
+  border-top: 1px solid rgba(212, 165, 116, 0.4) !important;
+}
+.mx-row.proposed .mx-row-label { color: var(--pres-amber); }
+.mx-row.proposed .mx-row-text {
+  color: var(--pres-paper);
+  font-weight: 500;
+  font-size: 15.5px;
+}
+.mx-proposed-marker {
+  display: inline-block;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--pres-amber);
+  box-shadow: 0 0 10px var(--pres-amber);
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.mx-note {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--pres-paper-dim);
+  padding: 0 4px;
+  opacity: 0;
+}
+.slide.active .mx-note { animation: fade-up 0.7s 0.95s forwards; }
+.mx-note strong { color: var(--pres-amber); font-style: normal; font-weight: 500; }
+
+/* ── REFERENCES (slide 16) ───────────────────── */
+.ref-stage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 32px;
+  margin-top: 14px;
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
+@media (max-width: 1000px) {
+  .ref-stage { grid-template-columns: 1fr; gap: 12px; }
+}
+.ref-item {
+  font-family: var(--serif);
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--pres-paper-dim);
+  padding: 8px 0 8px 12px;
+  border-left: 1px solid var(--pres-amber-deep);
+  opacity: 0;
+  transform: translateY(10px);
+}
+.slide.active .ref-item { animation: fade-up 0.5s forwards; }
+.slide.active .ref-item:nth-child(1)  { animation-delay: 0.40s; }
+.slide.active .ref-item:nth-child(2)  { animation-delay: 0.46s; }
+.slide.active .ref-item:nth-child(3)  { animation-delay: 0.52s; }
+.slide.active .ref-item:nth-child(4)  { animation-delay: 0.58s; }
+.slide.active .ref-item:nth-child(5)  { animation-delay: 0.64s; }
+.slide.active .ref-item:nth-child(6)  { animation-delay: 0.70s; }
+.slide.active .ref-item:nth-child(7)  { animation-delay: 0.76s; }
+.slide.active .ref-item:nth-child(8)  { animation-delay: 0.82s; }
+.slide.active .ref-item:nth-child(9)  { animation-delay: 0.88s; }
+.slide.active .ref-item:nth-child(10) { animation-delay: 0.94s; }
+.slide.active .ref-item:nth-child(11) { animation-delay: 1.00s; }
+.slide.active .ref-item:nth-child(12) { animation-delay: 1.06s; }
+
+.ref-author {
+  color: var(--pres-paper);
+}
+.ref-year {
+  color: var(--pres-amber);
+  font-family: var(--mono);
+  font-size: 10.5px;
+  margin: 0 6px;
+}
+.ref-title {
+  font-style: italic;
+  color: var(--pres-paper-dim);
+}
+
+/* ── THANK YOU (slide 17) ──────────────────── */
+.slide-thanks {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 56px;
+}
+.tn-rule {
+  width: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--pres-amber), transparent);
+  margin-bottom: 22px;
+  opacity: 0;
+}
+.slide.active .tn-rule {
+  animation: tn-rule-grow 1.4s 0.4s forwards;
+}
+@keyframes tn-rule-grow {
+  to { width: 220px; opacity: 1; }
+}
+.tn-tag {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--pres-amber);
+  margin-bottom: 18px;
+  opacity: 0;
+}
+.slide.active .tn-tag { animation: fade-down 0.7s 0.7s forwards; }
+
+.tn-thanks {
+  font-family: var(--serif);
+  font-size: clamp(48px, 7vw, 88px);
+  line-height: 1;
+  color: var(--pres-paper);
+  letter-spacing: -0.02em;
+  margin-bottom: 18px;
+  opacity: 0;
+  text-shadow: 0 0 32px rgba(212, 165, 116, 0.18);
+}
+.slide.active .tn-thanks { animation: fade-up 1.2s 1s forwards, title-shimmer 6s 2.2s ease-in-out infinite; }
+.tn-thanks em {
+  font-style: italic;
+  color: var(--pres-amber);
+}
+
+.tn-quote {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(15px, 1.6vw, 19px);
+  line-height: 1.55;
+  color: var(--pres-paper-dim);
+  max-width: 620px;
+  margin: 18px auto 28px;
+  opacity: 0;
+}
+.slide.active .tn-quote { animation: fade-up 1s 1.4s forwards; }
+.tn-quote-attr {
+  display: block;
+  margin-top: 10px;
+  font-style: normal;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--pres-amber);
+}
+
+.tn-authors {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--pres-paper-dim);
+  margin-top: 8px;
+  opacity: 0;
+}
+.slide.active .tn-authors { animation: fade-up 0.9s 1.8s forwards; }
+
+.tn-meta {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--pres-amber-deep);
+  margin-top: 22px;
+  opacity: 0;
+}
+.slide.active .tn-meta { animation: fade-up 0.9s 2s forwards; }
+
 /* Responsiveness for presentation */
 @media (max-width: 900px) {
   .slide { padding: 24px 20px 72px; }
@@ -1627,6 +2260,11 @@ table.hide-notes .col-notes textarea { display: none; }
   .rr-cell { font-size: 10.5px; }
   .reel-row.main .rr-cell { font-size: 11px; }
   .reel-viewport { height: 260px; }
+  .bt-grid { grid-template-columns: repeat(2, 1fr); }
+  .dt-rows { grid-template-columns: 48px 1fr; }
+  .qi-example { grid-template-columns: 44px 1fr; }
+  .mx-row { grid-template-columns: 56px 1fr; }
+  .ref-stage { grid-template-columns: 1fr; }
 }
 </style>
 </head>
@@ -1984,8 +2622,249 @@ table.hide-notes .col-notes textarea { display: none; }
       </div>
     </section>
 
+    <!-- SLIDE 5 · BERMAN'S 12 TENDENCIES -->
+    <section class="slide slide-tendencies" data-slide="4">
+      <div class="slide-tag">§ 04 &nbsp; / &nbsp; Berman's Framework</div>
+      <h2 class="slide-heading">Twelve <em style="font-style:italic;color:var(--pres-amber)">deforming</em> tendencies.</h2>
+      <p class="slide-subheading">Each tendency is a small surrender — a way the foreign text quietly loses itself in translation.</p>
+
+      <div class="bt-grid">
+        <div class="bt-card"><span class="bt-num">01</span><span class="bt-name">Rationalization</span></div>
+        <div class="bt-card"><span class="bt-num">02</span><span class="bt-name">Clarification</span></div>
+        <div class="bt-card"><span class="bt-num">03</span><span class="bt-name">Expansion</span></div>
+        <div class="bt-card highlight"><span class="bt-num">04</span><span class="bt-name">Ennoblement</span></div>
+        <div class="bt-card highlight"><span class="bt-num">05</span><span class="bt-name">Qualitative Impoverishment</span></div>
+        <div class="bt-card"><span class="bt-num">06</span><span class="bt-name">Quantitative Impoverishment</span></div>
+        <div class="bt-card"><span class="bt-num">07</span><span class="bt-name">Destruction of Rhythms</span></div>
+        <div class="bt-card highlight"><span class="bt-num">08</span><span class="bt-name">Destruction of Underlying Networks of Signification</span></div>
+        <div class="bt-card"><span class="bt-num">09</span><span class="bt-name">Destruction of Linguistic Patternings</span></div>
+        <div class="bt-card"><span class="bt-num">10</span><span class="bt-name">Destruction of Vernacular Networks or Their Exoticization</span></div>
+        <div class="bt-card highlight"><span class="bt-num">11</span><span class="bt-name">Destruction of Expressions and Idioms</span></div>
+        <div class="bt-card highlight"><span class="bt-num">12</span><span class="bt-name">Effacement of the Superimposition of Languages</span></div>
+      </div>
+
+      <div class="bt-legend">
+        <span><span class="bt-legend-dot"></span>Five tendencies surfaced repeatedly across our corpus</span>
+      </div>
+    </section>
+
+    <!-- SLIDE 6 · EFFACEMENT OF SUPERIMPOSITION -->
+    <section class="slide slide-deformation dt-mode-ht" data-slide="5">
+      <div class="slide-tag">§ 05 &nbsp; / &nbsp; Human Translation, tendency I</div>
+      <h2 class="slide-heading">The Effacement of the Superimposition of Languages</h2>
+      <p class="slide-subheading">When the foreign-within-the-foreign — the bilingual flicker — gets quietly assimilated.</p>
+
+      <div class="dt-intro">
+        Human Translation
+        <span class="dt-intro-tag">Predominantly committed by the official Turkish localization</span>
+      </div>
+
+      <div class="dt-examples">
+        <div class="dt-example">
+          <div class="dt-num">01</div>
+          <div class="dt-rows">
+            <div class="dt-row st"><span class="dt-row-label">ST</span><span class="dt-row-text">There are ancient mysteries down there, Cobo… ask me later.</span></div>
+            <div class="dt-row ht"><span class="dt-row-label">HT</span><span class="dt-row-text">Orada antik gizemler var, Polisita… daha sonra sor bana.</span></div>
+            <div class="dt-row ai"><span class="dt-row-label">AI</span><span class="dt-row-text">Aşağıda kadim gizemler var, Cobo… bana sonra sor.</span></div>
+          </div>
+        </div>
+
+        <div class="dt-example">
+          <div class="dt-num">02</div>
+          <div class="dt-rows">
+            <div class="dt-row st"><span class="dt-row-label">ST</span><span class="dt-row-text">Oh, but you are: too ashamed to ask this person for money, too scared to belittle yourself in her eyes — those half-precious stones of Eau-de-Nil.</span></div>
+            <div class="dt-row ht"><span class="dt-row-label">HT</span><span class="dt-row-text">Ah, ama utanıyorsun işte. Bu kadından para istemek için fazla utanıyorsun. Kendini onun gözlerinde, o su yeşili yarı değerli taşlarda alçaltmaktan çok korkuyorsun.</span></div>
+            <div class="dt-row ai"><span class="dt-row-label">AI</span><span class="dt-row-text">Ah, ama öylesin: bu insandan para istemekten fazla utanıyorsun, o yarı-değerli Eau-de-Nil taşları gibi gözlerinin önünde kendini küçük düşürmekten fazla korkuyorsun.</span></div>
+          </div>
+        </div>
+
+        <div class="dt-example">
+          <div class="dt-num">03</div>
+          <div class="dt-rows">
+            <div class="dt-row st"><span class="dt-row-label">ST</span><span class="dt-row-text">Le Retour…</span></div>
+            <div class="dt-row ht"><span class="dt-row-label">HT</span><span class="dt-row-text">Le Retour; Dönüş…</span></div>
+            <div class="dt-row ai"><span class="dt-row-label">AI</span><span class="dt-row-text">Le Retour…</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 7 · ENNOBLEMENT -->
+    <section class="slide slide-deformation dt-mode-ht" data-slide="6">
+      <div class="slide-tag">§ 06 &nbsp; / &nbsp; Human Translation, tendency II</div>
+      <h2 class="slide-heading">Ennoblement</h2>
+      <p class="slide-subheading">When the gutter is rewritten as the parlour — vulgar registers polished into something tamer.</p>
+
+      <div class="dt-intro">
+        Human Translation
+        <span class="dt-intro-tag">Profanity, slang and crassness softened by the localization</span>
+      </div>
+
+      <div class="dt-examples">
+        <div class="dt-example">
+          <div class="dt-num">01</div>
+          <div class="dt-rows">
+            <div class="dt-row st"><span class="dt-row-label">ST</span><span class="dt-row-text">Your name is fuck all.</span></div>
+            <div class="dt-row ht"><span class="dt-row-label">HT</span><span class="dt-row-text">Senin adın hiç kimse.</span></div>
+            <div class="dt-row ai"><span class="dt-row-label">AI</span><span class="dt-row-text">Adın hiçbir bok.</span></div>
+          </div>
+        </div>
+
+        <div class="dt-example">
+          <div class="dt-num">02</div>
+          <div class="dt-rows">
+            <div class="dt-row st"><span class="dt-row-label">ST</span><span class="dt-row-text">Absolutely in the question! First we find a sad banger, then we sing this place to SHIT.</span></div>
+            <div class="dt-row ht"><span class="dt-row-label">HT</span><span class="dt-row-text">Kesinlikle söz konusu! Önce hüzünlü bir şarkı bulup havaya gireceğiz, sonra da şarkımızla burayı YIKACAĞIZ.</span></div>
+            <div class="dt-row ai"><span class="dt-row-label">AI</span><span class="dt-row-text">Kesinlikle gündemde! Önce hüzünlü bir zırlatıcı buluyoruz, sonra burayı şarkıyla BOKA batırıyoruz.</span></div>
+          </div>
+        </div>
+
+        <div class="dt-example">
+          <div class="dt-num">03</div>
+          <div class="dt-rows">
+            <div class="dt-row st"><span class="dt-row-label">ST</span><span class="dt-row-text">Feels like you've failed the biggest shit-test of them all…</span></div>
+            <div class="dt-row ht"><span class="dt-row-label">HT</span><span class="dt-row-text">En önemli adamlık testinde başarısız olmuşsun gibi geliyor…</span></div>
+            <div class="dt-row ai"><span class="dt-row-label">AI</span><span class="dt-row-text">Hepsinin en büyük bok-testini başarısızlıkla geçtin gibi hissettiriyor…</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 8 · DESTRUCTION OF EXPRESSIONS AND IDIOMS -->
+    <section class="slide slide-deformation dt-mode-ai" data-slide="7">
+      <div class="slide-tag">§ 07 &nbsp; / &nbsp; Machine Translation, tendency I</div>
+      <h2 class="slide-heading">Destruction of Expressions and Idioms</h2>
+      <p class="slide-subheading">When figurative language is rendered word-for-word — the meaning intact, the music gone.</p>
+
+      <div class="dt-intro">
+        Machine Translation
+        <span class="dt-intro-tag">Idioms calqued literally; cultural equivalents missed</span>
+      </div>
+
+      <div class="dt-examples">
+        <div class="dt-example">
+          <div class="dt-num">01</div>
+          <div class="dt-rows">
+            <div class="dt-row st"><span class="dt-row-label">ST</span><span class="dt-row-text">Like a fly to the ointment, your conscience sticks to it. The limbed and headed machine of pain and undignified suffering is firing up again. It wants to walk the desert. Hurting. Longing. Dancing to disco music.</span></div>
+            <div class="dt-row ht"><span class="dt-row-label">HT</span><span class="dt-row-text">Reçele konan bir sinek gibi, bilincin bu hisse tutunuyor. Uzuvları ve kafası olan, acılar ve küçük düşürücü ızdıraplar yaratan makine yeniden çalışmaya başlıyor. Yürüyerek çölü aşmak istiyor. Canı yanıyor. Özlem çekiyor. Disko müziğiyle dans ediyor.</span></div>
+            <div class="dt-row ai"><span class="dt-row-label">AI</span><span class="dt-row-text">Vicdanın, merheme yapışan bir sinek gibi ona yapışıyor. O uzuvlu ve başlı, acıyla ve onursuz ıstırapla çalışan makine yeniden ateşleniyor. Çölde yürümek istiyor. Acı çekerek. Özleyerek. Disko müziğine dans ederek.</span></div>
+          </div>
+        </div>
+
+        <div class="dt-example">
+          <div class="dt-num">02</div>
+          <div class="dt-rows">
+            <div class="dt-row st"><span class="dt-row-label">ST</span><span class="dt-row-text">Olden days were golden days. Life's lustre is lost on those who speed.</span></div>
+            <div class="dt-row ht"><span class="dt-row-label">HT</span><span class="dt-row-text">Eski günler, güzel günlerdi. Tozutanlar hayatın parıltısını kaçırıyorlar.</span></div>
+            <div class="dt-row ai"><span class="dt-row-label">AI</span><span class="dt-row-text">Eski günler altın günlerdi. Hızla koşanlar hayatın parıltısını kaçırır.</span></div>
+          </div>
+        </div>
+
+        <div class="dt-example">
+          <div class="dt-num">03</div>
+          <div class="dt-rows">
+            <div class="dt-row st"><span class="dt-row-label">ST</span><span class="dt-row-text">A little me-time in the abyssopelagic zone… you can never return to it now. Only detective-work remains. Wakefulness and detection.</span></div>
+            <div class="dt-row ht"><span class="dt-row-label">HT</span><span class="dt-row-text">Okyanusun dibindeki canım kendim saatleri… artık buna asla dönemezsin. Sadece dedektiflik işi kaldı. Ayık olma ve algılama.</span></div>
+            <div class="dt-row ai"><span class="dt-row-label">AI</span><span class="dt-row-text">Abissopelajik bölgede biraz ben-zamanı… oraya artık asla dönemezsin. Geriye yalnızca dedektif-işi kaldı. Uyanıklık ve tespit.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 9 · UNDERLYING NETWORKS OF SIGNIFICATION -->
+    <section class="slide slide-deformation dt-mode-ai" data-slide="8">
+      <div class="slide-tag">§ 08 &nbsp; / &nbsp; Machine Translation, tendency II</div>
+      <h2 class="slide-heading">Destruction of Underlying Networks of Signification</h2>
+      <p class="slide-subheading">When recurrent imagery — sunsets, names, callbacks — gets translated locally, severed from the web that gave it weight.</p>
+
+      <div class="dt-intro">
+        Machine Translation
+        <span class="dt-intro-tag">Cross-textual references and motifs left isolated</span>
+      </div>
+
+      <div class="dt-examples">
+        <div class="dt-example">
+          <div class="dt-num">01</div>
+          <div class="dt-rows">
+            <div class="dt-row st"><span class="dt-row-label">ST</span><span class="dt-row-text">Of course you are! It's too late to be a Tequila Sunrise now… there will be no sunrise, not for you.</span></div>
+            <div class="dt-row ht"><span class="dt-row-label">HT</span><span class="dt-row-text">Öylesin tabii! Zaten Gününde Kovboy olmak için çok geç artık… Senin hayatında bir daha öyle şeyler olmayacak.</span></div>
+            <div class="dt-row ai"><span class="dt-row-label">AI</span><span class="dt-row-text">Tabii ki eminsin! Şimdi bir Tequila Gün Doğumu olmak için çok geç… gün doğumu olmayacak, senin için olmayacak.</span></div>
+          </div>
+        </div>
+
+        <div class="dt-example">
+          <div class="dt-num">02</div>
+          <div class="dt-rows">
+            <div class="dt-row st"><span class="dt-row-label">ST</span><span class="dt-row-text">Good, these people know your true name. Looks like it has preceded you, Mr. Sunset. More on that later.</span></div>
+            <div class="dt-row ht"><span class="dt-row-label">HT</span><span class="dt-row-text">Güzel, bu insanlar senin gerçek adını biliyorlar. Artık tanınıyorsun, Akşamcı Bey. Bu konuyu daha sonra konuşalım.</span></div>
+            <div class="dt-row ai"><span class="dt-row-label">AI</span><span class="dt-row-text">Güzel, bu insanlar senin gerçek adını biliyor. Görünüşe göre önden yayılmış, Bay Sunset. Bunun devamı daha sonra.</span></div>
+          </div>
+        </div>
+
+        <div class="dt-example">
+          <div class="dt-num">03</div>
+          <div class="dt-rows">
+            <div class="dt-row st"><span class="dt-row-label">ST</span><span class="dt-row-text">You're 100% sure you got special Hobocop money for that tare. At least +100% extra tare money. If the numbers on the machine told you otherwise, it's a lie.</span></div>
+            <div class="dt-row ht"><span class="dt-row-label">HT</span><span class="dt-row-text">Şu boş şişelerin karşılığında özel Berduş Polis tarifesi aldığından %100 eminsin. Nereden baksan +%100 ekstra boş şişe parası. Eğer makinenin üzerinde yazan sayılar sana aksini söylüyorsa bil ki bu bir yalan.</span></div>
+            <div class="dt-row ai"><span class="dt-row-label">AI</span><span class="dt-row-text">O teneke için Serseri-Polis bonus parası aldığından %100 eminsin. En az +%100 ekstra teneke parası. Eğer makinedeki sayılar aksini söylediyse, bu bir yalan.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 10 · QUALITATIVE IMPOVERISHMENT -->
+    <section class="slide slide-qi" data-slide="9">
+      <div class="slide-tag">§ 09 &nbsp; / &nbsp; Shared territory</div>
+      <h2 class="slide-heading">Qualitative Impoverishment</h2>
+      <p class="slide-subheading">A word's iconic, sonic or evocative weight is replaced with something paler — a sin both human and machine commit.</p>
+
+      <div class="qi-stage">
+
+        <!-- AI side -->
+        <div class="qi-side left">
+          <div class="qi-side-header">
+            <span class="qi-who">Machine</span>
+            <span class="qi-side-sub">When the literal answer is also the duller one.</span>
+          </div>
+
+          <div class="qi-example">
+            <span class="dt-row-label">ST</span><span class="dt-row-text" style="font-style:italic;color:#c0b9ab">Great choice, elder one. It has always been like this — and it always will.</span>
+            <span class="dt-row-label">HT</span><span class="dt-row-text">Mükemmel seçim, mirim. Burası hep böyleydi ve hep böyle kalacak.</span>
+            <span class="dt-row-label" style="color:var(--pres-amber)">AI</span><span class="dt-row-text" style="color:var(--pres-paper);border-left:2px solid var(--pres-amber);padding-left:10px;margin-left:-12px">Harika seçim, yaşlı olan. Her zaman böyleydi — ve her zaman böyle olacak.</span>
+          </div>
+
+          <div class="qi-example">
+            <span class="dt-row-label">ST</span><span class="dt-row-text" style="font-style:italic;color:#c0b9ab">Admit it, you just missed the quarterlight. The darkness on the edge of town.</span>
+            <span class="dt-row-label">HT</span><span class="dt-row-text">İtiraf et, alaca karanlığı özledin işte. Şehrin sınırındaki karanlığı.</span>
+            <span class="dt-row-label" style="color:var(--pres-amber)">AI</span><span class="dt-row-text" style="color:var(--pres-paper);border-left:2px solid var(--pres-amber);padding-left:10px;margin-left:-12px">İtiraf et, az önce çeyrek-ışığı kaçırdın. Kasabanın kıyısındaki karanlığı.</span>
+          </div>
+        </div>
+
+        <!-- HT side -->
+        <div class="qi-side right">
+          <div class="qi-side-header">
+            <span class="qi-who">Human</span>
+            <span class="qi-side-sub">When fluency wins out over the original spark.</span>
+          </div>
+
+          <div class="qi-example">
+            <span class="dt-row-label">ST</span><span class="dt-row-text" style="font-style:italic;color:#c0b9ab">Coming right up, sir. Smooth passage…</span>
+            <span class="dt-row-label" style="color:var(--pres-amber)">HT</span><span class="dt-row-text" style="color:var(--pres-paper);border-left:2px solid var(--pres-amber);padding-left:10px;margin-left:-12px">Hemen geliyor, efendim. Ziyade olsun…</span>
+            <span class="dt-row-label">AI</span><span class="dt-row-text">Derhal hazır, beyefendi. Sakin bir yolculuk olsun…</span>
+          </div>
+
+          <div class="qi-example">
+            <span class="dt-row-label">ST</span><span class="dt-row-text" style="font-style:italic;color:#c0b9ab">You are way cool, cooler than the bottom of the sea. Too cool for this world.</span>
+            <span class="dt-row-label" style="color:var(--pres-amber)">HT</span><span class="dt-row-text" style="color:var(--pres-paper);border-left:2px solid var(--pres-amber);padding-left:10px;margin-left:-12px">Aşırı derinliklisin, okyanusun dibinden bile daha derin. Bu dünya için fazla derin.</span>
+            <span class="dt-row-label">AI</span><span class="dt-row-text">Sen acayip havalısın, denizin dibinden bile daha havalı. Bu dünya için fazla havalısın.</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
     <!-- SLIDE 5 · FINDING -->
-    <section class="slide slide-finding" data-slide="4">
+    <section class="slide slide-finding" data-slide="10">
       <div class="slide-tag">§ 04 &nbsp; / &nbsp; A Finding</div>
       <h2 class="slide-heading">One line, four versions.</h2>
       <p class="slide-subheading">A small moment where style survives — or doesn't.</p>
@@ -2105,6 +2984,263 @@ table.hide-notes .col-notes textarea { display: none; }
       </div>
     </section>
 
+    <!-- SLIDE 12 · SUMMARY & EXPECTATIONS -->
+    <section class="slide slide-summary" data-slide="11">
+      <div class="slide-tag">§ 11 &nbsp; / &nbsp; Summary &amp; Expectations</div>
+      <h2 class="slide-heading">What we expected — and what the corpus answered.</h2>
+      <p class="slide-subheading">Every comparative study sets out with priors. Ours did too — and the data quietly redrew them.</p>
+
+      <div class="sm-layout">
+
+        <!-- LEFT: expectations vs findings -->
+        <div class="sm-col left">
+          <div class="sm-block">
+            <div class="sm-block-label">Going in — Human Translation</div>
+            <p class="sm-block-text">
+              We assumed the official localization would be the <strong>safer choice</strong>: a careful, register-aware Turkish voice that protects the game's tone. Then we noticed how <em>often</em> the swearing was sanded smooth, the bilingual flickers tucked away.
+            </p>
+          </div>
+
+          <div class="sm-arrow">a quieter erosion</div>
+
+          <div class="sm-block">
+            <div class="sm-block-label">Going in — Machine Translation</div>
+            <p class="sm-block-text">
+              We expected literalism — and we got it. What surprised us was how often the model produced an <em>almost-right</em> sentence: grammatical, fluent, and stylistically <strong>deaf</strong> to the network of meanings the line lived inside.
+            </p>
+          </div>
+
+          <div class="sm-arrow">a louder failure</div>
+
+          <div class="sm-block">
+            <div class="sm-block-label">What both shared</div>
+            <p class="sm-block-text">
+              Qualitative impoverishment was the common ground: a tendency, in both translators, to swap iconic words for their plainer cousins.
+            </p>
+          </div>
+        </div>
+
+        <!-- RIGHT: callback to disco mother -->
+        <div class="sm-col right">
+          <div class="sm-callback">
+            <div class="sm-callback-tag">Where both faltered — together</div>
+
+            <div class="sm-cb-row st">
+              <span class="sm-cb-label">ST</span>
+              <span class="sm-cb-text">Yes, you're one disco mother.</span>
+            </div>
+            <div class="sm-cb-row">
+              <span class="sm-cb-label">HT</span>
+              <span class="sm-cb-text">Evet. Tam bir disko çocuğusun.</span>
+            </div>
+            <div class="sm-cb-row">
+              <span class="sm-cb-label">AI</span>
+              <span class="sm-cb-text">Evet, sen bir disko anasısın.</span>
+            </div>
+            <div class="sm-cb-row both">
+              <span class="sm-cb-label" style="color:var(--pres-amber)">Verdict</span>
+              <span class="sm-cb-text" style="color:var(--pres-paper);font-style:italic">Both flatten the playful-feminine wink — one by neutering it, the other by rendering it literally. <strong style="color:var(--pres-amber);font-weight:500;font-style:normal">Qualitative impoverishment</strong> on both counts.</span>
+            </div>
+          </div>
+
+          <p class="sm-block-text" style="margin-top:18px;font-style:italic;color:var(--pres-paper-dim);font-size:13px;line-height:1.6">
+            The lesson is not that one translator beat the other. It's that <em style="color:var(--pres-amber);font-style:italic">style</em> is the first casualty of every translation method we tested — and noticing where it bleeds is half the work.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SLIDE 13 · BAŞAK'S EXAMPLE -->
+    <section class="slide slide-member" data-slide="12">
+      <div class="slide-tag">§ 12 &nbsp; / &nbsp; Case Study · Başak</div>
+      <h2 class="slide-heading">A darkness that paints the wall.</h2>
+      <p class="slide-subheading">When an idiom can't be carried over, the question becomes: what local darkness rhymes with it?</p>
+
+      <div class="mx-stage">
+        <div class="mx-tendency">Destruction of Expressions and Idioms</div>
+        <p class="mx-author">Selected and proposed by <strong>Başak İlhan</strong>.</p>
+
+        <div class="mx-versions">
+          <div class="mx-row st">
+            <span class="mx-row-label">ST</span>
+            <span class="mx-row-text">'Paint the wall with your brains' dark.</span>
+          </div>
+          <div class="mx-row">
+            <span class="mx-row-label">HT</span>
+            <span class="mx-row-text">"Beynini duvara sıçratacak" kadar karanlık.</span>
+          </div>
+          <div class="mx-row">
+            <span class="mx-row-label">AI</span>
+            <span class="mx-row-text">'Duvarı beynimle boyayayım' türü bir karanlık.</span>
+          </div>
+          <div class="mx-row proposed">
+            <span class="mx-row-label">Proposal</span>
+            <span class="mx-row-text"><span class="mx-proposed-marker"></span>"Pekmezini duvara bulayacak" cinsten bir kasvet.</span>
+          </div>
+        </div>
+
+        <p class="mx-note">
+          The English line has the rhythm of a colloquial, grim threat — gallows-image as everyday talk. The HT keeps the violence but not the cadence; the AI back-translates the picture verbatim. The proposal swaps in a folk-Turkish image of equivalent <strong>weight and lilt</strong> — same darkness, naturalised vocabulary.
+        </p>
+      </div>
+    </section>
+
+    <!-- SLIDE 14 · MUSTAFA'S EXAMPLE -->
+    <section class="slide slide-member" data-slide="13">
+      <div class="slide-tag">§ 13 &nbsp; / &nbsp; Case Study · Mustafa</div>
+      <h2 class="slide-heading">El bigo mistako.</h2>
+      <p class="slide-subheading">A bilingual joke about a bilingual joke. The trick is to keep it broken in the same way.</p>
+
+      <div class="mx-stage">
+        <div class="mx-tendency">Effacement of the Superimposition of Languages</div>
+        <p class="mx-author">Selected and proposed by <strong>Mustafa Demirel</strong>.</p>
+
+        <div class="mx-versions">
+          <div class="mx-row st">
+            <span class="mx-row-label">ST</span>
+            <span class="mx-row-text">Oh no. You've made el bigo mistako. He's going to go on forever!</span>
+          </div>
+          <div class="mx-row">
+            <span class="mx-row-label">HT</span>
+            <span class="mx-row-text">Olamaz. Babafingoya oturanzi. Sonsuza dek susmayacak!</span>
+          </div>
+          <div class="mx-row">
+            <span class="mx-row-label">AI</span>
+            <span class="mx-row-text">Aman. El bigo mistako yaptın. O sonsuza kadar devam edecek!</span>
+          </div>
+          <div class="mx-row proposed">
+            <span class="mx-row-label">Proposal</span>
+            <span class="mx-row-text"><span class="mx-proposed-marker"></span>Yandın. El fiyasko de la rezalet. Adam lafı uzattıkça uzatacak!</span>
+          </div>
+        </div>
+
+        <p class="mx-note">
+          The English plays a register-game: a Spanish-flavoured pidgin used by an English speaker for comic effect. The HT invents a domestic mock-language, severing the foreignness. The AI keeps the original Spanglish — invisible to a Turkish reader. The proposal builds a <strong>parallel Turkish-Spanish hybrid</strong> ("El fiyasko de la rezalet") that lets the bilingual flicker survive.
+        </p>
+      </div>
+    </section>
+
+    <!-- SLIDE 15 · CANAL'S EXAMPLE -->
+    <section class="slide slide-member" data-slide="14">
+      <div class="slide-tag">§ 14 &nbsp; / &nbsp; Case Study · Emre</div>
+      <h2 class="slide-heading">Total annihilation, dormant gods.</h2>
+      <p class="slide-subheading">A passage where the tendency is doubled — both the network of imagery <em>and</em> the iconic vocabulary erode.</p>
+
+      <div class="mx-stage">
+        <div class="mx-tendency">Qualitative Impoverishment &nbsp;·&nbsp; Destruction of Underlying Networks</div>
+        <p class="mx-author">Selected and proposed by <strong>Emre Canal</strong>.</p>
+
+        <div class="mx-versions">
+          <div class="mx-row st">
+            <span class="mx-row-label">ST</span>
+            <span class="mx-row-text">The last dream will be total annihilation. Cinders peeling off the fuselage. We won't be there to help you anymore, Harry. We will be dormant. You will be naked and alone.</span>
+          </div>
+          <div class="mx-row">
+            <span class="mx-row-label">HT</span>
+            <span class="mx-row-text">Son rüya, nihai yıkımın olacak. İskeletinden közler sıyrılacak. O zaman sana yardım edemeyeceğiz, Harry. Uyuyor olacağız. Yalnız ve çıplak olacaksın.</span>
+          </div>
+          <div class="mx-row">
+            <span class="mx-row-label">AI</span>
+            <span class="mx-row-text">Son rüya tümüyle yok oluş olacak. Gövdeden dökülen közler. Artık sana yardım etmek için orada olmayacağız, Harry. Uykuya dalmış olacağız. Sen çıplak ve yapayalnız olacaksın.</span>
+          </div>
+          <div class="mx-row proposed">
+            <span class="mx-row-label">Proposal</span>
+            <span class="mx-row-text"><span class="mx-proposed-marker"></span>Nihai rüya tamamıyla bir yok oluş olacak. Bedeninden közler damlayacak. O zaman da biz artık elimizi kolumuzu çekmiş olacağız, Harry. Biz gözlerimizi kapamış sen ise açık ve yapayalnız kalacaksın.</span>
+          </div>
+        </div>
+
+        <p class="mx-note">
+          "Dormant" carries a specific tonality — sleeping <em>but ready to wake</em>. The HT chooses plain "uyuyor olacağız"; the AI goes with "uykuya dalmış olacağız". Both lose the latent menace. The proposal — <strong>"gözlerimizi kapamış"</strong> paired with "elimizi kolumuzu çekmiş" — keeps both the imagery network and the iconic <em>weight</em> of dormancy.
+        </p>
+      </div>
+    </section>
+
+    <!-- SLIDE 16 · REFERENCES -->
+    <section class="slide slide-references" data-slide="15">
+      <div class="slide-tag">§ 15 &nbsp; / &nbsp; References</div>
+      <h2 class="slide-heading">Sources.</h2>
+      <p class="slide-subheading">The scholarly threads that informed our framework, methods and thinking.</p>
+
+      <div class="ref-stage">
+        <div class="ref-item">
+          <span class="ref-author">Berman, A.</span><span class="ref-year">(2000)</span>
+          Translation and the trials of the foreign (L. Venuti, Trans.). In L. Venuti (Ed.), <span class="ref-title">The Translation Studies Reader</span> (pp. 284–297). Routledge.
+        </div>
+
+        <div class="ref-item">
+          <span class="ref-author">Yüncü Kurt, P. &amp; Özcan, L.</span><span class="ref-year">(2024)</span>
+          Antoine Berman'ın Çeviri Eleştirisi Yöntemi ve Biçim-Bozucu Eğilimler Analitiği Uygulaması. <span class="ref-title">RumeliDE Dil ve Edebiyat Araştırmaları Dergisi</span>, (Ö14), 1471–1498.
+        </div>
+
+        <div class="ref-item">
+          <span class="ref-author">Vinay, J.-P., &amp; Darbelnet, J.</span><span class="ref-year">(2000)</span>
+          A methodology for translation (J. C. Sager &amp; M.-J. Hamel, Trans.). In L. Venuti (Ed.), <span class="ref-title">The Translation Studies Reader</span> (pp. 84–93). Routledge.
+        </div>
+
+        <div class="ref-item">
+          <span class="ref-author">O'Hagan, M.</span><span class="ref-year">(2007)</span>
+          Video games as a new domain for translation research: From translating text to translating experience. <span class="ref-title">Revista Tradumàtica</span>, (5), 1–7.
+        </div>
+
+        <div class="ref-item">
+          <span class="ref-author">Sönmez, M. E.</span><span class="ref-year">(2023)</span>
+          <span class="ref-title">The rise of multimodality: Applying translation criticism to video games</span> [Master's thesis, Boğaziçi University]. Boğaziçi University Institutional Repository.
+        </div>
+
+        <div class="ref-item">
+          <span class="ref-author">Pak, L. E. E., &amp; Marus, N. D.</span><span class="ref-year">(2024)</span>
+          The problem of the transfer of onyms in the modern discourse of video games (based on the material of the game Disco Elysium). <span class="ref-title">Litera</span>, (10), 82–94.
+        </div>
+
+        <div class="ref-item">
+          <span class="ref-author">Xu, L.</span><span class="ref-year">(2025)</span>
+          Translator agency and multimodal translation in game localization: A case study of The Witcher 3. In <span class="ref-title">SHS Web of Conferences</span> (Vol. 222, p. 01027). EDP Sciences.
+        </div>
+
+        <div class="ref-item">
+          <span class="ref-author">González, R. M.</span><span class="ref-year">(2019)</span>
+          Specialized terminology in the video game industry: Neologisms and their translation. <span class="ref-title">Vertimo Studijos</span>, 12(12), 71–86.
+        </div>
+
+        <div class="ref-item">
+          <span class="ref-author">Noriega-Santiáñez, L., &amp; Pastor, G. C.</span><span class="ref-year">(2023)</span>
+          Machine vs Human Translation of Formal Neologisms in Literature: Exploring E-tools and Creativity in Students. <span class="ref-title">Tradumàtica</span>, (21), 233–264.
+        </div>
+
+        <div class="ref-item">
+          <span class="ref-author">Brenner, J.</span><span class="ref-year">(2025)</span>
+          MTxGames: Machine Translation Post-Editing in Video Game Translation — Findings on User Experience and Preliminary Results on Productivity. In <span class="ref-title">Proceedings of Machine Translation Summit XX</span> (Vol. 2, pp. 107–108).
+        </div>
+
+        <div class="ref-item">
+          <span class="ref-author">Li, C.</span><span class="ref-year">(2022)</span>
+          Silvia Pettini, <span class="ref-title">The Translation of Realia and Irrealia in Game Localization</span>. International Journal of Communication, 16, 3–3.
+        </div>
+
+        <div class="ref-item">
+          <span class="ref-author">Demirel, M., Canal, E., &amp; İlhan, B.</span><span class="ref-year">(2026)</span>
+          <span class="ref-title">ETI499 Corpus</span>. GitHub Pages. https://mustdmrll.github.io/ETI499Corpus/
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 17 · THANK YOU -->
+    <section class="slide slide-thanks" data-slide="16">
+      <div class="tn-rule"></div>
+      <div class="tn-tag">Fin · Закат · Le Retour</div>
+
+      <h1 class="tn-thanks">Thank <em>You</em>.</h1>
+
+      <p class="tn-quote">
+        "It has always been like this — and it always will."
+        <span class="tn-quote-attr">Ancient Reptilian Brain</span>
+      </p>
+
+      <div class="tn-authors">Mustafa Demirel &nbsp;·&nbsp; Başak İlhan &nbsp;·&nbsp; Emre Canal</div>
+      <div class="tn-meta">ETI 499 &nbsp;·&nbsp; Spring 2026 &nbsp;·&nbsp; Izmir University of Economics</div>
+    </section>
+
     <!-- BOTTOM NAV -->
     <div class="pres-nav">
       <button class="pres-nav-btn" id="pres-prev" onclick="gotoSlide(presIdx - 1)">← &nbsp; Prev</button>
@@ -2113,7 +3249,7 @@ table.hide-notes .col-notes textarea { display: none; }
     </div>
 
     <!-- Slide counter (top-right) -->
-    <div class="slide-number" id="slide-number"><span class="current">01</span> &nbsp;/&nbsp; 05</div>
+    <div class="slide-number" id="slide-number"><span class="current">01</span> &nbsp;/&nbsp; 17</div>
   </div>
 </div>
 
@@ -2801,7 +3937,7 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 // ════════════════════════════════════════════════════════════
 
 let presIdx = 0;
-const PRES_TOTAL = 5;
+const PRES_TOTAL = 17;
 
 let _prevScreen = 'login';
 
