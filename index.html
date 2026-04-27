@@ -453,6 +453,11 @@ table.hide-notes .col-notes textarea { display: none; }
   position: relative;
   overflow: hidden;
   isolation: isolate;
+}
+
+#slide-scaler {
+  position: absolute;
+  inset: 0;
   transform-origin: center center;
 }
 
@@ -533,6 +538,7 @@ table.hide-notes .col-notes textarea { display: none; }
   padding: 32px 56px 80px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   opacity: 0;
   overflow: hidden;
   transform: translateX(40px) scale(1.02);
@@ -2840,6 +2846,7 @@ table.hide-notes .col-notes textarea { display: none; }
     <div class="letterbox top"></div>
     <div class="letterbox bottom"></div>
 
+    <div id="slide-scaler">
     <!-- SLIDE 1 · COVER -->
     <section class="slide slide-cover" data-slide="0">
       <!-- Rostov sunset key art as painterly backdrop -->
@@ -3525,6 +3532,7 @@ table.hide-notes .col-notes textarea { display: none; }
       <div class="tn-authors">Mustafa Demirel &nbsp;·&nbsp; Başak İlhan &nbsp;·&nbsp; Emre Canal</div>
       <div class="tn-meta">ETI 499 &nbsp;·&nbsp; Spring 2026 &nbsp;·&nbsp; Izmir University of Economics</div>
     </section>
+    </div><!-- /#slide-scaler -->
 
     <!-- BOTTOM NAV -->
     <div class="pres-nav">
@@ -4438,9 +4446,9 @@ function spawnAmbientDots() {
 let presManualScale = 1.0;
 
 function applyPresScale() {
-  const main = document.querySelector('#presentation .main');
-  if (!main) return;
-  main.style.transform = presManualScale === 1.0 ? '' : `scale(${presManualScale.toFixed(2)})`;
+  const scaler = document.getElementById('slide-scaler');
+  if (!scaler) return;
+  scaler.style.transform = presManualScale === 1.0 ? '' : `scale(${presManualScale.toFixed(2)})`;
 }
 
 // Keyboard navigation — only when presentation screen is active
